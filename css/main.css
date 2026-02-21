@@ -71,6 +71,9 @@ body {
     width: 32px;
     height: 32px;
     flex-shrink: 0;
+    background: var(--white);
+    border-radius: 50%;
+    padding: 3px;
 }
 
 .nav {
