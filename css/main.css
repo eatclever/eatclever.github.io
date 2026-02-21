@@ -3331,3 +3331,42 @@ a.card {
         align-items: stretch;
     }
 }
+
+/* Food Browse Grid (food-detail.html without ?id) */
+.food-browse-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.food-browse-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.food-browse-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.food-browse-icon {
+    font-size: 1.5rem;
+}
+
+.food-browse-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.food-browse-cal {
+    font-size: 0.8rem;
+    color: #777;
+}

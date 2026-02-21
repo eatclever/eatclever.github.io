@@ -1143,7 +1143,21 @@ function renderFoodDetail() {
   const params = new URLSearchParams(window.location.search);
   const foodId = params.get('id');
   if (!foodId) {
-    container.innerHTML = `${_backLink()}<p>${I18n.t('general.no_results')}</p>`;
+    const foods = Data.getFoods();
+    const sorted = foods.slice().sort((a, b) => I18n.getFoodName(a).localeCompare(I18n.getFoodName(b)));
+    container.innerHTML = `
+      ${_backLink()}
+      <h1 class="page-title">${I18n.t('nav.food_search')}</h1>
+      <div class="food-browse-grid">
+        ${sorted.map(f => `
+          <a href="food-detail.html?id=${f.id}" class="card food-browse-card">
+            <span class="food-browse-icon">${_categoryIcon(f.category)}</span>
+            <span class="food-browse-name">${I18n.getFoodName(f)}</span>
+            <span class="food-browse-cal">${f.calories} kcal</span>
+          </a>
+        `).join('')}
+      </div>
+    `;
     return;
   }
 
