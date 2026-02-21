@@ -433,7 +433,9 @@ function _renderFeaturedCards() {
   if (!container) return;
 
   const featured = [
-    { title: 'Top 10 Nutrient-Dense Foods', icon: '\u{1F3C6}', color: '#2E7D32', link: 'food-detail.html?top=10' },
+    { title: 'Top Foods', icon: '\u{1F3C6}', color: '#2E7D32', link: 'food-detail.html?top=10' },
+    { title: 'Top Vegetables', icon: '\u{1F966}', color: '#388E3C', link: 'food-detail.html?top=10&cat=vegetable' },
+    { title: 'Top Fruits', icon: '\u{1F352}', color: '#D32F2F', link: 'food-detail.html?top=10&cat=fruit' },
     { title: 'Quick Meals Under 15 Min', icon: '\u{23F1}', color: '#E65100', link: 'cook-time.html' },
     { title: 'Supplement Swaps', icon: '\u{1F48A}', color: '#C62828', link: 'food-vs-supplements.html' },
     { title: 'Kids\' Favorites', icon: '\u{1F476}', color: '#1565C0', link: 'age-nutrition.html' },
@@ -1144,7 +1146,9 @@ function renderFoodDetail() {
   const foodId = params.get('id');
   if (!foodId) {
     const topN = parseInt(params.get('top'));
-    const allFoods = Data.getAllFoods();
+    const catFilter = params.get('cat');
+    let allFoods = Data.getAllFoods();
+    if (catFilter) allFoods = allFoods.filter(f => f.category === catFilter);
     let foods, title;
 
     if (topN > 0) {
@@ -1154,7 +1158,8 @@ function renderFoodDetail() {
         .sort((a, b) => b.score - a.score)
         .slice(0, topN)
         .map(item => item.food);
-      title = `🏆 Top ${topN} Nutrient-Dense Foods`;
+      const catName = catFilter ? I18n.t('food.category.' + catFilter) : 'Nutrient-Dense Foods';
+      title = `🏆 Top ${topN} ${catName}`;
     } else {
       foods = allFoods.slice().sort((a, b) => I18n.getFoodName(a).localeCompare(I18n.getFoodName(b)));
       title = I18n.t('nav.food_search');
