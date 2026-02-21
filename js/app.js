@@ -1143,7 +1143,7 @@ function renderFoodDetail() {
   const params = new URLSearchParams(window.location.search);
   const foodId = params.get('id');
   if (!foodId) {
-    const foods = Data.getFoods();
+    const foods = Data.getAllFoods();
     const sorted = foods.slice().sort((a, b) => I18n.getFoodName(a).localeCompare(I18n.getFoodName(b)));
     container.innerHTML = `
       ${_backLink()}
