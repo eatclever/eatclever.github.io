@@ -3332,6 +3332,17 @@ a.card {
     }
 }
 
+/* Top Foods Sections */
+.top-foods-section {
+    margin-bottom: 2.5rem;
+}
+
+.top-foods-section h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+    color: #1B5E20;
+}
+
 /* Food Browse Grid (food-detail.html without ?id) */
 .food-browse-grid {
     display: grid;

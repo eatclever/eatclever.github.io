@@ -434,8 +434,6 @@ function _renderFeaturedCards() {
 
   const featured = [
     { title: 'Top Foods', icon: '\u{1F3C6}', color: '#2E7D32', link: 'food-detail.html?top=10' },
-    { title: 'Top Vegetables', icon: '\u{1F966}', color: '#388E3C', link: 'food-detail.html?top=10&cat=vegetable' },
-    { title: 'Top Fruits', icon: '\u{1F352}', color: '#D32F2F', link: 'food-detail.html?top=10&cat=fruit' },
     { title: 'Quick Meals Under 15 Min', icon: '\u{23F1}', color: '#E65100', link: 'cook-time.html' },
     { title: 'Supplement Swaps', icon: '\u{1F48A}', color: '#C62828', link: 'food-vs-supplements.html' },
     { title: 'Kids\' Favorites', icon: '\u{1F476}', color: '#1565C0', link: 'age-nutrition.html' },
@@ -1146,32 +1144,62 @@ function renderFoodDetail() {
   const foodId = params.get('id');
   if (!foodId) {
     const topN = parseInt(params.get('top'));
-    const catFilter = params.get('cat');
-    let allFoods = Data.getAllFoods();
-    if (catFilter) allFoods = allFoods.filter(f => f.category === catFilter);
-    let foods, title;
+    const allFoods = Data.getAllFoods();
 
     if (topN > 0) {
-      // Rank by overall nutrient score (adults) and take top N
-      foods = allFoods.slice()
+      // Three-section top foods page
+      const _topByCategory = (cat, n) => allFoods
+        .filter(f => f.category === cat)
         .map(f => ({ food: f, score: Data.getOverallScore(f, 'adults') }))
         .sort((a, b) => b.score - a.score)
-        .slice(0, topN)
+        .slice(0, n)
         .map(item => item.food);
-      const catName = catFilter ? I18n.t('food.category.' + catFilter) : 'Nutrient-Dense Foods';
-      title = `🏆 Top ${topN} ${catName}`;
-    } else {
-      foods = allFoods.slice().sort((a, b) => I18n.getFoodName(a).localeCompare(I18n.getFoodName(b)));
-      title = I18n.t('nav.food_search');
+
+      const _topOverall = (excludeCats, n) => allFoods
+        .filter(f => !excludeCats.includes(f.category))
+        .map(f => ({ food: f, score: Data.getOverallScore(f, 'adults') }))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, n)
+        .map(item => item.food);
+
+      const topVeg = _topByCategory('vegetable', topN);
+      const topFruit = _topByCategory('fruit', topN);
+      const topSuper = _topOverall(['vegetable', 'fruit'], topN);
+
+      const _renderSection = (title, icon, foods) => `
+        <div class="top-foods-section">
+          <h2>${icon} ${title}</h2>
+          <div class="food-browse-grid">
+            ${foods.map((f, i) => `
+              <a href="food-detail.html?id=${f.id}" class="card food-browse-card">
+                <span class="food-browse-rank">#${i + 1}</span>
+                <span class="food-browse-icon">${_categoryIcon(f.category)}</span>
+                <span class="food-browse-name">${I18n.getFoodName(f)}</span>
+                <span class="food-browse-cal">${f.calories} kcal</span>
+              </a>
+            `).join('')}
+          </div>
+        </div>
+      `;
+
+      container.innerHTML = `
+        ${_backLink()}
+        <h1 class="page-title">\u{1F3C6} Top Foods</h1>
+        ${_renderSection(I18n.t('food.category.vegetable'), '\u{1F966}', topVeg)}
+        ${_renderSection(I18n.t('food.category.fruit'), '\u{1F352}', topFruit)}
+        ${_renderSection('Superfoods', '\u{2B50}', topSuper)}
+      `;
+      return;
     }
 
+    // No top param: show all foods alphabetically
+    const foods = allFoods.slice().sort((a, b) => I18n.getFoodName(a).localeCompare(I18n.getFoodName(b)));
     container.innerHTML = `
       ${_backLink()}
-      <h1 class="page-title">${title}</h1>
+      <h1 class="page-title">${I18n.t('nav.food_search')}</h1>
       <div class="food-browse-grid">
-        ${foods.map((f, i) => `
+        ${foods.map(f => `
           <a href="food-detail.html?id=${f.id}" class="card food-browse-card">
-            ${topN > 0 ? `<span class="food-browse-rank">#${i + 1}</span>` : ''}
             <span class="food-browse-icon">${_categoryIcon(f.category)}</span>
             <span class="food-browse-name">${I18n.getFoodName(f)}</span>
             <span class="food-browse-cal">${f.calories} kcal</span>
