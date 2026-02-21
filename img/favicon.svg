@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- EatWise favicon: leaf + fork symbol -->
+  <!-- Leaf shape -->
+  <path d="M 14,50 C 14,50 10,20 32,8 C 54,20 50,50 50,50 C 50,50 40,42 32,42 C 24,42 14,50 14,50 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="1.5"/>
+  <!-- Leaf vein -->
+  <line x1="32" y1="14" x2="32" y2="42" stroke="#1B5E20" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="32" y1="22" x2="23" y2="30" stroke="#1B5E20" stroke-width="1" stroke-linecap="round"/>
+  <line x1="32" y1="28" x2="41" y2="34" stroke="#1B5E20" stroke-width="1" stroke-linecap="round"/>
+  <!-- Stem -->
+  <path d="M 32,42 C 32,42 30,52 26,58" fill="none" stroke="#1B5E20" stroke-width="2" stroke-linecap="round"/>
+</svg>

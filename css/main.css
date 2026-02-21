@@ -1,0 +1,3286 @@
+/* ==========================================================================
+   EatWise - Nutrition & Meal Planning Platform
+   Adapted from GlobalProsperity layout system with green nutrition theme
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. CSS CUSTOM PROPERTIES (VARIABLES)
+   -------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ew-green: #2E7D32;
+    --dark-green: #1B5E20;
+    --light-green: #66BB6A;
+    --text-dark: #1a1a1a;
+    --text-gray: #555;
+    --bg-light: #f5f7f2;
+    --white: #ffffff;
+    --border-gray: #e0e0e0;
+    --score-high: #006d2c;
+    --score-above: #31a354;
+    --score-avg: #74c476;
+    --score-below: #bae4b3;
+    --score-low: #edf8e9;
+}
+
+body {
+    font-family: 'Segoe UI', 'Open Sans', 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background: var(--white);
+}
+
+/* ==========================================================================
+   2. HEADER
+   ========================================================================== */
+.header {
+    background: var(--ew-green);
+    color: var(--white);
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.nav a:hover {
+    opacity: 0.8;
+}
+
+/* Language Switcher */
+.lang-select {
+    background: rgba(255,255,255,0.2);
+    color: var(--white);
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.lang-select option {
+    background: var(--white);
+    color: var(--text-dark);
+}
+
+/* ==========================================================================
+   3. HERO SECTION
+   ========================================================================== */
+.hero {
+    background: linear-gradient(135deg, var(--ew-green) 0%, var(--dark-green) 100%);
+    color: var(--white);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+/* ==========================================================================
+   4. CONTAINER & SECTION
+   ========================================================================== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.section {
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: var(--dark-green);
+}
+
+.section-subtitle {
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* ==========================================================================
+   5. CARDS GRID
+   ========================================================================== */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+/* Fixed column grids */
+.grid-3x2 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4x2,
+.grid-4x3 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5 {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.25rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.5rem;
+}
+
+.grid-5 > div {
+    flex: 0 0 200px;
+    scroll-snap-align: start;
+}
+
+.grid-5 .overview-card {
+    min-height: 220px;
+    height: auto;
+}
+
+/* Scroll indicator wrapper for horizontal-scroll containers */
+.scroll-wrapper {
+    position: relative;
+}
+
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: var(--ew-green);
+    color: var(--white);
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-arrow.visible {
+    opacity: 0.85;
+    visibility: visible;
+}
+
+.scroll-arrow:hover {
+    opacity: 1;
+}
+
+.scroll-arrow-left {
+    left: -4px;
+}
+
+.scroll-arrow-right {
+    right: -4px;
+}
+
+/* ==========================================================================
+   6. CARD BASE STYLES
+   ========================================================================== */
+.card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-left: 3px solid var(--ew-green);
+    padding: 1.25rem;
+    border-radius: 6px;
+    transition: box-shadow 0.3s, transform 0.2s, background 0.3s;
+    display: block;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(46,125,50,0.12);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, var(--white) 0%, #f0fff0 100%);
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+    color: var(--dark-green);
+    display: inline;
+    vertical-align: middle;
+}
+
+.card-value {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--ew-green);
+    margin: 0.6rem 0;
+}
+
+.card-description {
+    color: var(--text-gray);
+    font-size: 0.82rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-podium {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--dark-green);
+    margin: 0.4rem 0;
+    flex: 1;
+}
+
+.overview-card {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.15s, box-shadow 0.15s;
+    cursor: pointer;
+}
+
+.overview-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.card-link {
+    margin-top: auto;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--ew-green);
+}
+
+.pillar-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.pillar-card .card-description {
+    flex: 1;
+}
+
+.card-avg {
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border-gray);
+    font-size: 0.85rem;
+    color: var(--text-gray);
+}
+
+.card-avg strong {
+    color: var(--ew-green);
+    font-size: 1rem;
+}
+
+.avg-label {
+    font-size: 0.8rem;
+}
+
+/* Category card (alias for pillar-card) */
+.category-card {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==========================================================================
+   7. PAGE CONTENT (detail pages)
+   ========================================================================== */
+.page-content {
+    min-height: 60vh;
+}
+
+.page-title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--dark-green);
+    margin-bottom: 1rem;
+}
+
+.page-intro {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--ew-green);
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.back-bar {
+    position: sticky;
+    top: var(--header-h, 56px);
+    left: 0;
+    right: 0;
+    background: var(--white);
+    padding: 0.5rem 2rem;
+    z-index: 999;
+    border-bottom: 1px solid var(--border-gray);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.back-bar a {
+    color: var(--ew-green);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.back-bar a:hover {
+    text-decoration: underline;
+}
+
+.scroll-top-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background: var(--ew-green);
+    color: var(--white);
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.scroll-top-btn.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-top-btn:hover {
+    transform: scale(1.1);
+    background: var(--dark-green);
+}
+
+/* ==========================================================================
+   8. CONTENT SECTIONS
+   ========================================================================== */
+.content-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.content-section:last-child {
+    border-bottom: none;
+}
+
+.content-section h2 {
+    color: var(--dark-green);
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    font-size: 1.4rem;
+}
+
+.content-section h3 {
+    color: var(--text-gray);
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.content-section p {
+    margin-bottom: 0.75rem;
+    color: var(--text-gray);
+}
+
+.content-section ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-gray);
+}
+
+.content-section ul li {
+    margin-bottom: 0.4rem;
+}
+
+/* ==========================================================================
+   9. SCORES & BARS
+   ========================================================================== */
+.scores-heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--dark-green);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--ew-green);
+    display: inline-block;
+}
+
+.score-bars {
+    max-width: 800px;
+}
+
+.score-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    gap: 1rem;
+}
+
+.score-label {
+    min-width: 200px;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.score-label:hover {
+    color: var(--ew-green);
+}
+
+.score-bar-track {
+    flex: 1;
+    height: 24px;
+    background: var(--bg-light);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.score-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease;
+}
+
+.score-value {
+    min-width: 36px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* Score colors (GP originals) */
+.score-high { background: var(--score-high); }
+.score-above_avg { background: var(--score-above); }
+.score-average { background: var(--score-avg); }
+.score-below_avg { background: var(--score-below); }
+.score-low { background: var(--score-low); }
+
+/* EatWise nutrient score colors */
+.score-excellent { background: #2E7D32; }
+.score-good { background: #66BB6A; }
+.score-moderate { background: #FFA726; }
+.score-low { background: #E53935; }
+
+.score-high-text { color: var(--score-high); }
+.score-above_avg-text { color: var(--score-above); }
+.score-average-text { color: var(--score-avg); }
+.score-below_avg-text { color: #8B6914; }
+.score-low-text { color: #cc3333; }
+
+/* ==========================================================================
+   10. PILLAR / TABS
+   ========================================================================== */
+.pillar-desc {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    margin-bottom: 1.5rem;
+}
+
+.pillar-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.pillar-tab {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 0.85rem;
+    transition: background 0.2s;
+    white-space: nowrap;
+    cursor: pointer;
+    font-family: inherit;
+    background: var(--white);
+}
+
+.pillar-tab:hover {
+    background: var(--bg-light);
+}
+
+.pillar-tab.active {
+    background: var(--ew-green);
+    color: var(--white);
+    border-color: var(--ew-green);
+}
+
+/* ==========================================================================
+   11. RANKING TABLE
+   ========================================================================== */
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.ranking-table th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid var(--dark-green);
+    color: var(--dark-green);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ranking-table td {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.ranking-table tr:hover {
+    background: var(--bg-light);
+}
+
+.ranking-table a {
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.ranking-table a:hover {
+    color: var(--ew-green);
+}
+
+.rank-num {
+    font-weight: 600;
+    color: var(--text-gray);
+    width: 50px;
+}
+
+.rank-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.rank-bar {
+    height: 20px;
+    border-radius: 3px;
+    min-width: 4px;
+    transition: width 0.4s ease;
+}
+
+.rank-score {
+    font-weight: 600;
+    min-width: 30px;
+    font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   12. SOURCES & MISC
+   ========================================================================== */
+.sources {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-gray);
+}
+
+.sources h3 {
+    color: var(--dark-green);
+    margin-bottom: 0.75rem;
+}
+
+.sources ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    color: var(--text-gray);
+}
+
+.sources li {
+    margin-bottom: 0.3rem;
+}
+
+.sources-list a {
+    color: var(--ew-green);
+    text-decoration: none;
+}
+
+.sources-list a:hover {
+    text-decoration: underline;
+}
+
+.not-found {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-gray);
+    padding: 4rem 0;
+}
+
+/* Privacy highlight box */
+.privacy-highlight {
+    background: #e8f5e9;
+    padding: 1.25rem;
+    border-left: 4px solid #4caf50;
+    margin-bottom: 2rem;
+    border-radius: 0 4px 4px 0;
+}
+
+.updated-date {
+    margin-top: 2rem;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* ==========================================================================
+   13. META CARDS (food detail overview)
+   ========================================================================== */
+.meta-card {
+    background: var(--bg-light);
+    padding: 1.5rem 2rem;
+    border-radius: 4px;
+    min-width: 180px;
+    text-align: center;
+}
+
+.meta-label {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.meta-value {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+/* ==========================================================================
+   14. TAGS (gov-tag reused for food tags)
+   ========================================================================== */
+.gov-tag {
+    display: inline-block;
+    background: var(--bg-light);
+    padding: 0.35rem 0.85rem;
+    border-radius: 16px;
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    border: 1px solid var(--border-gray);
+}
+
+/* ==========================================================================
+   15. FOOD SELECTOR DROPDOWN (renamed from country-selector)
+   ========================================================================== */
+.food-selector-wrap {
+    position: relative;
+}
+
+.food-selector-btn {
+    background: rgba(255,255,255,0.2);
+    color: var(--white);
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+    font-family: inherit;
+    white-space: nowrap;
+}
+
+.food-selector-btn:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.food-selector-panel {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    width: 280px;
+    max-height: 380px;
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    z-index: 2000;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.food-selector-panel.open {
+    display: flex;
+}
+
+.food-selector-search {
+    padding: 0.6rem 0.75rem;
+    border: none;
+    border-bottom: 1px solid var(--border-gray);
+    font-size: 0.9rem;
+    outline: none;
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.food-selector-list {
+    flex: 1;
+    overflow-y: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.food-selector-list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 0.88rem;
+    transition: background 0.15s;
+}
+
+.food-selector-list a:hover {
+    background: var(--bg-light);
+}
+
+.food-cal-badge {
+    background: var(--bg-light);
+    color: var(--dark-green);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    min-width: 28px;
+    text-align: center;
+}
+
+/* ==========================================================================
+   16. COMPARE PAGE (GP base)
+   ========================================================================== */
+.compare-picker {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.compare-picker select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    min-width: 180px;
+    background: var(--white);
+}
+
+.compare-picker .compare-btn,
+.compare-btn {
+    background: var(--ew-green);
+    color: var(--white);
+    border: none;
+    padding: 0.55rem 1.5rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+
+.compare-picker .compare-btn:hover,
+.compare-btn:hover {
+    background: var(--dark-green);
+}
+
+.compare-hint {
+    background: var(--bg-light);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--text-gray);
+    font-size: 1rem;
+}
+
+.compare-section {
+    margin-bottom: 2.5rem;
+}
+
+.compare-section h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--dark-green);
+    margin-bottom: 1rem;
+}
+
+.compare-radar-wrap {
+    max-width: 550px;
+    margin: 0 auto 2rem;
+}
+
+.compare-bars {
+    max-width: 800px;
+}
+
+.compare-bar-row {
+    margin-bottom: 0.75rem;
+}
+
+.compare-bar-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 0.3rem;
+}
+
+.compare-bar-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.compare-bar-entry {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.compare-bar-name {
+    font-size: 0.75rem;
+    color: var(--text-gray);
+    min-width: 80px;
+    text-align: right;
+}
+
+.compare-bar-track {
+    flex: 1;
+    height: 18px;
+    background: var(--bg-light);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.compare-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.6s ease;
+}
+
+.compare-bar-value {
+    font-size: 0.8rem;
+    font-weight: 600;
+    min-width: 28px;
+}
+
+.compare-econ-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.compare-econ-table th {
+    text-align: left;
+    padding: 0.6rem 1rem;
+    border-bottom: 2px solid var(--dark-green);
+    color: var(--dark-green);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.compare-econ-table td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid var(--border-gray);
+    font-size: 0.9rem;
+}
+
+.compare-econ-table tr:hover {
+    background: var(--bg-light);
+}
+
+/* ==========================================================================
+   17. QUIZ
+   ========================================================================== */
+.quiz-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.quiz-start {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.quiz-start-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.quiz-start h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--dark-green);
+    margin-bottom: 0.75rem;
+}
+
+.quiz-start p {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+}
+
+.quiz-start-btn {
+    background: var(--ew-green);
+    color: var(--white);
+    border: none;
+    padding: 0.85rem 2.5rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.quiz-start-btn:hover {
+    background: var(--dark-green);
+    transform: translateY(-1px);
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.quiz-progress-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+.quiz-score-display {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--ew-green);
+}
+
+.quiz-progress {
+    width: 100%;
+    height: 8px;
+    background: var(--bg-light);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.quiz-progress-fill {
+    height: 100%;
+    background: var(--ew-green);
+    border-radius: 4px;
+    transition: width 0.4s ease;
+}
+
+.quiz-question {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.quiz-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.quiz-option,
+.quiz-option-btn {
+    background: var(--white);
+    border: 2px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    text-align: left;
+    transition: border-color 0.2s, background 0.2s, transform 0.1s;
+    color: var(--text-dark);
+    line-height: 1.3;
+}
+
+.quiz-option:hover:not(.disabled),
+.quiz-option-btn:hover:not(:disabled) {
+    border-color: var(--ew-green);
+    background: #f0fff0;
+    transform: translateY(-1px);
+}
+
+.quiz-option.correct,
+.quiz-option-btn.quiz-correct {
+    border-color: #2E7D32;
+    background: #e8f5e9;
+    color: #1B5E20;
+    font-weight: 600;
+}
+
+.quiz-option.wrong,
+.quiz-option-btn.quiz-wrong {
+    border-color: #C62828;
+    background: #ffebee;
+    color: #B71C1C;
+}
+
+.quiz-option.disabled,
+.quiz-option-btn:disabled {
+    cursor: default;
+    opacity: 0.85;
+}
+
+.quiz-option.disabled:not(.correct):not(.wrong) {
+    opacity: 0.5;
+}
+
+.quiz-feedback {
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.quiz-feedback.correct,
+.quiz-feedback-correct {
+    background: #e8f5e9;
+    color: #1B5E20;
+    border-left: 4px solid #2E7D32;
+}
+
+.quiz-feedback.wrong,
+.quiz-feedback-wrong {
+    background: #ffebee;
+    color: #B71C1C;
+    border-left: 4px solid #C62828;
+}
+
+.quiz-next-btn {
+    display: block;
+    margin: 1.5rem auto 0;
+    background: var(--ew-green);
+    color: var(--white);
+    border: none;
+    padding: 0.65rem 2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+
+.quiz-next-btn:hover {
+    background: var(--dark-green);
+}
+
+.quiz-results {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.quiz-score-big {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--dark-green);
+    margin: 1rem 0 0.5rem;
+}
+
+.quiz-score-label {
+    font-size: 1rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.quiz-rating {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.quiz-rating-emoji {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.quiz-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.quiz-actions button {
+    padding: 0.7rem 2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    transition: background 0.2s, transform 0.15s;
+}
+
+.quiz-actions button:hover {
+    transform: translateY(-1px);
+}
+
+.quiz-play-again {
+    background: var(--ew-green);
+    color: var(--white);
+}
+
+.quiz-play-again:hover {
+    background: var(--dark-green);
+}
+
+.quiz-share-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-gray);
+}
+
+.quiz-share-label {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+}
+
+.quiz-share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.quiz-social-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.15s, opacity 0.2s;
+    color: var(--white);
+}
+
+.quiz-social-btn:hover {
+    transform: scale(1.1);
+}
+
+.quiz-social-whatsapp { background: #25D366; }
+.quiz-social-x { background: #000; }
+.quiz-social-facebook { background: #1877F2; }
+.quiz-social-linkedin { background: #0A66C2; }
+.quiz-social-telegram { background: #26A5E4; }
+.quiz-social-copy {
+    background: var(--bg-light);
+    color: var(--text-gray);
+    border: 1px solid var(--border-gray);
+}
+.quiz-social-copy.copied {
+    background: #e8f5e9;
+    color: #2E7D32;
+    border-color: #2E7D32;
+}
+
+/* ==========================================================================
+   18. FOOTER
+   ========================================================================== */
+.footer {
+    background: var(--text-dark);
+    color: var(--white);
+    padding: 3rem 2rem 1.5rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section {
+    min-width: 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: var(--light-green);
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    text-align: center;
+    color: rgba(255,255,255,0.6);
+    font-size: 0.9rem;
+}
+
+.visitor-counter {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.45);
+}
+
+.bmc-link {
+    margin-top: 0.75rem;
+}
+
+.bmc-link a {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.bmc-link a:hover {
+    color: #ffdd57;
+}
+
+/* ==========================================================================
+   19. SHARE BAR
+   ========================================================================== */
+.share-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    margin: 0.5rem 0;
+}
+
+.share-bar-label {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.share-bar-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.share-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: transform 0.2s;
+}
+
+.share-btn:hover {
+    transform: scale(1.1);
+}
+
+.share-whatsapp { background: #25D366; }
+.share-x { background: #000; }
+.share-facebook { background: #1877F2; }
+.share-linkedin { background: #0A66C2; }
+.share-telegram { background: #26A5E4; }
+.share-copy { background: var(--dark-green); }
+.share-copy.copied { background: #2E7D32; }
+
+/* ==========================================================================
+   20. ECONOMIC / METRIC DASHBOARD (reused for food metrics)
+   ========================================================================== */
+.econ-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.econ-metric {
+    background: var(--bg-light);
+    padding: 1.25rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--border-gray);
+    transition: box-shadow 0.2s;
+}
+
+.econ-metric:hover {
+    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.08);
+}
+
+.econ-metric-label {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.4rem;
+}
+
+.econ-metric-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+.econ-chart-box {
+    background: var(--bg-light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-gray);
+}
+
+.econ-chart-box h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--dark-green);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.econ-chart-box canvas {
+    max-height: 280px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* ==========================================================================
+   21. INFO BUTTON & TOOLTIP
+   ========================================================================== */
+.info-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1.5px solid var(--ew-green);
+    background: transparent;
+    color: var(--ew-green);
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    margin-left: 0.35rem;
+    padding: 0;
+    line-height: 1;
+    vertical-align: middle;
+    flex-shrink: 0;
+    transition: background 0.2s, color 0.2s;
+}
+
+.info-btn:hover,
+.info-btn.active {
+    background: var(--ew-green);
+    color: var(--white);
+}
+
+#ew-tooltip {
+    position: fixed;
+    z-index: 9999;
+    max-width: 300px;
+    background: var(--white);
+    color: var(--text-dark);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    padding: 0.75rem 1rem;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    display: none;
+    pointer-events: none;
+}
+
+#ew-tooltip.visible {
+    display: block;
+}
+
+/* ==========================================================================
+   22. SUMMARY BOX
+   ========================================================================== */
+/* Country/food summary (icon-per-line) */
+.summary-box {
+    background: linear-gradient(135deg, #f0faf0 0%, #f5f7f2 100%);
+    border: 1px solid rgba(46, 125, 50, 0.15);
+    border-left: 4px solid var(--ew-green);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.93rem;
+    line-height: 1.6;
+    color: var(--text-dark);
+}
+
+.summary-line {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.35rem 0;
+}
+
+.summary-line + .summary-line {
+    border-top: 1px solid rgba(46, 125, 50, 0.08);
+}
+
+.summary-icon {
+    flex-shrink: 0;
+    font-size: 1rem;
+    width: 1.4rem;
+    text-align: center;
+}
+
+.summary-line strong {
+    color: var(--dark-green);
+}
+
+/* Editorial summary (column style) */
+.summary-box--editorial {
+    background: linear-gradient(135deg, #f8fbf8 0%, #f0f4f0 100%);
+    border: none;
+    border-left: 4px solid var(--ew-green);
+    border-radius: 12px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.85;
+    color: var(--text-dark);
+    box-shadow: 0 2px 12px rgba(46, 125, 50, 0.06);
+}
+
+.summary-box--editorial p {
+    margin: 0 0 0.9rem 0;
+    text-align: justify;
+}
+
+.summary-box--editorial p:last-child {
+    margin-bottom: 0;
+}
+
+.summary-box--editorial p:first-child::first-letter {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: var(--ew-green);
+    float: left;
+    line-height: 1;
+    margin-right: 0.12em;
+    margin-top: 0.05em;
+}
+
+.summary-box--editorial strong {
+    color: var(--dark-green);
+    font-weight: 700;
+}
+
+.summary-cta {
+    font-style: italic;
+    color: var(--ew-green);
+    font-weight: 600;
+    text-align: center !important;
+    border-top: 1px solid rgba(46, 125, 50, 0.12);
+    padding-top: 0.9rem;
+    margin-top: 0.4rem;
+}
+
+/* ==========================================================================
+   23. GENERIC BUTTON STYLES (btn utility)
+   ========================================================================== */
+.btn {
+    display: inline-block;
+    padding: 0.55rem 1.5rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    transition: background 0.2s, transform 0.15s;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.btn-primary {
+    background: var(--ew-green);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: var(--dark-green);
+}
+
+.btn-secondary {
+    background: var(--white);
+    color: var(--ew-green);
+    border: 1px solid var(--ew-green);
+}
+
+.btn-secondary:hover {
+    background: #e8f5e9;
+}
+
+.btn-small {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   24. RTL SUPPORT
+   ========================================================================== */
+[dir="rtl"] .header-content {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .nav {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .score-row {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .score-label {
+    text-align: right;
+}
+
+[dir="rtl"] .score-value {
+    text-align: left;
+}
+
+[dir="rtl"] .rank-bar-wrap {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .ranking-table th,
+[dir="rtl"] .ranking-table td {
+    text-align: right;
+}
+
+[dir="rtl"] .back-link {
+    direction: rtl;
+}
+
+[dir="rtl"] .content-section ul {
+    margin-left: 0;
+    margin-right: 1.5rem;
+}
+
+[dir="rtl"] .privacy-highlight {
+    border-left: none;
+    border-right: 4px solid #4caf50;
+}
+
+[dir="rtl"] .food-selector-panel {
+    right: auto;
+    left: 0;
+}
+
+[dir="rtl"] .compare-bar-name {
+    text-align: left;
+}
+
+[dir="rtl"] .compare-econ-table th,
+[dir="rtl"] .compare-econ-table td {
+    text-align: right;
+}
+
+[dir="rtl"] .quiz-option {
+    text-align: right;
+}
+
+[dir="rtl"] .quiz-feedback {
+    border-left: none;
+}
+
+[dir="rtl"] .quiz-feedback.correct {
+    border-right: 4px solid #2E7D32;
+}
+
+[dir="rtl"] .quiz-feedback.wrong {
+    border-right: 4px solid #C62828;
+}
+
+[dir="rtl"] .card {
+    border-left: 1px solid var(--border-gray);
+    border-right: 3px solid var(--ew-green);
+}
+
+[dir="rtl"] .info-btn {
+    margin-left: 0;
+    margin-right: 0.35rem;
+}
+
+[dir="rtl"] .summary-box,
+[dir="rtl"] .summary-box--editorial {
+    border-left: none;
+    border-right: 4px solid var(--ew-green);
+}
+
+[dir="rtl"] .summary-box--editorial p {
+    text-align: right;
+}
+
+[dir="rtl"] .summary-box--editorial p:first-child::first-letter {
+    float: right;
+    margin-right: 0;
+    margin-left: 0.12em;
+}
+
+
+/* ==========================================================================
+   ==========================================================================
+   ==========================================================================
+   EATWISE-SPECIFIC COMPONENTS
+   ==========================================================================
+   ==========================================================================
+   ========================================================================== */
+
+
+/* ==========================================================================
+   25. NUTRIENT BAR VISUALIZATION
+   (used in food-detail, age-nutrition, vitamins guide, meal planner, compare)
+   ========================================================================== */
+.nutrient-bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    gap: 0.75rem;
+}
+
+.nutrient-bar-label {
+    min-width: 140px;
+    font-size: 0.9rem;
+    color: var(--text-dark);
+}
+
+.nutrient-bar-track {
+    flex: 1;
+    height: 20px;
+    background: var(--bg-light);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.nutrient-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease;
+}
+
+.nutrient-bar-value {
+    min-width: 50px;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.nutrient-bars-list {
+    max-width: 800px;
+}
+
+/* ==========================================================================
+   26. NUTRIENT GUIDE CARDS (homepage vitamins grid)
+   ========================================================================== */
+.nutrient-card,
+.nutrient-guide-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1.25rem;
+}
+
+.nutrient-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nutrient-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.nutrient-name {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.nutrient-body-effect {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.nutrient-sources {
+    font-size: 0.82rem;
+    color: var(--text-gray);
+}
+
+.nutrient-sources strong {
+    color: var(--text-dark);
+}
+
+.nutrient-rda {
+    font-size: 0.78rem;
+    color: var(--text-gray);
+    margin-top: 0.3rem;
+}
+
+/* ==========================================================================
+   27. LABELS GUIDE (homepage)
+   ========================================================================== */
+.labels-guide-section {
+    background: var(--bg-light);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.labels-step {
+    margin-bottom: 0.75rem;
+}
+
+.labels-steps {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-gray);
+}
+
+.labels-steps li {
+    margin-bottom: 0.4rem;
+}
+
+.labels-item,
+.label-item {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.labels-item:last-child,
+.label-item:last-child {
+    border-bottom: none;
+}
+
+.labels-label {
+    font-weight: 600;
+    min-width: 120px;
+    color: var(--text-dark);
+}
+
+.labels-desc {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.labels-traps {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-gray);
+}
+
+.labels-traps li {
+    margin-bottom: 0.4rem;
+}
+
+.label-tip {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background: #e8f5e9;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.traffic-light,
+.traffic-light-guide {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.traffic-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.traffic-dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.traffic-green { background: #2E7D32; }
+.traffic-amber { background: #FFA726; }
+.traffic-red { background: #E53935; }
+
+/* ==========================================================================
+   28. RECIPE CARDS
+   ========================================================================== */
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-quick-stats {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 0.5rem 0;
+}
+
+.stat-pill {
+    background: var(--bg-light);
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.78rem;
+    color: var(--text-gray);
+}
+
+.card-badges {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.card-desc {
+    color: var(--text-gray);
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.card-expand-btn {
+    background: none;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    font-size: 0.82rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+    color: var(--ew-green);
+    font-family: inherit;
+}
+
+.card-expand-btn:hover {
+    background: var(--bg-light);
+}
+
+.card-expanded {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-gray);
+}
+
+.card-expanded h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--dark-green);
+}
+
+.ingredients-list {
+    list-style: disc;
+    margin-left: 1.5rem;
+    color: var(--text-gray);
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+}
+
+.ingredients-list li {
+    margin-bottom: 0.25rem;
+}
+
+.ingredients-list a {
+    color: var(--ew-green);
+    text-decoration: none;
+}
+
+.ingredients-list a:hover {
+    text-decoration: underline;
+}
+
+.recipe-steps {
+    list-style: decimal;
+    margin-left: 1.5rem;
+    color: var(--text-gray);
+    font-size: 0.85rem;
+}
+
+.recipe-steps li {
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+}
+
+.recipe-steps p {
+    margin-bottom: 0.4rem;
+    line-height: 1.5;
+    color: var(--text-gray);
+    font-size: 0.85rem;
+}
+
+/* ==========================================================================
+   29. BADGES (time, difficulty, cost, generic tag)
+   ========================================================================== */
+.time-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.difficulty-badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 1px solid;
+}
+
+.difficulty-easy {
+    color: #2E7D32;
+    border-color: #2E7D32;
+    background: #e8f5e9;
+}
+
+.difficulty-medium {
+    color: #E65100;
+    border-color: #E65100;
+    background: #fff3e0;
+}
+
+.difficulty-advanced {
+    color: #6A1B9A;
+    border-color: #6A1B9A;
+    background: #f3e5f5;
+}
+
+.cost-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    background: #FFF8E1;
+    color: #F57F17;
+    border: 1px solid #FFD54F;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    background: var(--bg-light);
+    color: var(--text-gray);
+    border: 1px solid var(--border-gray);
+}
+
+.category-tag,
+.subcategory-tag,
+.fruit-class-tag {
+    display: inline-block;
+    background: var(--bg-light);
+    padding: 0.3rem 0.75rem;
+    border-radius: 16px;
+    font-size: 0.82rem;
+    color: var(--text-gray);
+    border: 1px solid var(--border-gray);
+}
+
+/* ==========================================================================
+   30. FOOD DETAIL PAGE
+   ========================================================================== */
+.food-detail-header {
+    margin-bottom: 1.5rem;
+}
+
+.food-tags-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.food-calorie-display {
+    text-align: center;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--bg-light);
+    border-radius: 8px;
+}
+
+.calorie-big {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--dark-green);
+}
+
+.calorie-unit {
+    font-size: 1rem;
+    color: var(--text-gray);
+}
+
+.food-nutrients-section,
+.food-section-info,
+.food-recipes-section,
+.food-age-benefits,
+.food-supplement-section,
+.food-tags-section {
+    margin-bottom: 2rem;
+}
+
+.food-availability {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+}
+
+.food-recipe-links,
+.supplement-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.recipe-link-chip,
+.supplement-link-chip {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    text-decoration: none;
+    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    color: var(--dark-green);
+    border: 1px solid rgba(46,125,50,0.25);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recipe-link-chip:hover,
+.supplement-link-chip:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(46,125,50,0.15);
+}
+
+.age-benefit-chips,
+.food-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.age-chip,
+.food-chip {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border-radius: 16px;
+    font-size: 0.82rem;
+    text-decoration: none;
+    background: var(--bg-light);
+    color: var(--ew-green);
+    border: 1px solid rgba(46,125,50,0.2);
+    transition: background 0.2s;
+}
+
+.food-chip:hover,
+.age-chip:hover {
+    background: #e8f5e9;
+}
+
+/* ==========================================================================
+   31. SUPPLEMENT PAGE
+   ========================================================================== */
+.supplement-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border-top: 3px solid;
+}
+
+.supp-dose {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+}
+
+.supp-why {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.supp-alternatives {
+    margin-top: 0.75rem;
+}
+
+.supp-alternatives h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--dark-green);
+    margin-bottom: 0.5rem;
+}
+
+.supp-alt-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.supp-alt-row:last-child {
+    border-bottom: none;
+}
+
+.supp-food-name {
+    font-weight: 500;
+    min-width: 120px;
+    font-size: 0.85rem;
+}
+
+.supp-food-name a {
+    color: var(--ew-green);
+    text-decoration: none;
+}
+
+.supp-food-name a:hover {
+    text-decoration: underline;
+}
+
+.supp-serving {
+    font-size: 0.78rem;
+    color: var(--text-gray);
+    min-width: 100px;
+}
+
+.supp-pct {
+    font-weight: 600;
+    font-size: 0.85rem;
+    min-width: 50px;
+    text-align: right;
+}
+
+.supp-note {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border-gray);
+    font-style: italic;
+}
+
+/* Food-first and supplement note boxes */
+.food-first-box {
+    background: #e8f5e9;
+    border-left: 4px solid #2E7D32;
+}
+
+.supplement-note-box {
+    background: #fff3e0;
+    border-left: 4px solid #E65100;
+}
+
+/* ==========================================================================
+   32. EAT OUT VS HOME COMPARISON
+   ========================================================================== */
+.resto-panels {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+    align-items: stretch;
+    margin-bottom: 1rem;
+}
+
+.resto-panel {
+    padding: 1.25rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-gray);
+}
+
+.resto-panel-out {
+    background: #fff5f5;
+    border-color: #ffcdd2;
+}
+
+.resto-panel-home {
+    background: #f1f8e9;
+    border-color: #c5e1a5;
+}
+
+.panel-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-gray);
+    margin-bottom: 0.3rem;
+}
+
+.panel-desc {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-dark);
+}
+
+.panel-stats { }
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0;
+    font-size: 0.85rem;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.stat-row:last-child {
+    border-bottom: none;
+}
+
+.stat-val-bad {
+    color: #C62828;
+    font-weight: 600;
+}
+
+.stat-val-good {
+    color: #2E7D32;
+    font-weight: 600;
+}
+
+.comparison-vs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comparison-vs span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #E65100;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.savings-section {
+    margin-top: 0.75rem;
+}
+
+.savings-bars { }
+
+.savings-bar-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.4rem;
+}
+
+.savings-label {
+    min-width: 80px;
+    font-size: 0.8rem;
+    color: var(--text-gray);
+}
+
+.savings-bar-track {
+    flex: 1;
+    height: 16px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.savings-bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: #2E7D32;
+    transition: width 0.5s ease;
+}
+
+.savings-pct {
+    min-width: 40px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #2E7D32;
+    text-align: right;
+}
+
+.cook-time-note {
+    font-size: 0.82rem;
+    color: var(--text-gray);
+    margin-top: 0.5rem;
+}
+
+.resto-tip {
+    margin-top: 0.75rem;
+}
+
+/* ==========================================================================
+   33. AGE NUTRITION PAGE
+   ========================================================================== */
+.age-calorie-range {
+    margin-bottom: 1rem;
+}
+
+.calorie-range-badge {
+    display: inline-block;
+    background: var(--bg-light);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    color: var(--dark-green);
+    border: 1px solid rgba(46,125,50,0.2);
+}
+
+.age-focus-nutrients {
+    margin-bottom: 1.5rem;
+}
+
+.age-key-foods {
+    margin-bottom: 1rem;
+}
+
+.age-avoid {
+    margin-bottom: 1rem;
+}
+
+.avoid-list {
+    list-style: disc;
+    margin-left: 1.5rem;
+    color: #C62828;
+    font-size: 0.85rem;
+}
+
+.avoid-list li {
+    margin-bottom: 0.25rem;
+}
+
+.age-tips {
+    margin-bottom: 1rem;
+}
+
+.age-sub-card {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.age-sub-card h3 {
+    font-size: 1.2rem;
+    color: var(--dark-green);
+    margin-bottom: 1rem;
+}
+
+.age-sub-card h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--dark-green);
+    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+/* ==========================================================================
+   34. SHOPPING PAGE
+   ========================================================================== */
+.shopping-cost-summary {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.cost-box {
+    background: var(--bg-light);
+    padding: 1.25rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+    border: 1px solid var(--border-gray);
+}
+
+.cost-label {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.3rem;
+}
+
+.cost-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark-green);
+}
+
+.meal-days-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.meal-day-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.meal-day-card h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--dark-green);
+    margin-bottom: 0.5rem;
+}
+
+.meal-slots { }
+
+.meal-slot {
+    padding: 0.3rem 0;
+    font-size: 0.82rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.meal-slot:last-child {
+    border-bottom: none;
+}
+
+.meal-slot-label {
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.meal-slot-name {
+    color: var(--text-gray);
+}
+
+.shopping-list-sections {
+    margin-bottom: 2rem;
+}
+
+.shopping-section-group {
+    margin-bottom: 1.5rem;
+}
+
+.shopping-section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--dark-green);
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid var(--ew-green);
+    display: inline-block;
+}
+
+.shopping-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0.5rem;
+}
+
+.shopping-table th {
+    text-align: left;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.shopping-table td {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.shopping-table tr:hover {
+    background: var(--bg-light);
+}
+
+.shopping-table a {
+    color: var(--ew-green);
+    text-decoration: none;
+}
+
+.shopping-table a:hover {
+    text-decoration: underline;
+}
+
+.shopping-total {
+    font-weight: 700;
+    color: var(--dark-green);
+}
+
+.shopping-tips-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.shopping-tips-list li,
+.shopping-tips-list .tip-card {
+    background: var(--bg-light);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    flex: 1;
+    min-width: 200px;
+    border-left: 3px solid var(--ew-green);
+    list-style: none;
+}
+
+/* ==========================================================================
+   35. MEAL PLANNER
+   ========================================================================== */
+.planner-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.planner-controls select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    background: var(--white);
+}
+
+.planner-slots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.planner-slot-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    padding: 1.25rem;
+}
+
+.planner-slot-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--dark-green);
+    margin-bottom: 0.75rem;
+}
+
+.planner-meal-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.planner-meal-name {
+    font-size: 0.9rem;
+}
+
+.planner-meal-cal {
+    font-size: 0.82rem;
+    color: var(--text-gray);
+}
+
+.planner-remove-btn {
+    background: none;
+    border: none;
+    color: #C62828;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+
+.planner-add-row {
+    margin-top: 0.75rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.planner-recipe-select {
+    flex: 1;
+    padding: 0.4rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-family: inherit;
+}
+
+.planner-add-btn {
+    background: var(--ew-green);
+    color: var(--white);
+    border: none;
+    padding: 0.4rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.planner-add-btn:hover {
+    background: var(--dark-green);
+}
+
+.planner-empty {
+    text-align: center;
+    color: var(--text-gray);
+    font-size: 0.85rem;
+    padding: 1rem;
+    border: 1px dashed var(--border-gray);
+    border-radius: 8px;
+}
+
+.planner-totals-section {
+    margin-bottom: 2rem;
+}
+
+.planner-calorie-bar {
+    margin-bottom: 1rem;
+}
+
+.planner-cal-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.planner-cal-label {
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+.planner-cal-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--dark-green);
+}
+
+.planner-clear-btn {
+    background: none;
+    border: 1px solid #C62828;
+    color: #C62828;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background 0.2s;
+}
+
+.planner-clear-btn:hover {
+    background: #ffebee;
+}
+
+/* ==========================================================================
+   36. COMPARE PAGE (EatWise-specific extensions)
+   ========================================================================== */
+.compare-controls {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.compare-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.compare-selector label {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    font-weight: 500;
+}
+
+.food-select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    font-family: inherit;
+    min-width: 180px;
+    background: var(--white);
+}
+
+.compare-toggle {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.compare-toggle button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    background: var(--white);
+    font-family: inherit;
+}
+
+.compare-toggle button.active {
+    background: var(--ew-green);
+    color: var(--white);
+    border-color: var(--ew-green);
+}
+
+.compare-chart-container {
+    max-width: 500px;
+    margin: 0 auto 2rem;
+}
+
+.compare-bar-rows {
+    max-width: 800px;
+}
+
+.compare-bar-item {
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.compare-nutrient-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 0.25rem;
+}
+
+.compare-food-label {
+    font-size: 0.75rem;
+    color: var(--text-gray);
+    min-width: 80px;
+    text-align: right;
+}
+
+.compare-score-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.compare-score-card {
+    background: var(--bg-light);
+    padding: 1.25rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.compare-food-name {
+    font-weight: 600;
+    color: var(--dark-green);
+    margin-bottom: 0.25rem;
+}
+
+.compare-win-count {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--ew-green);
+}
+
+.compare-detail-list {
+    margin-top: 1rem;
+}
+
+.compare-detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.compare-detail-row:last-child {
+    border-bottom: none;
+}
+
+/* ==========================================================================
+   37. FEATURED CARDS (homepage)
+   ========================================================================== */
+.featured-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-left: 3px solid var(--ew-green);
+    padding: 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.2s;
+    min-height: 120px;
+}
+
+.featured-card:hover {
+    box-shadow: 0 4px 16px rgba(46,125,50,0.12);
+    transform: translateY(-2px);
+}
+
+.featured-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.featured-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--dark-green);
+}
+
+/* ==========================================================================
+   38. QUIZ EXTRA CLASSES (used in renderQuiz)
+   ========================================================================== */
+.quiz-start-screen {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.quiz-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.quiz-play-screen { }
+
+.quiz-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--bg-light);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.quiz-question-text {
+    font-size: 1.35rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.quiz-results-screen {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+/* ==========================================================================
+   39. SITE DISCLAIMER
+   ========================================================================== */
+.site-disclaimer {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+    font-style: italic;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ==========================================================================
+   40. NO-RESULTS STATE
+   ========================================================================== */
+.no-results {
+    text-align: center;
+    color: var(--text-gray);
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+/* ==========================================================================
+   41. PAGE SUBTITLE (used alongside page-title)
+   ========================================================================== */
+.page-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+
+
+/* ==========================================================================
+   ==========================================================================
+   RESPONSIVE DESIGN
+   ==========================================================================
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   TABLET (max-width: 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .header-content {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-4x2,
+    .grid-4x3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .score-row {
+        flex-wrap: wrap;
+    }
+
+    .score-label {
+        min-width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    .score-bar-track {
+        min-width: 0;
+    }
+
+    .pillar-tabs {
+        gap: 0.3rem;
+    }
+
+    .pillar-tab {
+        font-size: 0.75rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .ranking-table {
+        font-size: 0.85rem;
+    }
+
+    .ranking-table th,
+    .ranking-table td {
+        padding: 0.5rem;
+    }
+
+    .econ-metrics {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quiz-options {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    #ew-tooltip {
+        max-width: calc(100vw - 2rem);
+    }
+
+    .summary-box {
+        padding: 1rem 1.25rem;
+        font-size: 0.88rem;
+    }
+
+    .summary-line {
+        gap: 0.5rem;
+    }
+
+    .summary-box--editorial {
+        padding: 1.25rem 1.35rem;
+        font-size: 0.92rem;
+        line-height: 1.75;
+    }
+
+    .summary-box--editorial p:first-child::first-letter {
+        font-size: 1.8em;
+    }
+
+    /* EatWise-specific responsive */
+    .resto-panels {
+        grid-template-columns: 1fr;
+    }
+
+    .comparison-vs {
+        display: none;
+    }
+
+    .nutrient-bar-label {
+        min-width: 100px;
+        font-size: 0.82rem;
+    }
+
+    .planner-slots {
+        grid-template-columns: 1fr;
+    }
+
+    .meal-days-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .supp-alt-row {
+        flex-wrap: wrap;
+    }
+
+    .traffic-light,
+    .traffic-light-guide {
+        flex-wrap: wrap;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   MOBILE (max-width: 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+    .nav a:not(:first-child):not(:last-child) {
+        display: none;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .meta-card {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .food-selector-panel {
+        width: calc(100vw - 2rem);
+        right: -1rem;
+    }
+
+    .compare-picker {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .compare-picker select {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .compare-bar-name {
+        min-width: 60px;
+        font-size: 0.7rem;
+    }
+
+    .grid-3x2 {
+        grid-template-columns: 1fr;
+    }
+
+    .shopping-cost-summary {
+        flex-direction: column;
+    }
+
+    .meal-days-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .compare-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .food-select {
+        min-width: auto;
+        width: 100%;
+    }
+
+    .planner-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

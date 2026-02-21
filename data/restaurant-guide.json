@@ -1,0 +1,326 @@
+[
+  {
+    "id": "burger_meal",
+    "restaurant_name_key": "resto.burger_meal",
+    "category": "fast_food",
+    "restaurant_option": {
+      "name_key": "resto.burger_meal.restaurant",
+      "calories": 1100,
+      "protein": 35,
+      "fat": 55,
+      "sodium": 1800,
+      "sugar": 45,
+      "cost_usd": 12
+    },
+    "home_option": {
+      "name_key": "resto.burger_meal.home",
+      "recipe_id": "homemade_turkey_burger",
+      "calories": 550,
+      "protein": 38,
+      "fat": 18,
+      "sodium": 600,
+      "sugar": 8,
+      "cost_usd": 5,
+      "cook_time_min": 20
+    },
+    "savings_pct": { "calories": 50, "fat": 67, "sodium": 67, "cost": 58 },
+    "tip_key": "resto.burger_meal.tip"
+  },
+  {
+    "id": "fried_chicken_combo",
+    "restaurant_name_key": "resto.fried_chicken_combo",
+    "category": "fast_food",
+    "restaurant_option": {
+      "name_key": "resto.fried_chicken_combo.restaurant",
+      "calories": 1350,
+      "protein": 42,
+      "fat": 68,
+      "sodium": 2400,
+      "sugar": 38,
+      "cost_usd": 11
+    },
+    "home_option": {
+      "name_key": "resto.fried_chicken_combo.home",
+      "recipe_id": "baked_chicken_vegetables",
+      "calories": 480,
+      "protein": 42,
+      "fat": 10,
+      "sodium": 350,
+      "sugar": 6,
+      "cost_usd": 4.50,
+      "cook_time_min": 45
+    },
+    "savings_pct": { "calories": 64, "fat": 85, "sodium": 85, "cost": 59 },
+    "tip_key": "resto.fried_chicken_combo.tip"
+  },
+  {
+    "id": "pepperoni_pizza",
+    "restaurant_name_key": "resto.pepperoni_pizza",
+    "category": "pizza",
+    "restaurant_option": {
+      "name_key": "resto.pepperoni_pizza.restaurant",
+      "calories": 1200,
+      "protein": 48,
+      "fat": 52,
+      "sodium": 2800,
+      "sugar": 14,
+      "cost_usd": 18
+    },
+    "home_option": {
+      "name_key": "resto.pepperoni_pizza.home",
+      "recipe_id": null,
+      "calories": 650,
+      "protein": 36,
+      "fat": 22,
+      "sodium": 900,
+      "sugar": 6,
+      "cost_usd": 6,
+      "cook_time_min": 35
+    },
+    "savings_pct": { "calories": 46, "fat": 58, "sodium": 68, "cost": 67 },
+    "tip_key": "resto.pepperoni_pizza.tip"
+  },
+  {
+    "id": "margherita_pizza",
+    "restaurant_name_key": "resto.margherita_pizza",
+    "category": "pizza",
+    "restaurant_option": {
+      "name_key": "resto.margherita_pizza.restaurant",
+      "calories": 900,
+      "protein": 36,
+      "fat": 38,
+      "sodium": 1900,
+      "sugar": 10,
+      "cost_usd": 16
+    },
+    "home_option": {
+      "name_key": "resto.margherita_pizza.home",
+      "recipe_id": null,
+      "calories": 520,
+      "protein": 24,
+      "fat": 16,
+      "sodium": 650,
+      "sugar": 5,
+      "cost_usd": 5,
+      "cook_time_min": 30
+    },
+    "savings_pct": { "calories": 42, "fat": 58, "sodium": 66, "cost": 69 },
+    "tip_key": "resto.margherita_pizza.tip"
+  },
+  {
+    "id": "general_tso_chicken",
+    "restaurant_name_key": "resto.general_tso_chicken",
+    "category": "asian",
+    "restaurant_option": {
+      "name_key": "resto.general_tso_chicken.restaurant",
+      "calories": 1300,
+      "protein": 38,
+      "fat": 48,
+      "sodium": 2100,
+      "sugar": 52,
+      "cost_usd": 14
+    },
+    "home_option": {
+      "name_key": "resto.general_tso_chicken.home",
+      "recipe_id": "chicken_stir_fry",
+      "calories": 460,
+      "protein": 36,
+      "fat": 9,
+      "sodium": 450,
+      "sugar": 6,
+      "cost_usd": 5,
+      "cook_time_min": 20
+    },
+    "savings_pct": { "calories": 65, "fat": 81, "sodium": 79, "cost": 64 },
+    "tip_key": "resto.general_tso_chicken.tip"
+  },
+  {
+    "id": "pad_thai",
+    "restaurant_name_key": "resto.pad_thai",
+    "category": "asian",
+    "restaurant_option": {
+      "name_key": "resto.pad_thai.restaurant",
+      "calories": 1050,
+      "protein": 30,
+      "fat": 40,
+      "sodium": 2500,
+      "sugar": 28,
+      "cost_usd": 15
+    },
+    "home_option": {
+      "name_key": "resto.pad_thai.home",
+      "recipe_id": "shrimp_garlic_pasta",
+      "calories": 520,
+      "protein": 32,
+      "fat": 14,
+      "sodium": 600,
+      "sugar": 8,
+      "cost_usd": 6,
+      "cook_time_min": 25
+    },
+    "savings_pct": { "calories": 50, "fat": 65, "sodium": 76, "cost": 60 },
+    "tip_key": "resto.pad_thai.tip"
+  },
+  {
+    "id": "burrito_bowl",
+    "restaurant_name_key": "resto.burrito_bowl",
+    "category": "mexican",
+    "restaurant_option": {
+      "name_key": "resto.burrito_bowl.restaurant",
+      "calories": 1050,
+      "protein": 52,
+      "fat": 42,
+      "sodium": 2200,
+      "sugar": 10,
+      "cost_usd": 13
+    },
+    "home_option": {
+      "name_key": "resto.burrito_bowl.home",
+      "recipe_id": "quinoa_veggie_bowl",
+      "calories": 440,
+      "protein": 16,
+      "fat": 19,
+      "sodium": 350,
+      "sugar": 4,
+      "cost_usd": 4,
+      "cook_time_min": 25
+    },
+    "savings_pct": { "calories": 58, "fat": 55, "sodium": 84, "cost": 69 },
+    "tip_key": "resto.burrito_bowl.tip"
+  },
+  {
+    "id": "quesadilla_combo",
+    "restaurant_name_key": "resto.quesadilla_combo",
+    "category": "mexican",
+    "restaurant_option": {
+      "name_key": "resto.quesadilla_combo.restaurant",
+      "calories": 1400,
+      "protein": 48,
+      "fat": 72,
+      "sodium": 2600,
+      "sugar": 8,
+      "cost_usd": 14
+    },
+    "home_option": {
+      "name_key": "resto.quesadilla_combo.home",
+      "recipe_id": null,
+      "calories": 550,
+      "protein": 35,
+      "fat": 22,
+      "sodium": 700,
+      "sugar": 3,
+      "cost_usd": 4.50,
+      "cook_time_min": 15
+    },
+    "savings_pct": { "calories": 61, "fat": 69, "sodium": 73, "cost": 68 },
+    "tip_key": "resto.quesadilla_combo.tip"
+  },
+  {
+    "id": "fettuccine_alfredo",
+    "restaurant_name_key": "resto.fettuccine_alfredo",
+    "category": "italian",
+    "restaurant_option": {
+      "name_key": "resto.fettuccine_alfredo.restaurant",
+      "calories": 1500,
+      "protein": 42,
+      "fat": 80,
+      "sodium": 1900,
+      "sugar": 8,
+      "cost_usd": 18
+    },
+    "home_option": {
+      "name_key": "resto.fettuccine_alfredo.home",
+      "recipe_id": null,
+      "calories": 620,
+      "protein": 28,
+      "fat": 22,
+      "sodium": 500,
+      "sugar": 4,
+      "cost_usd": 5.50,
+      "cook_time_min": 25
+    },
+    "savings_pct": { "calories": 59, "fat": 73, "sodium": 74, "cost": 69 },
+    "tip_key": "resto.fettuccine_alfredo.tip"
+  },
+  {
+    "id": "pasta_bolognese",
+    "restaurant_name_key": "resto.pasta_bolognese",
+    "category": "italian",
+    "restaurant_option": {
+      "name_key": "resto.pasta_bolognese.restaurant",
+      "calories": 980,
+      "protein": 38,
+      "fat": 38,
+      "sodium": 1600,
+      "sugar": 14,
+      "cost_usd": 17
+    },
+    "home_option": {
+      "name_key": "resto.pasta_bolognese.home",
+      "recipe_id": "lentil_bolognese",
+      "calories": 420,
+      "protein": 22,
+      "fat": 10,
+      "sodium": 350,
+      "sugar": 8,
+      "cost_usd": 4,
+      "cook_time_min": 40
+    },
+    "savings_pct": { "calories": 57, "fat": 74, "sodium": 78, "cost": 76 },
+    "tip_key": "resto.pasta_bolognese.tip"
+  },
+  {
+    "id": "latte_muffin",
+    "restaurant_name_key": "resto.latte_muffin",
+    "category": "cafe",
+    "restaurant_option": {
+      "name_key": "resto.latte_muffin.restaurant",
+      "calories": 680,
+      "protein": 12,
+      "fat": 28,
+      "sodium": 480,
+      "sugar": 72,
+      "cost_usd": 9
+    },
+    "home_option": {
+      "name_key": "resto.latte_muffin.home",
+      "recipe_id": "oatmeal_banana_walnut",
+      "calories": 465,
+      "protein": 16,
+      "fat": 16,
+      "sodium": 80,
+      "sugar": 22,
+      "cost_usd": 2,
+      "cook_time_min": 15
+    },
+    "savings_pct": { "calories": 32, "fat": 43, "sodium": 83, "cost": 78 },
+    "tip_key": "resto.latte_muffin.tip"
+  },
+  {
+    "id": "deli_sub_sandwich",
+    "restaurant_name_key": "resto.deli_sub_sandwich",
+    "category": "deli",
+    "restaurant_option": {
+      "name_key": "resto.deli_sub_sandwich.restaurant",
+      "calories": 850,
+      "protein": 38,
+      "fat": 35,
+      "sodium": 2200,
+      "sugar": 12,
+      "cost_usd": 11
+    },
+    "home_option": {
+      "name_key": "resto.deli_sub_sandwich.home",
+      "recipe_id": "turkey_spinach_wrap",
+      "calories": 380,
+      "protein": 40,
+      "fat": 10,
+      "sodium": 550,
+      "sugar": 4,
+      "cost_usd": 4,
+      "cook_time_min": 10
+    },
+    "savings_pct": { "calories": 55, "fat": 71, "sodium": 75, "cost": 64 },
+    "tip_key": "resto.deli_sub_sandwich.tip"
+  }
+]

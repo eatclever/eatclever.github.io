@@ -1,0 +1,108 @@
+[
+  {
+    "id": "children",
+    "range": "0-12",
+    "name_key": "age.children",
+    "icon": "\ud83d\udc76",
+    "color": "#66BB6A",
+    "sub_groups": [
+      {
+        "id": "infant",
+        "range": "0-1",
+        "name_key": "age.infant",
+        "focus_nutrients": ["calcium", "iron", "vitamin_d", "fat"],
+        "daily_calories": { "min": 700, "max": 1000 },
+        "key_foods": ["breast_milk", "iron_fortified_cereal", "banana", "sweet_potato"],
+        "avoid": ["honey", "whole_nuts", "cow_milk_under_1", "added_salt", "added_sugar"],
+        "tips_key": "age.infant.tips"
+      },
+      {
+        "id": "toddler",
+        "range": "1-3",
+        "name_key": "age.toddler",
+        "focus_nutrients": ["calcium", "iron", "vitamin_d", "fiber", "fat"],
+        "daily_calories": { "min": 1000, "max": 1400 },
+        "key_foods": ["milk_whole", "eggs", "banana", "oats", "sweet_potato", "chicken_breast"],
+        "avoid": ["choking_hazards", "excessive_juice", "added_sugar", "low_fat_dairy"],
+        "tips_key": "age.toddler.tips"
+      },
+      {
+        "id": "school_age",
+        "range": "4-12",
+        "name_key": "age.school_age",
+        "focus_nutrients": ["calcium", "iron", "vitamin_d", "protein", "fiber"],
+        "daily_calories": { "min": 1200, "max": 2000 },
+        "key_foods": ["milk_whole", "eggs", "chicken_breast", "brown_rice", "broccoli", "apple", "oats", "banana"],
+        "avoid": ["excessive_sugar", "soda", "highly_processed_snacks", "energy_drinks"],
+        "tips_key": "age.school_age.tips"
+      }
+    ]
+  },
+  {
+    "id": "teens",
+    "range": "13-19",
+    "name_key": "age.teens",
+    "icon": "\ud83e\uddd1",
+    "color": "#42A5F5",
+    "sub_groups": [
+      {
+        "id": "teen",
+        "range": "13-19",
+        "name_key": "age.teen",
+        "focus_nutrients": ["calcium", "iron", "protein", "zinc", "vitamin_d", "folate"],
+        "daily_calories": { "min": 1800, "max": 3200 },
+        "key_foods": ["chicken_breast", "milk_whole", "eggs", "salmon", "spinach", "brown_rice", "greek_yogurt", "banana", "almonds", "oats"],
+        "avoid": ["excessive_caffeine", "energy_drinks", "crash_diets", "excessive_fast_food"],
+        "tips_key": "age.teen.tips"
+      }
+    ]
+  },
+  {
+    "id": "adults",
+    "range": "20-59",
+    "name_key": "age.adults",
+    "icon": "\ud83e\uddd1\u200d\ud83d\udcbc",
+    "color": "#FFA726",
+    "sub_groups": [
+      {
+        "id": "young_adult",
+        "range": "20-39",
+        "name_key": "age.young_adult",
+        "focus_nutrients": ["protein", "iron", "folate", "calcium", "vitamin_d", "omega_3"],
+        "daily_calories": { "min": 1800, "max": 2800 },
+        "key_foods": ["salmon", "chicken_breast", "spinach", "quinoa", "avocado", "lentils", "eggs", "broccoli", "almonds", "blueberries"],
+        "avoid": ["excessive_alcohol", "trans_fats", "excessive_sodium", "ultra_processed_foods"],
+        "tips_key": "age.young_adult.tips"
+      },
+      {
+        "id": "middle_age",
+        "range": "40-59",
+        "name_key": "age.middle_age",
+        "focus_nutrients": ["calcium", "vitamin_d", "fiber", "omega_3", "potassium", "magnesium", "vitamin_b12"],
+        "daily_calories": { "min": 1600, "max": 2600 },
+        "key_foods": ["salmon", "sardines", "kale", "sweet_potato", "oats", "walnuts", "lentils", "greek_yogurt", "olive_oil", "broccoli"],
+        "avoid": ["excessive_sodium", "refined_carbs", "excessive_red_meat", "trans_fats"],
+        "tips_key": "age.middle_age.tips"
+      }
+    ]
+  },
+  {
+    "id": "seniors",
+    "range": "60+",
+    "name_key": "age.seniors",
+    "icon": "\ud83e\uddd3",
+    "color": "#AB47BC",
+    "sub_groups": [
+      {
+        "id": "senior",
+        "range": "60+",
+        "name_key": "age.senior",
+        "focus_nutrients": ["vitamin_d", "calcium", "vitamin_b12", "protein", "fiber", "potassium", "omega_3"],
+        "daily_calories": { "min": 1600, "max": 2400 },
+        "key_foods": ["salmon", "eggs", "greek_yogurt", "spinach", "sweet_potato", "oats", "sardines", "milk_whole", "broccoli", "walnuts"],
+        "avoid": ["excessive_sodium", "raw_seafood", "unpasteurized_dairy", "excessive_sugar"],
+        "tips_key": "age.senior.tips"
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Time Recipes — EatWise</title>
+    <meta name="description" content="Quick and healthy recipes organized by cooking time. Find nutritious meals that fit your schedule.">
+    <meta property="og:title" content="Cook Time Recipes — EatWise">
+    <meta property="og:description" content="Quick and healthy recipes organized by cooking time.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/og-preview.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <span data-i18n="site.title">EatWise</span>
+            </a>
+            <nav class="nav">
+                <a href="about.html" data-i18n="nav.about">About</a>
+                <a href="methodology.html" data-i18n="nav.methodology">Sources</a>
+                <div id="food-selector"></div>
+                <a href="compare.html" class="nav-compare" data-i18n="nav.compare">Compare</a>
+                <a href="quiz.html" class="nav-quiz" data-i18n="nav.quiz">Quiz</a>
+                <div id="lang-switcher"></div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container page-content">
+        <div id="cook-time-content"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-i18n="footer.about">About</h3>
+                <ul>
+                    <li><a href="about.html" data-i18n="footer.about.project">About EatWise</a></li>
+                    <li><a href="methodology.html" data-i18n="footer.about.methodology">Data Sources</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.explore">Explore</h3>
+                <ul>
+                    <li><a href="age-nutrition.html" data-i18n="cat.age_nutrition">Age-Based Nutrition</a></li>
+                    <li><a href="food-vs-supplements.html" data-i18n="cat.food_vs_supplements">Food vs. Supplements</a></li>
+                    <li><a href="taste-nutrition.html" data-i18n="cat.taste_nutrition">Taste + Nutrition</a></li>
+                    <li><a href="shopping.html" data-i18n="cat.shopping">Shopping & Planning</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.tools">Tools</h3>
+                <ul>
+                    <li><a href="compare.html" data-i18n="nav.compare">Compare Foods</a></li>
+                    <li><a href="meal-planner.html" data-i18n="nav.planner">Meal Planner</a></li>
+                    <li><a href="quiz.html" data-i18n="nav.quiz">Nutrition Quiz</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <ul>
+                    <li><a href="impressum.html" data-i18n="footer.legal.impressum">Impressum</a></li>
+                    <li><a href="privacy.html" data-i18n="footer.legal.privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer.copyright">&copy; 2026 EatWise | Nutrition Knowledge Platform</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/food-selector.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

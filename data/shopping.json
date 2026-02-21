@@ -1,0 +1,328 @@
+{
+  "weekly_plans": [
+    {
+      "id": "budget_week",
+      "name_key": "shop.budget_week",
+      "budget_tier": 1,
+      "target_group": "adults",
+      "total_cost_usd": 50,
+      "days": [
+        {
+          "day": 1,
+          "meals": {
+            "breakfast": "oatmeal_banana_walnut",
+            "lunch": "lentil_soup",
+            "dinner": "chicken_stir_fry",
+            "snack": "apple_almond_snack"
+          }
+        },
+        {
+          "day": 2,
+          "meals": {
+            "breakfast": "scrambled_eggs_toast",
+            "lunch": "tuna_salad_wrap",
+            "dinner": "black_bean_sweet_potato_chili",
+            "snack": "banana_peanut_butter_smoothie"
+          }
+        },
+        {
+          "day": 3,
+          "meals": {
+            "breakfast": "overnight_oats_berries",
+            "lunch": "chickpea_salad",
+            "dinner": "tofu_veggie_stir_fry",
+            "snack": "apple_almond_snack"
+          }
+        },
+        {
+          "day": 4,
+          "meals": {
+            "breakfast": "scrambled_eggs_toast",
+            "lunch": "lentil_soup",
+            "dinner": "baked_chicken_vegetables",
+            "snack": "greek_yogurt_parfait"
+          }
+        },
+        {
+          "day": 5,
+          "meals": {
+            "breakfast": "oatmeal_banana_walnut",
+            "lunch": "tuna_salad_wrap",
+            "dinner": "lentil_bolognese",
+            "snack": "banana_peanut_butter_smoothie"
+          }
+        },
+        {
+          "day": 6,
+          "meals": {
+            "breakfast": "overnight_oats_berries",
+            "lunch": "turkey_spinach_wrap",
+            "dinner": "black_bean_sweet_potato_chili",
+            "snack": "apple_almond_snack"
+          }
+        },
+        {
+          "day": 7,
+          "meals": {
+            "breakfast": "scrambled_eggs_toast",
+            "lunch": "chickpea_salad",
+            "dinner": "slow_cooker_chicken_soup",
+            "snack": "dark_chocolate_banana_bites"
+          }
+        }
+      ],
+      "shopping_list": [
+        { "food_id": "chicken_breast", "quantity": "1 kg", "est_cost_usd": 6.50, "grocery_section": "meat_counter" },
+        { "food_id": "eggs", "quantity": "1 dozen", "est_cost_usd": 3.50, "grocery_section": "dairy" },
+        { "food_id": "oats", "quantity": "500g", "est_cost_usd": 2.00, "grocery_section": "bulk_bins" },
+        { "food_id": "brown_rice", "quantity": "1 kg", "est_cost_usd": 2.50, "grocery_section": "bulk_bins" },
+        { "food_id": "lentils", "quantity": "500g dry", "est_cost_usd": 1.80, "grocery_section": "bulk_bins" },
+        { "food_id": "black_beans", "quantity": "2 cans (800g)", "est_cost_usd": 2.00, "grocery_section": "canned_goods" },
+        { "food_id": "chickpeas", "quantity": "2 cans (800g)", "est_cost_usd": 2.00, "grocery_section": "canned_goods" },
+        { "food_id": "tuna", "quantity": "3 cans (360g)", "est_cost_usd": 3.00, "grocery_section": "canned_goods" },
+        { "food_id": "tofu", "quantity": "400g block", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "turkey", "quantity": "250g sliced", "est_cost_usd": 3.50, "grocery_section": "meat_counter" },
+        { "food_id": "banana", "quantity": "6 medium", "est_cost_usd": 1.00, "grocery_section": "produce" },
+        { "food_id": "apple", "quantity": "4 medium", "est_cost_usd": 2.00, "grocery_section": "produce" },
+        { "food_id": "sweet_potato", "quantity": "4 medium", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "spinach", "quantity": "200g bag", "est_cost_usd": 2.00, "grocery_section": "produce" },
+        { "food_id": "broccoli", "quantity": "2 heads", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "carrots", "quantity": "500g bag", "est_cost_usd": 1.20, "grocery_section": "produce" },
+        { "food_id": "tomato", "quantity": "4 medium + 1 can", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "avocado", "quantity": "3 medium", "est_cost_usd": 3.00, "grocery_section": "produce" },
+        { "food_id": "whole_wheat_bread", "quantity": "1 loaf", "est_cost_usd": 2.50, "grocery_section": "bakery" },
+        { "food_id": "peanut_butter", "quantity": "250g jar", "est_cost_usd": 2.50, "grocery_section": "oils_condiments" },
+        { "food_id": "almonds", "quantity": "100g", "est_cost_usd": 2.00, "grocery_section": "bulk_bins" }
+      ]
+    },
+    {
+      "id": "moderate_week",
+      "name_key": "shop.moderate_week",
+      "budget_tier": 2,
+      "target_group": "adults",
+      "total_cost_usd": 80,
+      "days": [
+        {
+          "day": 1,
+          "meals": {
+            "breakfast": "avocado_toast_egg",
+            "lunch": "quinoa_veggie_bowl",
+            "dinner": "salmon_avocado_bowl",
+            "snack": "greek_yogurt_parfait"
+          }
+        },
+        {
+          "day": 2,
+          "meals": {
+            "breakfast": "oatmeal_banana_walnut",
+            "lunch": "turkey_spinach_wrap",
+            "dinner": "chicken_stir_fry",
+            "snack": "cottage_cheese_fruit_bowl"
+          }
+        },
+        {
+          "day": 3,
+          "meals": {
+            "breakfast": "scrambled_eggs_toast",
+            "lunch": "chickpea_salad",
+            "dinner": "shrimp_garlic_pasta",
+            "snack": "apple_almond_snack"
+          }
+        },
+        {
+          "day": 4,
+          "meals": {
+            "breakfast": "overnight_oats_berries",
+            "lunch": "lentil_soup",
+            "dinner": "homemade_turkey_burger",
+            "snack": "banana_peanut_butter_smoothie"
+          }
+        },
+        {
+          "day": 5,
+          "meals": {
+            "breakfast": "cottage_cheese_fruit_bowl",
+            "lunch": "tuna_salad_wrap",
+            "dinner": "stuffed_bell_peppers",
+            "snack": "dark_chocolate_banana_bites"
+          }
+        },
+        {
+          "day": 6,
+          "meals": {
+            "breakfast": "egg_veggie_muffins",
+            "lunch": "salmon_avocado_bowl",
+            "dinner": "lentil_bolognese",
+            "snack": "greek_yogurt_parfait"
+          }
+        },
+        {
+          "day": 7,
+          "meals": {
+            "breakfast": "avocado_toast_egg",
+            "lunch": "quinoa_veggie_bowl",
+            "dinner": "baked_chicken_vegetables",
+            "snack": "apple_almond_snack"
+          }
+        }
+      ],
+      "shopping_list": [
+        { "food_id": "salmon", "quantity": "400g fillet", "est_cost_usd": 10.00, "grocery_section": "fish_counter" },
+        { "food_id": "chicken_breast", "quantity": "800g", "est_cost_usd": 5.50, "grocery_section": "meat_counter" },
+        { "food_id": "shrimp", "quantity": "300g", "est_cost_usd": 7.00, "grocery_section": "fish_counter" },
+        { "food_id": "turkey", "quantity": "500g", "est_cost_usd": 5.50, "grocery_section": "meat_counter" },
+        { "food_id": "eggs", "quantity": "1 dozen", "est_cost_usd": 3.50, "grocery_section": "dairy" },
+        { "food_id": "greek_yogurt", "quantity": "500g tub", "est_cost_usd": 4.00, "grocery_section": "dairy" },
+        { "food_id": "cottage_cheese", "quantity": "400g tub", "est_cost_usd": 3.50, "grocery_section": "dairy" },
+        { "food_id": "cheese_cheddar", "quantity": "200g block", "est_cost_usd": 3.50, "grocery_section": "dairy" },
+        { "food_id": "milk_whole", "quantity": "1 liter", "est_cost_usd": 2.00, "grocery_section": "dairy" },
+        { "food_id": "quinoa", "quantity": "500g", "est_cost_usd": 4.00, "grocery_section": "bulk_bins" },
+        { "food_id": "brown_rice", "quantity": "500g", "est_cost_usd": 1.50, "grocery_section": "bulk_bins" },
+        { "food_id": "oats", "quantity": "500g", "est_cost_usd": 2.00, "grocery_section": "bulk_bins" },
+        { "food_id": "lentils", "quantity": "300g dry", "est_cost_usd": 1.50, "grocery_section": "bulk_bins" },
+        { "food_id": "chickpeas", "quantity": "2 cans (800g)", "est_cost_usd": 2.00, "grocery_section": "canned_goods" },
+        { "food_id": "tuna", "quantity": "2 cans (240g)", "est_cost_usd": 2.00, "grocery_section": "canned_goods" },
+        { "food_id": "avocado", "quantity": "5 medium", "est_cost_usd": 5.00, "grocery_section": "produce" },
+        { "food_id": "spinach", "quantity": "300g bag", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "kale", "quantity": "200g bunch", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "bell_pepper", "quantity": "6 medium", "est_cost_usd": 3.00, "grocery_section": "produce" },
+        { "food_id": "broccoli", "quantity": "2 heads", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "tomato", "quantity": "6 medium", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "sweet_potato", "quantity": "3 medium", "est_cost_usd": 2.00, "grocery_section": "produce" },
+        { "food_id": "banana", "quantity": "6 medium", "est_cost_usd": 1.00, "grocery_section": "produce" },
+        { "food_id": "blueberries", "quantity": "250g", "est_cost_usd": 3.50, "grocery_section": "produce" },
+        { "food_id": "strawberries", "quantity": "250g", "est_cost_usd": 3.00, "grocery_section": "produce" },
+        { "food_id": "mango", "quantity": "2 medium", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "apple", "quantity": "4 medium", "est_cost_usd": 2.00, "grocery_section": "produce" },
+        { "food_id": "whole_wheat_bread", "quantity": "1 loaf", "est_cost_usd": 2.50, "grocery_section": "bakery" },
+        { "food_id": "almonds", "quantity": "150g", "est_cost_usd": 3.00, "grocery_section": "bulk_bins" },
+        { "food_id": "walnuts", "quantity": "100g", "est_cost_usd": 2.50, "grocery_section": "bulk_bins" },
+        { "food_id": "dark_chocolate", "quantity": "100g bar", "est_cost_usd": 3.00, "grocery_section": "snacks" }
+      ]
+    },
+    {
+      "id": "premium_week",
+      "name_key": "shop.premium_week",
+      "budget_tier": 3,
+      "target_group": "adults",
+      "total_cost_usd": 120,
+      "days": [
+        {
+          "day": 1,
+          "meals": {
+            "breakfast": "avocado_toast_egg",
+            "lunch": "salmon_avocado_bowl",
+            "dinner": "baked_salmon_quinoa",
+            "snack": "greek_yogurt_parfait"
+          }
+        },
+        {
+          "day": 2,
+          "meals": {
+            "breakfast": "cottage_cheese_fruit_bowl",
+            "lunch": "quinoa_veggie_bowl",
+            "dinner": "shrimp_garlic_pasta",
+            "snack": "dark_chocolate_banana_bites"
+          }
+        },
+        {
+          "day": 3,
+          "meals": {
+            "breakfast": "egg_veggie_muffins",
+            "lunch": "sardine_toast_salad",
+            "dinner": "salmon_kale_sweet_potato",
+            "snack": "cottage_cheese_fruit_bowl"
+          }
+        },
+        {
+          "day": 4,
+          "meals": {
+            "breakfast": "overnight_oats_berries",
+            "lunch": "chickpea_salad",
+            "dinner": "beef_broccoli_bowl",
+            "snack": "greek_yogurt_parfait"
+          }
+        },
+        {
+          "day": 5,
+          "meals": {
+            "breakfast": "avocado_toast_egg",
+            "lunch": "turkey_spinach_wrap",
+            "dinner": "cauliflower_chickpea_curry",
+            "snack": "apple_almond_snack"
+          }
+        },
+        {
+          "day": 6,
+          "meals": {
+            "breakfast": "oatmeal_banana_walnut",
+            "lunch": "salmon_avocado_bowl",
+            "dinner": "stuffed_bell_peppers",
+            "snack": "banana_peanut_butter_smoothie"
+          }
+        },
+        {
+          "day": 7,
+          "meals": {
+            "breakfast": "scrambled_eggs_toast",
+            "lunch": "quinoa_veggie_bowl",
+            "dinner": "homemade_turkey_burger",
+            "snack": "dark_chocolate_banana_bites"
+          }
+        }
+      ],
+      "shopping_list": [
+        { "food_id": "salmon", "quantity": "800g fillet (wild-caught)", "est_cost_usd": 22.00, "grocery_section": "fish_counter" },
+        { "food_id": "shrimp", "quantity": "400g (wild)", "est_cost_usd": 10.00, "grocery_section": "fish_counter" },
+        { "food_id": "sardines", "quantity": "2 cans (240g)", "est_cost_usd": 4.00, "grocery_section": "canned_goods" },
+        { "food_id": "beef_lean", "quantity": "300g grass-fed", "est_cost_usd": 6.00, "grocery_section": "meat_counter" },
+        { "food_id": "turkey", "quantity": "500g organic", "est_cost_usd": 7.00, "grocery_section": "meat_counter" },
+        { "food_id": "chicken_breast", "quantity": "400g organic", "est_cost_usd": 6.50, "grocery_section": "meat_counter" },
+        { "food_id": "eggs", "quantity": "1 dozen free-range", "est_cost_usd": 5.00, "grocery_section": "dairy" },
+        { "food_id": "greek_yogurt", "quantity": "750g organic", "est_cost_usd": 5.50, "grocery_section": "dairy" },
+        { "food_id": "cottage_cheese", "quantity": "500g organic", "est_cost_usd": 4.50, "grocery_section": "dairy" },
+        { "food_id": "cheese_cheddar", "quantity": "200g artisan", "est_cost_usd": 5.00, "grocery_section": "dairy" },
+        { "food_id": "milk_whole", "quantity": "1 liter organic", "est_cost_usd": 3.00, "grocery_section": "dairy" },
+        { "food_id": "quinoa", "quantity": "500g organic", "est_cost_usd": 5.00, "grocery_section": "bulk_bins" },
+        { "food_id": "brown_rice", "quantity": "500g", "est_cost_usd": 2.00, "grocery_section": "bulk_bins" },
+        { "food_id": "oats", "quantity": "500g organic", "est_cost_usd": 3.00, "grocery_section": "bulk_bins" },
+        { "food_id": "chickpeas", "quantity": "2 cans organic (800g)", "est_cost_usd": 3.50, "grocery_section": "canned_goods" },
+        { "food_id": "avocado", "quantity": "7 medium", "est_cost_usd": 7.00, "grocery_section": "produce" },
+        { "food_id": "spinach", "quantity": "300g organic", "est_cost_usd": 3.50, "grocery_section": "produce" },
+        { "food_id": "kale", "quantity": "300g organic", "est_cost_usd": 3.50, "grocery_section": "produce" },
+        { "food_id": "bell_pepper", "quantity": "6 medium organic", "est_cost_usd": 4.00, "grocery_section": "produce" },
+        { "food_id": "broccoli", "quantity": "2 heads organic", "est_cost_usd": 3.50, "grocery_section": "produce" },
+        { "food_id": "cauliflower", "quantity": "1 large head", "est_cost_usd": 3.00, "grocery_section": "produce" },
+        { "food_id": "sweet_potato", "quantity": "4 medium", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "tomato", "quantity": "6 medium organic", "est_cost_usd": 3.50, "grocery_section": "produce" },
+        { "food_id": "mushrooms", "quantity": "250g", "est_cost_usd": 2.50, "grocery_section": "produce" },
+        { "food_id": "banana", "quantity": "6 medium organic", "est_cost_usd": 1.50, "grocery_section": "produce" },
+        { "food_id": "blueberries", "quantity": "300g organic", "est_cost_usd": 5.00, "grocery_section": "produce" },
+        { "food_id": "strawberries", "quantity": "300g organic", "est_cost_usd": 4.50, "grocery_section": "produce" },
+        { "food_id": "mango", "quantity": "3 medium", "est_cost_usd": 4.00, "grocery_section": "produce" },
+        { "food_id": "apple", "quantity": "4 organic", "est_cost_usd": 3.00, "grocery_section": "produce" },
+        { "food_id": "whole_wheat_bread", "quantity": "1 artisan loaf", "est_cost_usd": 4.50, "grocery_section": "bakery" },
+        { "food_id": "almonds", "quantity": "200g raw", "est_cost_usd": 4.00, "grocery_section": "bulk_bins" },
+        { "food_id": "walnuts", "quantity": "150g raw", "est_cost_usd": 3.50, "grocery_section": "bulk_bins" },
+        { "food_id": "chia_seeds", "quantity": "150g", "est_cost_usd": 3.50, "grocery_section": "bulk_bins" },
+        { "food_id": "flaxseeds", "quantity": "150g", "est_cost_usd": 2.50, "grocery_section": "bulk_bins" },
+        { "food_id": "dark_chocolate", "quantity": "200g premium (85%)", "est_cost_usd": 5.00, "grocery_section": "snacks" },
+        { "food_id": "olive_oil", "quantity": "500ml extra virgin", "est_cost_usd": 7.00, "grocery_section": "oils_condiments" },
+        { "food_id": "peanut_butter", "quantity": "250g organic", "est_cost_usd": 4.00, "grocery_section": "oils_condiments" }
+      ]
+    }
+  ],
+  "staples": {
+    "pantry": ["olive_oil", "brown_rice", "oats", "canned_tomatoes", "onions", "garlic", "salt", "pepper"],
+    "fridge": ["eggs", "milk_whole", "butter", "lemons"],
+    "freezer": ["frozen_berries", "frozen_vegetables", "frozen_fish"]
+  },
+  "tips_keys": [
+    "shop.tip.seasonal",
+    "shop.tip.bulk",
+    "shop.tip.frozen",
+    "shop.tip.store_brands",
+    "shop.tip.meal_prep",
+    "shop.tip.avoid_waste"
+  ]
+}

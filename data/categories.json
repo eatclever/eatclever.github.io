@@ -1,0 +1,50 @@
+[
+  {
+    "id": "age-nutrition",
+    "icon": "\ud83e\uddd1\u200d\ud83c\udf73",
+    "color": "#2E7D32",
+    "name_key": "cat.age_nutrition",
+    "desc_key": "cat.age_nutrition.desc",
+    "page": "age-nutrition.html"
+  },
+  {
+    "id": "food-vs-supplements",
+    "icon": "\ud83d\udc8a",
+    "color": "#E65100",
+    "name_key": "cat.food_vs_supplements",
+    "desc_key": "cat.food_vs_supplements.desc",
+    "page": "food-vs-supplements.html"
+  },
+  {
+    "id": "taste-nutrition",
+    "icon": "\ud83c\udf72",
+    "color": "#C62828",
+    "name_key": "cat.taste_nutrition",
+    "desc_key": "cat.taste_nutrition.desc",
+    "page": "taste-nutrition.html"
+  },
+  {
+    "id": "eat-out-vs-home",
+    "icon": "\ud83c\udfbd",
+    "color": "#1565C0",
+    "name_key": "cat.eat_out_vs_home",
+    "desc_key": "cat.eat_out_vs_home.desc",
+    "page": "eat-out-vs-home.html"
+  },
+  {
+    "id": "cook-time",
+    "icon": "\u23f1\ufe0f",
+    "color": "#6A1B9A",
+    "name_key": "cat.cook_time",
+    "desc_key": "cat.cook_time.desc",
+    "page": "cook-time.html"
+  },
+  {
+    "id": "shopping",
+    "icon": "\ud83d\uded2",
+    "color": "#00838F",
+    "name_key": "cat.shopping",
+    "desc_key": "cat.shopping.desc",
+    "page": "shopping.html"
+  }
+]

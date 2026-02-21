@@ -1,0 +1,197 @@
+[
+  {
+    "id": "vitamin_d",
+    "supplement_name_key": "supp.vitamin_d",
+    "common_dose": "1000 IU (25 mcg)",
+    "nutrient_id": "vitamin_d",
+    "why_key": "supp.vitamin_d.why",
+    "food_alternatives": [
+      { "food_id": "salmon", "serving": "85g fillet", "amount_per_serving": 14.2, "pct_rda": 95 },
+      { "food_id": "eggs", "serving": "2 large eggs (100g)", "amount_per_serving": 2.0, "pct_rda": 13 },
+      { "food_id": "mushrooms", "serving": "100g UV-exposed", "amount_per_serving": 26.2, "pct_rda": 175 }
+    ],
+    "note_key": "supp.vitamin_d.note"
+  },
+  {
+    "id": "vitamin_c",
+    "supplement_name_key": "supp.vitamin_c",
+    "common_dose": "500 mg",
+    "nutrient_id": "vitamin_c",
+    "why_key": "supp.vitamin_c.why",
+    "food_alternatives": [
+      { "food_id": "bell_pepper", "serving": "1 medium red pepper (120g)", "amount_per_serving": 153.6, "pct_rda": 171 },
+      { "food_id": "kiwi", "serving": "2 kiwis (150g)", "amount_per_serving": 139.1, "pct_rda": 155 },
+      { "food_id": "orange", "serving": "1 large orange (185g)", "amount_per_serving": 98.4, "pct_rda": 109 }
+    ],
+    "note_key": "supp.vitamin_c.note"
+  },
+  {
+    "id": "vitamin_b12",
+    "supplement_name_key": "supp.vitamin_b12",
+    "common_dose": "1000 mcg",
+    "nutrient_id": "vitamin_b12",
+    "why_key": "supp.vitamin_b12.why",
+    "food_alternatives": [
+      { "food_id": "sardines", "serving": "85g can", "amount_per_serving": 7.6, "pct_rda": 317 },
+      { "food_id": "salmon", "serving": "85g fillet", "amount_per_serving": 2.4, "pct_rda": 100 },
+      { "food_id": "beef_lean", "serving": "85g patty", "amount_per_serving": 2.2, "pct_rda": 93 }
+    ],
+    "note_key": "supp.vitamin_b12.note"
+  },
+  {
+    "id": "iron",
+    "supplement_name_key": "supp.iron",
+    "common_dose": "18 mg",
+    "nutrient_id": "iron",
+    "why_key": "supp.iron.why",
+    "food_alternatives": [
+      { "food_id": "lentils", "serving": "1 cup cooked (200g)", "amount_per_serving": 6.6, "pct_rda": 37 },
+      { "food_id": "spinach", "serving": "100g cooked", "amount_per_serving": 3.6, "pct_rda": 20 },
+      { "food_id": "beef_lean", "serving": "100g cooked", "amount_per_serving": 3.0, "pct_rda": 17 }
+    ],
+    "note_key": "supp.iron.note"
+  },
+  {
+    "id": "calcium",
+    "supplement_name_key": "supp.calcium",
+    "common_dose": "600 mg",
+    "nutrient_id": "calcium",
+    "why_key": "supp.calcium.why",
+    "food_alternatives": [
+      { "food_id": "cheese_cheddar", "serving": "40g slice", "amount_per_serving": 288, "pct_rda": 29 },
+      { "food_id": "sardines", "serving": "85g can with bones", "amount_per_serving": 325, "pct_rda": 33 },
+      { "food_id": "tofu", "serving": "150g firm calcium-set", "amount_per_serving": 1025, "pct_rda": 103 }
+    ],
+    "note_key": "supp.calcium.note"
+  },
+  {
+    "id": "magnesium",
+    "supplement_name_key": "supp.magnesium",
+    "common_dose": "400 mg",
+    "nutrient_id": "magnesium",
+    "why_key": "supp.magnesium.why",
+    "food_alternatives": [
+      { "food_id": "almonds", "serving": "30g (about 23 almonds)", "amount_per_serving": 81, "pct_rda": 20 },
+      { "food_id": "spinach", "serving": "100g cooked", "amount_per_serving": 87, "pct_rda": 22 },
+      { "food_id": "dark_chocolate", "serving": "40g square", "amount_per_serving": 91, "pct_rda": 23 }
+    ],
+    "note_key": "supp.magnesium.note"
+  },
+  {
+    "id": "omega_3",
+    "supplement_name_key": "supp.omega_3",
+    "common_dose": "1000 mg (EPA+DHA)",
+    "nutrient_id": "omega_3",
+    "why_key": "supp.omega_3.why",
+    "food_alternatives": [
+      { "food_id": "salmon", "serving": "85g fillet", "amount_per_serving": 1920, "pct_rda": 120 },
+      { "food_id": "walnuts", "serving": "30g (about 14 halves)", "amount_per_serving": 2724, "pct_rda": 170 },
+      { "food_id": "chia_seeds", "serving": "2 tbsp (28g)", "amount_per_serving": 4993, "pct_rda": 312 }
+    ],
+    "note_key": "supp.omega_3.note"
+  },
+  {
+    "id": "zinc",
+    "supplement_name_key": "supp.zinc",
+    "common_dose": "15 mg",
+    "nutrient_id": "zinc",
+    "why_key": "supp.zinc.why",
+    "food_alternatives": [
+      { "food_id": "beef_lean", "serving": "100g cooked", "amount_per_serving": 6.3, "pct_rda": 57 },
+      { "food_id": "chickpeas", "serving": "1 cup cooked (164g)", "amount_per_serving": 2.5, "pct_rda": 23 },
+      { "food_id": "almonds", "serving": "30g", "amount_per_serving": 0.9, "pct_rda": 8 }
+    ],
+    "note_key": "supp.zinc.note"
+  },
+  {
+    "id": "folate",
+    "supplement_name_key": "supp.folate",
+    "common_dose": "400 mcg DFE",
+    "nutrient_id": "folate",
+    "why_key": "supp.folate.why",
+    "food_alternatives": [
+      { "food_id": "lentils", "serving": "1 cup cooked (200g)", "amount_per_serving": 362, "pct_rda": 91 },
+      { "food_id": "spinach", "serving": "100g raw", "amount_per_serving": 194, "pct_rda": 49 },
+      { "food_id": "black_beans", "serving": "1 cup cooked (172g)", "amount_per_serving": 256, "pct_rda": 64 }
+    ],
+    "note_key": "supp.folate.note"
+  },
+  {
+    "id": "potassium",
+    "supplement_name_key": "supp.potassium",
+    "common_dose": "99 mg",
+    "nutrient_id": "potassium",
+    "why_key": "supp.potassium.why",
+    "food_alternatives": [
+      { "food_id": "sweet_potato", "serving": "1 medium baked (150g)", "amount_per_serving": 713, "pct_rda": 27 },
+      { "food_id": "banana", "serving": "1 medium (120g)", "amount_per_serving": 430, "pct_rda": 17 },
+      { "food_id": "avocado", "serving": "half avocado (100g)", "amount_per_serving": 485, "pct_rda": 19 }
+    ],
+    "note_key": "supp.potassium.note"
+  },
+  {
+    "id": "vitamin_a",
+    "supplement_name_key": "supp.vitamin_a",
+    "common_dose": "750 mcg RAE",
+    "nutrient_id": "vitamin_a",
+    "why_key": "supp.vitamin_a.why",
+    "food_alternatives": [
+      { "food_id": "sweet_potato", "serving": "1 medium baked (150g)", "amount_per_serving": 1442, "pct_rda": 160 },
+      { "food_id": "carrots", "serving": "1 large carrot (75g)", "amount_per_serving": 626, "pct_rda": 70 },
+      { "food_id": "spinach", "serving": "100g raw", "amount_per_serving": 469, "pct_rda": 52 }
+    ],
+    "note_key": "supp.vitamin_a.note"
+  },
+  {
+    "id": "vitamin_e",
+    "supplement_name_key": "supp.vitamin_e",
+    "common_dose": "15 mg (22.4 IU)",
+    "nutrient_id": "vitamin_e",
+    "why_key": "supp.vitamin_e.why",
+    "food_alternatives": [
+      { "food_id": "almonds", "serving": "30g (about 23 almonds)", "amount_per_serving": 7.7, "pct_rda": 51 },
+      { "food_id": "avocado", "serving": "half avocado (100g)", "amount_per_serving": 2.1, "pct_rda": 14 },
+      { "food_id": "olive_oil", "serving": "1 tbsp (14g)", "amount_per_serving": 2.0, "pct_rda": 13 }
+    ],
+    "note_key": "supp.vitamin_e.note"
+  },
+  {
+    "id": "selenium",
+    "supplement_name_key": "supp.selenium",
+    "common_dose": "55 mcg",
+    "nutrient_id": "selenium",
+    "why_key": "supp.selenium.why",
+    "food_alternatives": [
+      { "food_id": "tuna", "serving": "85g can", "amount_per_serving": 77.0, "pct_rda": 140 },
+      { "food_id": "eggs", "serving": "2 large eggs (100g)", "amount_per_serving": 30.7, "pct_rda": 56 },
+      { "food_id": "chicken_breast", "serving": "100g cooked", "amount_per_serving": 27.6, "pct_rda": 50 }
+    ],
+    "note_key": "supp.selenium.note"
+  },
+  {
+    "id": "probiotics",
+    "supplement_name_key": "supp.probiotics",
+    "common_dose": "10 billion CFU",
+    "nutrient_id": null,
+    "why_key": "supp.probiotics.why",
+    "food_alternatives": [
+      { "food_id": "greek_yogurt", "serving": "200g cup", "amount_per_serving": null, "pct_rda": null },
+      { "food_id": "cottage_cheese", "serving": "100g", "amount_per_serving": null, "pct_rda": null },
+      { "food_id": "milk_whole", "serving": "250ml kefir (fermented)", "amount_per_serving": null, "pct_rda": null }
+    ],
+    "note_key": "supp.probiotics.note"
+  },
+  {
+    "id": "fiber",
+    "supplement_name_key": "supp.fiber",
+    "common_dose": "5 g (psyllium husk)",
+    "nutrient_id": "fiber",
+    "why_key": "supp.fiber.why",
+    "food_alternatives": [
+      { "food_id": "chia_seeds", "serving": "2 tbsp (28g)", "amount_per_serving": 9.6, "pct_rda": 34 },
+      { "food_id": "lentils", "serving": "1 cup cooked (200g)", "amount_per_serving": 15.8, "pct_rda": 56 },
+      { "food_id": "oats", "serving": "50g dry", "amount_per_serving": 5.3, "pct_rda": 19 }
+    ],
+    "note_key": "supp.fiber.note"
+  }
+]

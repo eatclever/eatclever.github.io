@@ -1,0 +1,146 @@
+{
+  "protein": {
+    "name_key": "nutrient.protein",
+    "unit": "g",
+    "rda": { "children": 19, "teens": 52, "adults": 50, "seniors": 50 },
+    "desc_key": "nutrient.protein.desc",
+    "color": "#E53935",
+    "body_effect_key": "nutrient.protein.body_effect"
+  },
+  "fat": {
+    "name_key": "nutrient.fat",
+    "unit": "g",
+    "rda": { "children": 40, "teens": 65, "adults": 65, "seniors": 65 },
+    "desc_key": "nutrient.fat.desc",
+    "color": "#FB8C00",
+    "body_effect_key": "nutrient.fat.body_effect"
+  },
+  "carbs": {
+    "name_key": "nutrient.carbs",
+    "unit": "g",
+    "rda": { "children": 130, "teens": 130, "adults": 130, "seniors": 130 },
+    "desc_key": "nutrient.carbs.desc",
+    "color": "#FDD835",
+    "body_effect_key": "nutrient.carbs.body_effect"
+  },
+  "fiber": {
+    "name_key": "nutrient.fiber",
+    "unit": "g",
+    "rda": { "children": 19, "teens": 26, "adults": 28, "seniors": 28 },
+    "desc_key": "nutrient.fiber.desc",
+    "color": "#8D6E63",
+    "body_effect_key": "nutrient.fiber.body_effect"
+  },
+  "vitamin_a": {
+    "name_key": "nutrient.vitamin_a",
+    "unit": "mcg",
+    "rda": { "children": 400, "teens": 700, "adults": 900, "seniors": 900 },
+    "desc_key": "nutrient.vitamin_a.desc",
+    "color": "#FF7043",
+    "body_effect_key": "nutrient.vitamin_a.body_effect"
+  },
+  "vitamin_b12": {
+    "name_key": "nutrient.vitamin_b12",
+    "unit": "mcg",
+    "rda": { "children": 1.2, "teens": 2.4, "adults": 2.4, "seniors": 2.4 },
+    "desc_key": "nutrient.vitamin_b12.desc",
+    "color": "#AB47BC",
+    "body_effect_key": "nutrient.vitamin_b12.body_effect"
+  },
+  "vitamin_c": {
+    "name_key": "nutrient.vitamin_c",
+    "unit": "mg",
+    "rda": { "children": 25, "teens": 75, "adults": 90, "seniors": 90 },
+    "desc_key": "nutrient.vitamin_c.desc",
+    "color": "#FFA726",
+    "body_effect_key": "nutrient.vitamin_c.body_effect"
+  },
+  "vitamin_d": {
+    "name_key": "nutrient.vitamin_d",
+    "unit": "mcg",
+    "rda": { "children": 15, "teens": 15, "adults": 15, "seniors": 20 },
+    "desc_key": "nutrient.vitamin_d.desc",
+    "color": "#FFEE58",
+    "body_effect_key": "nutrient.vitamin_d.body_effect"
+  },
+  "vitamin_e": {
+    "name_key": "nutrient.vitamin_e",
+    "unit": "mg",
+    "rda": { "children": 7, "teens": 15, "adults": 15, "seniors": 15 },
+    "desc_key": "nutrient.vitamin_e.desc",
+    "color": "#66BB6A",
+    "body_effect_key": "nutrient.vitamin_e.body_effect"
+  },
+  "vitamin_k": {
+    "name_key": "nutrient.vitamin_k",
+    "unit": "mcg",
+    "rda": { "children": 55, "teens": 75, "adults": 120, "seniors": 120 },
+    "desc_key": "nutrient.vitamin_k.desc",
+    "color": "#26A69A",
+    "body_effect_key": "nutrient.vitamin_k.body_effect"
+  },
+  "calcium": {
+    "name_key": "nutrient.calcium",
+    "unit": "mg",
+    "rda": { "children": 1000, "teens": 1300, "adults": 1000, "seniors": 1200 },
+    "desc_key": "nutrient.calcium.desc",
+    "color": "#EEEEEE",
+    "body_effect_key": "nutrient.calcium.body_effect"
+  },
+  "iron": {
+    "name_key": "nutrient.iron",
+    "unit": "mg",
+    "rda": { "children": 10, "teens": 15, "adults": 8, "seniors": 8 },
+    "desc_key": "nutrient.iron.desc",
+    "color": "#B71C1C",
+    "body_effect_key": "nutrient.iron.body_effect"
+  },
+  "magnesium": {
+    "name_key": "nutrient.magnesium",
+    "unit": "mg",
+    "rda": { "children": 130, "teens": 360, "adults": 400, "seniors": 420 },
+    "desc_key": "nutrient.magnesium.desc",
+    "color": "#5C6BC0",
+    "body_effect_key": "nutrient.magnesium.body_effect"
+  },
+  "potassium": {
+    "name_key": "nutrient.potassium",
+    "unit": "mg",
+    "rda": { "children": 2300, "teens": 2500, "adults": 2600, "seniors": 2600 },
+    "desc_key": "nutrient.potassium.desc",
+    "color": "#42A5F5",
+    "body_effect_key": "nutrient.potassium.body_effect"
+  },
+  "zinc": {
+    "name_key": "nutrient.zinc",
+    "unit": "mg",
+    "rda": { "children": 5, "teens": 9, "adults": 11, "seniors": 11 },
+    "desc_key": "nutrient.zinc.desc",
+    "color": "#78909C",
+    "body_effect_key": "nutrient.zinc.body_effect"
+  },
+  "selenium": {
+    "name_key": "nutrient.selenium",
+    "unit": "mcg",
+    "rda": { "children": 30, "teens": 55, "adults": 55, "seniors": 55 },
+    "desc_key": "nutrient.selenium.desc",
+    "color": "#A1887F",
+    "body_effect_key": "nutrient.selenium.body_effect"
+  },
+  "omega_3": {
+    "name_key": "nutrient.omega_3",
+    "unit": "mg",
+    "rda": { "children": 700, "teens": 1100, "adults": 1600, "seniors": 1600 },
+    "desc_key": "nutrient.omega_3.desc",
+    "color": "#29B6F6",
+    "body_effect_key": "nutrient.omega_3.body_effect"
+  },
+  "folate": {
+    "name_key": "nutrient.folate",
+    "unit": "mcg",
+    "rda": { "children": 200, "teens": 400, "adults": 400, "seniors": 400 },
+    "desc_key": "nutrient.folate.desc",
+    "color": "#9CCC65",
+    "body_effect_key": "nutrient.folate.body_effect"
+  }
+}
