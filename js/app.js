@@ -1,5 +1,5 @@
 /**
- * app.js - Main renderer for EatWise
+ * app.js - Main renderer for EatClever
  * Detects current page and renders appropriate content
  */
 document.addEventListener('DOMContentLoaded', async () => {
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     await Data.init();
     await I18n.init();
   } catch (e) {
-    console.error('EatWise init failed:', e);
+    console.error('EatClever init failed:', e);
     return;
   }
 
@@ -1893,7 +1893,7 @@ function _showResults() {
     shareContainer.innerHTML = `<h3>${I18n.t('quiz.share_score')}</h3>` + _shareBarHtml('quiz-share-bar');
     _bindShareButtons(
       document.getElementById('quiz-share-bar'),
-      `I scored ${_quizState.score}/${_quizState.total} on the EatWise Nutrition Quiz!`,
+      `I scored ${_quizState.score}/${_quizState.total} on the EatClever Nutrition Quiz!`,
       window.location.href
     );
   }

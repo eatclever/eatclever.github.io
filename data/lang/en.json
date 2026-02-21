@@ -1,11 +1,11 @@
 {
-  "site.title": "EatWise",
+  "site.title": "EatClever",
   "site.subtitle": "Nutrition facts for everyday food choices",
 
   "wisdom.p1": "Your body is remarkably intelligent. Every day, it breaks down the food you eat and extracts exactly what it needs — building muscle, repairing cells, strengthening bones, fighting infections, and keeping your brain sharp. You don't need to micromanage every vitamin. You just need to give your body the right raw materials.",
   "wisdom.p2": "The secret is simple: eat diverse, eat natural, eat colorful. When you fill your plate with a variety of real foods — vegetables, fruits, proteins, grains, nuts — your body knows exactly what to do with them. It's been doing this for millions of years. Trust it.",
   "wisdom.p3": "Supplements and pills have their place, but nature provides most of what we need. A handful of walnuts, a piece of salmon, a bowl of colorful vegetables — these aren't just meals, they're medicine. Every bite is an opportunity to nourish your body and keep the doctor away.",
-  "wisdom.cta": "EatWise doesn't tell you what to do. We show you the facts — you make the choices that are right for you and your family.",
+  "wisdom.cta": "EatClever doesn't tell you what to do. We show you the facts — you make the choices that are right for you and your family.",
 
   "nav.about": "About",
   "nav.methodology": "Methodology",
@@ -497,26 +497,26 @@
   "food.detail.available_at": "Find it in the grocery store",
   "food.detail.cost_tier": "Cost level",
 
-  "about.title": "About EatWise",
-  "about.intro": "EatWise is an independent nutrition information resource. We present facts about everyday foods so you can make your own informed choices. No diets, no guilt, no sponsors. Just data.",
+  "about.title": "About EatClever",
+  "about.intro": "EatClever is an independent nutrition information resource. We present facts about everyday foods so you can make your own informed choices. No diets, no guilt, no sponsors. Just data.",
   "about.mission.title": "Our Mission",
-  "about.mission.text": "We believe that understanding what is in your food is a right, not a privilege. EatWise exists to make nutrition data accessible, understandable, and actionable for everyone, regardless of budget, background, or dietary preference. We present the data. You choose.",
+  "about.mission.text": "We believe that understanding what is in your food is a right, not a privilege. EatClever exists to make nutrition data accessible, understandable, and actionable for everyone, regardless of budget, background, or dietary preference. We present the data. You choose.",
   "about.sources.title": "Our Sources",
   "about.sources.text": "All nutritional data is sourced from peer-reviewed databases including the USDA FoodData Central, WHO dietary guidelines, and national nutrition authorities. Values represent typical amounts and may vary based on preparation methods, growing conditions, and specific product brands.",
   "about.contact.title": "Contact",
   "about.contact.text": "Have a question, correction, or suggestion? We welcome your feedback. Reach out through our contact form and we will get back to you.",
 
   "methodology.title": "Methodology",
-  "methodology.intro": "Transparency matters. Here is how we gather, calculate, and present the nutrition information on EatWise.",
+  "methodology.intro": "Transparency matters. Here is how we gather, calculate, and present the nutrition information on EatClever.",
   "methodology.sources.title": "Data Sources",
   "methodology.update.title": "Update Schedule",
   "methodology.limitations.title": "Limitations",
 
-  "footer.about": "About EatWise",
+  "footer.about": "About EatClever",
   "footer.sources": "Data Sources",
   "footer.legal": "Legal Notice",
   "footer.contact": "Contact Us",
-  "footer.copyright": "EatWise. Nutrition facts for informed choices.",
+  "footer.copyright": "EatClever. Nutrition facts for informed choices.",
   "footer.support": "Support This Project",
   "footer.sister_sites": "Related Projects",
 

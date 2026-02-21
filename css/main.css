@@ -1,5 +1,5 @@
 /* ==========================================================================
-   EatWise - Nutrition & Meal Planning Platform
+   EatClever - Nutrition & Meal Planning Platform
    Adapted from GlobalProsperity layout system with green nutrition theme
    ========================================================================== */
 
@@ -583,7 +583,7 @@ a.card {
 .score-below_avg { background: var(--score-below); }
 .score-low { background: var(--score-low); }
 
-/* EatWise nutrient score colors */
+/* EatClever nutrient score colors */
 .score-excellent { background: #2E7D32; }
 .score-good { background: #66BB6A; }
 .score-moderate { background: #FFA726; }
@@ -2881,7 +2881,7 @@ a.card {
 }
 
 /* ==========================================================================
-   36. COMPARE PAGE (EatWise-specific extensions)
+   36. COMPARE PAGE (EatClever-specific extensions)
    ========================================================================== */
 .compare-controls {
     display: flex;
@@ -3232,7 +3232,7 @@ a.card {
         font-size: 1.8em;
     }
 
-    /* EatWise-specific responsive */
+    /* EatClever-specific responsive */
     .resto-panels {
         grid-template-columns: 1fr;
     }

@@ -1,10 +1,10 @@
-# EatWise — Eat Smart. Live Better.
+# EatClever — Eat Smart. Live Better.
 
 A nutrition knowledge platform that helps people achieve better health through smart, tasty eating. Discover what to eat at every age — nutritious, practical, and delicious.
 
 ## What This Is
 
-EatWise presents objective nutrition data from trusted sources (WHO, USDA, NIH, Harvard, EFSA) and lets you make informed food choices. This is not a diet website — it's a knowledge platform.
+EatClever presents objective nutrition data from trusted sources (WHO, USDA, NIH, Harvard, EFSA) and lets you make informed food choices. This is not a diet website — it's a knowledge platform.
 
 ## Features
 

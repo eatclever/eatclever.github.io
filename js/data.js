@@ -1,5 +1,5 @@
 /**
- * data.js - Data loader and cache for EatWise
+ * data.js - Data loader and cache for EatClever
  * Fetches and caches all nutrition data JSON files
  */
 const Data = (() => {

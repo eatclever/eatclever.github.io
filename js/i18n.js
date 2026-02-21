@@ -1,5 +1,5 @@
 /**
- * i18n.js - Translation engine for EatWise
+ * i18n.js - Translation engine for EatClever
  * Loads language JSONs, applies translations, handles RTL
  */
 const I18n = (() => {
