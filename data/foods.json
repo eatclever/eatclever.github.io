@@ -1,6 +1,7 @@
 [
   {
     "id": "salmon",
+    "emoji": "🐟",
     "name": {
       "en": "Salmon (Atlantic, cooked)",
       "de": "Lachs (Atlantik, gekocht)",
@@ -40,15 +41,27 @@
       "omega_3": 2260,
       "folate": 26
     },
-    "food_groups": ["protein", "omega-3-rich"],
-    "tags": ["heart-healthy", "brain-food", "anti-inflammatory"],
+    "food_groups": [
+      "protein",
+      "omega-3-rich"
+    ],
+    "tags": [
+      "heart-healthy",
+      "brain-food",
+      "anti-inflammatory"
+    ],
     "cost_tier": 3,
     "availability": "common",
     "grocery_section": "fish_counter",
-    "cook_times": { "quick": true, "medium": true, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "chicken_breast",
+    "emoji": "🍗",
     "name": {
       "en": "Chicken Breast (skinless, cooked)",
       "de": "Hähnchenbrust (ohne Haut, gegart)",
@@ -88,15 +101,27 @@
       "omega_3": 70,
       "folate": 4
     },
-    "food_groups": ["protein", "lean-protein"],
-    "tags": ["high-protein", "low-fat", "muscle-building"],
+    "food_groups": [
+      "protein",
+      "lean-protein"
+    ],
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "muscle-building"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "meat_counter",
-    "cook_times": { "quick": true, "medium": true, "long": true }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "eggs",
+    "emoji": "🥚",
     "name": {
       "en": "Eggs (whole, cooked)",
       "de": "Eier (ganz, gekocht)",
@@ -136,15 +161,27 @@
       "omega_3": 180,
       "folate": 47
     },
-    "food_groups": ["protein", "breakfast-staple"],
-    "tags": ["versatile", "budget-friendly", "complete-protein"],
+    "food_groups": [
+      "protein",
+      "breakfast-staple"
+    ],
+    "tags": [
+      "versatile",
+      "budget-friendly",
+      "complete-protein"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "dairy",
-    "cook_times": { "quick": true, "medium": true, "long": true }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "tofu",
+    "emoji": "🧈",
     "name": {
       "en": "Tofu (firm, raw)",
       "de": "Tofu (fest, roh)",
@@ -184,15 +221,27 @@
       "omega_3": 490,
       "folate": 29
     },
-    "food_groups": ["protein", "plant-based"],
-    "tags": ["vegan", "high-calcium", "low-calorie"],
+    "food_groups": [
+      "protein",
+      "plant-based"
+    ],
+    "tags": [
+      "vegan",
+      "high-calcium",
+      "low-calorie"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "turkey",
+    "emoji": "🦃",
     "name": {
       "en": "Turkey Breast (roasted)",
       "de": "Putenbrust (gebraten)",
@@ -232,15 +281,27 @@
       "omega_3": 40,
       "folate": 8
     },
-    "food_groups": ["protein", "lean-protein"],
-    "tags": ["high-protein", "very-low-fat", "lean"],
+    "food_groups": [
+      "protein",
+      "lean-protein"
+    ],
+    "tags": [
+      "high-protein",
+      "very-low-fat",
+      "lean"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "meat_counter",
-    "cook_times": { "quick": false, "medium": true, "long": true }
+    "cook_times": {
+      "quick": false,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "beef_lean",
+    "emoji": "🥩",
     "name": {
       "en": "Beef (lean, ground, cooked)",
       "de": "Rindfleisch (mager, Hackfleisch, gegart)",
@@ -280,15 +341,27 @@
       "omega_3": 50,
       "folate": 9
     },
-    "food_groups": ["protein", "iron-rich"],
-    "tags": ["iron-rich", "b12-source", "zinc-source"],
+    "food_groups": [
+      "protein",
+      "iron-rich"
+    ],
+    "tags": [
+      "iron-rich",
+      "b12-source",
+      "zinc-source"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "meat_counter",
-    "cook_times": { "quick": true, "medium": true, "long": true }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "sardines",
+    "emoji": "🐟",
     "name": {
       "en": "Sardines (canned in oil, drained)",
       "de": "Sardinen (in Öl eingelegt, abgetropft)",
@@ -328,15 +401,28 @@
       "omega_3": 1480,
       "folate": 10
     },
-    "food_groups": ["protein", "omega-3-rich", "calcium-rich"],
-    "tags": ["heart-healthy", "bone-health", "budget-friendly"],
+    "food_groups": [
+      "protein",
+      "omega-3-rich",
+      "calcium-rich"
+    ],
+    "tags": [
+      "heart-healthy",
+      "bone-health",
+      "budget-friendly"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "canned_goods",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "shrimp",
+    "emoji": "🦐",
     "name": {
       "en": "Shrimp (cooked)",
       "de": "Garnelen (gekocht)",
@@ -376,15 +462,27 @@
       "omega_3": 540,
       "folate": 3
     },
-    "food_groups": ["protein", "lean-protein"],
-    "tags": ["low-calorie", "high-protein", "selenium-rich"],
+    "food_groups": [
+      "protein",
+      "lean-protein"
+    ],
+    "tags": [
+      "low-calorie",
+      "high-protein",
+      "selenium-rich"
+    ],
     "cost_tier": 3,
     "availability": "common",
     "grocery_section": "fish_counter",
-    "cook_times": { "quick": true, "medium": true, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "greek_yogurt",
+    "emoji": "🥛",
     "name": {
       "en": "Greek Yogurt (plain, nonfat)",
       "de": "Griechischer Joghurt (natur, fettfrei)",
@@ -424,15 +522,27 @@
       "omega_3": 5,
       "folate": 7
     },
-    "food_groups": ["dairy", "protein"],
-    "tags": ["probiotic", "high-protein", "low-fat"],
+    "food_groups": [
+      "dairy",
+      "protein"
+    ],
+    "tags": [
+      "probiotic",
+      "high-protein",
+      "low-fat"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "dairy",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "lentils",
+    "emoji": "🫘",
     "name": {
       "en": "Lentils (cooked)",
       "de": "Linsen (gekocht)",
@@ -472,15 +582,29 @@
       "omega_3": 40,
       "folate": 181
     },
-    "food_groups": ["legume", "plant-based", "fiber-rich"],
-    "tags": ["high-fiber", "iron-rich", "budget-friendly", "vegan"],
+    "food_groups": [
+      "legume",
+      "plant-based",
+      "fiber-rich"
+    ],
+    "tags": [
+      "high-fiber",
+      "iron-rich",
+      "budget-friendly",
+      "vegan"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "bulk_bins",
-    "cook_times": { "quick": false, "medium": true, "long": true }
+    "cook_times": {
+      "quick": false,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "brown_rice",
+    "emoji": "🍚",
     "name": {
       "en": "Brown Rice (cooked)",
       "de": "Vollkornreis (gekocht)",
@@ -520,15 +644,27 @@
       "omega_3": 15,
       "folate": 9
     },
-    "food_groups": ["grain", "whole-grain"],
-    "tags": ["whole-grain", "gluten-free", "staple"],
+    "food_groups": [
+      "grain",
+      "whole-grain"
+    ],
+    "tags": [
+      "whole-grain",
+      "gluten-free",
+      "staple"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "bulk_bins",
-    "cook_times": { "quick": false, "medium": true, "long": true }
+    "cook_times": {
+      "quick": false,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "oats",
+    "emoji": "🥣",
     "name": {
       "en": "Oats (rolled, dry)",
       "de": "Haferflocken (zart, trocken)",
@@ -568,15 +704,28 @@
       "omega_3": 110,
       "folate": 56
     },
-    "food_groups": ["grain", "whole-grain", "fiber-rich"],
-    "tags": ["heart-healthy", "high-fiber", "breakfast-staple"],
+    "food_groups": [
+      "grain",
+      "whole-grain",
+      "fiber-rich"
+    ],
+    "tags": [
+      "heart-healthy",
+      "high-fiber",
+      "breakfast-staple"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "bulk_bins",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "quinoa",
+    "emoji": "🌾",
     "name": {
       "en": "Quinoa (cooked)",
       "de": "Quinoa (gekocht)",
@@ -616,15 +765,28 @@
       "omega_3": 86,
       "folate": 42
     },
-    "food_groups": ["grain", "whole-grain", "plant-based"],
-    "tags": ["complete-protein", "gluten-free", "versatile"],
+    "food_groups": [
+      "grain",
+      "whole-grain",
+      "plant-based"
+    ],
+    "tags": [
+      "complete-protein",
+      "gluten-free",
+      "versatile"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "bulk_bins",
-    "cook_times": { "quick": false, "medium": true, "long": false }
+    "cook_times": {
+      "quick": false,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "whole_wheat_bread",
+    "emoji": "🍞",
     "name": {
       "en": "Whole Wheat Bread",
       "de": "Vollkornbrot",
@@ -664,15 +826,27 @@
       "omega_3": 50,
       "folate": 42
     },
-    "food_groups": ["grain", "whole-grain"],
-    "tags": ["fiber-source", "staple", "versatile"],
+    "food_groups": [
+      "grain",
+      "whole-grain"
+    ],
+    "tags": [
+      "fiber-source",
+      "staple",
+      "versatile"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "bakery",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "sweet_potato",
+    "emoji": "🍠",
     "name": {
       "en": "Sweet Potato (baked, with skin)",
       "de": "Süßkartoffel (gebacken, mit Schale)",
@@ -712,15 +886,27 @@
       "omega_3": 3,
       "folate": 6
     },
-    "food_groups": ["vegetable", "starchy-vegetable"],
-    "tags": ["vitamin-a-rich", "kid-friendly", "antioxidant"],
+    "food_groups": [
+      "vegetable",
+      "starchy-vegetable"
+    ],
+    "tags": [
+      "vitamin-a-rich",
+      "kid-friendly",
+      "antioxidant"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": false, "medium": true, "long": true }
+    "cook_times": {
+      "quick": false,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "spinach",
+    "emoji": "🥬",
     "name": {
       "en": "Spinach (raw)",
       "de": "Spinat (roh)",
@@ -760,15 +946,28 @@
       "omega_3": 138,
       "folate": 194
     },
-    "food_groups": ["vegetable", "leafy-green"],
-    "tags": ["iron-rich", "vitamin-k-rich", "low-calorie", "superfood"],
+    "food_groups": [
+      "vegetable",
+      "leafy-green"
+    ],
+    "tags": [
+      "iron-rich",
+      "vitamin-k-rich",
+      "low-calorie",
+      "superfood"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "broccoli",
+    "emoji": "🥦",
     "name": {
       "en": "Broccoli (raw)",
       "de": "Brokkoli (roh)",
@@ -808,15 +1007,27 @@
       "omega_3": 21,
       "folate": 63
     },
-    "food_groups": ["vegetable", "cruciferous"],
-    "tags": ["vitamin-c-rich", "anti-cancer", "kid-friendly"],
+    "food_groups": [
+      "vegetable",
+      "cruciferous"
+    ],
+    "tags": [
+      "vitamin-c-rich",
+      "anti-cancer",
+      "kid-friendly"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "kale",
+    "emoji": "🥬",
     "name": {
       "en": "Kale (raw)",
       "de": "Grünkohl (roh)",
@@ -856,15 +1067,27 @@
       "omega_3": 180,
       "folate": 141
     },
-    "food_groups": ["vegetable", "leafy-green"],
-    "tags": ["superfood", "vitamin-k-rich", "antioxidant"],
+    "food_groups": [
+      "vegetable",
+      "leafy-green"
+    ],
+    "tags": [
+      "superfood",
+      "vitamin-k-rich",
+      "antioxidant"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "bell_pepper",
+    "emoji": "🫑",
     "name": {
       "en": "Bell Pepper (red, raw)",
       "de": "Paprika (rot, roh)",
@@ -904,15 +1127,26 @@
       "omega_3": 24,
       "folate": 46
     },
-    "food_groups": ["vegetable"],
-    "tags": ["vitamin-c-rich", "low-calorie", "colorful"],
+    "food_groups": [
+      "vegetable"
+    ],
+    "tags": [
+      "vitamin-c-rich",
+      "low-calorie",
+      "colorful"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "carrots",
+    "emoji": "🥕",
     "name": {
       "en": "Carrots (raw)",
       "de": "Karotten (roh)",
@@ -952,15 +1186,27 @@
       "omega_3": 2,
       "folate": 19
     },
-    "food_groups": ["vegetable", "root-vegetable"],
-    "tags": ["vitamin-a-rich", "kid-friendly", "eye-health"],
+    "food_groups": [
+      "vegetable",
+      "root-vegetable"
+    ],
+    "tags": [
+      "vitamin-a-rich",
+      "kid-friendly",
+      "eye-health"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": true }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "tomato",
+    "emoji": "🍅",
     "name": {
       "en": "Tomato (raw)",
       "de": "Tomate (roh)",
@@ -1000,15 +1246,26 @@
       "omega_3": 3,
       "folate": 15
     },
-    "food_groups": ["vegetable"],
-    "tags": ["lycopene", "low-calorie", "versatile"],
+    "food_groups": [
+      "vegetable"
+    ],
+    "tags": [
+      "lycopene",
+      "low-calorie",
+      "versatile"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": true }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "avocado",
+    "emoji": "🥑",
     "name": {
       "en": "Avocado (raw)",
       "de": "Avocado (roh)",
@@ -1048,15 +1305,27 @@
       "omega_3": 110,
       "folate": 81
     },
-    "food_groups": ["vegetable", "healthy-fat"],
-    "tags": ["healthy-fat", "potassium-rich", "heart-healthy"],
+    "food_groups": [
+      "vegetable",
+      "healthy-fat"
+    ],
+    "tags": [
+      "healthy-fat",
+      "potassium-rich",
+      "heart-healthy"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "garlic",
+    "emoji": "🧄",
     "name": {
       "en": "Garlic (raw)",
       "de": "Knoblauch (roh)",
@@ -1096,15 +1365,27 @@
       "omega_3": 20,
       "folate": 3
     },
-    "food_groups": ["vegetable", "flavoring"],
-    "tags": ["immune-boosting", "anti-inflammatory", "antimicrobial"],
+    "food_groups": [
+      "vegetable",
+      "flavoring"
+    ],
+    "tags": [
+      "immune-boosting",
+      "anti-inflammatory",
+      "antimicrobial"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": true }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "mushrooms",
+    "emoji": "🍄",
     "name": {
       "en": "Mushrooms (white, raw)",
       "de": "Champignons (weiß, roh)",
@@ -1144,15 +1425,26 @@
       "omega_3": 1,
       "folate": 17
     },
-    "food_groups": ["vegetable"],
-    "tags": ["low-calorie", "vitamin-d-source", "umami"],
+    "food_groups": [
+      "vegetable"
+    ],
+    "tags": [
+      "low-calorie",
+      "vitamin-d-source",
+      "umami"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": false
+    }
   },
   {
     "id": "cauliflower",
+    "emoji": "🥦",
     "name": {
       "en": "Cauliflower (raw)",
       "de": "Blumenkohl (roh)",
@@ -1192,15 +1484,27 @@
       "omega_3": 37,
       "folate": 57
     },
-    "food_groups": ["vegetable", "cruciferous"],
-    "tags": ["low-carb", "versatile", "anti-cancer"],
+    "food_groups": [
+      "vegetable",
+      "cruciferous"
+    ],
+    "tags": [
+      "low-carb",
+      "versatile",
+      "anti-cancer"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": true, "long": true }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "banana",
+    "emoji": "🍌",
     "name": {
       "en": "Banana (raw)",
       "de": "Banane (roh)",
@@ -1240,15 +1544,26 @@
       "omega_3": 27,
       "folate": 20
     },
-    "food_groups": ["fruit"],
-    "tags": ["potassium-rich", "energy-boost", "kid-friendly"],
+    "food_groups": [
+      "fruit"
+    ],
+    "tags": [
+      "potassium-rich",
+      "energy-boost",
+      "kid-friendly"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "blueberries",
+    "emoji": "🫐",
     "name": {
       "en": "Blueberries (raw)",
       "de": "Blaubeeren (roh)",
@@ -1288,15 +1603,27 @@
       "omega_3": 58,
       "folate": 6
     },
-    "food_groups": ["fruit", "berry"],
-    "tags": ["antioxidant", "brain-food", "anti-aging"],
+    "food_groups": [
+      "fruit",
+      "berry"
+    ],
+    "tags": [
+      "antioxidant",
+      "brain-food",
+      "anti-aging"
+    ],
     "cost_tier": 2,
     "availability": "seasonal",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "strawberries",
+    "emoji": "🍓",
     "name": {
       "en": "Strawberries (raw)",
       "de": "Erdbeeren (roh)",
@@ -1336,15 +1663,27 @@
       "omega_3": 65,
       "folate": 24
     },
-    "food_groups": ["fruit", "berry"],
-    "tags": ["vitamin-c-rich", "low-calorie", "antioxidant"],
+    "food_groups": [
+      "fruit",
+      "berry"
+    ],
+    "tags": [
+      "vitamin-c-rich",
+      "low-calorie",
+      "antioxidant"
+    ],
     "cost_tier": 2,
     "availability": "seasonal",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "orange",
+    "emoji": "🍊",
     "name": {
       "en": "Orange (raw)",
       "de": "Orange (roh)",
@@ -1384,15 +1723,27 @@
       "omega_3": 7,
       "folate": 30
     },
-    "food_groups": ["fruit", "citrus"],
-    "tags": ["vitamin-c-rich", "immune-boosting", "refreshing"],
+    "food_groups": [
+      "fruit",
+      "citrus"
+    ],
+    "tags": [
+      "vitamin-c-rich",
+      "immune-boosting",
+      "refreshing"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "apple",
+    "emoji": "🍎",
     "name": {
       "en": "Apple (raw, with skin)",
       "de": "Apfel (roh, mit Schale)",
@@ -1432,15 +1783,26 @@
       "omega_3": 9,
       "folate": 3
     },
-    "food_groups": ["fruit"],
-    "tags": ["fiber-source", "portable", "kid-friendly"],
+    "food_groups": [
+      "fruit"
+    ],
+    "tags": [
+      "fiber-source",
+      "portable",
+      "kid-friendly"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "mango",
+    "emoji": "🥭",
     "name": {
       "en": "Mango (raw)",
       "de": "Mango (roh)",
@@ -1480,15 +1842,27 @@
       "omega_3": 51,
       "folate": 43
     },
-    "food_groups": ["fruit", "tropical"],
-    "tags": ["vitamin-a-rich", "tropical", "kid-friendly"],
+    "food_groups": [
+      "fruit",
+      "tropical"
+    ],
+    "tags": [
+      "vitamin-a-rich",
+      "tropical",
+      "kid-friendly"
+    ],
     "cost_tier": 2,
     "availability": "seasonal",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "kiwi",
+    "emoji": "🥝",
     "name": {
       "en": "Kiwi (raw)",
       "de": "Kiwi (roh)",
@@ -1528,15 +1902,26 @@
       "omega_3": 42,
       "folate": 25
     },
-    "food_groups": ["fruit"],
-    "tags": ["vitamin-c-rich", "digestive-health", "nutrient-dense"],
+    "food_groups": [
+      "fruit"
+    ],
+    "tags": [
+      "vitamin-c-rich",
+      "digestive-health",
+      "nutrient-dense"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "grapes",
+    "emoji": "🍇",
     "name": {
       "en": "Grapes (red, raw)",
       "de": "Weintrauben (rot, roh)",
@@ -1576,15 +1961,26 @@
       "omega_3": 11,
       "folate": 2
     },
-    "food_groups": ["fruit"],
-    "tags": ["antioxidant", "resveratrol", "portable"],
+    "food_groups": [
+      "fruit"
+    ],
+    "tags": [
+      "antioxidant",
+      "resveratrol",
+      "portable"
+    ],
     "cost_tier": 2,
     "availability": "seasonal",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "watermelon",
+    "emoji": "🍉",
     "name": {
       "en": "Watermelon (raw)",
       "de": "Wassermelone (roh)",
@@ -1624,15 +2020,27 @@
       "omega_3": 20,
       "folate": 3
     },
-    "food_groups": ["fruit", "melon"],
-    "tags": ["hydrating", "low-calorie", "refreshing"],
+    "food_groups": [
+      "fruit",
+      "melon"
+    ],
+    "tags": [
+      "hydrating",
+      "low-calorie",
+      "refreshing"
+    ],
     "cost_tier": 1,
     "availability": "seasonal",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "pomegranate",
+    "emoji": "🫐",
     "name": {
       "en": "Pomegranate (raw, arils)",
       "de": "Granatapfel (roh, Kerne)",
@@ -1672,15 +2080,26 @@
       "omega_3": 79,
       "folate": 38
     },
-    "food_groups": ["fruit"],
-    "tags": ["antioxidant", "anti-inflammatory", "heart-healthy"],
+    "food_groups": [
+      "fruit"
+    ],
+    "tags": [
+      "antioxidant",
+      "anti-inflammatory",
+      "heart-healthy"
+    ],
     "cost_tier": 3,
     "availability": "seasonal",
     "grocery_section": "produce",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "milk_whole",
+    "emoji": "🥛",
     "name": {
       "en": "Milk (whole, 3.25% fat)",
       "de": "Milch (Vollmilch, 3,25% Fett)",
@@ -1720,15 +2139,27 @@
       "omega_3": 75,
       "folate": 5
     },
-    "food_groups": ["dairy", "calcium-rich"],
-    "tags": ["calcium-rich", "bone-health", "kid-friendly"],
+    "food_groups": [
+      "dairy",
+      "calcium-rich"
+    ],
+    "tags": [
+      "calcium-rich",
+      "bone-health",
+      "kid-friendly"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "dairy",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "cheese_cheddar",
+    "emoji": "🧀",
     "name": {
       "en": "Cheddar Cheese",
       "de": "Cheddar-Käse",
@@ -1768,15 +2199,27 @@
       "omega_3": 90,
       "folate": 18
     },
-    "food_groups": ["dairy", "calcium-rich"],
-    "tags": ["high-calcium", "high-protein", "high-fat"],
+    "food_groups": [
+      "dairy",
+      "calcium-rich"
+    ],
+    "tags": [
+      "high-calcium",
+      "high-protein",
+      "high-fat"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "dairy",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "cottage_cheese",
+    "emoji": "🧀",
     "name": {
       "en": "Cottage Cheese (low-fat, 2%)",
       "de": "Hüttenkäse (fettarm, 2%)",
@@ -1816,15 +2259,27 @@
       "omega_3": 20,
       "folate": 12
     },
-    "food_groups": ["dairy", "protein"],
-    "tags": ["high-protein", "low-fat", "muscle-building"],
+    "food_groups": [
+      "dairy",
+      "protein"
+    ],
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "muscle-building"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "dairy",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "almonds",
+    "emoji": "🌰",
     "name": {
       "en": "Almonds (raw)",
       "de": "Mandeln (roh)",
@@ -1864,15 +2319,27 @@
       "omega_3": 6,
       "folate": 44
     },
-    "food_groups": ["nuts_seeds", "healthy-fat"],
-    "tags": ["vitamin-e-rich", "heart-healthy", "high-fiber"],
+    "food_groups": [
+      "nuts_seeds",
+      "healthy-fat"
+    ],
+    "tags": [
+      "vitamin-e-rich",
+      "heart-healthy",
+      "high-fiber"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "bulk_bins",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "walnuts",
+    "emoji": "🥜",
     "name": {
       "en": "Walnuts (raw)",
       "de": "Walnüsse (roh)",
@@ -1912,15 +2379,27 @@
       "omega_3": 9080,
       "folate": 98
     },
-    "food_groups": ["nuts_seeds", "omega-3-rich"],
-    "tags": ["brain-food", "omega-3-rich", "heart-healthy"],
+    "food_groups": [
+      "nuts_seeds",
+      "omega-3-rich"
+    ],
+    "tags": [
+      "brain-food",
+      "omega-3-rich",
+      "heart-healthy"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "bulk_bins",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "chia_seeds",
+    "emoji": "🌱",
     "name": {
       "en": "Chia Seeds (dried)",
       "de": "Chiasamen (getrocknet)",
@@ -1960,15 +2439,28 @@
       "omega_3": 17830,
       "folate": 49
     },
-    "food_groups": ["nuts_seeds", "omega-3-rich", "fiber-rich"],
-    "tags": ["superfood", "omega-3-rich", "high-fiber"],
+    "food_groups": [
+      "nuts_seeds",
+      "omega-3-rich",
+      "fiber-rich"
+    ],
+    "tags": [
+      "superfood",
+      "omega-3-rich",
+      "high-fiber"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "bulk_bins",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "flaxseeds",
+    "emoji": "🌱",
     "name": {
       "en": "Flaxseeds (ground)",
       "de": "Leinsamen (gemahlen)",
@@ -2008,15 +2500,28 @@
       "omega_3": 22810,
       "folate": 87
     },
-    "food_groups": ["nuts_seeds", "omega-3-rich", "fiber-rich"],
-    "tags": ["omega-3-rich", "high-fiber", "hormone-balance"],
+    "food_groups": [
+      "nuts_seeds",
+      "omega-3-rich",
+      "fiber-rich"
+    ],
+    "tags": [
+      "omega-3-rich",
+      "high-fiber",
+      "hormone-balance"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "bulk_bins",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "chickpeas",
+    "emoji": "🫘",
     "name": {
       "en": "Chickpeas (cooked)",
       "de": "Kichererbsen (gekocht)",
@@ -2056,15 +2561,29 @@
       "omega_3": 43,
       "folate": 172
     },
-    "food_groups": ["legume", "plant-based", "fiber-rich"],
-    "tags": ["high-fiber", "budget-friendly", "vegan", "versatile"],
+    "food_groups": [
+      "legume",
+      "plant-based",
+      "fiber-rich"
+    ],
+    "tags": [
+      "high-fiber",
+      "budget-friendly",
+      "vegan",
+      "versatile"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "canned_goods",
-    "cook_times": { "quick": false, "medium": true, "long": true }
+    "cook_times": {
+      "quick": false,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "black_beans",
+    "emoji": "🫘",
     "name": {
       "en": "Black Beans (cooked)",
       "de": "Schwarze Bohnen (gekocht)",
@@ -2104,15 +2623,29 @@
       "omega_3": 18,
       "folate": 149
     },
-    "food_groups": ["legume", "plant-based", "fiber-rich"],
-    "tags": ["high-fiber", "antioxidant", "budget-friendly", "vegan"],
+    "food_groups": [
+      "legume",
+      "plant-based",
+      "fiber-rich"
+    ],
+    "tags": [
+      "high-fiber",
+      "antioxidant",
+      "budget-friendly",
+      "vegan"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "canned_goods",
-    "cook_times": { "quick": false, "medium": true, "long": true }
+    "cook_times": {
+      "quick": false,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "olive_oil",
+    "emoji": "🫒",
     "name": {
       "en": "Olive Oil (extra virgin)",
       "de": "Olivenöl (extra vergine)",
@@ -2152,15 +2685,27 @@
       "omega_3": 761,
       "folate": 0
     },
-    "food_groups": ["fat", "healthy-fat"],
-    "tags": ["healthy-fat", "anti-inflammatory", "mediterranean"],
+    "food_groups": [
+      "fat",
+      "healthy-fat"
+    ],
+    "tags": [
+      "healthy-fat",
+      "anti-inflammatory",
+      "mediterranean"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "oils_condiments",
-    "cook_times": { "quick": true, "medium": true, "long": true }
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    }
   },
   {
     "id": "dark_chocolate",
+    "emoji": "🍫",
     "name": {
       "en": "Dark Chocolate (70-85% cacao)",
       "de": "Zartbitterschokolade (70-85% Kakao)",
@@ -2200,15 +2745,26 @@
       "omega_3": 0,
       "folate": 12
     },
-    "food_groups": ["other"],
-    "tags": ["antioxidant", "mood-boosting", "magnesium-rich"],
+    "food_groups": [
+      "other"
+    ],
+    "tags": [
+      "antioxidant",
+      "mood-boosting",
+      "magnesium-rich"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "snacks",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "green_tea",
+    "emoji": "🍵",
     "name": {
       "en": "Green Tea (brewed)",
       "de": "Grüner Tee (aufgebrüht)",
@@ -2248,15 +2804,26 @@
       "omega_3": 0,
       "folate": 1
     },
-    "food_groups": ["beverage"],
-    "tags": ["antioxidant", "metabolism-boost", "calming"],
+    "food_groups": [
+      "beverage"
+    ],
+    "tags": [
+      "antioxidant",
+      "metabolism-boost",
+      "calming"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "oils_condiments",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "honey",
+    "emoji": "🍯",
     "name": {
       "en": "Honey (raw)",
       "de": "Honig (roh)",
@@ -2296,15 +2863,26 @@
       "omega_3": 0,
       "folate": 2
     },
-    "food_groups": ["sweetener"],
-    "tags": ["natural-sweetener", "antimicrobial", "soothing"],
+    "food_groups": [
+      "sweetener"
+    ],
+    "tags": [
+      "natural-sweetener",
+      "antimicrobial",
+      "soothing"
+    ],
     "cost_tier": 2,
     "availability": "common",
     "grocery_section": "oils_condiments",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "tuna",
+    "emoji": "🐟",
     "name": {
       "en": "Tuna (canned in water, drained)",
       "de": "Thunfisch (Dose in Wasser, abgetropft)",
@@ -2344,15 +2922,28 @@
       "omega_3": 270,
       "folate": 4
     },
-    "food_groups": ["protein", "lean-protein"],
-    "tags": ["high-protein", "low-fat", "budget-friendly", "selenium-rich"],
+    "food_groups": [
+      "protein",
+      "lean-protein"
+    ],
+    "tags": [
+      "high-protein",
+      "low-fat",
+      "budget-friendly",
+      "selenium-rich"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "canned_goods",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   },
   {
     "id": "peanut_butter",
+    "emoji": "🥜",
     "name": {
       "en": "Peanut Butter (natural)",
       "de": "Erdnussbutter (natürlich)",
@@ -2392,11 +2983,23 @@
       "omega_3": 30,
       "folate": 87
     },
-    "food_groups": ["nuts_seeds", "protein"],
-    "tags": ["high-protein", "energy-dense", "kid-friendly", "budget-friendly"],
+    "food_groups": [
+      "nuts_seeds",
+      "protein"
+    ],
+    "tags": [
+      "high-protein",
+      "energy-dense",
+      "kid-friendly",
+      "budget-friendly"
+    ],
     "cost_tier": 1,
     "availability": "common",
     "grocery_section": "oils_condiments",
-    "cook_times": { "quick": true, "medium": false, "long": false }
+    "cook_times": {
+      "quick": true,
+      "medium": false,
+      "long": false
+    }
   }
 ]

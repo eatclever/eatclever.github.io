@@ -182,6 +182,10 @@ function _categoryIcon(catId) {
   return icons[catId] || '\u{1F37D}';
 }
 
+function _foodIcon(food) {
+  return food.emoji || _categoryIcon(food.category);
+}
+
 function _formatList(items) {
   if (items.length === 0) return '';
   if (items.length === 1) return items[0];
@@ -627,7 +631,7 @@ function _renderAgeGroupDetail(groupId) {
           ${keyFoods.map(fid => {
             const food = Data.getFood(fid);
             if (!food) return `<span class="food-chip">${fid}</span>`;
-            return `<a href="food-detail.html?id=${fid}" class="food-chip">${_categoryIcon(food.category)} ${I18n.getFoodName(food)}</a>`;
+            return `<a href="food-detail.html?id=${fid}" class="food-chip">${_foodIcon(food)} ${I18n.getFoodName(food)}</a>`;
           }).join('')}
         </div>
       </div>
@@ -1173,7 +1177,7 @@ function renderFoodDetail() {
             ${foods.map((f, i) => `
               <a href="food-detail.html?id=${f.id}" class="card food-browse-card">
                 <span class="food-browse-rank">#${i + 1}</span>
-                <span class="food-browse-icon">${_categoryIcon(f.category)}</span>
+                <span class="food-browse-icon">${_foodIcon(f)}</span>
                 <span class="food-browse-name">${I18n.getFoodName(f)}</span>
                 <span class="food-browse-cal">${f.calories} kcal</span>
               </a>
@@ -1200,7 +1204,7 @@ function renderFoodDetail() {
       <div class="food-browse-grid">
         ${foods.map(f => `
           <a href="food-detail.html?id=${f.id}" class="card food-browse-card">
-            <span class="food-browse-icon">${_categoryIcon(f.category)}</span>
+            <span class="food-browse-icon">${_foodIcon(f)}</span>
             <span class="food-browse-name">${I18n.getFoodName(f)}</span>
             <span class="food-browse-cal">${f.calories} kcal</span>
           </a>
@@ -1240,7 +1244,7 @@ function renderFoodDetail() {
     ${_backLink()}
 
     <div class="food-detail-header">
-      <h1 class="page-title">${_categoryIcon(food.category)} ${foodName}</h1>
+      <h1 class="page-title">${_foodIcon(food)} ${foodName}</h1>
       <div class="food-tags-row">
         <span class="tag category-tag" style="background:${_catColor(food.category)}">${I18n.t('food.category.' + food.category)}</span>
         ${food.subcategory ? `<span class="tag subcategory-tag">${food.subcategory}</span>` : ''}

@@ -92,18 +92,12 @@ const FoodSelector = (() => {
       id: f.id,
       name: I18n.getFoodName(f),
       cal: f.calories,
-      cat: f.category
+      emoji: f.emoji || ''
     })).sort((a, b) => a.name.localeCompare(b.name, lang));
-
-    const catIcons = {
-      protein: '\u{1F969}', grain: '\u{1F33E}', vegetable: '\u{1F966}',
-      fruit: '\u{1F34E}', dairy: '\u{1F95B}', nut_seed: '\u{1F330}',
-      legume: '\u{1FAD8}', other: '\u{1F375}'
-    };
 
     _list.innerHTML = sorted.map(f =>
       `<a href="food-detail.html?id=${f.id}" data-name="${f.name}">
-        <span>${catIcons[f.cat] || ''} ${f.name}</span>
+        <span>${f.emoji} ${f.name}</span>
         <span class="food-cal-badge">${f.cal} kcal</span>
       </a>`
     ).join('');
