@@ -122,21 +122,22 @@
     <script src="js/app.js"></script>
     <script data-goatcounter="https://eatclever.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     <script>
-    // Fetch and display visitor count from GoatCounter
+    // Wait for GoatCounter count.js to load, then fetch visitor count
     (function() {
       var el = document.getElementById('visitor-counter');
       if (!el) return;
-      var r = new XMLHttpRequest();
-      r.open('GET', 'https://eatclever.goatcounter.com/counter/' + encodeURIComponent('/') + '.json');
-      r.onload = function() {
-        if (r.status === 200) {
-          try {
-            var data = JSON.parse(r.responseText);
-            el.textContent = '\uD83D\uDC41 ' + data.count_unique + ' visitors';
-          } catch(e) {}
+      var t = setInterval(function() {
+        if (window.goatcounter && window.goatcounter.visit_count) {
+          clearInterval(t);
+          var base = 'https://eatclever.goatcounter.com/counter/';
+          var path = encodeURIComponent(location.pathname || '/');
+          fetch(base + path + '.json')
+            .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+            .then(function(data) { el.textContent = data.count + ' visitors'; })
+            .catch(function() {});
         }
-      };
-      r.send();
+      }, 200);
+      setTimeout(function() { clearInterval(t); }, 5000);
     })();
     </script>
 </body>
