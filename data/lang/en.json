@@ -718,5 +718,47 @@
   "accessibility.language_selector": "Select language",
   "accessibility.dark_mode": "Toggle dark mode",
   "accessibility.increase_font": "Increase font size",
-  "accessibility.decrease_font": "Decrease font size"
+  "accessibility.decrease_font": "Decrease font size",
+
+  "cat.section_title": "Explore by Category",
+  "cat.section_subtitle": "Six pillars of smart eating",
+  "featured.title": "Featured",
+  "featured.subtitle": "Quick nutrition insights",
+
+  "footer.explore": "Explore",
+  "footer.tools": "Tools",
+  "footer.about.project": "About EatClever",
+  "footer.about.methodology": "Data Sources",
+  "footer.legal.impressum": "Impressum",
+  "footer.legal.privacy": "Privacy Policy",
+
+  "about.approach.title": "Our Approach",
+  "about.approach.text": "Every recommendation on EatClever is grounded in data from leading health organizations and peer-reviewed research. We focus on whole foods, balanced eating, and practical advice that fits real life.",
+
+  "methodology.approach.title": "Our Approach",
+  "methodology.approach.text": "We cross-reference multiple sources to ensure accuracy. Nutrient values represent standard serving sizes and are updated regularly. Our comparisons and recommendations follow established dietary guidelines while remaining practical for everyday use.",
+  "methodology.limitations.text": "Nutrition science is complex and evolving. Individual needs vary based on age, health conditions, activity level, and other factors. EatClever provides general guidance and should not replace professional medical or dietary advice. Nutrient values can vary based on growing conditions, preparation methods, and product brands.",
+  "methodology.sources.text": "EatClever draws nutrition data from the following authoritative, peer-reviewed sources:",
+
+  "impressum.intro": "Legal notice in accordance with applicable regulations.",
+  "impressum.responsible.title": "Responsible for Content",
+  "impressum.responsible.text": "EatClever is a non-commercial, educational nutrition knowledge platform. Content is provided for informational purposes only and does not constitute medical or dietary advice.",
+  "impressum.disclaimer.title": "Disclaimer",
+  "impressum.disclaimer.text": "While we strive for accuracy, we make no warranties regarding the completeness or reliability of the information presented. Nutrition needs vary by individual, and professional guidance should be sought for specific dietary requirements or health conditions.",
+  "impressum.copyright.title": "Copyright",
+  "impressum.copyright.text": "The content and design of this website are subject to copyright. Reproduction, editing, distribution, or any form of use beyond the scope of copyright law requires written consent. Downloads and copies of this site are only permitted for private, non-commercial use.",
+  "impressum.links.title": "External Links",
+  "impressum.links.text": "This website contains links to external websites. We have no control over the content of linked sites and assume no liability for their content. The respective operators are responsible for the content of linked pages.",
+
+  "privacy.intro": "Your privacy matters to us. This page explains how EatClever handles data.",
+  "privacy.collection.title": "Data Collection",
+  "privacy.collection.text": "EatClever is a static website and does not collect personal data. We do not use cookies for tracking, and no user accounts are required. Any preferences (such as language selection) are stored locally in your browser using localStorage.",
+  "privacy.analytics.title": "Analytics",
+  "privacy.analytics.text": "We may use privacy-respecting analytics to understand general usage patterns. No personally identifiable information is collected or shared with third parties.",
+  "privacy.thirdparty.title": "Third-Party Services",
+  "privacy.thirdparty.text": "EatClever may load resources from content delivery networks (CDNs) for libraries such as Chart.js. These services have their own privacy policies. No personal data is transmitted to these services through EatClever.",
+  "privacy.rights.title": "Your Rights",
+  "privacy.rights.text": "Since we do not collect personal data, there is no personal information to access, modify, or delete. You can clear your browser's localStorage at any time to reset any locally stored preferences.",
+  "privacy.changes.title": "Changes to This Policy",
+  "privacy.changes.text": "We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date."
 }

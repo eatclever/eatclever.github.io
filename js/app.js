@@ -2,6 +2,14 @@
  * app.js - Main renderer for EatClever
  * Detects current page and renders appropriate content
  */
+// Disable browser's scroll restoration (fires before dynamic content is ready)
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
+// Save scroll position before leaving the page
+window.addEventListener('beforeunload', () => {
+  sessionStorage.setItem('ew-scroll-' + location.pathname, window.scrollY);
+});
+
 document.addEventListener('DOMContentLoaded', async () => {
   try {
     await Data.init();
@@ -19,6 +27,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const page = detectPage();
   renderPage(page);
+
+  // Restore scroll position after content is rendered
+  const savedY = sessionStorage.getItem('ew-scroll-' + location.pathname);
+  if (savedY) {
+    requestAnimationFrame(() => window.scrollTo(0, parseInt(savedY, 10)));
+  }
 
   // Re-render on language change
   document.addEventListener('ew-lang-change', () => renderPage(detectPage()));
@@ -101,6 +115,30 @@ function renderPage(page) {
 /* ==========================================================================
    HELPER FUNCTIONS
    ========================================================================== */
+
+/* ===== Currency formatting by language ===== */
+const _currencyMap = {
+  en: { symbol: '$',  rate: 1,     before: true  },
+  de: { symbol: '€',  rate: 0.92,  before: false },
+  es: { symbol: '€',  rate: 0.92,  before: false },
+  fr: { symbol: '€',  rate: 0.92,  before: false },
+  it: { symbol: '€',  rate: 0.92,  before: false },
+  pt: { symbol: 'R$', rate: 5.0,   before: true  },
+  ro: { symbol: 'lei', rate: 4.6,  before: false },
+  ru: { symbol: '₽',  rate: 92,    before: false },
+  zh: { symbol: '¥',  rate: 7.2,   before: true  },
+  ja: { symbol: '¥',  rate: 150,   before: true  },
+  ar: { symbol: '$',  rate: 1,     before: true  },
+  hi: { symbol: '₹',  rate: 83,    before: true  }
+};
+
+function formatPrice(usdAmount) {
+  const lang = (typeof I18n !== 'undefined' && I18n.getLang()) || 'en';
+  const c = _currencyMap[lang] || _currencyMap.en;
+  const converted = Math.round(usdAmount * c.rate);
+  if (c.before) return `${c.symbol}${converted}`;
+  return `${converted}${c.symbol === 'lei' ? ' ' + c.symbol : c.symbol}`;
+}
 
 function scoreColor(pctRda) {
   if (pctRda >= 50) return '#2E7D32';
@@ -840,7 +878,7 @@ function _renderRestoCards(category) {
             <div class="stat-row"><span>${I18n.t('general.fat')}</span><span class="stat-val-bad">${rest.fat}g</span></div>
             <div class="stat-row"><span>${I18n.t('general.sodium')}</span><span class="stat-val-bad">${rest.sodium}mg</span></div>
             <div class="stat-row"><span>${I18n.t('general.sugar')}</span><span class="stat-val-bad">${rest.sugar}g</span></div>
-            <div class="stat-row"><span>${I18n.t('general.cost')}</span><span>$${rest.cost_usd}</span></div>
+            <div class="stat-row"><span>${I18n.t('general.cost')}</span><span>${formatPrice(rest.cost_usd)}</span></div>
           </div>
         </div>
         <div class="resto-panel resto-panel-home">
@@ -852,7 +890,7 @@ function _renderRestoCards(category) {
             <div class="stat-row"><span>${I18n.t('general.fat')}</span><span class="stat-val-good">${home.fat}g</span></div>
             <div class="stat-row"><span>${I18n.t('general.sodium')}</span><span class="stat-val-good">${home.sodium}mg</span></div>
             <div class="stat-row"><span>${I18n.t('general.sugar')}</span><span class="stat-val-good">${home.sugar}g</span></div>
-            <div class="stat-row"><span>${I18n.t('general.cost')}</span><span>$${home.cost_usd}</span></div>
+            <div class="stat-row"><span>${I18n.t('general.cost')}</span><span>${formatPrice(home.cost_usd)}</span></div>
           </div>
           <div class="cook-time-note">${I18n.t('resto.cook_time')}: ${home.cook_time_min} ${I18n.t('general.minutes')}</div>
         </div>
@@ -997,7 +1035,7 @@ function _renderShoppingPlan(planId) {
   const plan = Data.getWeeklyPlan(planId);
   if (!plan) return;
 
-  const perDay = (plan.total_cost_usd / 7).toFixed(2);
+  const perDay = formatPrice(plan.total_cost_usd / 7);
 
   // 7-day meal grid
   const daysHtml = (plan.days || []).map(day => {
@@ -1031,7 +1069,7 @@ function _renderShoppingPlan(planId) {
     const items = grouped[section];
     const sectionTotal = items.reduce((sum, it) => sum + (it.est_cost_usd || 0), 0).toFixed(2);
     return `<div class="shopping-section-group">
-      <h4 class="shopping-section-title">${sectionLabel} <small>($${sectionTotal})</small></h4>
+      <h4 class="shopping-section-title">${sectionLabel} <small>(${formatPrice(parseFloat(sectionTotal))})</small></h4>
       <table class="shopping-table">
         <thead>
           <tr>
@@ -1047,7 +1085,7 @@ function _renderShoppingPlan(planId) {
             return `<tr>
               <td><a href="food-detail.html?id=${item.food_id}">${name}</a></td>
               <td>${item.quantity}</td>
-              <td>$${item.est_cost_usd.toFixed(2)}</td>
+              <td>${formatPrice(item.est_cost_usd)}</td>
             </tr>`;
           }).join('')}
         </tbody>
@@ -1059,11 +1097,11 @@ function _renderShoppingPlan(planId) {
     <div class="shopping-cost-summary">
       <div class="cost-box">
         <span class="cost-label">${I18n.t('shop.weekly_cost')}</span>
-        <span class="cost-value">$${plan.total_cost_usd}</span>
+        <span class="cost-value">${formatPrice(plan.total_cost_usd)}</span>
       </div>
       <div class="cost-box">
         <span class="cost-label">${I18n.t('shop.per_day')}</span>
-        <span class="cost-value">$${perDay}</span>
+        <span class="cost-value">${perDay}</span>
       </div>
     </div>
 
@@ -1078,7 +1116,7 @@ function _renderShoppingPlan(planId) {
     </div>
 
     <div class="shopping-total">
-      <strong>${I18n.t('shop.total')}: $${plan.total_cost_usd}</strong>
+      <strong>${I18n.t('shop.total')}: ${formatPrice(plan.total_cost_usd)}</strong>
     </div>
   `;
 }
@@ -1236,7 +1274,9 @@ function renderCompare() {
   const container = document.getElementById('compare-content');
   if (!container) return;
 
-  const allFoods = Data.getAllFoods();
+  const allFoods = Data.getAllFoods().slice().sort((a, b) =>
+    I18n.getFoodName(a).localeCompare(I18n.getFoodName(b), I18n.getLang())
+  );
   const foodOptions = allFoods.map(f => `<option value="${f.id}">${I18n.getFoodName(f)} (${f.calories} kcal)</option>`).join('');
 
   container.innerHTML = `
