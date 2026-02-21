@@ -3366,6 +3366,19 @@ a.card {
     font-size: 0.9rem;
 }
 
+.food-browse-rank {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fff;
+    background: #2E7D32;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .food-browse-cal {
     font-size: 0.8rem;
     color: #777;

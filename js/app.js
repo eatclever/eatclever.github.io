@@ -433,7 +433,7 @@ function _renderFeaturedCards() {
   if (!container) return;
 
   const featured = [
-    { title: 'Top 10 Nutrient-Dense Foods', icon: '\u{1F3C6}', color: '#2E7D32', link: 'food-detail.html' },
+    { title: 'Top 10 Nutrient-Dense Foods', icon: '\u{1F3C6}', color: '#2E7D32', link: 'food-detail.html?top=10' },
     { title: 'Quick Meals Under 15 Min', icon: '\u{23F1}', color: '#E65100', link: 'cook-time.html' },
     { title: 'Supplement Swaps', icon: '\u{1F48A}', color: '#C62828', link: 'food-vs-supplements.html' },
     { title: 'Kids\' Favorites', icon: '\u{1F476}', color: '#1565C0', link: 'age-nutrition.html' },
@@ -1143,14 +1143,30 @@ function renderFoodDetail() {
   const params = new URLSearchParams(window.location.search);
   const foodId = params.get('id');
   if (!foodId) {
-    const foods = Data.getAllFoods();
-    const sorted = foods.slice().sort((a, b) => I18n.getFoodName(a).localeCompare(I18n.getFoodName(b)));
+    const topN = parseInt(params.get('top'));
+    const allFoods = Data.getAllFoods();
+    let foods, title;
+
+    if (topN > 0) {
+      // Rank by overall nutrient score (adults) and take top N
+      foods = allFoods.slice()
+        .map(f => ({ food: f, score: Data.getOverallScore(f, 'adults') }))
+        .sort((a, b) => b.score - a.score)
+        .slice(0, topN)
+        .map(item => item.food);
+      title = `🏆 Top ${topN} Nutrient-Dense Foods`;
+    } else {
+      foods = allFoods.slice().sort((a, b) => I18n.getFoodName(a).localeCompare(I18n.getFoodName(b)));
+      title = I18n.t('nav.food_search');
+    }
+
     container.innerHTML = `
       ${_backLink()}
-      <h1 class="page-title">${I18n.t('nav.food_search')}</h1>
+      <h1 class="page-title">${title}</h1>
       <div class="food-browse-grid">
-        ${sorted.map(f => `
+        ${foods.map((f, i) => `
           <a href="food-detail.html?id=${f.id}" class="card food-browse-card">
+            ${topN > 0 ? `<span class="food-browse-rank">#${i + 1}</span>` : ''}
             <span class="food-browse-icon">${_categoryIcon(f.category)}</span>
             <span class="food-browse-name">${I18n.getFoodName(f)}</span>
             <span class="food-browse-cal">${f.calories} kcal</span>
