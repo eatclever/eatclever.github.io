@@ -1,12 +1,10 @@
 {
   "site.title": "EatClever",
   "site.subtitle": "Nährwertinformationen für alltägliche Lebensmittelentscheidungen",
-
   "wisdom.p1": "Ihr Körper ist bemerkenswert intelligent. Jeden Tag zerlegt er die Nahrung, die Sie essen, und entnimmt genau das, was er braucht — er baut Muskeln auf, repariert Zellen, stärkt Knochen, bekämpft Infektionen und hält Ihr Gehirn fit. Sie müssen nicht jedes Vitamin im Detail steuern. Sie müssen Ihrem Körper nur die richtigen Grundbausteine geben.",
   "wisdom.p2": "Das Geheimnis ist einfach: Essen Sie vielfältig, natürlich und bunt. Wenn Sie Ihren Teller mit einer Auswahl an echten Lebensmitteln füllen — Gemüse, Obst, Proteine, Getreide, Nüsse — weiß Ihr Körper genau, was er damit anfangen soll. Er tut das seit Millionen von Jahren. Vertrauen Sie ihm.",
   "wisdom.p3": "Nahrungsergänzungsmittel und Pillen haben ihren Platz, aber die Natur liefert das meiste, was wir brauchen. Eine Handvoll Walnüsse, ein Stück Lachs, eine Schüssel buntes Gemüse — das sind nicht nur Mahlzeiten, das ist Medizin. Jeder Bissen ist eine Gelegenheit, Ihren Körper zu nähren und den Arzt fernzuhalten.",
   "wisdom.cta": "EatClever sagt Ihnen nicht, was Sie tun sollen. Wir zeigen Ihnen die Fakten — Sie treffen die Entscheidungen, die für Sie und Ihre Familie richtig sind.",
-
   "nav.about": "Über uns",
   "nav.methodology": "Methodik",
   "nav.categories": "Themen entdecken",
@@ -15,10 +13,8 @@
   "nav.quiz": "Ernährungsquiz",
   "nav.planner": "Mahlzeitenplaner",
   "nav.labels_guide": "Etikettenratgeber",
-
   "hero.title": "Klug essen. Besser leben.",
   "hero.subtitle": "Die alltäglichen Lebensmittelentscheidungen, die Sie treffen, prägen Ihre Gesundheit mehr als jede einzelne Diät es je könnte. Entdecken Sie die Fakten, vergleichen Sie Ihre Optionen und entscheiden Sie, was für Sie am besten funktioniert.",
-
   "cat.age_nutrition": "Ernährung nach Alter",
   "cat.age_nutrition.desc": "Was Ihr Körper braucht, ändert sich mit dem Wachstum. Sehen Sie, welche Nährstoffe in jeder Lebensphase am wichtigsten sind, vom Säuglingsalter bis ins hohe Alter.",
   "cat.food_vs_supplements": "Lebensmittel vs. Nahrungsergänzung",
@@ -31,7 +27,6 @@
   "cat.cook_time.desc": "Wenig Zeit? Finden Sie schnelle, mittlere und langsame Rezepte, die beweisen, dass nährstoffreiche Ernährung in jeden Zeitplan passt.",
   "cat.shopping": "Clever einkaufen",
   "cat.shopping.desc": "Mit jedem Budget gut essen. Wöchentliche Mahlzeitenpläne und Einkaufslisten in drei Preisstufen, plus Tipps, um jeden Euro optimal zu nutzen.",
-
   "age.children": "Kinder (0-12)",
   "age.teens": "Jugendliche (13-19)",
   "age.adults": "Erwachsene (20-59)",
@@ -43,7 +38,6 @@
   "age.young_adult": "Junger Erwachsener (20-39)",
   "age.middle_age": "Mittleres Alter (40-59)",
   "age.senior": "Senior (60+)",
-
   "age.infant.tips": "Muttermilch oder Säuglingsnahrung liefern im ersten Jahr die meisten Nährstoffe. Führen Sie ab etwa 6 Monaten eisenreiche Beikost ein. Vermeiden Sie Honig bis zum Alter von 1 Jahr. Bieten Sie verschiedene weiche, pürierte Texturen an, um früh gesunde Essgewohnheiten aufzubauen.",
   "age.toddler.tips": "Kleinkinder lernen selbstständig zu essen, daher sind Kleckern und Wählerischkeit normal. Bieten Sie über den Tag verteilt kleine Portionen nährstoffreicher Lebensmittel an. Vollmilch ist wichtig für die Gehirnentwicklung. Schneiden Sie runde Lebensmittel wie Trauben in kleine Stücke, um Erstickungsgefahr zu vermeiden.",
   "age.school_age.tips": "Wachsende Körper brauchen Kalzium für starke Knochen und Eisen für Energie. Begrenzen Sie zuckerhaltige Getränke und verpackte Snacks. Beziehen Sie Kinder in die Essenszubereitung ein, um lebenslange gesunde Gewohnheiten aufzubauen. Ein ausgewogenes Frühstück fördert Konzentration und Lernen in der Schule.",
@@ -51,91 +45,70 @@
   "age.young_adult.tips": "Dies ist die Zeit, Essgewohnheiten zu etablieren, die die langfristige Gesundheit unterstützen. Bevorzugen Sie vollwertige Lebensmittel gegenüber Fertigprodukten. Eisen und Folsäure sind besonders wichtig für Personen, die Schwangerschaften planen. Omega-3-Fettsäuren unterstützen die Gehirngesundheit in fordernden Jahren.",
   "age.middle_age.tips": "Der Stoffwechsel verlangsamt sich natürlich, daher ist Nährstoffdichte wichtiger denn je. Setzen Sie auf Ballaststoffe für die Verdauung, Kalzium und Vitamin D für die Knochen und Omega-3-Fettsäuren für die Herzgesundheit. Regelmäßige Mahlzeiten mit viel Gemüse helfen, den ganzen Tag über konstante Energie zu halten.",
   "age.senior.tips": "Der Appetit lässt im Alter oft nach, daher sollte jeder Bissen ernährungsphysiologisch wertvoll sein. Die Aufnahme von Vitamin B12 nimmt ab, weshalb angereicherte Lebensmittel oder Ergänzungsmittel in Betracht gezogen werden sollten. Protein unterstützt den Muskelerhalt, und Vitamin D plus Kalzium helfen, vor Knochenbrüchen zu schützen. Trinken Sie ausreichend, auch wenn Sie keinen Durst verspüren.",
-
   "age.daily_calories": "Täglicher Kalorienbedarf",
   "age.focus_nutrients": "Wichtige Nährstoffe im Fokus",
   "age.key_foods": "Empfohlene Lebensmittel",
   "age.foods_to_avoid": "Lebensmittel, die eingeschränkt oder vermieden werden sollten",
-
   "nutrient.protein": "Protein",
   "nutrient.protein.desc": "Essenzieller Baustein für Muskeln, Organe und Immunfunktion.",
   "nutrient.protein.body_effect": "Protein baut jedes Gewebe in Ihrem Körper auf und repariert es, von Muskeln und Knochen bis hin zu Haut und Haaren. Es stellt auch Enzyme und Hormone her, die Ihren Stoffwechsel am Laufen halten. Kinder und Jugendliche brauchen es zum Wachsen, Erwachsene zur Erhaltung und Senioren zur Vorbeugung von Muskelschwund.",
-
   "nutrient.fat": "Fett",
   "nutrient.fat.desc": "Konzentrierte Energiequelle, die Zellwachstum und Nährstoffaufnahme unterstützt.",
   "nutrient.fat.body_effect": "Fett polstert Ihre Organe, isoliert Ihren Körper und hilft bei der Aufnahme der Vitamine A, D, E und K. Ihr Gehirn besteht zu fast 60% aus Fett. Säuglinge und Kleinkinder benötigen im Verhältnis zur Körpergröße am meisten Fett, da sich ihr Gehirn schnell entwickelt. Wählen Sie ungesättigte Fette aus Fisch, Nüssen und Olivenöl anstelle gesättigter Quellen.",
-
   "nutrient.carbs": "Kohlenhydrate",
   "nutrient.carbs.desc": "Die bevorzugte und effizienteste Energiequelle Ihres Körpers.",
   "nutrient.carbs.body_effect": "Kohlenhydrate werden zu Glukose abgebaut, die Ihr Gehirn, Ihre Muskeln und Ihr zentrales Nervensystem mit Energie versorgt. Komplexe Kohlenhydrate aus Vollkorn, Hülsenfrüchten und Gemüse setzen Energie langsam und gleichmäßig frei. Alle Altersgruppen brauchen Kohlenhydrate, aber aktive Jugendliche und Sportler brauchen am meisten. Wählen Sie Vollkorn statt raffinierter Produkte für anhaltende Energie und bessere Blutzuckerkontrolle.",
-
   "nutrient.fiber": "Ballaststoffe",
   "nutrient.fiber.desc": "Unterstützen eine gesunde Verdauung, ernähren nützliche Darmbakterien und helfen bei der Blutzuckerkontrolle.",
   "nutrient.fiber.body_effect": "Ballaststoffe halten Ihr Verdauungssystem in Schwung, ernähren die guten Bakterien in Ihrem Darm und helfen Ihnen, sich nach dem Essen länger satt zu fühlen. Sie verlangsamen auch die Zuckeraufnahme, was den Blutzuckerspiegel stabilisiert. Erwachsene und Senioren profitieren am meisten von einer hohen Ballaststoffzufuhr für Herzgesundheit und Regelmäßigkeit, aber auch Kinder brauchen sie für eine gesunde Verdauung.",
-
   "nutrient.vitamin_a": "Vitamin A",
   "nutrient.vitamin_a.desc": "Unterstützt das Sehvermögen, die Immunfunktion und gesunde Haut.",
   "nutrient.vitamin_a.body_effect": "Vitamin A ist entscheidend für scharfes Sehen, besonders bei schwachem Licht. Es hält auch Ihre Haut und die Schleimhäute von Lunge und Darm gesund und dient als erste Verteidigungslinie gegen Infektionen. Kinder brauchen Vitamin A für richtiges Wachstum und Immunentwicklung. Reichlich vorhanden in orangefarbenen und dunkelgrünen Gemüsesorten.",
-
   "nutrient.vitamin_b12": "Vitamin B12",
   "nutrient.vitamin_b12.desc": "Essenziell für Nervenfunktion, Bildung roter Blutkörperchen und DNA-Synthese.",
   "nutrient.vitamin_b12.body_effect": "Vitamin B12 hält Ihre Nerven funktionstüchtig und hilft bei der Bildung roter Blutkörperchen, die Sauerstoff durch Ihren gesamten Körper transportieren. Ein Mangel kann Müdigkeit, Schwäche und Nervenprobleme verursachen. Senioren haben das höchste Risiko, da die Aufnahme mit dem Alter abnimmt. Veganer und Vegetarier sollten besonders aufpassen, da B12 fast ausschließlich in tierischen Lebensmitteln vorkommt.",
-
   "nutrient.vitamin_c": "Vitamin C",
   "nutrient.vitamin_c.desc": "Starkes Antioxidans, das die Immunität stärkt und dem Körper hilft, Eisen aufzunehmen.",
   "nutrient.vitamin_c.body_effect": "Vitamin C schützt Ihre Zellen vor Schäden, hilft Wunden schneller zu heilen und stärkt die Fähigkeit Ihres Immunsystems, Infektionen abzuwehren. Es verbessert auch die Eisenaufnahme drastisch, wenn es zusammen mit eisenreichen Lebensmitteln gegessen wird. Wichtig für alle Altersgruppen, aber besonders für wachsende Kinder und alle, die sich von Krankheit oder Verletzung erholen.",
-
   "nutrient.vitamin_d": "Vitamin D",
   "nutrient.vitamin_d.desc": "Das Sonnenvitamin, das Knochen stärkt und die Immungesundheit unterstützt.",
   "nutrient.vitamin_d.body_effect": "Vitamin D hilft Ihrem Körper, Kalzium aufzunehmen, und ist daher essenziell für starke Knochen und Zähne. Es spielt auch eine wichtige Rolle bei der Immunfunktion und Stimmungsregulation. Ihre Haut produziert es durch Sonnenlicht, aber viele Menschen bekommen nicht genug, besonders in nördlichen Klimazonen. Senioren brauchen mehr, weil ihre Haut weniger effizient darin wird, es herzustellen, und Säuglinge brauchen es, weil Muttermilch sehr wenig davon liefert.",
-
   "nutrient.vitamin_e": "Vitamin E",
   "nutrient.vitamin_e.desc": "Antioxidans, das Zellen vor Schäden schützt und die Hautgesundheit unterstützt.",
   "nutrient.vitamin_e.body_effect": "Vitamin E wirkt als Schutzschild für Ihre Zellen und bewahrt sie vor oxidativen Schäden durch Umweltverschmutzung, UV-Strahlen und normalen Stoffwechsel. Es unterstützt gesunde Haut, hilft Ihrem Immunsystem bei der Abwehr von Bakterien und Viren und kann den altersbedingten Abbau verlangsamen. Alle Altersgruppen profitieren, aber es ist besonders relevant für Erwachsene und Senioren als schützender Nährstoff.",
-
   "nutrient.vitamin_k": "Vitamin K",
   "nutrient.vitamin_k.desc": "Essenziell für die Blutgerinnung und den Knochenstoffwechsel.",
   "nutrient.vitamin_k.body_effect": "Vitamin K ist der Grund, warum eine Schnittwunde aufhört zu bluten. Ohne genug davon könnte selbst eine kleine Wunde gefährlich sein. Es leitet auch Kalzium in Ihre Knochen statt in Ihre Arterien, was für die langfristige Herz- und Knochengesundheit wichtig ist. Erwachsene und Senioren brauchen am meisten. Dunkelgrüne Blattgemüse wie Grünkohl und Spinat sind bei Weitem die reichsten Quellen.",
-
   "nutrient.calcium": "Kalzium",
   "nutrient.calcium.desc": "Das häufigste Mineral in Ihrem Körper, entscheidend für Knochen und Zähne.",
   "nutrient.calcium.body_effect": "Etwa 99% Ihres Kalziums befinden sich in Ihren Knochen und Zähnen und verleihen ihnen Stärke und Struktur. Das verbleibende 1% ist lebenswichtig für Muskelkontraktionen, Nervensignale und den Herzrhythmus. Jugendliche brauchen am meisten, weil sie ihre maximale Knochenmasse aufbauen. Senioren brauchen viel, um den Knochenabbau zu verlangsamen. Milchprodukte, Sardinen mit Gräten und kalziumreicher Tofu sind die besten Quellen.",
-
   "nutrient.iron": "Eisen",
   "nutrient.iron.desc": "Transportiert Sauerstoff im Blut und unterstützt die Energieproduktion.",
   "nutrient.iron.body_effect": "Eisen ist der Kern des Hämoglobins, des Moleküls in den roten Blutkörperchen, das Sauerstoff von der Lunge in jeden Teil Ihres Körpers transportiert. Ohne genug Eisen fühlen Sie sich müde, schwach und können sich nicht konzentrieren. Jugendliche, besonders Mädchen nach Beginn der Menstruation, und junge Frauen brauchen am meisten. Kombinieren Sie eisenreiche Lebensmittel mit Vitamin C, um die Aufnahme deutlich zu verbessern.",
-
   "nutrient.magnesium": "Magnesium",
   "nutrient.magnesium.desc": "An über 300 Enzymreaktionen beteiligt, von der Energieproduktion bis zur Muskelentspannung.",
   "nutrient.magnesium.body_effect": "Magnesium ist ein stilles Kraftpaket, das an über 300 biochemischen Reaktionen beteiligt ist. Es hilft Ihren Muskeln, sich nach der Anspannung zu entspannen, hält Ihren Herzrhythmus stabil, unterstützt starke Knochen und reguliert den Blutzucker. Ein Mangel ist erstaunlich häufig und kann Muskelkrämpfe, schlechten Schlaf und Angst verursachen. Erwachsene und Senioren profitieren am meisten davon, die Aufnahme durch Nüsse, Samen und dunkelgrünes Blattgemüse zu erhöhen.",
-
   "nutrient.potassium": "Kalium",
   "nutrient.potassium.desc": "Reguliert den Flüssigkeitshaushalt, Muskelkontraktionen und den Blutdruck.",
   "nutrient.potassium.body_effect": "Kalium arbeitet zusammen mit Natrium, um den Flüssigkeitshaushalt in Ihren Zellen zu kontrollieren und den Blutdruck zu regulieren. Es hilft den Muskeln, sich richtig zusammenzuziehen, einschließlich Ihres Herzmuskels. Die meisten Menschen nehmen nicht genug Kalium zu sich, was den Blutdruck im Laufe der Zeit erhöhen kann. Erwachsene und Senioren profitieren am meisten von einer erhöhten Zufuhr. Bananen sind berühmt für Kalium, aber Süßkartoffeln, Spinat und Avocados enthalten tatsächlich mehr.",
-
   "nutrient.zinc": "Zink",
   "nutrient.zinc.desc": "Unterstützt die Immunabwehr, Wundheilung und Geschmackswahrnehmung.",
   "nutrient.zinc.body_effect": "Zink ist essenziell für ein starkes Immunsystem und hilft Ihrem Körper, Viren und Bakterien abzuwehren. Es beschleunigt auch die Wundheilung, unterstützt Ihren Geschmacks- und Geruchssinn und spielt eine Rolle bei der Zellteilung. Jugendliche brauchen während Wachstumsschüben mehr, und Senioren nehmen es oft weniger effizient auf. Rindfleisch, Meeresfrüchte und Hülsenfrüchte sind ausgezeichnete Quellen.",
-
   "nutrient.selenium": "Selen",
   "nutrient.selenium.desc": "Spurenelement, das die Schilddrüsenfunktion unterstützt und vor oxidativen Schäden schützt.",
   "nutrient.selenium.body_effect": "Selen wirkt leise, aber kraftvoll. Es hilft Ihrer Schilddrüse, Hormone zu produzieren, die den Stoffwechsel regulieren, schützt Ihre Zellen vor oxidativen Schäden und unterstützt Ihr Immunsystem. Nur eine kleine Menge wird benötigt, aber ein Mangel kann die Schilddrüsenfunktion und die Immunantwort beeinträchtigen. Paranüsse sind so reich an Selen, dass ein oder zwei pro Tag Ihren Bedarf decken. Alle Altersgruppen profitieren gleichermaßen.",
-
   "nutrient.omega_3": "Omega-3-Fettsäuren",
   "nutrient.omega_3.desc": "Essenzielle Fette, die Gehirn, Herz und Gelenke unterstützen.",
   "nutrient.omega_3.body_effect": "Omega-3-Fettsäuren sind Fette, die Ihr Körper nicht selbst herstellen kann, daher müssen Sie sie über die Nahrung aufnehmen. Sie reduzieren Entzündungen, unterstützen Gehirnfunktion und Gedächtnis, schützen Ihr Herz und können Gelenksteifigkeit lindern. Kinder brauchen sie für die Gehirnentwicklung, Erwachsene für den Herzschutz und Senioren sowohl für die kognitive Gesundheit als auch zur Entzündungshemmung. Fetter Fisch wie Lachs und Sardinen sind die besten Quellen der aktivsten Formen (EPA und DHA).",
-
   "nutrient.folate": "Folsäure",
   "nutrient.folate.desc": "B-Vitamin, das entscheidend ist für Zellteilung, DNA-Synthese und Vorbeugung von Geburtsfehlern.",
   "nutrient.folate.body_effect": "Folsäure ist jedes Mal essenziell, wenn Ihr Körper neue Zellen bildet, was ständig geschieht. Sie ist während der Schwangerschaft entscheidend, um Neuralrohrdefekte beim sich entwickelnden Baby zu verhindern, und damit der wichtigste Nährstoff für Frauen im gebärfähigen Alter. Sie unterstützt auch die Bildung roter Blutkörperchen und hilft, Anämie zu verhindern. Linsen, Spinat und schwarze Bohnen sind ausgezeichnete pflanzliche Quellen.",
-
   "vitamins.title": "Vitamin- & Mineralstoffratgeber",
   "vitamins.subtitle": "Was sie tun, wo man sie findet, wer sie am meisten braucht",
   "vitamins.found_in": "Natürlich enthalten in",
   "vitamins.important_for": "Besonders wichtig für",
   "vitamins.supplement_note": "Wann Nahrungsergänzungsmittel helfen können",
   "vitamins.food_first": "Lebensmittel zuerst — Ergänzungsmittel nur wenn wirklich nötig",
-
   "labels.title": "Nährwertkennzeichnung verstehen",
   "labels.subtitle": "Was die Zahlen auf der Lebensmittelverpackung wirklich bedeuten",
   "labels.per_100g": "Werte pro 100g",
@@ -154,265 +127,203 @@
   "labels.amber_medium": "Gelb = Mittel (in Maßen in Ordnung)",
   "labels.red_high": "Rot = Hoch (weniger davon essen)",
   "labels.tip": "Vergleichen Sie ähnliche Produkte anhand der Werte pro 100g — das ist die fairste Art zu vergleichen.",
-
   "supp.vitamin_d": "Vitamin-D-Präparat",
   "supp.vitamin_d.why": "Viele Menschen bekommen nicht genug Sonnenlicht, um ausreichend Vitamin D zu produzieren, besonders in den Wintermonaten oder in nördlichen Breitengraden.",
   "supp.vitamin_d.note": "Erwägen Sie eine Ergänzung, wenn Sie wenig Sonne abbekommen, dunkle Haut haben oder über 60 sind. Ein 15-minütiges Lachsfilet liefert fast den Tagesbedarf.",
-
   "supp.vitamin_c": "Vitamin-C-Präparat",
   "supp.vitamin_c.why": "Beliebt zur Immununterstützung, obwohl die meisten Menschen ihren Bedarf leicht durch Obst und Gemüse decken.",
   "supp.vitamin_c.note": "Eine einzelne rote Paprika oder zwei Kiwis liefern mehr Vitamin C als die meisten Ergänzungsmittel. Supplemente sind selten nötig, wenn Sie täglich Obst und Gemüse essen.",
-
   "supp.vitamin_b12": "Vitamin-B12-Präparat",
   "supp.vitamin_b12.why": "Essenziell für Veganer und Vegetarier, da B12 fast ausschließlich in tierischen Lebensmitteln vorkommt. Die Aufnahme nimmt auch mit dem Alter ab.",
   "supp.vitamin_b12.note": "Wenn Sie regelmäßig Fleisch oder Fisch essen, bekommen Sie wahrscheinlich genug. Veganer sollten supplementieren oder angereicherte Lebensmittel essen. Senioren sollten ihre B12-Werte mit ihrem Arzt besprechen.",
-
   "supp.iron": "Eisenpräparat",
   "supp.iron.why": "Wird oft empfohlen für Frauen mit starker Menstruation, Schwangere und Personen mit diagnostizierter Eisenmangelanämie.",
   "supp.iron.note": "Nehmen Sie Eisen nicht ohne einen Bluttest ein, der einen Mangel bestätigt, da überschüssiges Eisen schädlich sein kann. Kombinieren Sie pflanzliche Eisenquellen mit Vitamin C für eine bessere Aufnahme.",
-
   "supp.calcium": "Kalziumpräparat",
   "supp.calcium.why": "Kann Menschen helfen, die auf Milchprodukte verzichten, laktoseintolerant sind oder bei denen Osteoporose oder niedrige Knochendichte diagnostiziert wurde.",
   "supp.calcium.note": "Kalziumreicher Tofu liefert pro Portion mehr Kalzium als ein Glas Milch. Wenn Sie regelmäßig Milchprodukte und Blattgemüse essen, brauchen Sie möglicherweise kein Ergänzungsmittel. Nehmen Sie Kalzium in kleineren Dosen für eine bessere Aufnahme.",
-
   "supp.magnesium": "Magnesiumpräparat",
   "supp.magnesium.why": "Ein häufig mangelhaftes Mineral, das Schlafqualität, Muskelentspannung und über 300 Enzymreaktionen im Körper unterstützt.",
   "supp.magnesium.note": "Eine Handvoll Mandeln plus eine Portion Spinat decken etwa 40% des Tagesbedarfs. Magnesiumglycinat wird oft besser vertragen als andere Formen bei Supplementierung.",
-
   "supp.omega_3": "Omega-3-Präparat (Fischöl)",
   "supp.omega_3.why": "Unterstützt Herz-, Gehirn- und Gelenkgesundheit. Wird oft von Menschen eingenommen, die nicht regelmäßig Fisch essen.",
   "supp.omega_3.note": "Zwei Portionen fetter Fisch pro Woche decken den Omega-3-Bedarf der meisten Menschen. Ein Esslöffel Chiasamen oder eine Handvoll Walnüsse liefern die pflanzliche Form (ALA). Fischölkapseln können für diejenigen hilfreich sein, die keine Meeresfrüchte mögen.",
-
   "supp.zinc": "Zinkpräparat",
   "supp.zinc.why": "Unterstützt die Immunfunktion, Wundheilung und Geschmackswahrnehmung. Wird manchmal bei den ersten Anzeichen einer Erkältung eingenommen.",
   "supp.zinc.note": "Die meisten Menschen, die sich abwechslungsreich ernähren, bekommen genug Zink. Vegetarier benötigen möglicherweise bis zu 50% mehr aufgrund geringerer Aufnahme aus pflanzlichen Quellen. Überschüssiges Zink kann die Kupferaufnahme beeinträchtigen.",
-
   "supp.folate": "Folsäurepräparat",
   "supp.folate.why": "Entscheidend vor und während der frühen Schwangerschaft, um Neuralrohrdefekte zu verhindern. Auch wichtig für die Bildung roter Blutkörperchen.",
   "supp.folate.note": "Frauen, die eine Schwangerschaft planen, sollten mindestens einen Monat vor der Empfängnis täglich 400mcg einnehmen. Eine Tasse gekochte Linsen deckt etwa 90% des Tagesbedarfs für nicht schwangere Erwachsene.",
-
   "supp.potassium": "Kaliumpräparat",
   "supp.potassium.why": "Hilft bei der Regulierung von Blutdruck und Flüssigkeitshaushalt. Die meisten Menschen bekommen allein durch die Ernährung nicht genug.",
   "supp.potassium.note": "Ergänzungsdosen werden niedrig gehalten (99mg), da überschüssiges Kalium gefährlich sein kann, besonders für Menschen mit Nierenproblemen. Eine einzige gebackene Süßkartoffel liefert über 700mg auf natürliche Weise. Lebensmittel sind der sicherste Weg, Kalium zu erhöhen.",
-
   "supp.vitamin_a": "Vitamin-A-Präparat",
   "supp.vitamin_a.why": "Unterstützt Sehkraft, Immunfunktion und Hautgesundheit. Mangel ist in Industrieländern selten, aber in Teilen der Entwicklungsländer häufig.",
   "supp.vitamin_a.note": "Eine mittelgroße Süßkartoffel liefert 160% des Tagesbedarfs. Beta-Carotin aus Gemüse wird bei Bedarf in Vitamin A umgewandelt, daher ist eine Überdosierung durch Lebensmittel praktisch unmöglich. Vorgeformte Vitamin-A-Präparate können in hohen Dosen toxisch sein.",
-
   "supp.vitamin_e": "Vitamin-E-Präparat",
   "supp.vitamin_e.why": "Wirkt als Antioxidans zum Schutz der Zellen. Wird manchmal für Hautgesundheit und Anti-Aging beworben.",
   "supp.vitamin_e.note": "Eine Handvoll Mandeln liefert über 50% des Tagesbedarfs. Vitamin-E-Präparate in hohen Dosen haben in Studien gemischte Ergebnisse gezeigt und können mit blutverdünnenden Medikamenten interagieren. Nahrungsquellen werden gegenüber Ergänzungsmitteln empfohlen.",
-
   "supp.selenium": "Selenpräparat",
   "supp.selenium.why": "Unterstützt Schilddrüsenfunktion, Immunabwehr und Schutz vor oxidativem Stress.",
   "supp.selenium.note": "Nur ein oder zwei Paranüsse pro Tag decken Ihren gesamten Selenbedarf. Eine Dose Thunfisch deckt 140% des Tagesbedarfs. Supplementierung ist selten nötig und überschüssiges Selen kann giftig sein.",
-
   "supp.probiotics": "Probiotisches Präparat",
   "supp.probiotics.why": "Zielt darauf ab, die Darmgesundheit durch Einführung nützlicher Bakterien zu unterstützen. Die Forschung ist vielversprechend, aber für viele Gesundheitsaussagen noch in Entwicklung.",
   "supp.probiotics.note": "Griechischer Joghurt, Kefir und andere fermentierte Lebensmittel enthalten natürlich Probiotika und liefern zudem Protein, Kalzium und andere Nährstoffe, die Kapseln nicht nachahmen können. Ziehen Sie zunächst lebensmittelbasierte Probiotika in Betracht.",
-
   "supp.fiber": "Ballaststoffpräparat",
   "supp.fiber.why": "Wird verwendet, wenn die Ballaststoffzufuhr über die Nahrung unzureichend ist. Hilft bei Regelmäßigkeit, Blutzuckerkontrolle und Cholesterinmanagement.",
   "supp.fiber.note": "Zwei Esslöffel Chiasamen liefern etwa 10g Ballaststoffe plus Protein, Omega-3-Fettsäuren und Mineralstoffe, die ein Flohsamenpräparat nicht bieten kann. Vollwertige Lebensmittel liefern Ballaststoffe zusammen mit Hunderten weiterer nützlicher Verbindungen. Steigern Sie die Ballaststoffzufuhr schrittweise, um Verdauungsbeschwerden zu vermeiden.",
-
   "supp.food_first_message": "Die Natur liefert das meiste, was wir brauchen. So bekommen Sie Ihre Nährstoffe aus echten Lebensmitteln.",
-
   "recipe.salmon_avocado_bowl": "Lachs-Avocado-Reisschüssel",
   "recipe.salmon_avocado_bowl.desc": "Eine bunte Schüssel mit scharf angebratenem Lachs auf fluffigem Naturreis mit cremigen Avocadoscheiben. Reich an Omega-3-Fettsäuren und Protein, ist dieses ausgewogene Mittagessen in nur 12 Minuten zubereitet.",
   "recipe.salmon_avocado_bowl.steps": "1. Naturreis nach Packungsanweisung kochen und beiseitestellen.\n2. Das Lachsfilet mit Salz, Pfeffer und einem Spritzer Zitrone würzen.\n3. Eine beschichtete Pfanne bei mittlerer bis hoher Hitze mit einem Schuss Olivenöl erhitzen.\n4. Den Lachs mit der Hautseite nach unten 4 Minuten anbraten, dann wenden und 3 weitere Minuten garen.\n5. Die Avocado in Scheiben schneiden, während der Lachs fertig gart.\n6. Die Schüssel zusammenstellen: Reis auf den Boden, Lachs darauf, Avocado daneben.\n7. Mit einem Schuss Sojasauce oder Ihrem Lieblingsdressing abschließen.",
-
   "recipe.overnight_oats_berries": "Overnight Oats mit Beeren",
   "recipe.overnight_oats_berries.desc": "Cremige, ungekochte Haferflocken über Nacht eingeweicht mit frischen Blaubeeren, Chiasamen und einem Hauch Honig. Morgens einfach aus dem Kühlschrank nehmen für ein sofortiges, ballaststoffreiches Frühstück.",
   "recipe.overnight_oats_berries.steps": "1. Haferflocken, Milch und Chiasamen in einem Glas oder Behälter mischen.\n2. Honig hinzufügen und gut verrühren.\n3. Den Behälter verschließen und über Nacht kühlen (mindestens 6 Stunden).\n4. Morgens die Haferflocken umrühren und bei Bedarf mehr Milch hinzufügen.\n5. Mit frischen Blaubeeren garnieren.\n6. Kalt direkt aus dem Kühlschrank genießen oder 90 Sekunden in der Mikrowelle erwärmen.",
-
   "recipe.scrambled_eggs_toast": "Rührei auf Toast mit Spinat",
   "recipe.scrambled_eggs_toast.desc": "Lockeres Rührei auf Vollweizentoast mit gewelktem Spinat und einer Prise Cheddar. Ein proteinreiches Frühstück, das die ganze Familie in unter 10 Minuten genießen kann.",
   "recipe.scrambled_eggs_toast.steps": "1. Drei Eier in eine Schüssel schlagen, einen Schuss Milch hinzufügen und glatt rühren.\n2. Eine beschichtete Pfanne bei mittlerer bis niedriger Hitze mit einem kleinen Stück Butter erhitzen.\n3. Den Spinat hinzufügen und etwa 30 Sekunden rühren, bis er zusammenfällt. Herausnehmen und beiseitestellen.\n4. Die Eier hineingießen und mit einem Pfannenwender sanft rühren, dabei langsam Flocken bilden lassen.\n5. Wenn die Eier fast fest, aber noch leicht weich sind, vom Herd nehmen.\n6. Das Brot goldbraun toasten.\n7. Toast mit Spinat belegen, dann Eier darauf und geriebenen Cheddar darüberstreuen.",
-
   "recipe.greek_yogurt_parfait": "Griechischer Joghurt Parfait",
   "recipe.greek_yogurt_parfait.desc": "Schichten aus dickem griechischem Joghurt, frischen Erdbeeren, knackigen Mandeln und einem Wirbel Honig. Ein proteinreicher Snack oder leichtes Frühstück, das in weniger als fünf Minuten zubereitet ist.",
   "recipe.greek_yogurt_parfait.steps": "1. Eine Schicht griechischen Joghurt in ein Glas oder eine Schüssel geben.\n2. Eine Schicht geschnittener Erdbeeren hinzufügen.\n3. Mit gehackten Mandeln bestreuen.\n4. Die Schichten wiederholen, bis das Glas voll ist.\n5. Honig darüberträufeln.\n6. Sofort servieren für den besten Biss, oder bis zu 2 Stunden im Kühlschrank aufbewahren.",
-
   "recipe.avocado_toast_egg": "Avocado-Toast mit Spiegelei",
   "recipe.avocado_toast_egg.desc": "Perfekt reife Avocado auf geröstetem Vollweizenbrot zerdrückt, gekrönt mit einem goldenen Spiegelei und frischen Tomatenscheiben. Eine befriedigende Kombination aus gesunden Fetten, Protein und Ballaststoffen.",
   "recipe.avocado_toast_egg.steps": "1. Das Vollweizenbrot goldbraun und knusprig toasten.\n2. Während das Brot toastet, eine kleine Pfanne bei mittlerer Hitze mit einem Schuss Olivenöl erhitzen.\n3. Das Ei in die Pfanne schlagen und braten, bis das Eiweiß fest ist, aber das Eigelb noch flüssig.\n4. Die Avocado mit einer Gabel zerdrücken, eine Prise Salz und einen Spritzer Zitrone hinzufügen.\n5. Die zerdrückte Avocado auf dem Toast verteilen.\n6. Das Spiegelei auf die Avocado legen.\n7. Tomatenscheiben um das Ei herum anrichten und mit Salz und Pfeffer würzen.",
-
   "recipe.banana_peanut_butter_smoothie": "Bananen-Erdnussbutter-Smoothie",
   "recipe.banana_peanut_butter_smoothie.desc": "Ein dicker, cremiger Smoothie aus reifer Banane mit Erdnussbutter, Vollmilch und einer Portion Haferflocken. Perfekt als Energieschub vor oder nach dem Sport.",
   "recipe.banana_peanut_butter_smoothie.steps": "1. Die Banane schälen und in Stücke brechen.\n2. Banane, Erdnussbutter, Milch und Haferflocken in einen Mixer geben.\n3. 30-45 Sekunden auf höchster Stufe mixen, bis alles vollkommen glatt ist.\n4. In ein hohes Glas gießen.\n5. Für einen extra kalten Smoothie eine gefrorene Banane verwenden oder vor dem Mixen eine Handvoll Eiswürfel hinzufügen.",
-
   "recipe.tuna_salad_wrap": "Thunfischsalat-Wrap",
   "recipe.tuna_salad_wrap.desc": "Zerflockter Thunfisch gemischt mit zerdrückter Avocado, frischer Tomate und Babyspinat, alles eingerollt in Vollweizentortilla. Ein proteinreiches, omega-3-reiches Mittagessen, das sich leicht transportieren lässt.",
   "recipe.tuna_salad_wrap.steps": "1. Den Dosenthunfisch gründlich abtropfen und in eine Schüssel geben.\n2. Die Avocado zerdrücken und anstelle von Mayonnaise unter den Thunfisch mischen.\n3. Die Tomate würfeln und unter die Thunfischmischung heben.\n4. Mit Salz, Pfeffer und einem Spritzer Zitronensaft würzen.\n5. Die Spinatblätter auf den Vollweizen-Wrap legen.\n6. Die Thunfischmischung auf den Spinat löffeln.\n7. Den Wrap fest aufrollen und dabei die Seiten einklappen. Zum Servieren halbieren.",
-
   "recipe.apple_almond_snack": "Apfel-Mandel-Snack",
   "recipe.apple_almond_snack.desc": "Der einfachste gesunde Snack: knackige Apfelspalten gepaart mit einer Handvoll roher Mandeln. Die Kombination aus Ballaststoffen, gesunden Fetten und natürlicher Süße hält den Hunger stundenlang fern.",
   "recipe.apple_almond_snack.steps": "1. Den Apfel waschen und in Spalten schneiden, dabei das Kerngehäuse entfernen.\n2. Eine Handvoll Mandeln abmessen (etwa 23 Mandeln).\n3. Auf einem Teller anrichten oder für einen Snack unterwegs in einen Behälter packen.\n4. Zur Abwechslung eine dünne Schicht Mandelmus auf die Apfelspalten streichen.",
-
   "recipe.cottage_cheese_fruit_bowl": "Hüttenkäse-Obstschüssel",
   "recipe.cottage_cheese_fruit_bowl.desc": "Cremiger Hüttenkäse garniert mit süßen Mangostücken, knackigen Walnüssen und einer Prise Leinsamen. Reich an Protein und Omega-3-Fettsäuren, mit natürlich süßem tropischem Geschmack.",
   "recipe.cottage_cheese_fruit_bowl.steps": "1. Hüttenkäse in eine Schüssel geben.\n2. Die Mango schälen und in mundgerechte Stücke schneiden.\n3. Die Mango auf dem Hüttenkäse anrichten.\n4. Walnüsse und gemahlene Leinsamen darüberstreuen.\n5. Nach Belieben einen Schuss Honig für zusätzliche Süße hinzufügen.\n6. Sofort genießen für den besten Texturkontrast.",
-
   "recipe.dark_chocolate_banana_bites": "Dunkle-Schokoladen-Bananenhäppchen",
   "recipe.dark_chocolate_banana_bites.desc": "Gefrorene Bananenscheiben, halb in geschmolzene dunkle Schokolade getaucht und mit gehackten Mandeln bestreut. Ein natürlich süßer Genuss voller Antioxidantien, Kalium und Magnesium.",
   "recipe.dark_chocolate_banana_bites.steps": "1. Die Bananen schälen und in 1cm dicke Scheiben schneiden.\n2. Ein Backblech mit Backpapier auslegen und die Bananenscheiben in einer Schicht anordnen.\n3. 30 Minuten einfrieren, bis sie fest sind.\n4. Die dunkle Schokolade in einer mikrowellengeeigneten Schüssel in 20-Sekunden-Intervallen schmelzen und dazwischen umrühren.\n5. Die Mandeln in kleine Stücke hacken.\n6. Jede gefrorene Bananenscheibe zur Hälfte in die geschmolzene Schokolade tauchen.\n7. Gehackte Mandeln darüberstreuen, bevor die Schokolade fest wird.\n8. Für 10 Minuten zurück ins Gefrierfach stellen. Im Gefrierfach aufbewahren.",
-
   "recipe.chicken_stir_fry": "Hähnchen-Brokkoli-Pfanne",
   "recipe.chicken_stir_fry.desc": "Zarte Hähnchenbruststücke mit Brokkoli und Paprika über Naturreis gebraten, mit Knoblauch und einem Schuss Sojasauce verfeinert. Ein proteinreiches, ausgewogenes Gericht, fertig in 20 Minuten.",
   "recipe.chicken_stir_fry.steps": "1. Die Hähnchenbrust in dünne Streifen schneiden und mit Salz, Pfeffer und einem Schuss Sojasauce würzen.\n2. Den Naturreis nach Packungsanweisung kochen.\n3. Olivenöl in einer großen Pfanne oder einem Wok bei hoher Hitze erhitzen.\n4. Hähnchenstreifen 5-6 Minuten anbraten, bis sie goldbraun und durchgegart sind. Herausnehmen und beiseitestellen.\n5. In derselben Pfanne gehackten Knoblauch 30 Sekunden anbraten.\n6. Brokkoliröschen und geschnittene Paprika hinzufügen. 3-4 Minuten braten, bis sie bissfest sind.\n7. Das Hähnchen zurück in die Pfanne geben, alles zusammen schwenken und über Naturreis servieren.",
-
   "recipe.lentil_soup": "Herzhafte Linsensuppe",
   "recipe.lentil_soup.desc": "Ein wärmender Topf Linsen, gekocht mit Karotten, Tomaten, Spinat und Knoblauch. Günstig, vegan und voller Eisen und Ballaststoffe. Ergibt vier großzügige Portionen.",
   "recipe.lentil_soup.steps": "1. Die Linsen unter kaltem Wasser abspülen und abtropfen.\n2. Olivenöl in einem großen Topf bei mittlerer Hitze erhitzen.\n3. Gewürfelte Karotten und gehackten Knoblauch 3-4 Minuten anbraten, bis sie weich sind.\n4. Die Linsen, gewürfelte Tomaten und genug Wasser oder Brühe hinzufügen, um alles etwa 5cm zu bedecken.\n5. Zum Kochen bringen, dann die Hitze reduzieren und 20 Minuten köcheln lassen, bis die Linsen weich sind.\n6. Den Spinat in den letzten 2 Minuten einrühren.\n7. Mit Salz, Pfeffer und einem Spritzer Zitronensaft abschmecken. Heiß mit knusprigem Brot servieren.",
-
   "recipe.shrimp_garlic_pasta": "Garnelen-Knoblauch-Pasta",
   "recipe.shrimp_garlic_pasta.desc": "Pralle Garnelen mit reichlich Knoblauch angebraten, mit Vollweizenpasta, Kirschtomaten und frischem Spinat in Olivenöl geschwenkt. Ein mediterranes Abendessen, reich an Selen und Protein.",
   "recipe.shrimp_garlic_pasta.steps": "1. Die Pasta in gesalzenem kochenden Wasser nach Packungsanweisung kochen. Abgießen und eine halbe Tasse Nudelwasser aufheben.\n2. Während die Pasta kocht, Olivenöl in einer großen Pfanne bei mittlerer bis hoher Hitze erhitzen.\n3. Die Garnelen in einer Schicht in die Pfanne geben und 2 Minuten pro Seite braten, bis sie rosa sind. Herausnehmen und beiseitestellen.\n4. Hitze reduzieren, geschnittenen Knoblauch in dieselbe Pfanne geben und 1 Minute rühren, bis er duftet.\n5. Halbierte Kirschtomaten hinzufügen und 2 Minuten garen.\n6. Den Spinat einrühren, bis er zusammenfällt.\n7. Die Garnelen zurück in die Pfanne geben, die abgetropfte Pasta und einen Schuss Nudelwasser hinzufügen.\n8. Alles zusammen schwenken und mit einem Spritzer Zitrone servieren.",
-
   "recipe.quinoa_veggie_bowl": "Quinoa-Gemüse-Power-Bowl",
   "recipe.quinoa_veggie_bowl.desc": "Fluffiger Quinoa beladen mit Kichererbsen, Avocado, Grünkohl und gerösteter Paprika, angemacht mit Olivenöl und Zitrone. Eine komplette pflanzliche Proteinschüssel mit hervorragendem Ballaststoffgehalt.",
   "recipe.quinoa_veggie_bowl.steps": "1. Quinoa gut abspülen und nach Packungsanweisung in Wasser kochen. Mit einer Gabel auflockern.\n2. Kichererbsen abgießen und abspülen.\n3. Geschnittene Paprika mit einem Schuss Olivenöl bei 200°C 15 Minuten rösten.\n4. Grünkohlblätter mit etwas Olivenöl und einer Prise Salz einmassieren, um sie weich zu machen.\n5. Die Avocado in Scheiben schneiden.\n6. Schüsseln zusammenstellen: Quinoa als Boden, dann Kichererbsen, geröstete Paprika, Grünkohl und Avocado.\n7. Mit Olivenöl und frischem Zitronensaft beträufeln. Mit Salz und Pfeffer würzen.",
-
   "recipe.turkey_spinach_wrap": "Puten-Spinat-Wrap",
   "recipe.turkey_spinach_wrap.desc": "Magere Putenbrustscheiben geschichtet mit frischem Spinat, Cheddar und Tomate in einem Vollweizen-Wrap. Ein proteinreiches, tragbares Mittagessen, perfekt für Arbeit oder Schule.",
   "recipe.turkey_spinach_wrap.steps": "1. Den Vollweizen-Wrap flach auf eine saubere Fläche legen.\n2. Spinatblätter auf dem Wrap verteilen und einen Rand an den Seiten lassen.\n3. Putenscheiben gleichmäßig über den Spinat schichten.\n4. Tomatenscheiben und eine dünne Schicht geriebenen Cheddar hinzufügen.\n5. Leicht mit Salz und Pfeffer würzen.\n6. Die Seiten einklappen und von unten fest aufrollen.\n7. Diagonal halbieren und in Folie einwickeln für einfachen Transport.",
-
   "recipe.tofu_veggie_stir_fry": "Tofu-Gemüse-Pfanne",
   "recipe.tofu_veggie_stir_fry.desc": "Knusprig gebratene Tofuwürfel mit Brokkoli, Pilzen und Karotten über Naturreis geschwenkt. Ein befriedigendes pflanzliches Abendessen, reich an Kalzium und Protein.",
   "recipe.tofu_veggie_stir_fry.steps": "1. Den Tofu zwischen Küchenpapier pressen, um überschüssige Feuchtigkeit zu entfernen, dann in 2cm Würfel schneiden.\n2. Naturreis nach Packungsanweisung kochen.\n3. Olivenöl in einer großen Pfanne oder einem Wok bei hoher Hitze erhitzen.\n4. Tofuwürfel in einer Schicht in die Pfanne geben und 3-4 Minuten ungestört braten, bis der Boden goldbraun ist. Wenden und wiederholen.\n5. Tofu herausnehmen und beiseitestellen.\n6. In derselben Pfanne geschnittene Pilze 2 Minuten anbraten.\n7. Brokkoliröschen und geschnittene Karotten hinzufügen und 3-4 Minuten braten, bis sie bissfest sind.\n8. Tofu zurück in die Pfanne geben, einen Schuss Sojasauce hinzufügen und schwenken. Über Reis servieren.",
-
   "recipe.oatmeal_banana_walnut": "Haferbrei mit Banane & Walnüssen",
   "recipe.oatmeal_banana_walnut.desc": "Warmer, cremiger Haferbrei mit Vollmilch gekocht, garniert mit Bananenscheiben, knackigen Walnüssen und einem Schuss Honig. Ein herzgesunder, ballaststoffreicher Start in jeden Morgen.",
   "recipe.oatmeal_banana_walnut.steps": "1. Haferflocken und Milch in einem kleinen Topf bei mittlerer Hitze mischen.\n2. Gelegentlich rühren und sanft aufkochen lassen.\n3. 5-7 Minuten kochen, dabei oft rühren, bis die Haferflocken dick und cremig sind.\n4. In eine Schüssel gießen.\n5. Die Banane in Scheiben schneiden und darauf anrichten.\n6. Mit gehackten Walnüssen bestreuen.\n7. Mit Honig beträufeln und warm servieren.",
-
   "recipe.egg_veggie_muffins": "Ei-Gemüse-Muffins",
   "recipe.egg_veggie_muffins.desc": "Einzelne Eiermuffins gebacken mit Spinat, Paprika, Pilzen und Cheddar. Am Sonntag eine Partie vorbereiten und die ganze Woche für ein schnelles, proteinreiches Frühstück aufwärmen.",
   "recipe.egg_veggie_muffins.steps": "1. Den Ofen auf 180°C vorheizen und eine 6er-Muffinform einfetten.\n2. Spinat, Paprika und Pilze fein hacken.\n3. Das Gemüse gleichmäßig auf die Muffinförmchen verteilen.\n4. Die Eier in eine Schüssel schlagen, gut verquirlen und mit Salz und Pfeffer würzen.\n5. Die Eimischung gleichmäßig in jedes Förmchen gießen, etwa dreiviertel voll.\n6. Geriebenen Cheddar auf jedes Förmchen streuen.\n7. 18-20 Minuten backen, bis sie fest und leicht goldbraun sind.\n8. 2 Minuten abkühlen lassen, bevor sie aus der Form gelöst werden. Bis zu 4 Tage im Kühlschrank aufbewahren.",
-
   "recipe.chickpea_salad": "Mediterraner Kichererbsensalat",
   "recipe.chickpea_salad.desc": "Ein bunter Salat aus Kichererbsen, gewürfelten Tomaten, Paprika, Avocado und Spinat, angemacht mit Olivenöl und Zitrone. Vegan, ballaststoffreich und endlos variierbar.",
   "recipe.chickpea_salad.steps": "1. Die Kichererbsen abgießen und abspülen.\n2. Tomate, Paprika und Avocado in ähnlich große Stücke würfeln.\n3. Kichererbsen, gewürfeltes Gemüse und Spinatblätter in einer großen Schüssel mischen.\n4. Olivenöl, Zitronensaft, Salz und Pfeffer für das Dressing verrühren.\n5. Das Dressing über den Salat gießen und vorsichtig vermengen.\n6. 5 Minuten ziehen lassen, damit sich die Aromen verbinden.\n7. Bei Zimmertemperatur servieren. Hält sich gut im Kühlschrank für das Mittagessen am nächsten Tag.",
-
   "recipe.salmon_kale_sweet_potato": "Lachs mit Grünkohl & Süßkartoffel",
   "recipe.salmon_kale_sweet_potato.desc": "Im Ofen gebackene Lachsfilets serviert mit gerösteten Süßkartoffelspalten und Knoblauch-Grünkohl aus der Pfanne. Ein nährstoffreiches Abendessen voller Omega-3-Fettsäuren, Vitamin A und entzündungshemmender Stoffe.",
   "recipe.salmon_kale_sweet_potato.steps": "1. Den Ofen auf 200°C vorheizen.\n2. Süßkartoffeln in Spalten schneiden, mit Olivenöl und Salz mischen und auf einem Backblech verteilen.\n3. 15 Minuten rösten.\n4. Die Lachsfilets mit Salz, Pfeffer und einem Schuss Olivenöl würzen.\n5. Den Lachs neben die Süßkartoffeln auf das Backblech legen.\n6. Gemeinsam 12-15 Minuten rösten, bis der Lachs leicht zerteilt werden kann.\n7. In der Zwischenzeit eine Pfanne mit Olivenöl und gehacktem Knoblauch erhitzen. Grünkohl hinzufügen und 3-4 Minuten anbraten.\n8. Den Lachs auf dem Grünkohl anrichten, Süßkartoffelspalten dazu servieren.",
-
   "recipe.homemade_turkey_burger": "Selbstgemachte Putenburger",
   "recipe.homemade_turkey_burger.desc": "Saftige Putenfrikadellen mit Kräutern gewürzt, serviert auf Vollweizenbrötchen mit Avocado, Tomate und frischem Spinat. Eine magerere, nährstoffreichere Variante des klassischen Burgers.",
   "recipe.homemade_turkey_burger.steps": "1. In einer Schüssel Putenhackfleisch mit Salz, Pfeffer, Knoblauchpulver und einer Prise Paprika mischen.\n2. Die Mischung zu zwei gleichen Frikadellen formen und jeweils eine kleine Vertiefung in die Mitte drücken.\n3. Eine Grillpfanne oder Bratpfanne bei mittlerer bis hoher Hitze erhitzen.\n4. Die Frikadellen 5-6 Minuten pro Seite braten, bis sie vollständig durchgegart sind (Kerntemperatur 74°C).\n5. Die Vollweizenbrötchen leicht toasten.\n6. Eine kleine Menge Avocado auf das untere Brötchen drücken.\n7. Putenfrikadelle, Tomatenscheiben und Spinat darauf schichten.\n8. Mit dem oberen Brötchen abdecken und servieren.",
-
   "recipe.beef_broccoli_bowl": "Rindfleisch-Brokkoli-Schüssel",
   "recipe.beef_broccoli_bowl.desc": "Zarte Streifen von magerem Rindfleisch mit Brokkoli in würziger Knoblauchsauce über Naturreis gebraten. Eine klassische Kombination, die Eisen, Zink und B12 in jedem Bissen liefert.",
   "recipe.beef_broccoli_bowl.steps": "1. Das Rindfleisch gegen die Faser in dünne Streifen schneiden.\n2. Naturreis nach Packungsanweisung kochen.\n3. Olivenöl in einer großen Pfanne oder einem Wok bei hoher Hitze erhitzen.\n4. Rindfleischstreifen 3-4 Minuten anbraten, bis sie gebräunt sind. Herausnehmen und beiseitestellen.\n5. Gehackten Knoblauch in dieselbe Pfanne geben und 30 Sekunden rühren.\n6. Brokkoliröschen mit einem Schuss Wasser hinzufügen, abdecken und 3 Minuten dämpfen.\n7. Rindfleisch zurück in die Pfanne geben, Sojasauce hinzufügen und zusammen schwenken.\n8. Über Naturreis servieren und nach Belieben mit Sesamkörnern bestreuen.",
-
   "recipe.black_bean_sweet_potato_chili": "Schwarze-Bohnen-Süßkartoffel-Chili",
   "recipe.black_bean_sweet_potato_chili.desc": "Ein dickes, rauchiges Chili aus schwarzen Bohnen, gerösteter Süßkartoffel, Tomaten und Paprika. Vegan, günstig und voller Ballaststoffe. Reicht für vier großzügige Portionen.",
   "recipe.black_bean_sweet_potato_chili.steps": "1. Die Süßkartoffeln schälen und in 2cm Würfel schneiden.\n2. Olivenöl in einem großen Topf bei mittlerer Hitze erhitzen.\n3. Gewürfelte Paprika und gehackten Knoblauch 3 Minuten anbraten.\n4. Die Süßkartoffelwürfel hinzufügen und umrühren.\n5. Gewürfelte Tomaten, abgetropfte schwarze Bohnen und genug Wasser hinzufügen, um alles knapp zu bedecken.\n6. Mit Kreuzkümmel, Chilipulver, geräuchertem Paprika, Salz und Pfeffer würzen.\n7. Zum Kochen bringen, Hitze reduzieren und 25-30 Minuten köcheln lassen, bis die Süßkartoffeln weich sind.\n8. In Schüsseln servieren und nach Belieben mit einem Klecks Joghurt oder Avocadoscheiben garnieren.",
-
   "recipe.baked_chicken_vegetables": "Hähnchen & Gemüse vom Blech",
   "recipe.baked_chicken_vegetables.desc": "Hähnchenbrüste auf einem Backblech geröstet mit Süßkartoffel, Brokkoli und Karotten. Einfache Zubereitung, wenig Aufräumen und eine ausgewogene Mahlzeit, die die ganze Familie essen wird.",
   "recipe.baked_chicken_vegetables.steps": "1. Den Ofen auf 200°C vorheizen.\n2. Süßkartoffeln und Karotten in gleichmäßige Stücke schneiden.\n3. Das Gemüse mit Olivenöl, Salz, Pfeffer und gehacktem Knoblauch auf einem großen Backblech vermengen.\n4. 15 Minuten rösten, um dem Wurzelgemüse einen Vorsprung zu geben.\n5. Die Hähnchenbrüste mit Salz, Pfeffer und Ihren Lieblingskräutern würzen.\n6. Das Gemüse an die Seiten schieben und das Hähnchen in die Mitte des Blechs legen.\n7. Brokkoliröschen um das Hähnchen herum verteilen.\n8. Weitere 25 Minuten rösten, bis das Hähnchen eine Kerntemperatur von 74°C erreicht hat.\n9. 5 Minuten ruhen lassen, dann aufschneiden und servieren.",
-
   "recipe.sardine_toast_salad": "Sardinen-Toast mit grünem Salat",
   "recipe.sardine_toast_salad.desc": "Dosensardinen mit Avocado auf geröstetem Vollweizenbrot zerdrückt, serviert mit einem Grünkohl-Tomaten-Salat. Ein unterschätztes, günstiges Gericht, reich an Omega-3-Fettsäuren, Kalzium und B12.",
   "recipe.sardine_toast_salad.steps": "1. Die Sardinen abtropfen und in eine Schüssel geben.\n2. Mit einer Gabel zerdrücken und gewürfelte Avocado, einen Spritzer Zitrone, Salz und Pfeffer hinzufügen.\n3. Das Vollweizenbrot goldbraun toasten.\n4. Die Sardinen-Avocado-Mischung großzügig auf dem Toast verteilen.\n5. Für den Salat gezupfte Grünkohlblätter und geschnittene Tomaten mischen.\n6. Mit Olivenöl, Zitronensaft und einer Prise Salz anmachen.\n7. Den Toast zusammen mit dem Salat servieren.",
-
   "recipe.lentil_bolognese": "Linsen-Bolognese",
   "recipe.lentil_bolognese.desc": "Eine reichhaltige Pastasauce mit fleischigem Geschmack, komplett aus Linsen, Pilzen, Karotten und Tomaten zubereitet. Selbst Fleischliebhaber mögen diese. Reich an Eisen, Ballaststoffen und Protein.",
   "recipe.lentil_bolognese.steps": "1. Die Linsen unter kaltem Wasser abspülen und abtropfen.\n2. Karotten und Pilze fein würfeln.\n3. Olivenöl in einem großen Topf bei mittlerer Hitze erhitzen.\n4. Gehackten Knoblauch und gewürfelte Karotten 3-4 Minuten anbraten.\n5. Die Pilze hinzufügen und weitere 3 Minuten kochen, bis sie weich sind.\n6. Die Linsen und gewürfelte Tomaten mit ihrem Saft hinzufügen.\n7. Genug Wasser hinzufügen, um die Linsen zu bedecken, zum Kochen bringen, dann die Hitze reduzieren.\n8. 25-30 Minuten köcheln lassen, gelegentlich umrühren, bis die Linsen weich und die Sauce dick ist.\n9. Kräftig mit Salz, Pfeffer und getrockneten italienischen Kräutern würzen. Zu Ihrer Lieblingspasta servieren.",
-
   "recipe.stuffed_bell_peppers": "Gefüllte Paprika",
   "recipe.stuffed_bell_peppers.desc": "Bunte Paprikaschoten gefüllt mit einer würzigen Mischung aus Quinoa, schwarzen Bohnen, Tomaten und geschmolzenem Cheddar. Ein vollwertiges Proteingericht, das beeindruckend aussieht, aber überraschend einfach ist.",
   "recipe.stuffed_bell_peppers.steps": "1. Den Ofen auf 190°C vorheizen.\n2. Die Deckel der Paprikaschoten abschneiden und die Kerne entfernen.\n3. Quinoa nach Packungsanweisung kochen.\n4. Den gekochten Quinoa mit abgetropften schwarzen Bohnen, gewürfelten Tomaten, gehacktem Knoblauch und der Hälfte des Cheddars mischen.\n5. Die Füllung mit Kreuzkümmel, Salz und Pfeffer würzen.\n6. Jede Paprika mit der Füllung füllen und fest andrücken.\n7. Die Paprika aufrecht in eine Auflaufform stellen und den restlichen Cheddar darüberstreuen.\n8. Mit Folie abdecken und 25 Minuten backen.\n9. Folie entfernen und weitere 10 Minuten backen, bis der Käse goldbraun und die Paprika weich sind.",
-
   "recipe.slow_cooker_chicken_soup": "Schongarer-Hühnersuppe",
   "recipe.slow_cooker_chicken_soup.desc": "Eine wohltuende, nährende Hühnersuppe, die sich praktisch von selbst kocht. Hähnchenbrust langsam geschmort mit Karotten, Blumenkohl, Spinat und Knoblauch. Ergibt sechs Portionen für die Woche.",
   "recipe.slow_cooker_chicken_soup.steps": "1. Hähnchenbrüste auf den Boden des Schongarers legen.\n2. Gehackte Karotten, Blumenkohlröschen und gehackten Knoblauch darauf geben.\n3. Genug Hühnerbrühe oder Wasser hineingießen, um alles etwa 3cm zu bedecken.\n4. Mit Salz, Pfeffer, Thymian und einem Lorbeerblatt würzen.\n5. Auf niedriger Stufe 6-8 Stunden oder auf hoher Stufe 3-4 Stunden kochen.\n6. Das Hähnchen herausnehmen und mit zwei Gabeln zerrupfen.\n7. Das zerrupfte Hähnchen zurück in den Topf geben und den Spinat einrühren.\n8. Den Spinat 2-3 Minuten zusammenfallen lassen.\n9. Abschmecken und nachwürzen. Heiß servieren. Reste portionsweise kühlen oder einfrieren.",
-
   "recipe.baked_salmon_quinoa": "Gebackener Lachs mit Zitronen-Quinoa",
   "recipe.baked_salmon_quinoa.desc": "Zitronen-Kräuter-Lachsfilets gebacken, bis sie zart zerfallen, serviert auf fluffigem Quinoa mit geröstetem Brokkoli. Ein omega-3-reiches Abendessen, das so elegant wie nährstoffreich ist.",
   "recipe.baked_salmon_quinoa.steps": "1. Den Ofen auf 200°C vorheizen.\n2. Quinoa nach Packungsanweisung kochen. Anschließend mit einer Gabel auflockern und Zitronenschale sowie Zitronensaft einrühren.\n3. Brokkoliröschen auf ein Backblech legen, mit Olivenöl beträufeln und mit Salz würzen.\n4. Brokkoli 10 Minuten rösten.\n5. Lachsfilets mit Salz, Pfeffer, gehacktem Knoblauch und Olivenöl würzen.\n6. Brokkoli an die Seiten schieben und den Lachs auf das Backblech legen.\n7. Gemeinsam 12-14 Minuten rösten, bis der Lachs leicht zerteilt werden kann.\n8. Zitronen-Quinoa auf dem Teller anrichten, Lachs darauflegen und Brokkoli daneben arrangieren.",
-
   "recipe.cauliflower_chickpea_curry": "Blumenkohl-Kichererbsen-Curry",
   "recipe.cauliflower_chickpea_curry.desc": "Ein duftendes, wärmendes Curry aus Blumenkohl und Kichererbsen in einer würzigen Tomaten-Spinat-Sauce. Vegan, ballaststoffreich und zutiefst befriedigend, serviert über Reis oder mit Fladenbrot.",
   "recipe.cauliflower_chickpea_curry.steps": "1. Blumenkohl in mundgerechte Röschen schneiden.\n2. Olivenöl in einem großen Topf bei mittlerer Hitze erhitzen.\n3. Gehackten Knoblauch hinzufügen und 30 Sekunden anbraten, bis er duftet.\n4. Blumenkohlröschen hinzufügen und umrühren. 3 Minuten kochen.\n5. Abgetropfte Kichererbsen, gewürfelte Tomaten und Gewürze (Currypulver, Kurkuma, Kreuzkümmel, Salz) hinzufügen.\n6. Einen Schuss Wasser hinzufügen, abdecken und 20 Minuten köcheln lassen, bis der Blumenkohl weich ist.\n7. Den Spinat einrühren und weitere 2 Minuten kochen, bis er zusammenfällt.\n8. Abschmecken und über Reis oder mit warmem Fladenbrot servieren.",
-
   "resto.burger_meal": "Burger-Menü",
   "resto.burger_meal.restaurant": "Fast-Food-Cheeseburger mit Pommes und einer großen Cola",
   "resto.burger_meal.home": "Selbstgemachter Putenburger mit Süßkartoffelspalten und Wasser",
   "resto.burger_meal.tip": "Der größte Unterschied liegt nicht beim Burger selbst, sondern bei den Beilagen. Der Tausch von Pommes und Cola gegen gebackene Süßkartoffeln und Wasser halbiert die Kalorien und eliminiert den größten Teil des zugesetzten Zuckers.",
-
   "resto.fried_chicken_combo": "Brathähnchen-Menü",
   "resto.fried_chicken_combo.restaurant": "3 Stücke Brathähnchen mit Krautsalat, Brötchen und großem Getränk",
   "resto.fried_chicken_combo.home": "Im Ofen gebackene Hähnchenbrust mit geröstetem Gemüse",
   "resto.fried_chicken_combo.tip": "Backen statt Frittieren reduziert das Fett um 85%, bei gleichem Proteingehalt. Der Krautsalat in Restaurants ist oft mit Mayonnaise beladen, daher ist geröstetes Gemüse eine viel leichtere Beilage.",
-
   "resto.pepperoni_pizza": "Salamipizza (3 Stücke)",
   "resto.pepperoni_pizza.restaurant": "3 Stücke gelieferte Salamipizza",
   "resto.pepperoni_pizza.home": "Selbstgemachte Vollweizenpizza mit frischen Belägen",
   "resto.pepperoni_pizza.tip": "Lieferpizza hat typischerweise viel mehr Käse und verarbeitetes Fleisch als selbstgemachte Versionen. Ein Vollweizenteig und reichlich Gemüse bringen mehr Ballaststoffe und weniger Natrium.",
-
   "resto.margherita_pizza": "Pizza Margherita (3 Stücke)",
   "resto.margherita_pizza.restaurant": "3 Stücke Pizza Margherita aus dem Restaurant",
   "resto.margherita_pizza.home": "Selbstgemachte Margherita mit frischem Mozzarella und Basilikum",
   "resto.margherita_pizza.tip": "Selbst eine einfachere Pizza wie Margherita bekommt im Restaurant extra Öl und Käse. Selbstgemacht können Sie die Qualität der Zutaten und die Käsemenge kontrollieren.",
-
   "resto.general_tso_chicken": "General Tso's Hähnchen",
   "resto.general_tso_chicken.restaurant": "General Tso's Hähnchen mit gebratenem Reis aus dem chinesischen Restaurant",
   "resto.general_tso_chicken.home": "Selbstgemachte Hähnchenpfanne mit Naturreis und Gemüse",
   "resto.general_tso_chicken.tip": "General Tso's Hähnchen wird paniert, frittiert und mit einer zuckrigen Sauce überzogen. Eine einfache Pfanne liefert den ganzen Geschmack mit einem Bruchteil des Fetts und Zuckers. Verwenden Sie frischen Knoblauch und Ingwer für natürliches Aroma.",
-
   "resto.pad_thai": "Pad Thai",
   "resto.pad_thai.restaurant": "Pad Thai mit Garnelen aus dem Restaurant",
   "resto.pad_thai.home": "Selbstgemachte Garnelen-Gemüse-Pasta mit Knoblauch und Olivenöl",
   "resto.pad_thai.tip": "Restaurant-Pad-Thai wird normalerweise in viel Öl mit einer süßen Tamarindensauce zubereitet, die versteckte Kalorien hinzufügt. Eine Knoblauch-Olivenöl-Pasta mit Garnelen bietet ähnliche Zufriedenheit bei viel weniger Natrium und Zucker.",
-
   "resto.burrito_bowl": "Burrito Bowl",
   "resto.burrito_bowl.restaurant": "Große Burrito Bowl mit Reis, Bohnen, Fleisch, Käse, Sauerrahm und Guacamole",
   "resto.burrito_bowl.home": "Selbstgemachte Quinoa-Gemüse-Bowl mit Kichererbsen und Avocado",
   "resto.burrito_bowl.tip": "Restaurant-Burrito-Bowls sind großzügig portioniert, und das ist das Problem. Sauerrahm und extra Käse allein können über 300 Kalorien hinzufügen. Eine selbstgemachte Quinoa-Bowl mit frischem Gemüse bietet mehr Ballaststoffe und Kontrolle über die Portionen.",
-
   "resto.quesadilla_combo": "Quesadilla-Menü",
   "resto.quesadilla_combo.restaurant": "Käse-Quesadilla mit Reis, Bohnen und Chips aus dem mexikanischen Restaurant",
   "resto.quesadilla_combo.home": "Selbstgemachte Vollweizen-Quesadilla mit schwarzen Bohnen und Gemüse",
   "resto.quesadilla_combo.tip": "Restaurant-Quesadillas verwenden riesige Tortillas voller Käse und kommen oft mit kalorienreichen Beilagen. Eine kleinere Vollweizentortilla mit Bohnen und Gemüse ergibt eine ausgewogenere Mahlzeit.",
-
   "resto.fettuccine_alfredo": "Fettuccine Alfredo",
   "resto.fettuccine_alfredo.restaurant": "Fettuccine Alfredo aus dem Restaurant mit Knoblauchbrot",
   "resto.fettuccine_alfredo.home": "Leichtere selbstgemachte Alfredo mit Vollweizenpasta und Gemüse",
   "resto.fettuccine_alfredo.tip": "Restaurant-Alfredo-Sauce besteht im Grunde aus Butter und Sahne in großen Mengen. Eine leichtere Version mit Milch, weniger Parmesan und Brokkoli oder Spinat reduziert das Fett erheblich und fühlt sich trotzdem genussvoll an.",
-
   "resto.pasta_bolognese": "Pasta Bolognese",
   "resto.pasta_bolognese.restaurant": "Spaghetti Bolognese aus dem Restaurant mit Knoblauchbrot",
   "resto.pasta_bolognese.home": "Selbstgemachte Linsen-Bolognese mit Vollweizenpasta",
   "resto.pasta_bolognese.tip": "Hackfleisch durch Linsen zu ersetzen reduziert das Fett um 74% und fügt eine enorme Menge an Ballaststoffen und Eisen hinzu. Die meisten Menschen können nach dem Köcheln mit Tomaten und Kräutern keinen Unterschied feststellen. Probieren Sie es aus, bevor Sie es ablehnen.",
-
   "resto.latte_muffin": "Latte & Muffin",
   "resto.latte_muffin.restaurant": "Großer aromatisierter Latte mit einem Blaubeermuffin aus dem Café",
   "resto.latte_muffin.home": "Selbstgemachter Haferbrei mit Banane, Walnüssen und Honig",
   "resto.latte_muffin.tip": "Ein Café-Muffin kann so viel Zucker wie drei Schokoriegel enthalten. Haferbrei mit Obst liefert konstante Energie ohne Zuckerabsturz, kostet einen Bruchteil des Preises und sättigt viel länger.",
-
   "resto.deli_sub_sandwich": "Deli-Sub-Sandwich",
   "resto.deli_sub_sandwich.restaurant": "30cm Deli-Sub mit verarbeitetem Fleisch, Käse und Dressing",
   "resto.deli_sub_sandwich.home": "Selbstgemachter Puten-Spinat-Wrap mit frischem Gemüse",
   "resto.deli_sub_sandwich.tip": "Deli-Subs sind Natriumbomben durch verarbeitetes Fleisch, Käse und Saucen. Frisch geschnittene Pute statt verarbeitetem Aufschnitt und der Verzicht auf schweres Dressing reduzieren Natrium um 75% und schmecken genauso gut.",
-
   "shop.budget_week": "Sparwoche (50€)",
   "shop.moderate_week": "Ausgewogene Woche (80€)",
   "shop.premium_week": "Premium-Woche (120€)",
-
   "shop.tip.seasonal": "Kaufen Sie Obst und Gemüse saisonal. Sie kosten weniger, schmecken besser und haben einen höheren Nährstoffgehalt, weil sie auf dem Höhepunkt der Reife geerntet werden, statt von weit her transportiert zu werden.",
   "shop.tip.bulk": "Legen Sie sich Vorräte an Grundnahrungsmitteln wie Reis, Haferflocken, Linsen und Bohnen in großen Mengen an. Sie halten monatelang, kosten deutlich weniger pro Portion und bilden die Basis für Hunderte nahrhafter Mahlzeiten.",
   "shop.tip.frozen": "Tiefgekühltes Obst und Gemüse wird auf dem Höhepunkt der Nährstoffe geerntet und eingefroren. Es ist oft günstiger als frisch, hält viel länger und ist genauso nahrhaft. Halten Sie eine Auswahl im Gefrierfach für schnelle Mahlzeiten bereit.",
   "shop.tip.store_brands": "Eigenmarken enthalten oft die gleichen Zutaten wie Markenprodukte bei 20-40% niedrigeren Kosten. Vergleichen Sie die Nährwertangaben zur Bestätigung. Dies ist eine der einfachsten Möglichkeiten, Ihre Lebensmittelausgaben zu senken.",
   "shop.tip.meal_prep": "Verbringen Sie ein oder zwei Stunden am Wochenende mit der Vorbereitung von Mahlzeiten für die Woche. Das Vorkochen von Suppen, Beilagen und Proteinen spart Zeit an hektischen Wochentagen und reduziert die Versuchung, Essen zu bestellen.",
   "shop.tip.avoid_waste": "Planen Sie Ihre Mahlzeiten vor dem Einkaufen und halten Sie sich an Ihre Liste. Verwenden Sie Reste kreativ. Frieren Sie Brot, Fleisch und reife Bananen ein, bevor sie schlecht werden. Lebensmittelverschwendung ist Geldverschwendung.",
-
   "shop.weekly_cost": "Geschätzte Wochenkosten",
   "shop.per_day": "Pro Tag",
   "shop.shopping_list": "Einkaufsliste",
   "shop.grocery_section": "Abteilung",
-
   "shop.section.produce": "Obst & Gemüse",
   "shop.section.meat_counter": "Fleischtheke",
   "shop.section.fish_counter": "Fischtheke",
@@ -422,7 +333,6 @@
   "shop.section.canned_goods": "Konserven & Gläser",
   "shop.section.frozen": "Tiefkühl",
   "shop.section.oils_condiments": "Öle & Gewürze",
-
   "food.category.protein": "Protein",
   "food.category.grain": "Getreide & Stärke",
   "food.category.vegetable": "Gemüse",
@@ -431,39 +341,32 @@
   "food.category.nut_seed": "Nüsse & Samen",
   "food.category.legume": "Hülsenfrüchte",
   "food.category.other": "Sonstiges",
-
   "food.fruit_class.citrus": "Zitrusfrüchte",
   "food.fruit_class.berry": "Beeren",
   "food.fruit_class.tropical": "Tropische Früchte",
   "food.fruit_class.stone": "Steinobst",
   "food.fruit_class.pome": "Kernobst",
   "food.fruit_class.melon": "Melonen",
-
   "score.excellent": "Ausgezeichnete Quelle",
   "score.good": "Gute Quelle",
   "score.moderate": "Mäßige Quelle",
   "score.low": "Geringe Quelle",
-
   "time.quick": "Schnell (unter 15 min)",
   "time.medium": "Mittel (15-30 min)",
   "time.long": "Länger (30+ min)",
-
   "difficulty.easy": "Einfach",
   "difficulty.medium": "Mittel",
   "difficulty.advanced": "Fortgeschritten",
-
   "meal.breakfast": "Frühstück",
   "meal.lunch": "Mittagessen",
   "meal.dinner": "Abendessen",
   "meal.snack": "Snack",
-
   "compare.title": "Lebensmittel vergleichen",
   "compare.subtitle": "Stellen Sie zwei beliebige Lebensmittel nebeneinander, um zu sehen, wie ihre Nährstoffe im Vergleich abschneiden. Wissen ist der erste Schritt zu besseren Entscheidungen.",
   "compare.select_hint": "Suchen oder wählen Sie ein Lebensmittel zum Vergleich",
   "compare.per_serving": "Pro Portion",
   "compare.per_100g": "Pro 100g",
   "compare.winner": "Höher bei diesem Nährstoff",
-
   "planner.title": "Mahlzeitenplaner",
   "planner.subtitle": "Stellen Sie Ihre täglichen Mahlzeiten zusammen und sehen Sie, wie sie im Vergleich zu den empfohlenen Nährstoffzielen für Ihre Altersgruppe abschneiden.",
   "planner.select_age": "Wählen Sie Ihre Altersgruppe",
@@ -475,7 +378,6 @@
   "planner.dinner": "Abendessen",
   "planner.snack": "Snack",
   "planner.clear_all": "Alle Mahlzeiten löschen",
-
   "quiz.title": "Ernährungsquiz",
   "quiz.subtitle": "Testen Sie Ihr Wissen über die Lebensmittel, die Sie essen. Keine Bewertung, nur Lernen.",
   "quiz.start": "Quiz starten",
@@ -489,14 +391,12 @@
   "quiz.rating.great": "Tolles Wissen! Nur ein paar kleine Lücken.",
   "quiz.rating.good": "Guter Anfang! Sie kennen die Grundlagen und sind bereit, mehr zu lernen.",
   "quiz.rating.learning": "Keine Sorge! Jeder fängt irgendwo an. Entdecken Sie die Seite, um mehr zu erfahren.",
-
   "food.detail.nutrients": "Nährstoffe pro 100g",
   "food.detail.recipes": "Rezepte mit diesem Lebensmittel",
   "food.detail.age_benefits": "Besonders geeignet für diese Altersgruppen",
   "food.detail.replaces_supplement": "Kann dieses Nahrungsergänzungsmittel ersetzen",
   "food.detail.available_at": "Im Supermarkt finden",
   "food.detail.cost_tier": "Preisstufe",
-
   "about.title": "Über EatClever",
   "about.intro": "EatClever ist eine unabhängige Ernährungsinformationsressource. Wir präsentieren Fakten über alltägliche Lebensmittel, damit Sie Ihre eigenen fundierten Entscheidungen treffen können. Keine Diäten, keine Schuldgefühle, keine Sponsoren. Nur Daten.",
   "about.mission.title": "Unsere Mission",
@@ -505,13 +405,11 @@
   "about.sources.text": "Alle Nährwertdaten stammen aus begutachteten Datenbanken, darunter USDA FoodData Central, WHO-Ernährungsrichtlinien und nationalen Ernährungsbehörden. Die Werte stellen typische Mengen dar und können je nach Zubereitungsart, Anbaubedingungen und spezifischen Produktmarken variieren.",
   "about.contact.title": "Kontakt",
   "about.contact.text": "Haben Sie eine Frage, Korrektur oder einen Vorschlag? Wir freuen uns über Ihr Feedback. Schreiben Sie uns über unser Kontaktformular und wir melden uns bei Ihnen.",
-
   "methodology.title": "Methodik",
   "methodology.intro": "Transparenz ist wichtig. So sammeln, berechnen und präsentieren wir die Nährwertinformationen auf EatClever.",
   "methodology.sources.title": "Datenquellen",
   "methodology.update.title": "Aktualisierungsrhythmus",
   "methodology.limitations.title": "Einschränkungen",
-
   "footer.about": "Über EatClever",
   "footer.sources": "Datenquellen",
   "footer.legal": "Impressum",
@@ -519,12 +417,20 @@
   "footer.copyright": "EatClever. Nährwertinformationen für fundierte Entscheidungen.",
   "footer.support": "Dieses Projekt unterstützen",
   "footer.sister_sites": "Verwandte Projekte",
-
   "privacy.title": "Datenschutzerklärung",
   "impressum.title": "Impressum",
-
   "lang.en": "Englisch",
-
+  "lang.de": "Deutsch",
+  "lang.es": "Español",
+  "lang.fr": "Français",
+  "lang.it": "Italiano",
+  "lang.pt": "Português",
+  "lang.ro": "Română",
+  "lang.ru": "Русский",
+  "lang.zh": "中文",
+  "lang.ja": "日本語",
+  "lang.ar": "العربية",
+  "lang.hi": "हिन्दी",
   "general.back": "Zurück",
   "general.home": "Startseite",
   "general.learn_more": "Mehr erfahren",
@@ -536,7 +442,6 @@
   "general.per_serving": "pro Portion",
   "general.daily_value": "% Tageswert",
   "general.share": "Teilen",
-
   "general.calories": "Kalorien",
   "general.protein": "Protein",
   "general.fat": "Fett",
@@ -570,17 +475,13 @@
   "general.budget": "Sparsam",
   "general.moderate": "Mittel",
   "general.premium": "Premium",
-
   "general.disclaimer": "Diese Informationen dienen ausschließlich Bildungszwecken und sind nicht als medizinische oder diätetische Beratung gedacht. Konsultieren Sie einen Arzt, bevor Sie wesentliche Änderungen an Ihrer Ernährung vornehmen.",
-
   "food.cost_tier.1": "Budgetfreundlich",
   "food.cost_tier.2": "Mittlere Preisklasse",
   "food.cost_tier.3": "Premium",
-
   "food.availability.common": "Ganzjährig weitverbreitet erhältlich",
   "food.availability.seasonal": "Saisonal (am besten in der Saison)",
   "food.availability.specialty": "Spezialprodukt",
-
   "food.section.fish_counter": "Fischtheke",
   "food.section.meat_counter": "Fleischtheke",
   "food.section.dairy": "Milchprodukte-Abteilung",
@@ -590,7 +491,6 @@
   "food.section.bakery": "Bäckerei-Abteilung",
   "food.section.oils_condiments": "Öle & Gewürze",
   "food.section.snacks": "Snack-Abteilung",
-
   "resto.category.fast_food": "Fast Food",
   "resto.category.pizza": "Pizza",
   "resto.category.asian": "Asiatisch",
@@ -598,7 +498,6 @@
   "resto.category.italian": "Italienisch",
   "resto.category.cafe": "Café",
   "resto.category.deli": "Feinkost",
-
   "resto.savings_label": "Sie sparen, wenn Sie zu Hause kochen",
   "resto.fewer_calories": "weniger Kalorien",
   "resto.less_fat": "weniger Fett",
@@ -607,7 +506,6 @@
   "resto.home_version": "Selbstgemachte Version",
   "resto.restaurant_version": "Restaurant-Version",
   "resto.cook_time": "Kochzeit zu Hause",
-
   "compare.calories": "Kalorien",
   "compare.protein": "Protein",
   "compare.fat": "Fett",
@@ -617,7 +515,6 @@
   "compare.minerals": "Mineralstoffe",
   "compare.swap_foods": "Lebensmittel tauschen",
   "compare.add_to_planner": "Zum Mahlzeitenplaner hinzufügen",
-
   "planner.calories_target": "Kalorienziel",
   "planner.protein_target": "Proteinziel",
   "planner.remaining": "Verbleibend",
@@ -629,7 +526,6 @@
   "planner.import": "Plan importieren",
   "planner.suggested_meals": "Vorgeschlagene Mahlzeiten",
   "planner.remove_meal": "Entfernen",
-
   "quiz.correct": "Richtig!",
   "quiz.incorrect": "Nicht ganz.",
   "quiz.explanation": "Erklärung",
@@ -639,7 +535,6 @@
   "quiz.category.foods": "Lebensmittel-Fakten",
   "quiz.category.labels": "Etiketten lesen",
   "quiz.category.myths": "Ernährungsmythen",
-
   "age.section.title": "Ernährung im Laufe des Lebens",
   "age.section.subtitle": "Die Bedürfnisse Ihres Körpers ändern sich mit jedem Jahrzehnt. Hier erfahren Sie, worauf Sie in jeder Phase achten sollten.",
   "age.calorie_range": "Empfohlener täglicher Kalorienbedarf",
@@ -647,7 +542,6 @@
   "age.recommended_foods": "Top empfohlene Lebensmittel",
   "age.foods_to_limit": "Lebensmittel, die eingeschränkt werden sollten",
   "age.tips_title": "Praktische Tipps",
-
   "supp.section.title": "Lebensmittel vs. Nahrungsergänzung",
   "supp.section.subtitle": "Sehen Sie genau, wie viel echtes Essen nötig ist, um eine gängige Ergänzungsmittelpille zu ersetzen.",
   "supp.common_dose": "Gängige Ergänzungsmitteldosis",
@@ -655,7 +549,6 @@
   "supp.per_serving": "pro Portion liefert",
   "supp.of_daily_need": "Ihres Tagesbedarfs",
   "supp.verdict": "Das Fazit",
-
   "cook.section.title": "Kochzeit & Nährwert",
   "cook.section.subtitle": "Ob Sie 5 Minuten oder 50 haben, eine nahrhafte Mahlzeit wartet auf Sie. Filtern Sie nach Zeit und finden Sie Rezepte, die in Ihren Zeitplan passen.",
   "cook.filter.all": "Alle Rezepte",
@@ -664,14 +557,12 @@
   "cook.filter.long": "30+ min",
   "cook.filter.meal_type": "Mahlzeitenart",
   "cook.filter.difficulty": "Schwierigkeitsgrad",
-
   "taste.section.title": "Geschmack & Nährwert",
   "taste.section.subtitle": "Gesundes Essen bedeutet nicht, auf Geschmack zu verzichten. Es geht darum, neue Kombinationen zu entdecken, die sowohl Ihren Gaumen als auch Ihren Körper zufriedenstellen.",
   "taste.flavour_pairings": "Geschmackskombinationen, die die Nährstoffzufuhr steigern",
   "taste.umami": "Umami-reiche Lebensmittel",
   "taste.sweet_natural": "Natürlich süße Alternativen",
   "taste.herbs_spices": "Kräuter und Gewürze mit Mehrwert",
-
   "shop.section.title": "Cleverer Einkaufsratgeber",
   "shop.section.subtitle": "Drei wöchentliche Mahlzeitenpläne in drei Preisstufen. Jeder ist ernährungsphysiologisch vollständig, mit kompletten Einkaufslisten und geschätzten Kosten.",
   "shop.plan_includes": "Dieser Plan enthält",
@@ -686,7 +577,6 @@
   "shop.section_label": "Abteilung",
   "shop.total": "Gesamt",
   "shop.tips_title": "Spartipps",
-
   "labels.section.title": "Ratgeber für Nährwertkennzeichnung",
   "labels.section.subtitle": "Nährwertkennzeichnungen zu verstehen hilft Ihnen, im Supermarkt bessere Entscheidungen zu treffen. Hier erfahren Sie, worauf Sie achten sollten.",
   "labels.how_to_read": "So lesen Sie eine Nährwertkennzeichnung",
@@ -700,18 +590,15 @@
   "labels.trap_sugar_names": "Zucker hat über 50 Namen: Saccharose, Fructose, Maissirup, Maltose, Dextrose und viele mehr.",
   "labels.trap_health_claims": "\"Natürlich\", \"Mehrkorn\" und \"leicht gesüßt\" sind Marketingbegriffe, keine Nährwertangaben.",
   "labels.trap_zero": "\"0g Transfett\" kann trotzdem bis zu 0,5g pro Portion enthalten. Prüfen Sie die Zutatenliste auf teilweise gehärtete Öle.",
-
   "vitamins.section.title": "Vitamin- & Mineralstoffratgeber",
   "vitamins.section.subtitle": "Was jeder Nährstoff bewirkt, wo man ihn natürlich findet und wer ihn am meisten braucht. Tippen Sie auf einen Nährstoff, um Nahrungsquellen zu sehen.",
   "vitamins.rda": "Empfohlene Tagesdosis",
   "vitamins.top_foods": "Wichtigste Nahrungsquellen",
   "vitamins.deficiency_signs": "Anzeichen, dass Sie möglicherweise zu wenig bekommen",
   "vitamins.excess_risk": "Risiken bei zu viel",
-
   "error.page_not_found": "Seite nicht gefunden",
   "error.data_load_failed": "Daten konnten nicht geladen werden. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
   "error.generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
-
   "accessibility.skip_to_content": "Zum Hauptinhalt springen",
   "accessibility.open_menu": "Navigationsmenü öffnen",
   "accessibility.close_menu": "Navigationsmenü schließen",

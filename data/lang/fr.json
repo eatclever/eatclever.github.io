@@ -1,12 +1,10 @@
 {
   "site.title": "EatClever",
   "site.subtitle": "Données nutritionnelles pour les choix alimentaires du quotidien",
-
   "wisdom.p1": "Votre corps est remarquablement intelligent. Chaque jour, il décompose les aliments que vous mangez et en extrait exactement ce dont il a besoin — construisant du muscle, réparant des cellules, renforçant les os, combattant les infections et gardant votre cerveau vif. Vous n'avez pas besoin de gérer chaque vitamine dans les moindres détails. Vous devez simplement fournir à votre corps les bonnes matières premières.",
   "wisdom.p2": "Le secret est simple : mangez varié, mangez naturel, mangez coloré. Quand vous remplissez votre assiette avec une variété d'aliments naturels — légumes, fruits, protéines, céréales, noix — votre corps sait exactement quoi en faire. Il le fait depuis des millions d'années. Faites-lui confiance.",
   "wisdom.p3": "Les compléments et les pilules ont leur place, mais la nature fournit la majeure partie de ce dont nous avons besoin. Une poignée de noix, un morceau de saumon, un bol de légumes colorés — ce ne sont pas que des repas, c'est de la médecine. Chaque bouchée est une occasion de nourrir votre corps et de tenir le médecin à distance.",
   "wisdom.cta": "EatClever ne vous dit pas quoi faire. Nous vous présentons les faits — vous prenez les décisions qui conviennent le mieux à vous et à votre famille.",
-
   "nav.about": "À propos",
   "nav.methodology": "Méthodologie",
   "nav.categories": "Explorer les Thèmes",
@@ -15,10 +13,8 @@
   "nav.quiz": "Quiz Nutrition",
   "nav.planner": "Planificateur de Repas",
   "nav.labels_guide": "Guide des Étiquettes",
-
   "hero.title": "Mangez Malin. Vivez Mieux.",
   "hero.subtitle": "Les choix alimentaires que vous faites chaque jour influencent votre santé bien plus qu'un régime ponctuel. Explorez les données, comparez vos options et décidez ce qui vous convient le mieux.",
-
   "cat.age_nutrition": "Nutrition par Âge",
   "cat.age_nutrition.desc": "Les besoins de votre corps évoluent au fil de votre croissance. Découvrez quels nutriments comptent le plus à chaque étape de la vie, de la petite enfance au troisième âge.",
   "cat.food_vs_supplements": "Aliments vs. Compléments",
@@ -31,7 +27,6 @@
   "cat.cook_time.desc": "Peu de temps ? Trouvez des recettes rapides, moyennes et longues qui prouvent que manger équilibré s'adapte à tout emploi du temps.",
   "cat.shopping": "Courses Intelligentes",
   "cat.shopping.desc": "Mangez bien avec n'importe quel budget. Plans de repas hebdomadaires et listes de courses à trois niveaux de prix, plus des astuces pour optimiser chaque euro.",
-
   "age.children": "Enfants (0-12)",
   "age.teens": "Adolescents (13-19)",
   "age.adults": "Adultes (20-59)",
@@ -43,7 +38,6 @@
   "age.young_adult": "Jeune Adulte (20-39)",
   "age.middle_age": "Âge Mûr (40-59)",
   "age.senior": "Senior (60+)",
-
   "age.infant.tips": "Le lait maternel ou le lait maternisé fournit la plupart des nutriments pendant la première année. Introduisez des aliments solides riches en fer vers 6 mois. Évitez le miel avant l'âge de 1 an. Proposez une variété de textures tendres et écrasées pour créer de bonnes habitudes alimentaires dès le départ.",
   "age.toddler.tips": "Les tout-petits apprennent à manger seuls, alors attendez-vous à du désordre et des caprices. Proposez de petites portions d'aliments riches en nutriments tout au long de la journée. Le lait entier est important pour le développement cérébral. Coupez les aliments ronds comme les raisins en petits morceaux pour éviter les étouffements.",
   "age.school_age.tips": "Les corps en croissance ont besoin de calcium pour des os solides et de fer pour l'énergie. Limitez les boissons sucrées et les snacks industriels. Impliquez les enfants dans la préparation des repas pour créer des habitudes saines durables. Un petit-déjeuner équilibré favorise la concentration et l'apprentissage à l'école.",
@@ -51,91 +45,70 @@
   "age.young_adult.tips": "C'est le moment d'établir des habitudes alimentaires qui soutiennent la santé à long terme. Privilégiez les aliments complets aux aliments transformés. Le fer et le folate sont particulièrement importants pour ceux qui planifient une grossesse. Les oméga-3 soutiennent la santé cérébrale pendant les années les plus exigeantes.",
   "age.middle_age.tips": "Le métabolisme ralentit naturellement, donc la densité nutritionnelle compte plus que jamais. Concentrez-vous sur les fibres pour la santé digestive, le calcium et la vitamine D pour les os, et les oméga-3 pour la santé cardiaque. Des repas réguliers riches en légumes aident à maintenir une énergie stable tout au long de la journée.",
   "age.senior.tips": "L'appétit diminue souvent avec l'âge, donc chaque bouchée doit compter sur le plan nutritionnel. L'absorption de la vitamine B12 diminue, ce qui rend les aliments enrichis ou les compléments dignes d'intérêt. Les protéines soutiennent le maintien musculaire, et la vitamine D associée au calcium aide à protéger contre les fractures. Restez hydraté même quand vous n'avez pas soif.",
-
   "age.daily_calories": "Apport Calorique Journalier",
   "age.focus_nutrients": "Nutriments Clés à Privilégier",
   "age.key_foods": "Aliments Recommandés",
   "age.foods_to_avoid": "Aliments à Limiter ou Éviter",
-
   "nutrient.protein": "Protéines",
   "nutrient.protein.desc": "Élément essentiel à la construction des muscles, des organes et de la fonction immunitaire.",
   "nutrient.protein.body_effect": "Les protéines construisent et réparent chaque tissu de votre corps, des muscles et des os à la peau et aux cheveux. Elles fabriquent aussi les enzymes et les hormones qui font tourner votre métabolisme. Les enfants et les adolescents en ont besoin pour grandir, les adultes pour l'entretien, et les seniors pour prévenir la perte musculaire.",
-
   "nutrient.fat": "Lipides",
   "nutrient.fat.desc": "Source d'énergie concentrée qui soutient la croissance cellulaire et l'absorption des nutriments.",
   "nutrient.fat.body_effect": "Les lipides protègent vos organes, isolent votre corps et aident à absorber les vitamines A, D, E et K. Votre cerveau est composé à près de 60% de graisse. Les nourrissons et les tout-petits ont besoin de plus de graisses par rapport à leur taille car leur cerveau se développe rapidement. Choisissez des graisses insaturées provenant du poisson, des noix et de l'huile d'olive plutôt que des sources saturées.",
-
   "nutrient.carbs": "Glucides",
   "nutrient.carbs.desc": "La source d'énergie préférée et la plus efficace de votre corps.",
   "nutrient.carbs.body_effect": "Les glucides se décomposent en glucose, qui alimente votre cerveau, vos muscles et votre système nerveux central. Les glucides complexes provenant des céréales complètes, des légumineuses et des légumes libèrent l'énergie lentement et régulièrement. Tous les groupes d'âge ont besoin de glucides, mais les adolescents actifs et les sportifs en ont le plus besoin. Choisissez les céréales complètes plutôt que raffinées pour une énergie durable et un meilleur contrôle de la glycémie.",
-
   "nutrient.fiber": "Fibres",
   "nutrient.fiber.desc": "Favorise une digestion saine, nourrit les bonnes bactéries intestinales et aide à contrôler la glycémie.",
   "nutrient.fiber.body_effect": "Les fibres maintiennent votre système digestif en bon état de marche, nourrissent les bonnes bactéries de votre intestin et vous aident à vous sentir rassasié plus longtemps après les repas. Elles ralentissent aussi l'absorption du sucre, ce qui stabilise la glycémie. Les adultes et les seniors bénéficient le plus d'un apport élevé en fibres pour la santé cardiaque et la régularité, mais les enfants en ont aussi besoin pour une bonne digestion.",
-
   "nutrient.vitamin_a": "Vitamine A",
   "nutrient.vitamin_a.desc": "Soutient la vision, la fonction immunitaire et la santé de la peau.",
   "nutrient.vitamin_a.body_effect": "La vitamine A est essentielle pour une vision nette, surtout dans la pénombre. Elle maintient aussi la peau et les muqueuses des poumons et de l'intestin en bonne santé, agissant comme première ligne de défense contre les infections. Les enfants ont besoin de vitamine A pour une croissance et un développement immunitaire adéquats. On la trouve en abondance dans les légumes orange et vert foncé.",
-
   "nutrient.vitamin_b12": "Vitamine B12",
   "nutrient.vitamin_b12.desc": "Essentielle pour la fonction nerveuse, la formation des globules rouges et la synthèse de l'ADN.",
   "nutrient.vitamin_b12.body_effect": "La vitamine B12 maintient vos nerfs en bon état de fonctionnement et aide à fabriquer les globules rouges qui transportent l'oxygène dans tout votre corps. Une carence peut provoquer fatigue, faiblesse et problèmes nerveux. Les seniors sont les plus à risque car l'absorption diminue avec l'âge. Les végétaliens et les végétariens doivent y prêter une attention particulière, car la B12 se trouve presque exclusivement dans les aliments d'origine animale.",
-
   "nutrient.vitamin_c": "Vitamine C",
   "nutrient.vitamin_c.desc": "Puissant antioxydant qui renforce l'immunité et aide le corps à absorber le fer.",
   "nutrient.vitamin_c.body_effect": "La vitamine C protège vos cellules contre les dommages, aide les plaies à cicatriser plus vite et renforce la capacité de votre système immunitaire à combattre les infections. Elle améliore aussi considérablement l'absorption du fer lorsqu'elle est consommée avec des aliments riches en fer. Importante à tout âge, mais surtout pour les enfants en croissance et toute personne en convalescence.",
-
   "nutrient.vitamin_d": "Vitamine D",
   "nutrient.vitamin_d.desc": "La vitamine du soleil qui renforce les os et soutient la santé immunitaire.",
   "nutrient.vitamin_d.body_effect": "La vitamine D aide votre corps à absorber le calcium, ce qui la rend essentielle pour des os et des dents solides. Elle joue aussi un rôle majeur dans la fonction immunitaire et la régulation de l'humeur. Votre peau la produit grâce à la lumière du soleil, mais beaucoup de gens n'en obtiennent pas assez, surtout dans les climats nordiques. Les seniors en ont besoin davantage car leur peau devient moins efficace pour la produire, et les nourrissons en ont besoin car le lait maternel en fournit très peu.",
-
   "nutrient.vitamin_e": "Vitamine E",
   "nutrient.vitamin_e.desc": "Antioxydant qui protège les cellules des dommages et soutient la santé de la peau.",
   "nutrient.vitamin_e.body_effect": "La vitamine E agit comme un bouclier pour vos cellules, les protégeant des dommages oxydatifs causés par la pollution, les rayons UV et le métabolisme normal. Elle favorise une peau saine, aide votre système immunitaire à combattre les bactéries et les virus, et peut ralentir le déclin lié à l'âge. Tous les âges en bénéficient, mais elle est particulièrement pertinente pour les adultes et les seniors en tant que nutriment protecteur.",
-
   "nutrient.vitamin_k": "Vitamine K",
   "nutrient.vitamin_k.desc": "Essentielle pour la coagulation sanguine et le métabolisme osseux.",
   "nutrient.vitamin_k.body_effect": "La vitamine K est la raison pour laquelle une coupure cesse de saigner. Sans elle en quantité suffisante, même une petite blessure pourrait être dangereuse. Elle dirige aussi le calcium vers vos os plutôt que vers vos artères, ce qui est important pour la santé cardiaque et osseuse à long terme. Les adultes et les seniors en ont le plus besoin. Les légumes verts à feuilles foncées comme le chou frisé et les épinards sont de loin les sources les plus riches.",
-
   "nutrient.calcium": "Calcium",
   "nutrient.calcium.desc": "Le minéral le plus abondant de votre corps, essentiel pour les os et les dents.",
   "nutrient.calcium.body_effect": "Environ 99% de votre calcium se trouve dans vos os et vos dents, leur donnant force et structure. Le 1% restant est vital pour les contractions musculaires, la signalisation nerveuse et le rythme cardiaque. Les adolescents en ont le plus besoin car ils construisent leur capital osseux maximal. Les seniors en ont besoin pour ralentir la perte osseuse. Les produits laitiers, les sardines avec leurs arêtes et le tofu au calcium sont les meilleures sources.",
-
   "nutrient.iron": "Fer",
   "nutrient.iron.desc": "Transporte l'oxygène dans le sang et soutient la production d'énergie.",
   "nutrient.iron.body_effect": "Le fer est au cœur de l'hémoglobine, la molécule des globules rouges qui transporte l'oxygène de vos poumons vers chaque partie de votre corps. Sans assez de fer, vous vous sentez fatigué, faible et incapable de vous concentrer. Les adolescents, surtout les filles après le début des règles, et les jeunes femmes en ont le plus besoin. Associez les aliments riches en fer à de la vitamine C pour améliorer significativement l'absorption.",
-
   "nutrient.magnesium": "Magnésium",
   "nutrient.magnesium.desc": "Impliqué dans plus de 300 réactions enzymatiques, de la production d'énergie à la relaxation musculaire.",
   "nutrient.magnesium.body_effect": "Le magnésium est une force discrète impliquée dans plus de 300 réactions biochimiques. Il aide vos muscles à se détendre après la contraction, maintient un rythme cardiaque stable, soutient des os solides et régule la glycémie. La carence est étonnamment courante et peut provoquer des crampes musculaires, un mauvais sommeil et de l'anxiété. Les adultes et les seniors bénéficient le plus d'une augmentation de leur apport via les noix, les graines et les légumes verts à feuilles foncées.",
-
   "nutrient.potassium": "Potassium",
   "nutrient.potassium.desc": "Régule l'équilibre hydrique, les contractions musculaires et la pression artérielle.",
   "nutrient.potassium.body_effect": "Le potassium travaille aux côtés du sodium pour contrôler l'équilibre hydrique dans vos cellules et réguler la pression artérielle. Il aide les muscles à se contracter correctement, y compris le muscle cardiaque. La plupart des gens ne consomment pas assez de potassium, ce qui peut augmenter la pression artérielle au fil du temps. Les adultes et les seniors en bénéficient le plus. Les bananes sont célèbres pour le potassium, mais les patates douces, les épinards et les avocats en contiennent en réalité davantage.",
-
   "nutrient.zinc": "Zinc",
   "nutrient.zinc.desc": "Soutient les défenses immunitaires, la cicatrisation et la perception du goût.",
   "nutrient.zinc.body_effect": "Le zinc est essentiel pour un système immunitaire fort, aidant votre corps à combattre virus et bactéries. Il accélère aussi la cicatrisation, soutient les sens du goût et de l'odorat, et joue un rôle dans la division cellulaire. Les adolescents en ont davantage besoin pendant les poussées de croissance, et les seniors l'absorbent souvent moins efficacement. Le bœuf, les crustacés et les légumineuses sont d'excellentes sources.",
-
   "nutrient.selenium": "Sélénium",
   "nutrient.selenium.desc": "Oligo-élément qui soutient la fonction thyroïdienne et protège contre les dommages oxydatifs.",
   "nutrient.selenium.body_effect": "Le sélénium agit discrètement mais puissamment. Il aide votre thyroïde à produire les hormones qui régulent le métabolisme, protège vos cellules des dommages oxydatifs et soutient votre système immunitaire. Seule une petite quantité est nécessaire, mais une carence peut altérer la fonction thyroïdienne et la réponse immunitaire. Les noix du Brésil sont si riches en sélénium qu'une ou deux par jour suffisent à couvrir vos besoins. Tous les groupes d'âge en bénéficient également.",
-
   "nutrient.omega_3": "Acides Gras Oméga-3",
   "nutrient.omega_3.desc": "Graisses essentielles qui soutiennent la santé du cerveau, du cœur et des articulations.",
   "nutrient.omega_3.body_effect": "Les oméga-3 sont des graisses que votre corps ne peut pas fabriquer lui-même, vous devez donc les obtenir par l'alimentation. Ils réduisent l'inflammation, soutiennent la fonction cérébrale et la mémoire, protègent votre cœur et peuvent soulager les raideurs articulaires. Les enfants en ont besoin pour le développement cérébral, les adultes pour la protection cardiaque, et les seniors pour la santé cognitive et la réduction de l'inflammation. Les poissons gras comme le saumon et les sardines sont les meilleures sources des formes les plus actives (EPA et DHA).",
-
   "nutrient.folate": "Folate",
   "nutrient.folate.desc": "Vitamine B essentielle pour la division cellulaire, la synthèse de l'ADN et la prévention des malformations congénitales.",
   "nutrient.folate.body_effect": "Le folate est essentiel chaque fois que votre corps fabrique de nouvelles cellules, ce qui se produit en permanence. Il est critique pendant la grossesse pour prévenir les anomalies du tube neural chez le bébé en développement, ce qui en fait le nutriment le plus important pour les femmes en âge de procréer. Il soutient aussi la production de globules rouges et aide à prévenir l'anémie. Les lentilles, les épinards et les haricots noirs sont d'excellentes sources végétales.",
-
   "vitamins.title": "Guide des Vitamines et Minéraux",
   "vitamins.subtitle": "Ce qu'ils font, où les trouver, qui en a le plus besoin",
   "vitamins.found_in": "Présent naturellement dans",
   "vitamins.important_for": "Particulièrement important pour",
   "vitamins.supplement_note": "Quand les compléments peuvent aider",
   "vitamins.food_first": "L'alimentation d'abord — les compléments seulement quand c'est vraiment nécessaire",
-
   "labels.title": "Comprendre les Étiquettes Nutritionnelles",
   "labels.subtitle": "Ce que signifient vraiment les chiffres sur les emballages alimentaires",
   "labels.per_100g": "Valeurs pour 100g",
@@ -154,265 +127,203 @@
   "labels.amber_medium": "Orange = Moyen (acceptable avec modération)",
   "labels.red_high": "Rouge = Élevé (à consommer avec parcimonie)",
   "labels.tip": "Comparez des produits similaires en utilisant les valeurs pour 100g — c'est la façon la plus équitable de comparer.",
-
   "supp.vitamin_d": "Complément de Vitamine D",
   "supp.vitamin_d.why": "Beaucoup de gens ne reçoivent pas assez de soleil pour produire suffisamment de vitamine D, surtout pendant les mois d'hiver ou dans les latitudes nordiques.",
   "supp.vitamin_d.note": "Envisagez une supplémentation si vous avez peu d'exposition au soleil, si vous avez la peau foncée ou si vous avez plus de 60 ans. Un filet de saumon cuit en 15 minutes fournit presque la totalité des besoins quotidiens.",
-
   "supp.vitamin_c": "Complément de Vitamine C",
   "supp.vitamin_c.why": "Populaire pour le soutien immunitaire, bien que la plupart des gens couvrent facilement leurs besoins grâce aux fruits et légumes.",
   "supp.vitamin_c.note": "Un seul poivron rouge ou deux kiwis fournissent plus de vitamine C que la plupart des comprimés. Les compléments sont rarement nécessaires si vous mangez des fruits et légumes quotidiennement.",
-
   "supp.vitamin_b12": "Complément de Vitamine B12",
   "supp.vitamin_b12.why": "Essentiel pour les végétaliens et les végétariens car la B12 se trouve presque exclusivement dans les aliments d'origine animale. L'absorption diminue aussi avec l'âge.",
   "supp.vitamin_b12.note": "Si vous mangez régulièrement de la viande ou du poisson, vous en obtenez probablement assez. Les végétaliens devraient supplémenter ou consommer des aliments enrichis. Les seniors devraient discuter de leurs niveaux de B12 avec leur médecin.",
-
   "supp.iron": "Complément de Fer",
   "supp.iron.why": "Souvent recommandé pour les femmes ayant des règles abondantes, les femmes enceintes et les personnes diagnostiquées avec une anémie ferriprive.",
   "supp.iron.note": "Ne prenez pas de complément de fer sans une analyse de sang confirmant la carence, car un excès de fer peut être nocif. Associez les sources végétales de fer à de la vitamine C pour une meilleure absorption.",
-
   "supp.calcium": "Complément de Calcium",
   "supp.calcium.why": "Peut aider les personnes qui évitent les produits laitiers, sont intolérantes au lactose ou ont été diagnostiquées avec de l'ostéoporose ou une faible densité osseuse.",
   "supp.calcium.note": "Le tofu au calcium fournit plus de calcium par portion qu'un verre de lait. Si vous consommez régulièrement des produits laitiers et des légumes verts à feuilles, vous n'avez peut-être pas besoin de complément. Prenez le calcium en petites doses pour une meilleure absorption.",
-
   "supp.magnesium": "Complément de Magnésium",
   "supp.magnesium.why": "Un minéral souvent déficient qui favorise la qualité du sommeil, la relaxation musculaire et plus de 300 réactions enzymatiques dans le corps.",
   "supp.magnesium.note": "Une poignée d'amandes plus une portion d'épinards couvre environ 40% des besoins quotidiens. Le glycinate de magnésium est souvent mieux toléré que d'autres formes en cas de supplémentation.",
-
   "supp.omega_3": "Complément d'Oméga-3 (Huile de Poisson)",
   "supp.omega_3.why": "Soutient la santé du cœur, du cerveau et des articulations. Souvent pris par les personnes qui ne mangent pas de poisson régulièrement.",
   "supp.omega_3.note": "Deux portions de poisson gras par semaine couvrent les besoins en oméga-3 de la plupart des gens. Une cuillère à soupe de graines de chia ou une poignée de noix fournit la forme végétale (ALA). Les compléments d'huile de poisson peuvent être utiles pour ceux qui n'aiment pas les fruits de mer.",
-
   "supp.zinc": "Complément de Zinc",
   "supp.zinc.why": "Soutient la fonction immunitaire, la cicatrisation et la perception du goût. Parfois pris dès les premiers signes d'un rhume.",
   "supp.zinc.note": "La plupart des personnes ayant une alimentation variée obtiennent assez de zinc. Les végétariens peuvent avoir besoin de jusqu'à 50% de plus en raison de la moindre absorption des sources végétales. Un excès de zinc peut interférer avec l'absorption du cuivre.",
-
   "supp.folate": "Complément de Folate (Acide Folique)",
   "supp.folate.why": "Essentiel avant et pendant le début de la grossesse pour prévenir les anomalies du tube neural. Aussi important pour la formation des globules rouges.",
   "supp.folate.note": "Les femmes qui planifient une grossesse devraient prendre 400mcg par jour en commençant au moins un mois avant la conception. Une tasse de lentilles cuites couvre environ 90% des besoins quotidiens pour les adultes non enceintes.",
-
   "supp.potassium": "Complément de Potassium",
   "supp.potassium.why": "Aide à réguler la pression artérielle et l'équilibre hydrique. La plupart des gens n'en obtiennent pas assez par l'alimentation seule.",
   "supp.potassium.note": "Les doses des compléments sont maintenues basses (99mg) car un excès de potassium peut être dangereux, surtout pour les personnes ayant des problèmes rénaux. Une seule patate douce au four fournit plus de 700mg naturellement. L'alimentation est le moyen le plus sûr d'augmenter le potassium.",
-
   "supp.vitamin_a": "Complément de Vitamine A",
   "supp.vitamin_a.why": "Soutient la vision, la fonction immunitaire et la santé de la peau. La carence est rare dans les pays développés mais courante dans certaines parties du monde en développement.",
   "supp.vitamin_a.note": "Une patate douce moyenne fournit 160% des besoins quotidiens. Le bêta-carotène des légumes est converti en vitamine A selon les besoins, donc la toxicité par les sources alimentaires est pratiquement impossible. Les compléments de vitamine A préformée peuvent provoquer une toxicité à fortes doses.",
-
   "supp.vitamin_e": "Complément de Vitamine E",
   "supp.vitamin_e.why": "Agit comme antioxydant protégeant les cellules des dommages. Parfois promu pour la santé de la peau et l'anti-âge.",
   "supp.vitamin_e.note": "Une poignée d'amandes fournit plus de 50% des besoins quotidiens. Les compléments de vitamine E à fortes doses ont montré des résultats mitigés dans les études et peuvent interagir avec les médicaments anticoagulants. Les sources alimentaires sont recommandées plutôt que les compléments.",
-
   "supp.selenium": "Complément de Sélénium",
   "supp.selenium.why": "Soutient la fonction thyroïdienne, les défenses immunitaires et la protection contre le stress oxydatif.",
   "supp.selenium.note": "Une ou deux noix du Brésil par jour suffit à couvrir vos besoins en sélénium. Une boîte de thon couvre 140% des besoins quotidiens. La supplémentation est rarement nécessaire et un excès de sélénium peut être toxique.",
-
   "supp.probiotics": "Complément de Probiotiques",
   "supp.probiotics.why": "Vise à soutenir la santé intestinale en introduisant des bactéries bénéfiques. La recherche est prometteuse mais encore en évolution pour de nombreuses allégations de santé.",
   "supp.probiotics.note": "Le yaourt grec, le kéfir et d'autres aliments fermentés contiennent naturellement des probiotiques et apportent aussi des protéines, du calcium et d'autres nutriments que les gélules ne peuvent pas reproduire. Privilégiez d'abord les probiotiques alimentaires.",
-
   "supp.fiber": "Complément de Fibres",
   "supp.fiber.why": "Utilisé quand l'apport en fibres alimentaires est insuffisant. Aide à la régularité, au contrôle de la glycémie et à la gestion du cholestérol.",
   "supp.fiber.note": "Deux cuillères à soupe de graines de chia fournissent environ 10g de fibres plus des protéines, des oméga-3 et des minéraux qu'un complément de psyllium ne peut pas offrir. Les aliments complets apportent des fibres ainsi que des centaines d'autres composés bénéfiques. Augmentez les fibres progressivement pour éviter les inconforts digestifs.",
-
   "supp.food_first_message": "La nature fournit la majeure partie de ce dont nous avons besoin. Voici comment obtenir vos nutriments à partir d'aliments réels.",
-
   "recipe.salmon_avocado_bowl": "Bowl Saumon et Avocat sur Riz",
   "recipe.salmon_avocado_bowl.desc": "Un bowl coloré de saumon poêlé sur du riz complet moelleux avec des tranches d'avocat crémeux. Riche en oméga-3 et en protéines, ce déjeuner équilibré se prépare en seulement 12 minutes.",
   "recipe.salmon_avocado_bowl.steps": "1. Cuisez le riz complet selon les instructions du paquet et réservez.\n2. Assaisonnez le filet de saumon avec du sel, du poivre et un filet de citron.\n3. Chauffez une poêle antiadhésive à feu moyen-vif avec un filet d'huile d'olive.\n4. Saisissez le saumon côté peau vers le bas pendant 4 minutes, puis retournez et cuisez 3 minutes de plus.\n5. Tranchez l'avocat pendant que le saumon finit de cuire.\n6. Assemblez le bowl : riz au fond, saumon dessus, avocat sur le côté.\n7. Terminez avec un filet de sauce soja ou votre vinaigrette préférée.",
-
   "recipe.overnight_oats_berries": "Overnight Porridge aux Fruits Rouges",
   "recipe.overnight_oats_berries.desc": "Des flocons d'avoine crémeux sans cuisson, trempés toute la nuit avec des myrtilles fraîches, des graines de chia et une touche de miel. Sortez-les du frigo pour un petit-déjeuner instantané et riche en fibres.",
   "recipe.overnight_oats_berries.steps": "1. Mélangez les flocons d'avoine, le lait et les graines de chia dans un bocal ou un récipient.\n2. Ajoutez le miel et mélangez bien.\n3. Fermez le récipient et réfrigérez toute la nuit (au moins 6 heures).\n4. Le matin, remuez les flocons et ajoutez du lait si c'est trop épais.\n5. Garnissez de myrtilles fraîches.\n6. Dégustez froid directement du frigo, ou réchauffez au micro-ondes pendant 90 secondes si vous préférez.",
-
   "recipe.scrambled_eggs_toast": "Œufs Brouillés sur Toast aux Épinards",
   "recipe.scrambled_eggs_toast.desc": "Des œufs brouillés moelleux sur du pain complet toasté avec des épinards fondus et un peu de cheddar. Un petit-déjeuner riche en protéines que toute la famille peut apprécier en moins de 10 minutes.",
   "recipe.scrambled_eggs_toast.steps": "1. Cassez trois œufs dans un bol, ajoutez un filet de lait et fouettez jusqu'à homogénéité.\n2. Chauffez une poêle antiadhésive à feu moyen-doux avec une noix de beurre.\n3. Ajoutez les épinards et remuez jusqu'à ce qu'ils soient juste fondus, environ 30 secondes. Retirez et réservez.\n4. Versez les œufs et remuez doucement avec une spatule en laissant les flocons se former lentement.\n5. Quand les œufs sont presque pris mais encore légèrement crémeux, retirez du feu.\n6. Toastez le pain jusqu'à ce qu'il soit doré.\n7. Garnissez le toast avec les épinards, puis les œufs, puis le cheddar râpé.",
-
   "recipe.greek_yogurt_parfait": "Parfait au Yaourt Grec",
   "recipe.greek_yogurt_parfait.desc": "Des couches de yaourt grec épais, de fraises fraîches, d'amandes croquantes et d'un filet de miel. Un en-cas ou petit-déjeuner léger riche en protéines qui se prépare en moins de cinq minutes.",
   "recipe.greek_yogurt_parfait.steps": "1. Déposez une couche de yaourt grec dans un verre ou un bol.\n2. Ajoutez une couche de fraises tranchées.\n3. Parsemez d'amandes hachées.\n4. Répétez les couches jusqu'à remplir le verre.\n5. Arrosez de miel.\n6. Servez immédiatement pour le meilleur croquant, ou réfrigérez jusqu'à 2 heures.",
-
   "recipe.avocado_toast_egg": "Toast à l'Avocat avec Œuf au Plat",
   "recipe.avocado_toast_egg.desc": "De l'avocat parfaitement mûr écrasé sur du pain complet toasté, garni d'un œuf au plat doré et de tranches de tomate fraîche. Un mélange satisfaisant de bonnes graisses, de protéines et de fibres.",
   "recipe.avocado_toast_egg.steps": "1. Toastez le pain complet jusqu'à ce qu'il soit doré et croustillant.\n2. Pendant que le pain grille, chauffez une petite poêle à feu moyen avec un filet d'huile d'olive.\n3. Cassez l'œuf dans la poêle et faites-le cuire jusqu'à ce que le blanc soit pris mais le jaune encore coulant.\n4. Écrasez l'avocat à la fourchette en ajoutant une pincée de sel et un filet de citron.\n5. Étalez l'avocat écrasé sur le toast.\n6. Déposez l'œuf au plat sur l'avocat.\n7. Disposez les tranches de tomate autour de l'œuf et assaisonnez avec du sel et du poivre.",
-
   "recipe.banana_peanut_butter_smoothie": "Smoothie Banane Beurre de Cacahuète",
   "recipe.banana_peanut_butter_smoothie.desc": "Un smoothie épais et crémeux mélangeant de la banane mûre avec du beurre de cacahuète, du lait entier et une cuillerée de flocons d'avoine. Parfait pour un coup de boost avant ou après l'effort.",
   "recipe.banana_peanut_butter_smoothie.steps": "1. Épluchez la banane et coupez-la en morceaux.\n2. Mettez la banane, le beurre de cacahuète, le lait et les flocons d'avoine dans un mixeur.\n3. Mixez à vitesse élevée pendant 30-45 secondes jusqu'à obtenir un mélange parfaitement lisse.\n4. Versez dans un grand verre.\n5. Pour un smoothie encore plus frais, utilisez une banane congelée ou ajoutez une poignée de glaçons avant de mixer.",
-
   "recipe.tuna_salad_wrap": "Wrap Salade de Thon",
   "recipe.tuna_salad_wrap.desc": "Du thon émietté mélangé avec de l'avocat écrasé, de la tomate fraîche et des pousses d'épinards, le tout enroulé dans une galette de blé complet. Un déjeuner riche en protéines et en oméga-3 facile à emporter.",
   "recipe.tuna_salad_wrap.steps": "1. Égouttez bien le thon en boîte et placez-le dans un bol.\n2. Écrasez l'avocat et mélangez-le au thon à la place de la mayonnaise.\n3. Coupez la tomate en dés et incorporez-la au mélange de thon.\n4. Assaisonnez avec du sel, du poivre et un filet de jus de citron.\n5. Disposez les feuilles d'épinards sur le wrap de blé complet.\n6. Répartissez le mélange de thon sur les épinards.\n7. Roulez le wrap bien serré en repliant les côtés au fur et à mesure. Coupez en deux pour servir.",
-
   "recipe.apple_almond_snack": "Snack Pomme et Amandes",
   "recipe.apple_almond_snack.desc": "L'en-cas sain le plus simple : des quartiers de pomme croquante accompagnés d'une poignée d'amandes nature. L'association de fibres, de bonnes graisses et de douceur naturelle tient la faim à distance pendant des heures.",
   "recipe.apple_almond_snack.steps": "1. Lavez la pomme et coupez-la en quartiers en retirant le trognon.\n2. Mesurez une poignée d'amandes (environ 23 amandes).\n3. Disposez dans une assiette ou emballez dans un récipient pour un snack à emporter.\n4. Pour varier, essayez d'étaler une fine couche de purée d'amandes sur les quartiers de pomme.",
-
   "recipe.cottage_cheese_fruit_bowl": "Bol de Fromage Blanc et Fruits",
   "recipe.cottage_cheese_fruit_bowl.desc": "Du fromage blanc crémeux garni de morceaux de mangue sucrée, de noix croquantes et d'une pincée de graines de lin. Riche en protéines et en oméga-3, avec un goût tropical naturellement sucré.",
   "recipe.cottage_cheese_fruit_bowl.steps": "1. Versez du fromage blanc dans un bol.\n2. Épluchez et coupez la mangue en petits morceaux.\n3. Disposez la mangue sur le fromage blanc.\n4. Parsemez de noix et de graines de lin moulues.\n5. Ajoutez un filet de miel si vous aimez plus de douceur.\n6. Dégustez immédiatement pour le meilleur contraste de textures.",
-
   "recipe.dark_chocolate_banana_bites": "Bouchées Banane Chocolat Noir",
   "recipe.dark_chocolate_banana_bites.desc": "Des rondelles de banane congelées plongées dans du chocolat noir fondu et parsemées d'amandes concassées. Une gourmandise naturellement sucrée riche en antioxydants, en potassium et en magnésium.",
   "recipe.dark_chocolate_banana_bites.steps": "1. Épluchez les bananes et coupez-les en rondelles de 1cm.\n2. Couvrez une plaque de cuisson de papier sulfurisé et disposez les rondelles en une seule couche.\n3. Congelez pendant 30 minutes jusqu'à ce qu'elles soient fermes.\n4. Faites fondre le chocolat noir au micro-ondes par intervalles de 20 secondes en remuant entre chaque.\n5. Concassez les amandes en petits morceaux.\n6. Trempez chaque rondelle de banane congelée à moitié dans le chocolat fondu.\n7. Parsemez d'amandes concassées avant que le chocolat ne durcisse.\n8. Remettez au congélateur pendant 10 minutes pour que ça prenne. Conservez au congélateur.",
-
   "recipe.chicken_stir_fry": "Sauté de Poulet et Brocoli",
   "recipe.chicken_stir_fry.desc": "De tendres morceaux de blanc de poulet sautés avec du brocoli et du poivron sur du riz complet, relevés d'ail et d'un trait de sauce soja. Un repas riche en protéines et équilibré prêt en 20 minutes.",
   "recipe.chicken_stir_fry.steps": "1. Coupez le blanc de poulet en fines lanières et assaisonnez avec du sel, du poivre et un trait de sauce soja.\n2. Cuisez le riz complet selon les instructions du paquet.\n3. Chauffez de l'huile d'olive dans une grande poêle ou un wok à feu vif.\n4. Ajoutez les lanières de poulet et faites-les sauter pendant 5-6 minutes jusqu'à ce qu'elles soient dorées et bien cuites. Retirez et réservez.\n5. Dans la même poêle, ajoutez l'ail émincé et remuez pendant 30 secondes.\n6. Ajoutez les bouquets de brocoli et le poivron émincé. Faites sauter pendant 3-4 minutes jusqu'à ce qu'ils soient tendres mais croquants.\n7. Remettez le poulet dans la poêle, mélangez le tout et servez sur le riz complet.",
-
   "recipe.lentil_soup": "Soupe Généreuse aux Lentilles",
   "recipe.lentil_soup.desc": "Une marmite réconfortante de lentilles mijotées avec des carottes, des tomates, des épinards et de l'ail. Économique, végétalienne et riche en fer et en fibres. Pour quatre portions généreuses.",
   "recipe.lentil_soup.steps": "1. Rincez les lentilles à l'eau froide et égouttez.\n2. Chauffez de l'huile d'olive dans une grande casserole à feu moyen.\n3. Ajoutez les carottes en dés et l'ail émincé, en cuisant pendant 3-4 minutes jusqu'à ce qu'ils soient tendres.\n4. Ajoutez les lentilles, les tomates en dés et assez d'eau ou de bouillon pour couvrir d'environ 5cm.\n5. Portez à ébullition, puis réduisez le feu et laissez mijoter 20 minutes jusqu'à ce que les lentilles soient tendres.\n6. Incorporez les épinards pendant les 2 dernières minutes de cuisson.\n7. Assaisonnez avec du sel, du poivre et un filet de jus de citron. Servez chaud avec du pain croustillant.",
-
   "recipe.shrimp_garlic_pasta": "Pâtes aux Crevettes et à l'Ail",
   "recipe.shrimp_garlic_pasta.desc": "De belles crevettes sautées avec beaucoup d'ail, mélangées à des pâtes complètes, des tomates cerises et des épinards frais dans de l'huile d'olive. Un dîner d'inspiration méditerranéenne riche en sélénium et en protéines.",
   "recipe.shrimp_garlic_pasta.steps": "1. Cuisez les pâtes dans de l'eau bouillante salée selon les instructions du paquet. Égouttez en réservant une demi-tasse d'eau de cuisson.\n2. Pendant que les pâtes cuisent, chauffez de l'huile d'olive dans une grande poêle à feu moyen-vif.\n3. Ajoutez les crevettes en une seule couche et cuisez 2 minutes de chaque côté jusqu'à ce qu'elles soient roses. Retirez et réservez.\n4. Baissez le feu, ajoutez l'ail émincé dans la même poêle et remuez pendant 1 minute jusqu'à ce qu'il embaume.\n5. Ajoutez les tomates cerises coupées en deux et cuisez pendant 2 minutes.\n6. Ajoutez les épinards et remuez jusqu'à ce qu'ils soient fondus.\n7. Remettez les crevettes dans la poêle, ajoutez les pâtes égouttées et un peu d'eau de cuisson.\n8. Mélangez le tout et servez avec un filet de citron.",
-
   "recipe.quinoa_veggie_bowl": "Bowl Énergétique Quinoa et Légumes",
   "recipe.quinoa_veggie_bowl.desc": "Du quinoa moelleux garni de pois chiches, d'avocat, de chou frisé et de poivron grillé, assaisonné d'huile d'olive et de citron. Un bowl de protéines végétales complètes avec des fibres exceptionnelles.",
   "recipe.quinoa_veggie_bowl.steps": "1. Rincez bien le quinoa et cuisez-le dans l'eau selon les instructions du paquet. Égrainez à la fourchette.\n2. Égouttez et rincez les pois chiches.\n3. Faites griller les lamelles de poivron avec un filet d'huile d'olive à 200C pendant 15 minutes.\n4. Massez les feuilles de chou frisé avec un peu d'huile d'olive et une pincée de sel pour les attendrir.\n5. Tranchez l'avocat.\n6. Assemblez les bols : quinoa au fond, puis pois chiches, poivron grillé, chou frisé et avocat.\n7. Arrosez d'huile d'olive et de jus de citron frais. Assaisonnez avec du sel et du poivre.",
-
   "recipe.turkey_spinach_wrap": "Wrap Dinde et Épinards",
   "recipe.turkey_spinach_wrap.desc": "De fines tranches de blanc de dinde avec des épinards frais, du cheddar et de la tomate dans un wrap de blé complet. Un déjeuner riche en protéines et facile à emporter, parfait pour le bureau ou l'école.",
   "recipe.turkey_spinach_wrap.steps": "1. Posez le wrap de blé complet à plat sur une surface propre.\n2. Disposez les feuilles d'épinards sur le wrap en laissant une bordure.\n3. Répartissez les tranches de dinde uniformément sur les épinards.\n4. Ajoutez les tranches de tomate et une fine couche de cheddar râpé.\n5. Assaisonnez légèrement avec du sel et du poivre.\n6. Repliez les côtés et roulez bien serré depuis le bas.\n7. Coupez en deux en diagonale et emballez dans du papier d'aluminium pour le transport.",
-
   "recipe.tofu_veggie_stir_fry": "Sauté de Tofu et Légumes",
   "recipe.tofu_veggie_stir_fry.desc": "Des cubes de tofu croustillants poêlés avec du brocoli, des champignons et des carottes sur du riz complet. Un dîner végétal satisfaisant riche en calcium et en protéines.",
   "recipe.tofu_veggie_stir_fry.steps": "1. Pressez le tofu entre des feuilles de papier absorbant pour retirer l'excès d'eau, puis coupez en cubes de 2cm.\n2. Cuisez le riz complet selon les instructions du paquet.\n3. Chauffez de l'huile d'olive dans une grande poêle ou un wok à feu vif.\n4. Ajoutez les cubes de tofu en une seule couche et cuisez sans remuer pendant 3-4 minutes jusqu'à ce qu'ils soient dorés dessous. Retournez et répétez.\n5. Retirez le tofu et réservez.\n6. Dans la même poêle, faites sauter les champignons émincés pendant 2 minutes.\n7. Ajoutez les bouquets de brocoli et les carottes en rondelles, en cuisant 3-4 minutes jusqu'à ce qu'ils soient tendres mais croquants.\n8. Remettez le tofu dans la poêle, ajoutez un trait de sauce soja et mélangez. Servez sur le riz.",
-
   "recipe.oatmeal_banana_walnut": "Porridge à la Banane et aux Noix",
   "recipe.oatmeal_banana_walnut.desc": "Un porridge chaud et crémeux cuit au lait entier, garni de rondelles de banane, de noix croquantes et d'un filet de miel. Un petit-déjeuner bon pour le cœur et riche en fibres.",
   "recipe.oatmeal_banana_walnut.steps": "1. Mélangez les flocons d'avoine et le lait dans une petite casserole à feu moyen.\n2. Remuez de temps en temps en portant à un léger frémissement.\n3. Cuisez pendant 5-7 minutes en remuant souvent jusqu'à ce que les flocons soient épais et crémeux.\n4. Versez dans un bol.\n5. Tranchez la banane et disposez-la sur le dessus.\n6. Parsemez de noix hachées.\n7. Arrosez de miel et servez chaud.",
-
   "recipe.egg_veggie_muffins": "Muffins aux Œufs et Légumes",
   "recipe.egg_veggie_muffins.desc": "Des portions individuelles d'œufs cuits au four avec des épinards, du poivron, des champignons et du cheddar. Préparez-en une fournée le dimanche et réchauffez pendant la semaine pour des petits-déjeuners rapides et riches en protéines.",
   "recipe.egg_veggie_muffins.steps": "1. Préchauffez le four à 180C (350F) et graissez un moule à muffins de 6 empreintes.\n2. Hachez finement les épinards, le poivron et les champignons.\n3. Répartissez les légumes uniformément dans les empreintes.\n4. Cassez les œufs dans un bol, fouettez bien et assaisonnez avec du sel et du poivre.\n5. Versez le mélange d'œufs uniformément dans chaque empreinte, en remplissant aux trois quarts environ.\n6. Parsemez de cheddar râpé sur le dessus de chacun.\n7. Enfournez pour 18-20 minutes jusqu'à ce qu'ils soient pris et légèrement dorés.\n8. Laissez refroidir 2 minutes avant de démouler. Se conservent au frigo jusqu'à 4 jours.",
-
   "recipe.chickpea_salad": "Salade Méditerranéenne aux Pois Chiches",
   "recipe.chickpea_salad.desc": "Une salade colorée de pois chiches, tomates en dés, poivron, avocat et épinards assaisonnée à l'huile d'olive et au citron. Végétalienne, riche en fibres et infiniment personnalisable.",
   "recipe.chickpea_salad.steps": "1. Égouttez et rincez les pois chiches.\n2. Coupez la tomate, le poivron et l'avocat en dés de taille similaire.\n3. Mélangez les pois chiches, les légumes coupés et les feuilles d'épinards dans un grand saladier.\n4. Fouettez ensemble l'huile d'olive, le jus de citron, le sel et le poivre pour la vinaigrette.\n5. Versez la vinaigrette sur la salade et mélangez délicatement.\n6. Laissez reposer 5 minutes pour que les saveurs se mêlent.\n7. Servez à température ambiante. Se conserve bien au frigo pour le déjeuner du lendemain.",
-
   "recipe.salmon_kale_sweet_potato": "Saumon avec Chou Frisé et Patate Douce",
   "recipe.salmon_kale_sweet_potato.desc": "Des filets de saumon cuits au four accompagnés de quartiers de patate douce rôtie et de chou frisé sauté à l'ail. Un dîner riche en nutriments chargé d'oméga-3, de vitamine A et de composés anti-inflammatoires.",
   "recipe.salmon_kale_sweet_potato.steps": "1. Préchauffez le four à 200C (400F).\n2. Coupez les patates douces en quartiers, enrobez-les d'huile d'olive et de sel, et étalez-les sur une plaque de cuisson.\n3. Faites rôtir pendant 15 minutes.\n4. Assaisonnez les filets de saumon avec du sel, du poivre et un filet d'huile d'olive.\n5. Ajoutez le saumon sur la plaque à côté des patates douces.\n6. Faites rôtir ensemble pendant 12-15 minutes jusqu'à ce que le saumon s'effeuille facilement.\n7. Pendant ce temps, chauffez une poêle avec de l'huile d'olive et de l'ail émincé. Ajoutez le chou frisé et faites sauter 3-4 minutes.\n8. Dressez le saumon sur le chou frisé avec les quartiers de patate douce à côté.",
-
   "recipe.homemade_turkey_burger": "Burgers Maison à la Dinde",
   "recipe.homemade_turkey_burger.desc": "De juteux steaks de dinde assaisonnés aux herbes, servis sur des pains complets avec de l'avocat, de la tomate et des épinards frais. Une version plus légère et plus nutritive du burger classique.",
   "recipe.homemade_turkey_burger.steps": "1. Dans un bol, mélangez la viande hachée de dinde avec du sel, du poivre, de l'ail en poudre et une pincée de paprika.\n2. Formez le mélange en deux steaks égaux en pressant un petit creux au centre de chacun.\n3. Chauffez une poêle-gril ou une poêle à feu moyen-vif.\n4. Cuisez les steaks pendant 5-6 minutes de chaque côté jusqu'à ce qu'ils soient bien cuits (température interne 74C/165F).\n5. Toastez légèrement les pains complets.\n6. Écrasez un peu d'avocat sur la base du pain.\n7. Superposez le steak de dinde, les tranches de tomate et les épinards.\n8. Coiffez du pain et servez.",
-
   "recipe.beef_broccoli_bowl": "Bowl Bœuf et Brocoli",
   "recipe.beef_broccoli_bowl.desc": "De tendres lanières de bœuf maigre sautées avec du brocoli dans une sauce à l'ail savoureuse sur du riz complet. Une combinaison classique qui apporte du fer, du zinc et de la B12 à chaque bouchée.",
   "recipe.beef_broccoli_bowl.steps": "1. Coupez le bœuf en fines lanières dans le sens contraire des fibres.\n2. Cuisez le riz complet selon les instructions du paquet.\n3. Chauffez de l'huile d'olive dans une grande poêle ou un wok à feu vif.\n4. Ajoutez les lanières de bœuf et faites-les sauter pendant 3-4 minutes jusqu'à ce qu'elles soient dorées. Retirez et réservez.\n5. Ajoutez l'ail émincé dans la même poêle et remuez pendant 30 secondes.\n6. Ajoutez les bouquets de brocoli avec un filet d'eau, couvrez et laissez cuire à la vapeur pendant 3 minutes.\n7. Remettez le bœuf dans la poêle, ajoutez la sauce soja et mélangez.\n8. Servez sur le riz complet avec une pincée de graines de sésame si désiré.",
-
   "recipe.black_bean_sweet_potato_chili": "Chili aux Haricots Noirs et Patate Douce",
   "recipe.black_bean_sweet_potato_chili.desc": "Un chili épais et fumé à base de haricots noirs, de patate douce rôtie, de tomates et de poivron. Végétalien, économique et riche en fibres. Pour quatre bols généreux.",
   "recipe.black_bean_sweet_potato_chili.steps": "1. Épluchez et coupez les patates douces en cubes de 2cm.\n2. Chauffez de l'huile d'olive dans une grande casserole à feu moyen.\n3. Ajoutez le poivron en dés et l'ail émincé, en cuisant pendant 3 minutes.\n4. Ajoutez les cubes de patate douce et remuez pour enrober.\n5. Ajoutez les tomates en dés, les haricots noirs égouttés et assez d'eau pour tout juste couvrir.\n6. Assaisonnez avec du cumin, du piment en poudre, du paprika fumé, du sel et du poivre.\n7. Portez à ébullition, réduisez le feu et laissez mijoter 25-30 minutes jusqu'à ce que les patates douces soient tendres.\n8. Servez dans des bols, garnis d'une cuillerée de yaourt ou de tranches d'avocat si désiré.",
-
   "recipe.baked_chicken_vegetables": "Poulet et Légumes au Four sur Une Plaque",
   "recipe.baked_chicken_vegetables.desc": "Des blancs de poulet rôtis sur une seule plaque avec de la patate douce, du brocoli et des carottes. Préparation simple, vaisselle minimale et un repas équilibré que toute la famille appréciera.",
   "recipe.baked_chicken_vegetables.steps": "1. Préchauffez le four à 200C (400F).\n2. Coupez les patates douces et les carottes en morceaux de taille uniforme.\n3. Mélangez les légumes avec de l'huile d'olive, du sel, du poivre et de l'ail émincé sur une grande plaque de cuisson.\n4. Faites rôtir pendant 15 minutes pour donner de l'avance aux légumes racines.\n5. Assaisonnez les blancs de poulet avec du sel, du poivre et vos herbes préférées.\n6. Poussez les légumes sur les côtés et placez le poulet au centre de la plaque.\n7. Ajoutez les bouquets de brocoli autour du poulet.\n8. Faites rôtir encore 25 minutes jusqu'à ce que le poulet atteigne 74C (165F) à cœur.\n9. Laissez reposer 5 minutes avant de trancher et de servir.",
-
   "recipe.sardine_toast_salad": "Toast aux Sardines avec Salade Verte",
   "recipe.sardine_toast_salad.desc": "Des sardines en boîte écrasées avec de l'avocat sur du pain complet toasté, accompagnées d'une salade de chou frisé et tomates. Un repas sous-estimé, économique et riche en oméga-3, en calcium et en B12.",
   "recipe.sardine_toast_salad.steps": "1. Égouttez les sardines et placez-les dans un bol.\n2. Écrasez à la fourchette en ajoutant de l'avocat en dés, un filet de citron, du sel et du poivre.\n3. Toastez le pain complet jusqu'à ce qu'il soit doré.\n4. Étalez généreusement le mélange sardine-avocat sur le toast.\n5. Pour la salade, mélangez des feuilles de chou frisé déchirées et des tomates tranchées.\n6. Assaisonnez avec de l'huile d'olive, du jus de citron et une pincée de sel.\n7. Servez le toast accompagné de la salade.",
-
   "recipe.lentil_bolognese": "Bolognaise aux Lentilles",
   "recipe.lentil_bolognese.desc": "Une sauce pour pâtes riche au goût de viande, entièrement à base de lentilles, champignons, carottes et tomates. Même les amateurs de viande l'apprécient. Riche en fer, en fibres et en protéines.",
   "recipe.lentil_bolognese.steps": "1. Rincez les lentilles à l'eau froide et égouttez.\n2. Coupez finement les carottes et les champignons.\n3. Chauffez de l'huile d'olive dans une grande casserole à feu moyen.\n4. Ajoutez l'ail émincé et les carottes en dés, en cuisant pendant 3-4 minutes.\n5. Ajoutez les champignons et cuisez encore 3 minutes jusqu'à ce qu'ils soient tendres.\n6. Ajoutez les lentilles et les tomates en dés avec leur jus.\n7. Ajoutez assez d'eau pour couvrir les lentilles, portez à ébullition puis réduisez le feu.\n8. Laissez mijoter 25-30 minutes en remuant de temps en temps jusqu'à ce que les lentilles soient tendres et la sauce épaisse.\n9. Assaisonnez bien avec du sel, du poivre et des herbes italiennes séchées. Servez sur vos pâtes préférées.",
-
   "recipe.stuffed_bell_peppers": "Poivrons Farcis",
   "recipe.stuffed_bell_peppers.desc": "De beaux poivrons colorés garnis d'un mélange savoureux de quinoa, haricots noirs, tomate et cheddar fondu. Un repas complet en protéines qui impressionne mais qui est étonnamment facile.",
   "recipe.stuffed_bell_peppers.steps": "1. Préchauffez le four à 190C (375F).\n2. Coupez le haut des poivrons et retirez les graines.\n3. Cuisez le quinoa selon les instructions du paquet.\n4. Mélangez le quinoa cuit avec les haricots noirs égouttés, les tomates en dés, l'ail émincé et la moitié du cheddar.\n5. Assaisonnez la farce avec du cumin, du sel et du poivre.\n6. Remplissez chaque poivron avec la farce en tassant bien.\n7. Placez les poivrons debout dans un plat allant au four et parsemez le reste de cheddar sur le dessus.\n8. Couvrez de papier d'aluminium et enfournez pour 25 minutes.\n9. Retirez le papier d'aluminium et cuisez encore 10 minutes jusqu'à ce que le fromage soit doré et les poivrons tendres.",
-
   "recipe.slow_cooker_chicken_soup": "Soupe de Poulet à la Mijoteuse",
   "recipe.slow_cooker_chicken_soup.desc": "Une soupe de poulet réconfortante et nourrissante qui se fait pratiquement toute seule. Des blancs de poulet mijotés lentement avec des carottes, du chou-fleur, des épinards et de l'ail. Six portions pour la semaine.",
   "recipe.slow_cooker_chicken_soup.steps": "1. Placez les blancs de poulet au fond de la mijoteuse.\n2. Ajoutez les carottes hachées, les bouquets de chou-fleur et l'ail émincé par-dessus.\n3. Versez assez de bouillon de poulet ou d'eau pour couvrir le tout d'environ 3cm.\n4. Assaisonnez avec du sel, du poivre, du thym et une feuille de laurier.\n5. Cuisez à feu doux pendant 6-8 heures ou à feu vif pendant 3-4 heures.\n6. Retirez le poulet et effilochez-le avec deux fourchettes.\n7. Remettez le poulet effiloché dans la mijoteuse et incorporez les épinards.\n8. Laissez les épinards fondre pendant 2-3 minutes.\n9. Goûtez et ajustez l'assaisonnement. Servez chaud. Réfrigérez ou congelez les restes en portions.",
-
   "recipe.baked_salmon_quinoa": "Saumon au Four avec Quinoa au Citron",
   "recipe.baked_salmon_quinoa.desc": "Des filets de saumon aux herbes et au citron cuits au four jusqu'à être feuilletés, servis sur du quinoa moelleux avec du brocoli rôti. Un dîner riche en oméga-3 aussi élégant que nutritif.",
   "recipe.baked_salmon_quinoa.steps": "1. Préchauffez le four à 200C (400F).\n2. Cuisez le quinoa selon les instructions du paquet. Une fois prêt, égrainez à la fourchette et incorporez le zeste et le jus de citron.\n3. Disposez les bouquets de brocoli sur une plaque de cuisson, arrosez d'huile d'olive et assaisonnez de sel.\n4. Faites rôtir le brocoli pendant 10 minutes.\n5. Assaisonnez les filets de saumon avec du sel, du poivre, de l'ail émincé et de l'huile d'olive.\n6. Déplacez le brocoli sur les côtés et posez le saumon sur la plaque.\n7. Faites rôtir ensemble pendant 12-14 minutes jusqu'à ce que le saumon s'effeuille facilement.\n8. Dressez le quinoa au citron, posez le saumon dessus et disposez le brocoli à côté.",
-
   "recipe.cauliflower_chickpea_curry": "Curry de Chou-Fleur et Pois Chiches",
   "recipe.cauliflower_chickpea_curry.desc": "Un curry parfumé et réconfortant de chou-fleur et pois chiches dans une sauce épicée à la tomate et aux épinards. Végétalien, riche en fibres et profondément satisfaisant servi sur du riz ou avec du pain naan.",
   "recipe.cauliflower_chickpea_curry.steps": "1. Coupez le chou-fleur en petits bouquets.\n2. Chauffez de l'huile d'olive dans une grande casserole à feu moyen.\n3. Ajoutez l'ail émincé et cuisez 30 secondes jusqu'à ce qu'il embaume.\n4. Ajoutez les bouquets de chou-fleur et remuez pour enrober. Cuisez pendant 3 minutes.\n5. Ajoutez les pois chiches égouttés, les tomates en dés et les épices (curry en poudre, curcuma, cumin, sel).\n6. Ajoutez un peu d'eau, couvrez et laissez mijoter 20 minutes jusqu'à ce que le chou-fleur soit tendre.\n7. Incorporez les épinards et cuisez encore 2 minutes jusqu'à ce qu'ils soient fondus.\n8. Ajustez l'assaisonnement et servez sur du riz ou avec du pain naan chaud.",
-
   "resto.burger_meal": "Menu Burger",
   "resto.burger_meal.restaurant": "Cheeseburger de fast-food avec frites et un grand soda",
   "resto.burger_meal.home": "Burger maison à la dinde avec quartiers de patate douce et eau",
   "resto.burger_meal.tip": "La plus grande différence n'est pas le burger lui-même mais les accompagnements. Remplacer les frites et le soda par de la patate douce au four et de l'eau réduit les calories de moitié et élimine la plupart du sucre ajouté.",
-
   "resto.fried_chicken_combo": "Menu Poulet Frit",
   "resto.fried_chicken_combo.restaurant": "3 morceaux de poulet frit avec salade de chou, biscuit et grande boisson",
   "resto.fried_chicken_combo.home": "Blanc de poulet au four avec légumes rôtis",
   "resto.fried_chicken_combo.tip": "Cuire au four au lieu de frire réduit les matières grasses de 85% tout en gardant la même quantité de protéines. La salade de chou au restaurant est souvent chargée de mayonnaise, donc les légumes rôtis sont un accompagnement bien plus léger.",
-
   "resto.pepperoni_pizza": "Pizza Pepperoni (3 parts)",
   "resto.pepperoni_pizza.restaurant": "3 parts de pizza pepperoni livrée",
   "resto.pepperoni_pizza.home": "Pizza maison au blé complet avec des garnitures fraîches",
   "resto.pepperoni_pizza.tip": "La pizza livrée contient généralement beaucoup plus de fromage et de charcuterie que les versions maison. Utiliser une pâte au blé complet et garnir de légumes apporte plus de fibres et moins de sodium.",
-
   "resto.margherita_pizza": "Pizza Margherita (3 parts)",
   "resto.margherita_pizza.restaurant": "3 parts de pizza margherita style restaurant",
   "resto.margherita_pizza.home": "Margherita maison avec mozzarella fraîche et basilic",
   "resto.margherita_pizza.tip": "Même une pizza plus simple comme la margherita reçoit de l'huile et du fromage en surplus au restaurant. La faire maison permet de contrôler la qualité des ingrédients et la quantité de fromage.",
-
   "resto.general_tso_chicken": "Poulet du Général Tso",
   "resto.general_tso_chicken.restaurant": "Poulet du Général Tso avec riz frit d'un restaurant chinois",
   "resto.general_tso_chicken.home": "Sauté de poulet maison avec riz complet et légumes",
   "resto.general_tso_chicken.tip": "Le poulet du Général Tso est pané, frit et enrobé d'une sauce sucrée. Un simple sauté offre toute la saveur avec une fraction des graisses et du sucre. Utilisez de l'ail et du gingembre frais pour un goût naturel.",
-
   "resto.pad_thai": "Pad Thaï",
   "resto.pad_thai.restaurant": "Pad Thaï de restaurant aux crevettes",
   "resto.pad_thai.home": "Pâtes maison aux crevettes et légumes à l'ail et à l'huile d'olive",
   "resto.pad_thai.tip": "Le pad Thaï de restaurant est généralement cuit dans beaucoup d'huile avec une sauce sucrée au tamarin qui ajoute des calories cachées. Des pâtes à l'ail et à l'huile d'olive avec des crevettes offrent une satisfaction similaire avec beaucoup moins de sodium et de sucre.",
-
   "resto.burrito_bowl": "Bowl Burrito",
   "resto.burrito_bowl.restaurant": "Grand bowl burrito avec riz, haricots, viande, fromage, crème fraîche et guacamole",
   "resto.burrito_bowl.home": "Bowl maison au quinoa avec légumes, pois chiches et avocat",
   "resto.burrito_bowl.tip": "Les bowls burrito de restaurant sont généreux, et c'est le problème. La crème fraîche et le fromage en surplus peuvent ajouter plus de 300 calories à eux seuls. Un bowl maison au quinoa avec des légumes frais apporte plus de fibres et un meilleur contrôle des portions.",
-
   "resto.quesadilla_combo": "Menu Quesadilla",
   "resto.quesadilla_combo.restaurant": "Quesadilla au fromage avec riz, haricots et chips d'un restaurant mexicain",
   "resto.quesadilla_combo.home": "Quesadilla maison au blé complet avec haricots noirs et légumes",
   "resto.quesadilla_combo.tip": "Les quesadillas de restaurant utilisent d'énormes tortillas chargées de fromage et sont souvent accompagnées de garnitures très caloriques. Utiliser une plus petite tortilla de blé complet avec des haricots et des légumes fait un repas plus équilibré.",
-
   "resto.fettuccine_alfredo": "Fettuccine Alfredo",
   "resto.fettuccine_alfredo.restaurant": "Fettuccine Alfredo de restaurant avec pain à l'ail",
   "resto.fettuccine_alfredo.home": "Alfredo maison allégé avec pâtes complètes et légumes",
   "resto.fettuccine_alfredo.tip": "La sauce Alfredo de restaurant est essentiellement du beurre et de la crème épaisse en grande quantité. Une version plus légère avec du lait, moins de parmesan et l'ajout de brocoli ou d'épinards réduit considérablement les graisses tout en restant gourmande.",
-
   "resto.pasta_bolognese": "Pâtes Bolognaise",
   "resto.pasta_bolognese.restaurant": "Spaghetti bolognaise de restaurant avec pain à l'ail",
   "resto.pasta_bolognese.home": "Bolognaise maison aux lentilles avec pâtes complètes",
   "resto.pasta_bolognese.tip": "Remplacer la viande hachée par des lentilles réduit les graisses de 74% et ajoute énormément de fibres et de fer. La plupart des gens ne voient pas la différence une fois mijoté avec des tomates et des herbes. Essayez avant de rejeter l'idée.",
-
   "resto.latte_muffin": "Latte et Muffin",
   "resto.latte_muffin.restaurant": "Grand latte aromatisé avec un muffin aux myrtilles d'un café",
   "resto.latte_muffin.home": "Porridge maison avec banane, noix et miel",
   "resto.latte_muffin.tip": "Un muffin de café peut contenir autant de sucre que trois barres chocolatées. Le porridge avec des fruits fournit une énergie stable sans le coup de barre, coûte une fraction du prix et rassasie bien plus longtemps.",
-
   "resto.deli_sub_sandwich": "Sandwich Sub de Traiteur",
   "resto.deli_sub_sandwich.restaurant": "Sub de 30cm avec charcuterie, fromage et sauce",
   "resto.deli_sub_sandwich.home": "Wrap maison dinde et épinards avec légumes frais",
   "resto.deli_sub_sandwich.tip": "Les subs de traiteur sont des bombes de sodium à cause des charcuteries, du fromage et des sauces. Utiliser de la dinde fraîche tranchée au lieu de charcuterie et supprimer la sauce lourde réduit le sodium de 75% et c'est tout aussi savoureux.",
-
   "shop.budget_week": "Semaine Économique (50€)",
   "shop.moderate_week": "Semaine Équilibrée (80€)",
   "shop.premium_week": "Semaine Premium (120€)",
-
   "shop.tip.seasonal": "Achetez les fruits et légumes de saison. Ils coûtent moins cher, ont meilleur goût et sont plus riches en nutriments car ils sont cueillis à maturité plutôt qu'expédiés de loin.",
   "shop.tip.bulk": "Faites des réserves de produits de base comme le riz, les flocons d'avoine, les lentilles et les haricots en vrac. Ils se conservent des mois, coûtent nettement moins cher par portion et forment la base de centaines de repas nutritifs.",
   "shop.tip.frozen": "Les fruits et légumes surgelés sont cueillis et congelés au pic de leur valeur nutritive. Ils sont souvent moins chers que les frais, se conservent bien plus longtemps et sont tout aussi nutritifs. Gardez une variété au congélateur pour les repas rapides.",
   "shop.tip.store_brands": "Les produits de marque distributeur contiennent souvent les mêmes ingrédients que les grandes marques pour un coût inférieur de 20 à 40%. Comparez les étiquettes nutritionnelles pour vérifier. C'est l'un des moyens les plus simples de réduire votre facture d'épicerie.",
   "shop.tip.meal_prep": "Consacrez une heure ou deux le week-end à préparer les repas de la semaine. La cuisson en lots de soupes, céréales et protéines fait gagner du temps en semaine et réduit la tentation de commander à emporter.",
   "shop.tip.avoid_waste": "Planifiez vos repas avant de faire les courses et tenez-vous à votre liste. Utilisez les restes de façon créative. Congelez le pain, la viande et les bananes mûres avant qu'ils ne se gâtent. Le gaspillage alimentaire, c'est de l'argent gaspillé.",
-
   "shop.weekly_cost": "Coût hebdomadaire estimé",
   "shop.per_day": "Par jour",
   "shop.shopping_list": "Liste de Courses",
   "shop.grocery_section": "Rayon du magasin",
-
   "shop.section.produce": "Fruits et Légumes",
   "shop.section.meat_counter": "Boucherie",
   "shop.section.fish_counter": "Poissonnerie",
@@ -422,7 +333,6 @@
   "shop.section.canned_goods": "Conserves et Bocaux",
   "shop.section.frozen": "Surgelés",
   "shop.section.oils_condiments": "Huiles et Condiments",
-
   "food.category.protein": "Protéines",
   "food.category.grain": "Céréales et Féculents",
   "food.category.vegetable": "Légumes",
@@ -431,39 +341,32 @@
   "food.category.nut_seed": "Fruits à Coque et Graines",
   "food.category.legume": "Légumineuses",
   "food.category.other": "Autres",
-
   "food.fruit_class.citrus": "Agrumes",
   "food.fruit_class.berry": "Fruits Rouges",
   "food.fruit_class.tropical": "Fruits Tropicaux",
   "food.fruit_class.stone": "Fruits à Noyau",
   "food.fruit_class.pome": "Fruits à Pépins",
   "food.fruit_class.melon": "Melons",
-
   "score.excellent": "Excellente source",
   "score.good": "Bonne source",
   "score.moderate": "Source modérée",
   "score.low": "Source faible",
-
   "time.quick": "Rapide (moins de 15 min)",
   "time.medium": "Moyen (15-30 min)",
   "time.long": "Long (plus de 30 min)",
-
   "difficulty.easy": "Facile",
   "difficulty.medium": "Modéré",
   "difficulty.advanced": "Avancé",
-
   "meal.breakfast": "Petit-déjeuner",
   "meal.lunch": "Déjeuner",
   "meal.dinner": "Dîner",
   "meal.snack": "En-cas",
-
   "compare.title": "Comparer les Aliments",
   "compare.subtitle": "Placez deux aliments côte à côte pour voir comment leurs nutriments se comparent. La connaissance est le premier pas vers de meilleurs choix.",
   "compare.select_hint": "Recherchez ou sélectionnez un aliment à comparer",
   "compare.per_serving": "Par portion",
   "compare.per_100g": "Pour 100g",
   "compare.winner": "Plus riche en ce nutriment",
-
   "planner.title": "Planificateur de Repas",
   "planner.subtitle": "Composez vos repas quotidiens et voyez comment ils se situent par rapport aux apports nutritionnels recommandés pour votre groupe d'âge.",
   "planner.select_age": "Sélectionnez votre groupe d'âge",
@@ -475,7 +378,6 @@
   "planner.dinner": "Dîner",
   "planner.snack": "En-cas",
   "planner.clear_all": "Tout effacer",
-
   "quiz.title": "Quiz Nutrition",
   "quiz.subtitle": "Testez vos connaissances sur les aliments que vous mangez. Sans jugement, juste pour apprendre.",
   "quiz.start": "Commencer le Quiz",
@@ -489,14 +391,12 @@
   "quiz.rating.great": "Excellentes connaissances ! Juste quelques lacunes à combler.",
   "quiz.rating.good": "Bon début ! Vous connaissez les bases et êtes prêt à en apprendre davantage.",
   "quiz.rating.learning": "Pas d'inquiétude ! Tout le monde commence quelque part. Explorez le site pour en découvrir plus.",
-
   "food.detail.nutrients": "Nutriments pour 100g",
   "food.detail.recipes": "Recettes avec cet aliment",
   "food.detail.age_benefits": "Idéal pour ces groupes d'âge",
   "food.detail.replaces_supplement": "Peut aider à remplacer ce complément",
   "food.detail.available_at": "Où le trouver en magasin",
   "food.detail.cost_tier": "Niveau de prix",
-
   "about.title": "À propos d'EatClever",
   "about.intro": "EatClever est une ressource indépendante d'information nutritionnelle. Nous présentons des données sur les aliments du quotidien pour que vous puissiez faire vos propres choix éclairés. Pas de régimes, pas de culpabilité, pas de sponsors. Juste des données.",
   "about.mission.title": "Notre Mission",
@@ -505,13 +405,11 @@
   "about.sources.text": "Toutes les données nutritionnelles proviennent de bases de données évaluées par des pairs, dont USDA FoodData Central, les directives alimentaires de l'OMS et les autorités nationales de nutrition. Les valeurs représentent des quantités typiques et peuvent varier selon les méthodes de préparation, les conditions de culture et les marques spécifiques des produits.",
   "about.contact.title": "Contact",
   "about.contact.text": "Vous avez une question, une correction ou une suggestion ? Vos retours sont les bienvenus. Contactez-nous via notre formulaire et nous vous répondrons.",
-
   "methodology.title": "Méthodologie",
   "methodology.intro": "La transparence est importante. Voici comment nous collectons, calculons et présentons les informations nutritionnelles sur EatClever.",
   "methodology.sources.title": "Sources de Données",
   "methodology.update.title": "Calendrier de Mise à Jour",
   "methodology.limitations.title": "Limites",
-
   "footer.about": "À propos d'EatClever",
   "footer.sources": "Sources de Données",
   "footer.legal": "Mentions Légales",
@@ -519,12 +417,20 @@
   "footer.copyright": "EatClever. Données nutritionnelles pour des choix éclairés.",
   "footer.support": "Soutenir Ce Projet",
   "footer.sister_sites": "Projets Associés",
-
   "privacy.title": "Politique de Confidentialité",
   "impressum.title": "Mentions Légales",
-
   "lang.en": "English",
-
+  "lang.de": "Deutsch",
+  "lang.es": "Español",
+  "lang.fr": "Français",
+  "lang.it": "Italiano",
+  "lang.pt": "Português",
+  "lang.ro": "Română",
+  "lang.ru": "Русский",
+  "lang.zh": "中文",
+  "lang.ja": "日本語",
+  "lang.ar": "العربية",
+  "lang.hi": "हिन्दी",
   "general.back": "Retour",
   "general.home": "Accueil",
   "general.learn_more": "En savoir plus",
@@ -536,7 +442,6 @@
   "general.per_serving": "par portion",
   "general.daily_value": "% Valeur Quotidienne",
   "general.share": "Partager",
-
   "general.calories": "Calories",
   "general.protein": "Protéines",
   "general.fat": "Lipides",
@@ -570,17 +475,13 @@
   "general.budget": "Économique",
   "general.moderate": "Modéré",
   "general.premium": "Premium",
-
   "general.disclaimer": "Ces informations sont fournies à titre éducatif uniquement et ne constituent pas un avis médical ou diététique. Consultez un professionnel de santé avant d'apporter des changements significatifs à votre alimentation.",
-
   "food.cost_tier.1": "Économique",
   "food.cost_tier.2": "Milieu de gamme",
   "food.cost_tier.3": "Premium",
-
   "food.availability.common": "Largement disponible toute l'année",
   "food.availability.seasonal": "De saison (meilleur en pleine saison)",
   "food.availability.specialty": "Produit spécialisé",
-
   "food.section.fish_counter": "Poissonnerie",
   "food.section.meat_counter": "Boucherie",
   "food.section.dairy": "Rayon Produits Laitiers",
@@ -590,7 +491,6 @@
   "food.section.bakery": "Rayon Boulangerie",
   "food.section.oils_condiments": "Huiles et Condiments",
   "food.section.snacks": "Rayon Snacks",
-
   "resto.category.fast_food": "Fast-food",
   "resto.category.pizza": "Pizza",
   "resto.category.asian": "Asiatique",
@@ -598,7 +498,6 @@
   "resto.category.italian": "Italien",
   "resto.category.cafe": "Café",
   "resto.category.deli": "Traiteur",
-
   "resto.savings_label": "Vous économisez en cuisinant à la maison",
   "resto.fewer_calories": "calories en moins",
   "resto.less_fat": "moins de graisses",
@@ -607,7 +506,6 @@
   "resto.home_version": "Version Maison",
   "resto.restaurant_version": "Version Restaurant",
   "resto.cook_time": "Temps de préparation à la maison",
-
   "compare.calories": "Calories",
   "compare.protein": "Protéines",
   "compare.fat": "Lipides",
@@ -617,7 +515,6 @@
   "compare.minerals": "Minéraux",
   "compare.swap_foods": "Intervertir les aliments",
   "compare.add_to_planner": "Ajouter au planificateur de repas",
-
   "planner.calories_target": "Objectif calorique",
   "planner.protein_target": "Objectif protéines",
   "planner.remaining": "Restant",
@@ -629,7 +526,6 @@
   "planner.import": "Importer un plan",
   "planner.suggested_meals": "Repas suggérés",
   "planner.remove_meal": "Supprimer",
-
   "quiz.correct": "Correct !",
   "quiz.incorrect": "Pas tout à fait.",
   "quiz.explanation": "Explication",
@@ -639,7 +535,6 @@
   "quiz.category.foods": "Infos Aliments",
   "quiz.category.labels": "Lecture des Étiquettes",
   "quiz.category.myths": "Mythes Nutritionnels",
-
   "age.section.title": "La Nutrition au Fil de la Vie",
   "age.section.subtitle": "Les besoins de votre corps changent à chaque décennie. Voici sur quoi vous concentrer à chaque étape.",
   "age.calorie_range": "Apport calorique quotidien recommandé",
@@ -647,7 +542,6 @@
   "age.recommended_foods": "Aliments les plus recommandés",
   "age.foods_to_limit": "Aliments à limiter",
   "age.tips_title": "Conseils Pratiques",
-
   "supp.section.title": "Aliments vs. Compléments",
   "supp.section.subtitle": "Voyez exactement combien d'aliments réels il faut pour égaler un comprimé de complément courant.",
   "supp.common_dose": "Dose courante du complément",
@@ -655,7 +549,6 @@
   "supp.per_serving": "par portion fournit",
   "supp.of_daily_need": "de vos besoins quotidiens",
   "supp.verdict": "Le verdict",
-
   "cook.section.title": "Temps de Cuisson et Nutrition",
   "cook.section.subtitle": "Que vous ayez 5 minutes ou 50, un repas nutritif vous attend. Filtrez par temps et trouvez des recettes adaptées à votre emploi du temps.",
   "cook.filter.all": "Toutes les recettes",
@@ -664,14 +557,12 @@
   "cook.filter.long": "Plus de 30 min",
   "cook.filter.meal_type": "Type de repas",
   "cook.filter.difficulty": "Difficulté",
-
   "taste.section.title": "Goût et Nutrition",
   "taste.section.subtitle": "Manger sainement ne signifie pas renoncer à la saveur. C'est découvrir de nouvelles combinaisons qui satisfont vos papilles et votre corps.",
   "taste.flavour_pairings": "Associations de saveurs qui boostent la nutrition",
   "taste.umami": "Aliments riches en umami",
   "taste.sweet_natural": "Alternatives naturellement sucrées",
   "taste.herbs_spices": "Herbes et épices aux vertus bénéfiques",
-
   "shop.section.title": "Guide des Courses Intelligentes",
   "shop.section.subtitle": "Trois plans de repas hebdomadaires à trois niveaux de prix. Chacun est nutritionnellement complet, avec des listes de courses complètes et des coûts estimés.",
   "shop.plan_includes": "Ce plan comprend",
@@ -686,7 +577,6 @@
   "shop.section_label": "Rayon",
   "shop.total": "Total",
   "shop.tips_title": "Astuces pour Économiser",
-
   "labels.section.title": "Guide des Étiquettes Nutritionnelles",
   "labels.section.subtitle": "Comprendre les étiquettes alimentaires vous aide à faire de meilleurs choix en magasin. Voici ce qu'il faut rechercher.",
   "labels.how_to_read": "Comment lire une étiquette nutritionnelle",
@@ -700,18 +590,15 @@
   "labels.trap_sugar_names": "Le sucre a plus de 50 noms : saccharose, fructose, sirop de maïs, maltose, dextrose, et bien d'autres.",
   "labels.trap_health_claims": "« Naturel », « multicéréales » et « légèrement sucré » sont des termes marketing, pas des données nutritionnelles.",
   "labels.trap_zero": "« 0g de graisses trans » peut quand même contenir jusqu'à 0.5g par portion. Vérifiez les ingrédients pour les huiles partiellement hydrogénées.",
-
   "vitamins.section.title": "Guide des Vitamines et Minéraux",
   "vitamins.section.subtitle": "Ce que chaque nutriment fait, où le trouver naturellement et qui en a le plus besoin. Touchez n'importe quel nutriment pour voir ses sources alimentaires.",
   "vitamins.rda": "Apport journalier recommandé",
   "vitamins.top_foods": "Principales sources alimentaires",
   "vitamins.deficiency_signs": "Signes que vous n'en consommez peut-être pas assez",
   "vitamins.excess_risk": "Risques en cas d'excès",
-
   "error.page_not_found": "Page introuvable",
   "error.data_load_failed": "Impossible de charger les données. Vérifiez votre connexion et réessayez.",
   "error.generic": "Quelque chose s'est mal passé. Veuillez réessayer.",
-
   "accessibility.skip_to_content": "Aller au contenu principal",
   "accessibility.open_menu": "Ouvrir le menu de navigation",
   "accessibility.close_menu": "Fermer le menu de navigation",

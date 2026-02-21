@@ -1,12 +1,10 @@
 {
   "site.title": "EatClever",
   "site.subtitle": "Informazioni nutrizionali per le scelte alimentari quotidiane",
-
   "wisdom.p1": "Il tuo corpo è straordinariamente intelligente. Ogni giorno, scompone il cibo che mangi ed estrae esattamente ciò di cui ha bisogno — costruisce muscoli, ripara cellule, rafforza le ossa, combatte le infezioni e mantiene il cervello attivo. Non hai bisogno di controllare ogni singola vitamina. Devi solo dare al tuo corpo le materie prime giuste.",
   "wisdom.p2": "Il segreto è semplice: mangia vario, mangia naturale, mangia colorato. Quando riempi il piatto con una varietà di alimenti veri — verdure, frutta, proteine, cereali, frutta secca — il tuo corpo sa esattamente cosa farne. Lo fa da milioni di anni. Fidati di lui.",
   "wisdom.p3": "Gli integratori e le pillole hanno il loro posto, ma la natura fornisce la maggior parte di ciò di cui abbiamo bisogno. Una manciata di noci, un pezzo di salmone, una ciotola di verdure colorate — questi non sono solo pasti, sono medicina. Ogni boccone è un'opportunità per nutrire il tuo corpo e tenere lontano il dottore.",
   "wisdom.cta": "EatClever non ti dice cosa fare. Ti mostriamo i fatti — tu fai le scelte giuste per te e la tua famiglia.",
-
   "nav.about": "Chi siamo",
   "nav.methodology": "Metodologia",
   "nav.categories": "Esplora argomenti",
@@ -15,10 +13,8 @@
   "nav.quiz": "Quiz nutrizionale",
   "nav.planner": "Pianificatore pasti",
   "nav.labels_guide": "Guida alle etichette",
-
   "hero.title": "Mangia bene. Vivi meglio.",
   "hero.subtitle": "Le scelte alimentari quotidiane che fai plasmano la tua salute più di qualsiasi singola dieta. Esplora i fatti, confronta le opzioni e decidi cosa funziona meglio per te.",
-
   "cat.age_nutrition": "Nutrizione per età",
   "cat.age_nutrition.desc": "Ciò di cui il tuo corpo ha bisogno cambia con la crescita. Scopri quali nutrienti contano di più in ogni fase della vita, dall'infanzia alla terza età.",
   "cat.food_vs_supplements": "Alimenti vs. Integratori",
@@ -31,7 +27,6 @@
   "cat.cook_time.desc": "Poco tempo? Trova ricette veloci, medie e lente che dimostrano che mangiare sano si adatta a qualsiasi programma.",
   "cat.shopping": "Spesa intelligente",
   "cat.shopping.desc": "Mangia bene con qualsiasi budget. Piani settimanali dei pasti e liste della spesa a tre livelli di prezzo, più consigli per ottimizzare ogni euro.",
-
   "age.children": "Bambini (0-12)",
   "age.teens": "Adolescenti (13-19)",
   "age.adults": "Adulti (20-59)",
@@ -43,7 +38,6 @@
   "age.young_adult": "Giovane adulto (20-39)",
   "age.middle_age": "Mezza età (40-59)",
   "age.senior": "Anziano (60+)",
-
   "age.infant.tips": "Il latte materno o artificiale fornisce la maggior parte dei nutrienti nel primo anno. Introducete alimenti solidi ricchi di ferro intorno ai 6 mesi. Evitate il miele fino a 1 anno. Offrite una varietà di consistenze morbide e passate per costruire abitudini alimentari sane fin da subito.",
   "age.toddler.tips": "I bambini piccoli stanno imparando a mangiare da soli, quindi aspettatevi disordine e capricci. Offrite piccole porzioni di alimenti ricchi di nutrienti durante la giornata. Il latte intero è importante per lo sviluppo cerebrale. Tagliate gli alimenti rotondi come l'uva in pezzi piccoli per prevenire il soffocamento.",
   "age.school_age.tips": "I corpi in crescita hanno bisogno di calcio per ossa forti e ferro per l'energia. Limitate le bevande zuccherate e gli snack confezionati. Coinvolgete i bambini nella preparazione dei pasti per costruire abitudini sane per tutta la vita. Una colazione equilibrata supporta la concentrazione e l'apprendimento a scuola.",
@@ -51,91 +45,70 @@
   "age.young_adult.tips": "Questo è il momento di stabilire abitudini alimentari che supportino la salute a lungo termine. Privilegiate gli alimenti integrali rispetto ai cibi pronti. Ferro e acido folico sono particolarmente importanti per chi pianifica una gravidanza. Gli omega-3 supportano la salute cerebrale negli anni più impegnativi.",
   "age.middle_age.tips": "Il metabolismo rallenta naturalmente, quindi la densità nutrizionale conta più che mai. Concentratevi sulle fibre per la salute digestiva, calcio e vitamina D per le ossa e omega-3 per la salute del cuore. Pasti regolari con molte verdure aiutano a mantenere un'energia costante durante la giornata.",
   "age.senior.tips": "L'appetito diminuisce spesso con l'età, quindi ogni boccone dovrebbe contare dal punto di vista nutrizionale. L'assorbimento della vitamina B12 diminuisce, rendendo gli alimenti fortificati o gli integratori degni di considerazione. Le proteine supportano il mantenimento muscolare, e la vitamina D più il calcio aiutano a proteggere dalle fratture. Mantenetevi idratati anche quando non avvertite sete.",
-
   "age.daily_calories": "Fabbisogno calorico giornaliero",
   "age.focus_nutrients": "Nutrienti chiave su cui concentrarsi",
   "age.key_foods": "Alimenti consigliati",
   "age.foods_to_avoid": "Alimenti da limitare o evitare",
-
   "nutrient.protein": "Proteine",
   "nutrient.protein.desc": "Elemento essenziale per muscoli, organi e funzione immunitaria.",
   "nutrient.protein.body_effect": "Le proteine costruiscono e riparano ogni tessuto del corpo, dai muscoli e ossa alla pelle e capelli. Producono anche enzimi e ormoni che mantengono attivo il metabolismo. I bambini e gli adolescenti ne hanno bisogno per la crescita, gli adulti per il mantenimento e gli anziani per prevenire la perdita muscolare.",
-
   "nutrient.fat": "Grassi",
   "nutrient.fat.desc": "Fonte concentrata di energia che supporta la crescita cellulare e l'assorbimento dei nutrienti.",
   "nutrient.fat.body_effect": "I grassi proteggono gli organi, isolano il corpo e aiutano ad assorbire le vitamine A, D, E e K. Il cervello è composto per quasi il 60% da grassi. I neonati e i bambini piccoli hanno bisogno della maggior quantità di grassi in rapporto alla dimensione corporea perché il loro cervello si sta sviluppando rapidamente. Scegliete grassi insaturi da pesce, frutta secca e olio d'oliva rispetto alle fonti sature.",
-
   "nutrient.carbs": "Carboidrati",
   "nutrient.carbs.desc": "La fonte di energia preferita e più efficiente del corpo.",
   "nutrient.carbs.body_effect": "I carboidrati si scompongono in glucosio, che alimenta il cervello, i muscoli e il sistema nervoso centrale. I carboidrati complessi da cereali integrali, legumi e verdure rilasciano energia lentamente e costantemente. Tutte le fasce d'età hanno bisogno di carboidrati, ma gli adolescenti attivi e gli sportivi ne hanno bisogno di più. Scegliete cereali integrali rispetto a quelli raffinati per un'energia duratura e un migliore controllo della glicemia.",
-
   "nutrient.fiber": "Fibre",
   "nutrient.fiber.desc": "Supportano una digestione sana, nutrono i batteri intestinali benefici e aiutano a controllare la glicemia.",
   "nutrient.fiber.body_effect": "Le fibre mantengono il sistema digestivo in movimento, nutrono i batteri buoni nell'intestino e aiutano a sentirsi sazi più a lungo dopo i pasti. Rallentano anche l'assorbimento degli zuccheri, stabilizzando i livelli glicemici. Adulti e anziani beneficiano maggiormente di un elevato apporto di fibre per la salute cardiaca e la regolarità, ma anche i bambini ne hanno bisogno per una digestione sana.",
-
   "nutrient.vitamin_a": "Vitamina A",
   "nutrient.vitamin_a.desc": "Supporta la vista, la funzione immunitaria e la pelle sana.",
   "nutrient.vitamin_a.body_effect": "La vitamina A è fondamentale per una vista nitida, specialmente in condizioni di scarsa illuminazione. Mantiene anche la pelle e i rivestimenti dei polmoni e dell'intestino sani, agendo come prima linea di difesa contro le infezioni. I bambini hanno bisogno di vitamina A per una crescita adeguata e lo sviluppo immunitario. Si trova abbondantemente nelle verdure arancioni e verde scuro.",
-
   "nutrient.vitamin_b12": "Vitamina B12",
   "nutrient.vitamin_b12.desc": "Essenziale per la funzione nervosa, la formazione dei globuli rossi e la sintesi del DNA.",
   "nutrient.vitamin_b12.body_effect": "La vitamina B12 mantiene i nervi funzionanti e aiuta a produrre i globuli rossi che trasportano l'ossigeno in tutto il corpo. Una carenza può causare stanchezza, debolezza e problemi nervosi. Gli anziani sono più a rischio perché l'assorbimento diminuisce con l'età. Vegani e vegetariani dovrebbero prestare particolare attenzione, poiché la B12 si trova quasi esclusivamente negli alimenti di origine animale.",
-
   "nutrient.vitamin_c": "Vitamina C",
   "nutrient.vitamin_c.desc": "Potente antiossidante che rafforza l'immunità e aiuta il corpo ad assorbire il ferro.",
   "nutrient.vitamin_c.body_effect": "La vitamina C protegge le cellule dai danni, aiuta le ferite a guarire più velocemente e potenzia la capacità del sistema immunitario di combattere le infezioni. Migliora anche drasticamente l'assorbimento del ferro quando consumata insieme ad alimenti ricchi di ferro. Importante per tutte le età, ma soprattutto per i bambini in crescita e chiunque si stia riprendendo da malattia o infortunio.",
-
   "nutrient.vitamin_d": "Vitamina D",
   "nutrient.vitamin_d.desc": "La vitamina del sole che rafforza le ossa e supporta la salute immunitaria.",
   "nutrient.vitamin_d.body_effect": "La vitamina D aiuta il corpo ad assorbire il calcio, rendendola essenziale per ossa e denti forti. Gioca anche un ruolo importante nella funzione immunitaria e nella regolazione dell'umore. La pelle la produce dalla luce solare, ma molte persone non ne ricevono abbastanza, specialmente nei climi nordici. Gli anziani ne hanno bisogno di più perché la loro pelle diventa meno efficiente nel produrla, e i neonati ne hanno bisogno perché il latte materno ne fornisce molto poco.",
-
   "nutrient.vitamin_e": "Vitamina E",
   "nutrient.vitamin_e.desc": "Antiossidante che protegge le cellule dai danni e supporta la salute della pelle.",
   "nutrient.vitamin_e.body_effect": "La vitamina E agisce come uno scudo per le cellule, proteggendole dai danni ossidativi causati dall'inquinamento, dai raggi UV e dal metabolismo normale. Supporta una pelle sana, aiuta il sistema immunitario a combattere batteri e virus e può rallentare il declino legato all'età. Tutte le età ne beneficiano, ma è particolarmente rilevante per adulti e anziani come nutriente protettivo.",
-
   "nutrient.vitamin_k": "Vitamina K",
   "nutrient.vitamin_k.desc": "Essenziale per la coagulazione del sangue e il metabolismo osseo.",
   "nutrient.vitamin_k.body_effect": "La vitamina K è il motivo per cui un taglio smette di sanguinare. Senza abbastanza, anche una piccola ferita potrebbe essere pericolosa. Dirige anche il calcio nelle ossa piuttosto che nelle arterie, il che conta per la salute a lungo termine del cuore e delle ossa. Adulti e anziani ne hanno bisogno di più. Le verdure a foglia verde scuro come il cavolo riccio e gli spinaci sono di gran lunga le fonti più ricche.",
-
   "nutrient.calcium": "Calcio",
   "nutrient.calcium.desc": "Il minerale più abbondante nel corpo, fondamentale per ossa e denti.",
   "nutrient.calcium.body_effect": "Circa il 99% del calcio si trova nelle ossa e nei denti, dando loro forza e struttura. Il restante 1% è vitale per le contrazioni muscolari, la segnalazione nervosa e il ritmo cardiaco. Gli adolescenti ne hanno bisogno di più perché stanno costruendo la massa ossea di picco. Gli anziani ne hanno bisogno molto per rallentare la perdita ossea. Latticini, sardine con le ossa e tofu al calcio sono le fonti principali.",
-
   "nutrient.iron": "Ferro",
   "nutrient.iron.desc": "Trasporta l'ossigeno nel sangue e supporta la produzione di energia.",
   "nutrient.iron.body_effect": "Il ferro è il nucleo dell'emoglobina, la molecola nei globuli rossi che trasporta l'ossigeno dai polmoni a ogni parte del corpo. Senza abbastanza ferro, ci si sente stanchi, deboli e incapaci di concentrarsi. Gli adolescenti, specialmente le ragazze dopo l'inizio delle mestruazioni, e le giovani donne ne hanno bisogno di più. Abbinate gli alimenti ricchi di ferro con la vitamina C per aumentare significativamente l'assorbimento.",
-
   "nutrient.magnesium": "Magnesio",
   "nutrient.magnesium.desc": "Coinvolto in oltre 300 reazioni enzimatiche, dalla produzione di energia al rilassamento muscolare.",
   "nutrient.magnesium.body_effect": "Il magnesio è una forza silenziosa coinvolta in oltre 300 reazioni biochimiche. Aiuta i muscoli a rilassarsi dopo la contrazione, mantiene il ritmo cardiaco stabile, supporta ossa forti e regola la glicemia. La carenza è sorprendentemente comune e può causare crampi muscolari, sonno scarso e ansia. Adulti e anziani beneficiano maggiormente dell'aumento dell'apporto attraverso frutta secca, semi e verdure a foglia verde scuro.",
-
   "nutrient.potassium": "Potassio",
   "nutrient.potassium.desc": "Regola l'equilibrio dei fluidi, le contrazioni muscolari e la pressione sanguigna.",
   "nutrient.potassium.body_effect": "Il potassio lavora insieme al sodio per controllare l'equilibrio dei fluidi nelle cellule e regolare la pressione sanguigna. Aiuta i muscoli a contrarsi correttamente, compreso il muscolo cardiaco. La maggior parte delle persone non assume abbastanza potassio, il che può aumentare la pressione sanguigna nel tempo. Adulti e anziani beneficiano maggiormente dell'aumento dell'apporto. Le banane sono famose per il potassio, ma le patate dolci, gli spinaci e l'avocado ne contengono di più.",
-
   "nutrient.zinc": "Zinco",
   "nutrient.zinc.desc": "Supporta la difesa immunitaria, la guarigione delle ferite e la percezione del gusto.",
   "nutrient.zinc.body_effect": "Lo zinco è essenziale per un sistema immunitario forte, aiutando il corpo a combattere virus e batteri. Accelera anche la guarigione delle ferite, supporta il senso del gusto e dell'olfatto e gioca un ruolo nella divisione cellulare. Gli adolescenti ne hanno bisogno di più durante gli scatti di crescita, e gli anziani spesso lo assorbono meno efficacemente. Manzo, frutti di mare e legumi sono fonti eccellenti.",
-
   "nutrient.selenium": "Selenio",
   "nutrient.selenium.desc": "Oligoelemento che supporta la funzione tiroidea e protegge dai danni ossidativi.",
   "nutrient.selenium.body_effect": "Il selenio lavora in silenzio ma con potenza. Aiuta la tiroide a produrre ormoni che regolano il metabolismo, protegge le cellule dai danni ossidativi e supporta il sistema immunitario. Ne serve solo una piccola quantità, ma la carenza può compromettere la funzione tiroidea e la risposta immunitaria. Le noci del Brasile sono così ricche di selenio che bastano una o due al giorno per coprire il fabbisogno. Tutte le fasce d'età ne beneficiano ugualmente.",
-
   "nutrient.omega_3": "Acidi grassi Omega-3",
   "nutrient.omega_3.desc": "Grassi essenziali che supportano la salute del cervello, del cuore e delle articolazioni.",
   "nutrient.omega_3.body_effect": "Gli omega-3 sono grassi che il corpo non può produrre da solo, quindi devono essere assunti con il cibo. Riducono l'infiammazione, supportano la funzione cerebrale e la memoria, proteggono il cuore e possono alleviare la rigidità articolare. I bambini ne hanno bisogno per lo sviluppo cerebrale, gli adulti per la protezione cardiaca e gli anziani sia per la salute cognitiva sia per ridurre l'infiammazione. I pesci grassi come salmone e sardine sono le migliori fonti delle forme più attive (EPA e DHA).",
-
   "nutrient.folate": "Acido folico",
   "nutrient.folate.desc": "Vitamina B fondamentale per la divisione cellulare, la sintesi del DNA e la prevenzione dei difetti congeniti.",
   "nutrient.folate.body_effect": "L'acido folico è essenziale ogni volta che il corpo produce nuove cellule, cosa che avviene costantemente. È fondamentale durante la gravidanza per prevenire i difetti del tubo neurale nel bambino in sviluppo, rendendolo il nutriente più importante per le donne in età fertile. Supporta anche la produzione di globuli rossi e aiuta a prevenire l'anemia. Lenticchie, spinaci e fagioli neri sono eccellenti fonti vegetali.",
-
   "vitamins.title": "Guida a vitamine e minerali",
   "vitamins.subtitle": "Cosa fanno, dove trovarli, chi ne ha più bisogno",
   "vitamins.found_in": "Si trova naturalmente in",
   "vitamins.important_for": "Particolarmente importante per",
   "vitamins.supplement_note": "Quando gli integratori possono aiutare",
   "vitamins.food_first": "Prima il cibo — integratori solo quando veramente necessario",
-
   "labels.title": "Capire le etichette nutrizionali",
   "labels.subtitle": "Cosa significano davvero i numeri sulle confezioni alimentari",
   "labels.per_100g": "Valori per 100g",
@@ -154,265 +127,203 @@
   "labels.amber_medium": "Giallo = Medio (accettabile con moderazione)",
   "labels.red_high": "Rosso = Alto (consumatene meno)",
   "labels.tip": "Confrontate prodotti simili usando i valori per 100g — è il modo più equo per confrontare.",
-
   "supp.vitamin_d": "Integratore di Vitamina D",
   "supp.vitamin_d.why": "Molte persone non ricevono abbastanza luce solare per produrre vitamina D adeguata, specialmente nei mesi invernali o alle latitudini settentrionali.",
   "supp.vitamin_d.note": "Considerate l'integrazione se ricevete poca esposizione solare, avete la pelle scura o avete più di 60 anni. Un filetto di salmone da 15 minuti fornisce quasi il fabbisogno di un giorno intero.",
-
   "supp.vitamin_c": "Integratore di Vitamina C",
   "supp.vitamin_c.why": "Popolare per il supporto immunitario, anche se la maggior parte delle persone soddisfa facilmente il proprio fabbisogno attraverso frutta e verdura.",
   "supp.vitamin_c.note": "Un singolo peperone rosso o due kiwi forniscono più vitamina C della maggior parte delle compresse di integratori. Gli integratori sono raramente necessari se mangiate frutta e verdura ogni giorno.",
-
   "supp.vitamin_b12": "Integratore di Vitamina B12",
   "supp.vitamin_b12.why": "Essenziale per vegani e vegetariani poiché la B12 si trova quasi esclusivamente negli alimenti di origine animale. L'assorbimento diminuisce anche con l'età.",
   "supp.vitamin_b12.note": "Se mangiate regolarmente carne o pesce, probabilmente ne assumete a sufficienza. I vegani dovrebbero integrare o consumare alimenti fortificati. Gli anziani dovrebbero discutere i livelli di B12 con il proprio medico.",
-
   "supp.iron": "Integratore di Ferro",
   "supp.iron.why": "Spesso raccomandato per donne con mestruazioni abbondanti, donne in gravidanza e persone con diagnosi di anemia sideropenica.",
   "supp.iron.note": "Non integrate il ferro senza un esame del sangue che confermi la carenza, poiché l'eccesso di ferro può essere dannoso. Abbinate le fonti vegetali di ferro con la vitamina C per un migliore assorbimento.",
-
   "supp.calcium": "Integratore di Calcio",
   "supp.calcium.why": "Può aiutare le persone che evitano i latticini, sono intolleranti al lattosio o hanno una diagnosi di osteoporosi o bassa densità ossea.",
   "supp.calcium.note": "Il tofu al calcio fornisce più calcio per porzione di un bicchiere di latte. Se mangiate regolarmente latticini e verdure a foglia, potreste non aver bisogno di un integratore. Assumete il calcio in dosi più piccole per un migliore assorbimento.",
-
   "supp.magnesium": "Integratore di Magnesio",
   "supp.magnesium.why": "Un minerale comunemente carente che supporta la qualità del sonno, il rilassamento muscolare e oltre 300 reazioni enzimatiche nel corpo.",
   "supp.magnesium.note": "Una manciata di mandorle più una porzione di spinaci copre circa il 40% del fabbisogno giornaliero. Il magnesio glicinato è spesso meglio tollerato di altre forme se si integra.",
-
   "supp.omega_3": "Integratore di Omega-3 (Olio di pesce)",
   "supp.omega_3.why": "Supporta la salute del cuore, del cervello e delle articolazioni. Spesso assunto da persone che non mangiano pesce regolarmente.",
   "supp.omega_3.note": "Due porzioni di pesce grasso a settimana coprono il fabbisogno di omega-3 della maggior parte delle persone. Un cucchiaio di semi di chia o una manciata di noci fornisce la forma vegetale (ALA). Gli integratori di olio di pesce possono essere utili per chi non ama i frutti di mare.",
-
   "supp.zinc": "Integratore di Zinco",
   "supp.zinc.why": "Supporta la funzione immunitaria, la guarigione delle ferite e la percezione del gusto. A volte assunto ai primi segni di raffreddore.",
   "supp.zinc.note": "La maggior parte delle persone che segue una dieta varia assume abbastanza zinco. I vegetariani possono avere bisogno fino al 50% in più a causa del minore assorbimento dalle fonti vegetali. L'eccesso di zinco può interferire con l'assorbimento del rame.",
-
   "supp.folate": "Integratore di Acido folico",
   "supp.folate.why": "Fondamentale prima e durante le prime fasi della gravidanza per prevenire i difetti del tubo neurale. Importante anche per la formazione dei globuli rossi.",
   "supp.folate.note": "Le donne che pianificano una gravidanza dovrebbero assumere 400mcg al giorno almeno un mese prima del concepimento. Una tazza di lenticchie cotte copre circa il 90% del fabbisogno giornaliero per adulti non in gravidanza.",
-
   "supp.potassium": "Integratore di Potassio",
   "supp.potassium.why": "Aiuta a regolare la pressione sanguigna e l'equilibrio dei fluidi. La maggior parte delle persone non ne assume abbastanza solo dalla dieta.",
   "supp.potassium.note": "Le dosi degli integratori sono mantenute basse (99mg) perché l'eccesso di potassio può essere pericoloso, specialmente per persone con problemi renali. Una singola patata dolce al forno fornisce oltre 700mg naturalmente. Il cibo è il modo più sicuro per aumentare il potassio.",
-
   "supp.vitamin_a": "Integratore di Vitamina A",
   "supp.vitamin_a.why": "Supporta la vista, la funzione immunitaria e la salute della pelle. La carenza è rara nei paesi sviluppati ma comune in parti del mondo in via di sviluppo.",
   "supp.vitamin_a.note": "Una patata dolce media fornisce il 160% del fabbisogno giornaliero. Il beta-carotene dalle verdure viene convertito in vitamina A secondo necessità, quindi la tossicità dalle fonti alimentari è praticamente impossibile. Gli integratori di vitamina A preformata possono causare tossicità ad alte dosi.",
-
   "supp.vitamin_e": "Integratore di Vitamina E",
   "supp.vitamin_e.why": "Agisce come antiossidante proteggendo le cellule dai danni. A volte promosso per la salute della pelle e l'anti-invecchiamento.",
   "supp.vitamin_e.note": "Una manciata di mandorle fornisce oltre il 50% del fabbisogno giornaliero. Gli integratori di vitamina E ad alte dosi hanno mostrato risultati contrastanti negli studi e possono interagire con i farmaci anticoagulanti. Le fonti alimentari sono raccomandate rispetto agli integratori.",
-
   "supp.selenium": "Integratore di Selenio",
   "supp.selenium.why": "Supporta la funzione tiroidea, la difesa immunitaria e la protezione dallo stress ossidativo.",
   "supp.selenium.note": "Solo una o due noci del Brasile al giorno coprono l'intero fabbisogno di selenio. Una scatoletta di tonno copre il 140% del fabbisogno giornaliero. L'integrazione è raramente necessaria e l'eccesso di selenio può essere tossico.",
-
   "supp.probiotics": "Integratore Probiotico",
   "supp.probiotics.why": "Mira a supportare la salute intestinale introducendo batteri benefici. La ricerca è promettente ma ancora in evoluzione per molte affermazioni sulla salute.",
   "supp.probiotics.note": "Lo yogurt greco, il kefir e altri alimenti fermentati contengono naturalmente probiotici e forniscono anche proteine, calcio e altri nutrienti che le capsule non possono replicare. Considerate prima i probiotici da alimenti.",
-
   "supp.fiber": "Integratore di Fibre",
   "supp.fiber.why": "Usato quando l'apporto di fibre dalla dieta è insufficiente. Aiuta con la regolarità, il controllo della glicemia e la gestione del colesterolo.",
   "supp.fiber.note": "Due cucchiai di semi di chia forniscono circa 10g di fibre più proteine, omega-3 e minerali che un integratore di psillio non può offrire. Gli alimenti integrali forniscono fibre insieme a centinaia di altri composti benefici. Aumentate le fibre gradualmente per evitare disagio digestivo.",
-
   "supp.food_first_message": "La natura fornisce la maggior parte di ciò di cui abbiamo bisogno. Ecco come ottenere i nutrienti dal cibo vero.",
-
   "recipe.salmon_avocado_bowl": "Bowl di riso con salmone e avocado",
   "recipe.salmon_avocado_bowl.desc": "Una vivace ciotola di salmone scottato su soffice riso integrale con cremose fette di avocado. Ricco di omega-3 e proteine, questo pranzo equilibrato si prepara in soli 12 minuti.",
   "recipe.salmon_avocado_bowl.steps": "1. Cuocete il riso integrale secondo le istruzioni sulla confezione e mettete da parte.\n2. Condite il filetto di salmone con sale, pepe e una spruzzata di limone.\n3. Scaldate una padella antiaderente a fuoco medio-alto con un filo d'olio d'oliva.\n4. Scottate il salmone con la pelle verso il basso per 4 minuti, poi girate e cuocete altri 3 minuti.\n5. Affettate l'avocado mentre il salmone finisce di cuocere.\n6. Assemblate la ciotola: riso sul fondo, salmone sopra, avocado a lato.\n7. Completate con un filo di salsa di soia o il vostro condimento preferito.",
-
   "recipe.overnight_oats_berries": "Porridge freddo con frutti di bosco",
   "recipe.overnight_oats_berries.desc": "Fiocchi d'avena cremosi, senza cottura, ammollati durante la notte con mirtilli freschi, semi di chia e un tocco di miele. Prelevateli dal frigorifero per una colazione istantanea, ricca di fibre.",
   "recipe.overnight_oats_berries.steps": "1. Combinate i fiocchi d'avena, il latte e i semi di chia in un barattolo o contenitore.\n2. Aggiungete il miele e mescolate bene.\n3. Sigillate il contenitore e refrigerate per tutta la notte (almeno 6 ore).\n4. Al mattino, mescolate l'avena e aggiungete più latte se troppo densa.\n5. Completate con mirtilli freschi.\n6. Gustate freddo direttamente dal frigorifero, o scaldate nel microonde per 90 secondi se preferite.",
-
   "recipe.scrambled_eggs_toast": "Uova strapazzate su pane tostato con spinaci",
   "recipe.scrambled_eggs_toast.desc": "Soffici uova strapazzate su pane integrale tostato con spinaci appassiti e una spolverata di cheddar. Una colazione ricca di proteine che tutta la famiglia può gustare in meno di 10 minuti.",
   "recipe.scrambled_eggs_toast.steps": "1. Rompete tre uova in una ciotola, aggiungete un goccio di latte e sbattete fino a ottenere un composto omogeneo.\n2. Scaldate una padella antiaderente a fuoco medio-basso con una noce di burro.\n3. Aggiungete gli spinaci e mescolate fino a quando appassiscono, circa 30 secondi. Togliete e mettete da parte.\n4. Versate le uova e mescolate delicatamente con una spatola, lasciando formare lentamente i fiocchi.\n5. Quando le uova sono quasi rapprese ma ancora leggermente morbide, togliete dal fuoco.\n6. Tostate il pane fino a doratura.\n7. Adagiate gli spinaci sul toast, poi le uova, poi il cheddar grattugiato.",
-
   "recipe.greek_yogurt_parfait": "Parfait di yogurt greco",
   "recipe.greek_yogurt_parfait.desc": "Strati di denso yogurt greco, fragole fresche, mandorle croccanti e un filo di miele. Uno spuntino ricco di proteine o una colazione leggera che si prepara in meno di cinque minuti.",
   "recipe.greek_yogurt_parfait.steps": "1. Mettete uno strato di yogurt greco in un bicchiere o una ciotola.\n2. Aggiungete uno strato di fragole affettate.\n3. Cospargete con mandorle tritate.\n4. Ripetete gli strati fino a riempire il bicchiere.\n5. Irrorate di miele sopra.\n6. Servite immediatamente per la migliore croccantezza, o refrigerate per un massimo di 2 ore.",
-
   "recipe.avocado_toast_egg": "Toast con avocado e uovo fritto",
   "recipe.avocado_toast_egg.desc": "Avocado perfettamente maturo schiacciato su pane integrale tostato, coronato da un uovo fritto dorato e fette di pomodoro fresco. Una soddisfacente combinazione di grassi sani, proteine e fibre.",
   "recipe.avocado_toast_egg.steps": "1. Tostate il pane integrale fino a doratura e croccantezza.\n2. Mentre il pane si tosta, scaldate una piccola padella a fuoco medio con un filo d'olio d'oliva.\n3. Rompete l'uovo nella padella e friggetelo fino a quando l'albume è rappreso ma il tuorlo è ancora morbido.\n4. Schiacciate l'avocado con una forchetta, aggiungendo un pizzico di sale e una spruzzata di limone.\n5. Spalmate l'avocado schiacciato sul toast.\n6. Adagiate l'uovo fritto sull'avocado.\n7. Disponete le fette di pomodoro intorno all'uovo e condite con sale e pepe.",
-
   "recipe.banana_peanut_butter_smoothie": "Frullato di banana e burro d'arachidi",
   "recipe.banana_peanut_butter_smoothie.desc": "Un frullato denso e cremoso di banana matura con burro d'arachidi, latte intero e una porzione di fiocchi d'avena. Perfetto per una carica di energia prima o dopo l'attività fisica.",
   "recipe.banana_peanut_butter_smoothie.steps": "1. Sbucciate la banana e spezzatela a pezzi.\n2. Mettete la banana, il burro d'arachidi, il latte e i fiocchi d'avena nel frullatore.\n3. Frullate a velocità massima per 30-45 secondi fino a ottenere un composto completamente liscio.\n4. Versate in un bicchiere alto.\n5. Per un frullato extra freddo, usate una banana congelata o aggiungete una manciata di ghiaccio prima di frullare.",
-
   "recipe.tuna_salad_wrap": "Wrap con insalata di tonno",
   "recipe.tuna_salad_wrap.desc": "Tonno sminuzzato mescolato con avocado schiacciato, pomodoro fresco e spinacino, il tutto avvolto in una tortilla integrale. Un pranzo ricco di proteine e omega-3, facile da portare con sé.",
   "recipe.tuna_salad_wrap.steps": "1. Scolate bene il tonno in scatola e mettetelo in una ciotola.\n2. Schiacciate l'avocado e mescolatelo al tonno al posto della maionese.\n3. Tagliate il pomodoro a cubetti e incorporatelo nel composto di tonno.\n4. Condite con sale, pepe e una spruzzata di succo di limone.\n5. Adagiate le foglie di spinaci sulla tortilla integrale.\n6. Distribuite il composto di tonno sugli spinaci.\n7. Arrotolate la tortilla saldamente, ripiegando i lati. Tagliate a metà per servire.",
-
   "recipe.apple_almond_snack": "Spuntino mela e mandorle",
   "recipe.apple_almond_snack.desc": "Lo spuntino sano più semplice: spicchi di mela croccante abbinati a una manciata di mandorle crude. La combinazione di fibre, grassi sani e dolcezza naturale tiene lontana la fame per ore.",
   "recipe.apple_almond_snack.steps": "1. Lavate la mela e tagliatela a spicchi, rimuovendo il torsolo.\n2. Misurate una manciata di mandorle (circa 23 mandorle).\n3. Disponete su un piatto o confezionate in un contenitore per uno spuntino da portare via.\n4. Per variare, provate a spalmare un sottile strato di crema di mandorle sugli spicchi di mela.",
-
   "recipe.cottage_cheese_fruit_bowl": "Ciotola di fiocchi di latte e frutta",
   "recipe.cottage_cheese_fruit_bowl.desc": "Cremosi fiocchi di latte guarniti con dolci pezzi di mango, noci croccanti e una spolverata di semi di lino. Ricchi di proteine e omega-3, con un gusto tropicale naturalmente dolce.",
   "recipe.cottage_cheese_fruit_bowl.steps": "1. Mettete i fiocchi di latte in una ciotola.\n2. Sbucciate e tagliate il mango a pezzetti.\n3. Disponete il mango sopra i fiocchi di latte.\n4. Cospargete con noci e semi di lino macinati.\n5. Aggiungete un filo di miele se desiderate più dolcezza.\n6. Gustate immediatamente per il miglior contrasto di consistenze.",
-
   "recipe.dark_chocolate_banana_bites": "Bocconcini di banana al cioccolato fondente",
   "recipe.dark_chocolate_banana_bites.desc": "Rondelle di banana congelate immerse in cioccolato fondente fuso e cosparse di mandorle tritate. Un dolcetto naturalmente dolce ricco di antiossidanti, potassio e magnesio.",
   "recipe.dark_chocolate_banana_bites.steps": "1. Sbucciate le banane e tagliatele a rondelle di 1cm.\n2. Foderate una teglia con carta da forno e disponete le fette di banana in un unico strato.\n3. Congelate per 30 minuti fino a quando sono sode.\n4. Sciogliete il cioccolato fondente in una ciotola adatta al microonde a intervalli di 20 secondi, mescolando tra uno e l'altro.\n5. Tritate le mandorle in pezzetti piccoli.\n6. Immergete ogni rondella di banana congelata a metà nel cioccolato fuso.\n7. Cospargete con mandorle tritate prima che il cioccolato si solidifichi.\n8. Rimettete in congelatore per 10 minuti per far solidificare. Conservate in congelatore.",
-
   "recipe.chicken_stir_fry": "Pollo e broccoli saltati in padella",
   "recipe.chicken_stir_fry.desc": "Teneri pezzi di petto di pollo saltati con broccoli e peperone su riso integrale, finiti con aglio e un tocco di salsa di soia. Un pasto ricco di proteine ed equilibrato, pronto in 20 minuti.",
   "recipe.chicken_stir_fry.steps": "1. Tagliate il petto di pollo a striscioline sottili e condite con sale, pepe e un goccio di salsa di soia.\n2. Cuocete il riso integrale secondo le istruzioni sulla confezione.\n3. Scaldate olio d'oliva in una padella grande o wok a fuoco alto.\n4. Aggiungete le striscioline di pollo e saltate per 5-6 minuti fino a doratura e completa cottura. Togliete e mettete da parte.\n5. Nella stessa padella, aggiungete l'aglio tritato e saltate per 30 secondi.\n6. Aggiungete le cimette di broccoli e il peperone affettato. Saltate per 3-4 minuti fino a quando sono croccanti ma teneri.\n7. Rimettete il pollo nella padella, mescolate il tutto e servite sul riso integrale.",
-
   "recipe.lentil_soup": "Zuppa di lenticchie sostanziosa",
   "recipe.lentil_soup.desc": "Una calda pentola di lenticchie cotte con carote, pomodori, spinaci e aglio. Economica, vegana e piena di ferro e fibre. Per quattro porzioni generose.",
   "recipe.lentil_soup.steps": "1. Sciacquate le lenticchie sotto acqua fredda e scolate.\n2. Scaldate olio d'oliva in una pentola grande a fuoco medio.\n3. Aggiungete le carote a dadini e l'aglio tritato, cuocete per 3-4 minuti fino a quando si ammorbidiscono.\n4. Aggiungete le lenticchie, i pomodori a dadini e acqua o brodo sufficiente a coprire di circa 5cm.\n5. Portate a ebollizione, poi riducete il fuoco e fate sobbollire per 20 minuti fino a quando le lenticchie sono tenere.\n6. Aggiungete gli spinaci negli ultimi 2 minuti di cottura.\n7. Condite con sale, pepe e una spruzzata di succo di limone. Servite caldo con pane croccante.",
-
   "recipe.shrimp_garlic_pasta": "Pasta con gamberi e aglio",
   "recipe.shrimp_garlic_pasta.desc": "Gamberi polposi saltati con abbondante aglio, mescolati con pasta integrale, pomodorini e spinaci freschi in olio d'oliva. Una cena di ispirazione mediterranea ricca di selenio e proteine.",
   "recipe.shrimp_garlic_pasta.steps": "1. Cuocete la pasta in acqua bollente salata secondo le istruzioni sulla confezione. Scolate, conservando mezza tazza di acqua di cottura.\n2. Mentre la pasta cuoce, scaldate olio d'oliva in una padella grande a fuoco medio-alto.\n3. Adagiate i gamberi in un unico strato e cuocete 2 minuti per lato fino a quando diventano rosa. Togliete e mettete da parte.\n4. Abbassate il fuoco, aggiungete l'aglio affettato nella stessa padella e mescolate per 1 minuto fino a quando è fragrante.\n5. Aggiungete i pomodorini tagliati a metà e cuocete per 2 minuti.\n6. Aggiungete gli spinaci e mescolate fino a quando appassiscono.\n7. Rimettete i gamberi nella padella, aggiungete la pasta scolata e un goccio di acqua di cottura.\n8. Mescolate il tutto e servite con una spruzzata di limone.",
-
   "recipe.quinoa_veggie_bowl": "Bowl energetica di quinoa e verdure",
   "recipe.quinoa_veggie_bowl.desc": "Soffice quinoa caricata con ceci, avocado, cavolo riccio e peperone arrostito, condita con olio d'oliva e limone. Una ciotola completa di proteine vegetali con un eccezionale contenuto di fibre.",
   "recipe.quinoa_veggie_bowl.steps": "1. Sciacquate bene la quinoa e cuocete in acqua secondo le istruzioni sulla confezione. Sgranatela con una forchetta.\n2. Scolate e sciacquate i ceci.\n3. Arrostite il peperone affettato con un filo d'olio d'oliva a 200°C per 15 minuti.\n4. Massaggiate le foglie di cavolo riccio con un po' d'olio d'oliva e un pizzico di sale per ammorbidirle.\n5. Affettate l'avocado.\n6. Assemblate le ciotole: quinoa sul fondo, poi ceci, peperone arrostito, cavolo riccio e avocado.\n7. Condite con olio d'oliva e succo di limone fresco. Aggiustate con sale e pepe.",
-
   "recipe.turkey_spinach_wrap": "Wrap di tacchino e spinaci",
   "recipe.turkey_spinach_wrap.desc": "Fette di petto di tacchino magro stratificate con spinaci freschi, cheddar e pomodoro in una tortilla integrale. Un pranzo ricco di proteine, portatile, perfetto per lavoro o scuola.",
   "recipe.turkey_spinach_wrap.steps": "1. Stendete la tortilla integrale su una superficie pulita.\n2. Disponete le foglie di spinaci sulla tortilla, lasciando un bordo ai lati.\n3. Stratificate le fette di tacchino uniformemente sugli spinaci.\n4. Aggiungete fette di pomodoro e un sottile strato di cheddar grattugiato.\n5. Condite leggermente con sale e pepe.\n6. Ripiegate i lati e arrotolate saldamente dal basso.\n7. Tagliate a metà in diagonale e avvolgete in alluminio per un facile trasporto.",
-
   "recipe.tofu_veggie_stir_fry": "Tofu e verdure saltati in padella",
   "recipe.tofu_veggie_stir_fry.desc": "Cubetti di tofu croccanti saltati con broccoli, funghi e carote su riso integrale. Una cena vegetale soddisfacente, ricca di calcio e proteine.",
   "recipe.tofu_veggie_stir_fry.steps": "1. Premete il tofu tra fogli di carta assorbente per rimuovere l'umidità in eccesso, poi tagliate a cubetti di 2cm.\n2. Cuocete il riso integrale secondo le istruzioni sulla confezione.\n3. Scaldate olio d'oliva in una padella grande o wok a fuoco alto.\n4. Aggiungete i cubetti di tofu in un unico strato e cuocete senza toccare per 3-4 minuti fino a doratura sul fondo. Girate e ripetete.\n5. Togliete il tofu e mettete da parte.\n6. Nella stessa padella, saltate i funghi affettati per 2 minuti.\n7. Aggiungete le cimette di broccoli e le carote affettate, cuocete per 3-4 minuti fino a quando sono croccanti ma tenere.\n8. Rimettete il tofu nella padella, aggiungete un goccio di salsa di soia e mescolate. Servite sul riso.",
-
   "recipe.oatmeal_banana_walnut": "Porridge con banana e noci",
   "recipe.oatmeal_banana_walnut.desc": "Porridge caldo e cremoso cotto con latte intero, guarnito con fette di banana, noci croccanti e un filo di miele. Un inizio sano per il cuore e ricco di fibre per ogni mattina.",
   "recipe.oatmeal_banana_walnut.steps": "1. Combinate i fiocchi d'avena e il latte in un pentolino a fuoco medio.\n2. Mescolate occasionalmente, portando a leggera ebollizione.\n3. Cuocete per 5-7 minuti, mescolando spesso, fino a quando i fiocchi sono densi e cremosi.\n4. Versate in una ciotola.\n5. Affettate la banana e disponete sopra.\n6. Cospargete con noci tritate.\n7. Irrorate di miele e servite caldo.",
-
   "recipe.egg_veggie_muffins": "Muffin di uova e verdure",
   "recipe.egg_veggie_muffins.desc": "Sformatini individuali di uova cotti con spinaci, peperone, funghi e cheddar. Preparatene un lotto la domenica e riscaldateli durante la settimana per colazioni veloci e ricche di proteine.",
   "recipe.egg_veggie_muffins.steps": "1. Preriscaldate il forno a 180°C e ungete uno stampo per muffin a 6 posti.\n2. Tritate finemente spinaci, peperone e funghi.\n3. Distribuite le verdure uniformemente negli stampi per muffin.\n4. Rompete le uova in una ciotola, sbattete bene e condite con sale e pepe.\n5. Versate il composto di uova uniformemente in ogni stampo, riempiendo circa tre quarti.\n6. Cospargete di cheddar grattugiato ogni muffin.\n7. Cuocete per 18-20 minuti fino a quando sono rapprese e leggermente dorate.\n8. Lasciate raffreddare 2 minuti prima di togliere dallo stampo. Conservate in frigorifero fino a 4 giorni.",
-
   "recipe.chickpea_salad": "Insalata mediterranea di ceci",
   "recipe.chickpea_salad.desc": "Una colorata insalata di ceci, pomodoro a dadini, peperone, avocado e spinaci condita con olio d'oliva e limone. Vegana, ricca di fibre e infinitamente personalizzabile.",
   "recipe.chickpea_salad.steps": "1. Scolate e sciacquate i ceci.\n2. Tagliate a dadini il pomodoro, il peperone e l'avocado in pezzi di dimensioni simili.\n3. Mescolate i ceci, le verdure a dadini e le foglie di spinaci in una grande ciotola.\n4. Emulsionate olio d'oliva, succo di limone, sale e pepe per il condimento.\n5. Versate il condimento sull'insalata e mescolate delicatamente.\n6. Lasciate riposare 5 minuti per far amalgamare i sapori.\n7. Servite a temperatura ambiente. Si conserva bene in frigorifero per il pranzo del giorno dopo.",
-
   "recipe.salmon_kale_sweet_potato": "Salmone con cavolo riccio e patata dolce",
   "recipe.salmon_kale_sweet_potato.desc": "Filetti di salmone cotti al forno serviti con spicchi di patata dolce arrosto e cavolo riccio saltato all'aglio. Una cena ricca di nutrienti, piena di omega-3, vitamina A e composti antinfiammatori.",
   "recipe.salmon_kale_sweet_potato.steps": "1. Preriscaldate il forno a 200°C.\n2. Tagliate le patate dolci a spicchi, condite con olio d'oliva e sale e distribuite su una teglia.\n3. Arrostite per 15 minuti.\n4. Condite i filetti di salmone con sale, pepe e un filo d'olio d'oliva.\n5. Aggiungete il salmone sulla teglia accanto alle patate dolci.\n6. Arrostite insieme per 12-15 minuti fino a quando il salmone si sfalda facilmente.\n7. Nel frattempo, scaldate una padella con olio d'oliva e aglio tritato. Aggiungete il cavolo riccio e saltate per 3-4 minuti.\n8. Impiattate il salmone sul cavolo riccio con gli spicchi di patata dolce a lato.",
-
   "recipe.homemade_turkey_burger": "Hamburger di tacchino fatti in casa",
   "recipe.homemade_turkey_burger.desc": "Succose polpette di tacchino condite con erbe aromatiche, servite su panini integrali con avocado, pomodoro e spinaci freschi. Una versione più magra e nutriente del classico hamburger.",
   "recipe.homemade_turkey_burger.steps": "1. In una ciotola, mescolate il macinato di tacchino con sale, pepe, aglio in polvere e un pizzico di paprika.\n2. Formate il composto in due polpette uguali, premendo una piccola fossetta al centro di ciascuna.\n3. Scaldate una bistecchiera o padella a fuoco medio-alto.\n4. Cuocete le polpette per 5-6 minuti per lato fino a completa cottura (temperatura interna 74°C).\n5. Tostate leggermente i panini integrali.\n6. Schiacciate un po' di avocado sul panino inferiore.\n7. Stratificate la polpetta di tacchino, le fette di pomodoro e gli spinaci.\n8. Coprite con il panino superiore e servite.",
-
   "recipe.beef_broccoli_bowl": "Bowl di manzo e broccoli",
   "recipe.beef_broccoli_bowl.desc": "Tenere striscioline di manzo magro saltate con broccoli in un saporito sugo all'aglio su riso integrale. Una combinazione classica che fornisce ferro, zinco e B12 in ogni boccone.",
   "recipe.beef_broccoli_bowl.steps": "1. Tagliate il manzo a striscioline sottili controfibra.\n2. Cuocete il riso integrale secondo le istruzioni sulla confezione.\n3. Scaldate olio d'oliva in una padella grande o wok a fuoco alto.\n4. Aggiungete le striscioline di manzo e saltate per 3-4 minuti fino a doratura. Togliete e mettete da parte.\n5. Aggiungete l'aglio tritato nella stessa padella e mescolate per 30 secondi.\n6. Aggiungete le cimette di broccoli con un goccio d'acqua, coprite e fate cuocere al vapore per 3 minuti.\n7. Rimettete il manzo nella padella, aggiungete la salsa di soia e mescolate.\n8. Servite sul riso integrale con una spolverata di semi di sesamo se desiderate.",
-
   "recipe.black_bean_sweet_potato_chili": "Chili di fagioli neri e patata dolce",
   "recipe.black_bean_sweet_potato_chili.desc": "Un chili denso e affumicato fatto con fagioli neri, patata dolce arrosto, pomodori e peperone. Vegano, economico e pieno di fibre. Abbastanza per quattro porzioni generose.",
   "recipe.black_bean_sweet_potato_chili.steps": "1. Sbucciate e tagliate le patate dolci a cubetti di 2cm.\n2. Scaldate olio d'oliva in una pentola grande a fuoco medio.\n3. Aggiungete il peperone a dadini e l'aglio tritato, cuocete per 3 minuti.\n4. Aggiungete i cubetti di patata dolce e mescolate.\n5. Aggiungete i pomodori a dadini, i fagioli neri scolati e acqua sufficiente a coprire.\n6. Condite con cumino, peperoncino in polvere, paprika affumicata, sale e pepe.\n7. Portate a ebollizione, riducete il fuoco e fate sobbollire per 25-30 minuti fino a quando le patate dolci sono tenere.\n8. Servite in ciotole, guarnite con una cucchiaiata di yogurt o fette di avocado se desiderate.",
-
   "recipe.baked_chicken_vegetables": "Pollo e verdure al forno su una teglia",
   "recipe.baked_chicken_vegetables.desc": "Petti di pollo arrostiti su una singola teglia con patata dolce, broccoli e carote. Preparazione semplice, pulizia minima e un pasto equilibrato che tutta la famiglia mangerà.",
   "recipe.baked_chicken_vegetables.steps": "1. Preriscaldate il forno a 200°C.\n2. Tagliate le patate dolci e le carote in pezzi uniformi.\n3. Condite le verdure con olio d'oliva, sale, pepe e aglio tritato su una grande teglia.\n4. Arrostite per 15 minuti per dare un vantaggio alle verdure a radice.\n5. Condite i petti di pollo con sale, pepe e le vostre erbe preferite.\n6. Spostate le verdure ai lati e posizionate il pollo al centro della teglia.\n7. Aggiungete le cimette di broccoli intorno al pollo.\n8. Arrostite per altri 25 minuti fino a quando il pollo raggiunge 74°C internamente.\n9. Lasciate riposare 5 minuti prima di affettare e servire.",
-
   "recipe.sardine_toast_salad": "Toast con sardine e insalata verde",
   "recipe.sardine_toast_salad.desc": "Sardine in scatola schiacciate con avocado su pane integrale tostato, servite con un'insalata di cavolo riccio e pomodoro. Un pasto sottovalutato, economico, ricco di omega-3, calcio e B12.",
   "recipe.sardine_toast_salad.steps": "1. Scolate le sardine e mettetele in una ciotola.\n2. Schiacciate con una forchetta, aggiungendo avocado a dadini, una spruzzata di limone, sale e pepe.\n3. Tostate il pane integrale fino a doratura.\n4. Spalmate generosamente il composto sardine-avocado sul toast.\n5. Per l'insalata, combinate foglie di cavolo riccio strappate e pomodori affettati.\n6. Condite con olio d'oliva, succo di limone e un pizzico di sale.\n7. Servite il toast accanto all'insalata.",
-
   "recipe.lentil_bolognese": "Ragù di lenticchie",
   "recipe.lentil_bolognese.desc": "Un ricco sugo per pasta dal sapore carnoso, fatto interamente con lenticchie, funghi, carote e pomodori. Piace anche agli amanti della carne. Ricco di ferro, fibre e proteine.",
   "recipe.lentil_bolognese.steps": "1. Sciacquate le lenticchie sotto acqua fredda e scolate.\n2. Tritate finemente le carote e i funghi.\n3. Scaldate olio d'oliva in una casseruola grande a fuoco medio.\n4. Aggiungete l'aglio tritato e le carote a dadini, cuocete per 3-4 minuti.\n5. Aggiungete i funghi e cuocete per altri 3 minuti fino a quando si ammorbidiscono.\n6. Aggiungete le lenticchie e i pomodori a dadini con il loro succo.\n7. Aggiungete acqua sufficiente a coprire le lenticchie, portate a ebollizione, poi riducete il fuoco.\n8. Fate sobbollire per 25-30 minuti, mescolando occasionalmente, fino a quando le lenticchie sono tenere e il sugo è denso.\n9. Condite bene con sale, pepe e erbe italiane essiccate. Servite sulla vostra pasta preferita.",
-
   "recipe.stuffed_bell_peppers": "Peperoni ripieni",
   "recipe.stuffed_bell_peppers.desc": "Colorati peperoni farciti con un saporito mix di quinoa, fagioli neri, pomodoro e cheddar fuso. Un pasto proteico completo che è sorprendentemente facile nonostante il suo aspetto impressionante.",
   "recipe.stuffed_bell_peppers.steps": "1. Preriscaldate il forno a 190°C.\n2. Tagliate la parte superiore dei peperoni e rimuovete i semi.\n3. Cuocete la quinoa secondo le istruzioni sulla confezione.\n4. Mescolate la quinoa cotta con i fagioli neri scolati, i pomodori a dadini, l'aglio tritato e metà del cheddar.\n5. Condite il ripieno con cumino, sale e pepe.\n6. Farcite ogni peperone con il ripieno, pressando bene.\n7. Posizionate i peperoni verticali in una pirofila e cospargete con il cheddar rimanente.\n8. Coprite con alluminio e cuocete per 25 minuti.\n9. Rimuovete l'alluminio e cuocete altri 10 minuti fino a quando il formaggio è dorato e i peperoni sono teneri.",
-
   "recipe.slow_cooker_chicken_soup": "Zuppa di pollo a cottura lenta",
   "recipe.slow_cooker_chicken_soup.desc": "Una confortante e nutriente zuppa di pollo che si prepara praticamente da sola. Petto di pollo cotto lentamente con carote, cavolfiore, spinaci e aglio. Per sei porzioni per la settimana.",
   "recipe.slow_cooker_chicken_soup.steps": "1. Mettete i petti di pollo sul fondo della pentola a cottura lenta.\n2. Aggiungete le carote tritate, le cimette di cavolfiore e l'aglio tritato sopra.\n3. Versate brodo di pollo o acqua sufficiente a coprire tutto di circa 3cm.\n4. Condite con sale, pepe, timo e una foglia di alloro.\n5. Cuocete a fuoco basso per 6-8 ore o a fuoco alto per 3-4 ore.\n6. Togliete il pollo e sfilatelo con due forchette.\n7. Rimettete il pollo sfilacciato nella pentola e aggiungete gli spinaci.\n8. Lasciate appassire gli spinaci per 2-3 minuti.\n9. Assaggiate e aggiustate il condimento. Servite caldo. Refrigerate o congelate gli avanzi in porzioni.",
-
   "recipe.baked_salmon_quinoa": "Salmone al forno con quinoa al limone",
   "recipe.baked_salmon_quinoa.desc": "Filetti di salmone al limone e erbe aromatiche cotti al forno fino a sfaldarsi, serviti su soffice quinoa con broccoli arrosto. Una cena ricca di omega-3 elegante quanto nutriente.",
   "recipe.baked_salmon_quinoa.steps": "1. Preriscaldate il forno a 200°C.\n2. Cuocete la quinoa secondo le istruzioni sulla confezione. Una volta pronta, sgranatela con una forchetta e incorporate la scorza e il succo di limone.\n3. Mettete le cimette di broccoli su una teglia, condite con olio d'oliva e sale.\n4. Arrostite i broccoli per 10 minuti.\n5. Condite i filetti di salmone con sale, pepe, aglio tritato e olio d'oliva.\n6. Spostate i broccoli ai lati e posizionate il salmone sulla teglia.\n7. Arrostite insieme per 12-14 minuti fino a quando il salmone si sfalda facilmente.\n8. Impiattate la quinoa al limone, adagiate il salmone sopra e disponete i broccoli a lato.",
-
   "recipe.cauliflower_chickpea_curry": "Curry di cavolfiore e ceci",
   "recipe.cauliflower_chickpea_curry.desc": "Un curry profumato e riscaldante di cavolfiore e ceci in un sugo speziato di pomodoro e spinaci. Vegano, ricco di fibre e profondamente soddisfacente servito con riso o pane piatto.",
   "recipe.cauliflower_chickpea_curry.steps": "1. Tagliate il cavolfiore in cimette piccole.\n2. Scaldate olio d'oliva in una pentola grande a fuoco medio.\n3. Aggiungete l'aglio tritato e cuocete per 30 secondi fino a quando è fragrante.\n4. Aggiungete le cimette di cavolfiore e mescolate. Cuocete per 3 minuti.\n5. Aggiungete i ceci scolati, i pomodori a dadini e le spezie (curry in polvere, curcuma, cumino, sale).\n6. Aggiungete un goccio d'acqua, coprite e fate sobbollire per 20 minuti fino a quando il cavolfiore è tenero.\n7. Aggiungete gli spinaci e cuocete per altri 2 minuti fino a quando appassiscono.\n8. Aggiustate il condimento e servite con riso o pane piatto caldo.",
-
   "resto.burger_meal": "Menu Hamburger",
   "resto.burger_meal.restaurant": "Cheeseburger da fast food con patatine e una bibita grande",
   "resto.burger_meal.home": "Hamburger di tacchino fatto in casa con spicchi di patata dolce e acqua",
   "resto.burger_meal.tip": "La differenza più grande non è l'hamburger in sé ma i contorni. Sostituire patatine e bibita con patata dolce al forno e acqua dimezza le calorie ed elimina la maggior parte degli zuccheri aggiunti.",
-
   "resto.fried_chicken_combo": "Menu Pollo Fritto",
   "resto.fried_chicken_combo.restaurant": "3 pezzi di pollo fritto con insalata di cavolo, panino e bibita grande",
   "resto.fried_chicken_combo.home": "Petto di pollo al forno con verdure arrosto",
   "resto.fried_chicken_combo.tip": "Cuocere al forno invece di friggere riduce i grassi dell'85% mantenendo la stessa quantità di proteine. L'insalata di cavolo al ristorante è spesso carica di maionese, quindi le verdure arrosto sono un contorno molto più leggero.",
-
   "resto.pepperoni_pizza": "Pizza al salame (3 fette)",
   "resto.pepperoni_pizza.restaurant": "3 fette di pizza al salame da asporto",
   "resto.pepperoni_pizza.home": "Pizza integrale fatta in casa con condimenti freschi",
   "resto.pepperoni_pizza.tip": "La pizza da asporto ha tipicamente molto più formaggio e carne lavorata delle versioni casalinghe. Usare una base integrale e abbondare con le verdure offre più fibre e meno sodio.",
-
   "resto.margherita_pizza": "Pizza Margherita (3 fette)",
   "resto.margherita_pizza.restaurant": "3 fette di pizza Margherita stile ristorante",
   "resto.margherita_pizza.home": "Margherita fatta in casa con mozzarella fresca e basilico",
   "resto.margherita_pizza.tip": "Anche una pizza più semplice come la Margherita accumula olio e formaggio extra al ristorante. Fatta in casa vi permette di controllare la qualità degli ingredienti e la quantità di formaggio.",
-
   "resto.general_tso_chicken": "Pollo del Generale Tso",
   "resto.general_tso_chicken.restaurant": "Pollo del Generale Tso con riso fritto da un ristorante cinese",
   "resto.general_tso_chicken.home": "Pollo saltato in padella fatto in casa con riso integrale e verdure",
   "resto.general_tso_chicken.tip": "Il pollo del Generale Tso è impanato, fritto e ricoperto di una salsa zuccherata. Un semplice saltato in padella offre tutto il sapore con una frazione di grassi e zuccheri. Usate aglio e zenzero freschi per un aroma naturale.",
-
   "resto.pad_thai": "Pad Thai",
   "resto.pad_thai.restaurant": "Pad Thai con gamberi dal ristorante",
   "resto.pad_thai.home": "Pasta fatta in casa con gamberi e verdure con aglio e olio d'oliva",
   "resto.pad_thai.tip": "Il Pad Thai del ristorante viene tipicamente cotto in molto olio con una salsa dolce di tamarindo che aggiunge calorie nascoste. Una pasta aglio e olio con gamberi offre una soddisfazione simile con molto meno sodio e zucchero.",
-
   "resto.burrito_bowl": "Burrito Bowl",
   "resto.burrito_bowl.restaurant": "Grande burrito bowl con riso, fagioli, carne, formaggio, panna acida e guacamole",
   "resto.burrito_bowl.home": "Bowl di quinoa e verdure fatto in casa con ceci e avocado",
   "resto.burrito_bowl.tip": "Le burrito bowl dei ristoranti sono generose, e questo è il problema. La panna acida e il formaggio extra da soli possono aggiungere oltre 300 calorie. Una bowl di quinoa fatta in casa con verdure fresche offre più fibre e controllo sulle porzioni.",
-
   "resto.quesadilla_combo": "Menu Quesadilla",
   "resto.quesadilla_combo.restaurant": "Quesadilla al formaggio con riso, fagioli e tortilla chips da un ristorante messicano",
   "resto.quesadilla_combo.home": "Quesadilla integrale fatta in casa con fagioli neri e verdure",
   "resto.quesadilla_combo.tip": "Le quesadilla dei ristoranti usano tortilla enormi piene di formaggio e spesso vengono con contorni ad alta densità calorica. Usare una tortilla integrale più piccola con fagioli e verdure crea un pasto più equilibrato.",
-
   "resto.fettuccine_alfredo": "Fettuccine Alfredo",
   "resto.fettuccine_alfredo.restaurant": "Fettuccine Alfredo del ristorante con pane all'aglio",
   "resto.fettuccine_alfredo.home": "Alfredo più leggero fatto in casa con pasta integrale e verdure",
   "resto.fettuccine_alfredo.tip": "La salsa Alfredo del ristorante è essenzialmente burro e panna in grandi quantità. Una versione più leggera con latte, meno parmigiano e aggiungendo broccoli o spinaci riduce drasticamente i grassi rimanendo comunque golosa.",
-
   "resto.pasta_bolognese": "Pasta alla Bolognese",
   "resto.pasta_bolognese.restaurant": "Spaghetti alla Bolognese del ristorante con pane all'aglio",
   "resto.pasta_bolognese.home": "Ragù di lenticchie fatto in casa con pasta integrale",
   "resto.pasta_bolognese.tip": "Sostituire la carne macinata con le lenticchie riduce i grassi del 74% e aggiunge un'enorme quantità di fibre e ferro. La maggior parte delle persone non nota la differenza una volta cotto con pomodori e erbe aromatiche. Provatelo prima di escluderlo.",
-
   "resto.latte_muffin": "Latte e Muffin",
   "resto.latte_muffin.restaurant": "Latte grande aromatizzato con un muffin ai mirtilli da un bar",
   "resto.latte_muffin.home": "Porridge fatto in casa con banana, noci e miele",
   "resto.latte_muffin.tip": "Un muffin del bar può contenere tanto zucchero quanto tre barrette di cioccolato. Il porridge con frutta fornisce energia costante senza il crollo glicemico, costa una frazione del prezzo e sazia molto più a lungo.",
-
   "resto.deli_sub_sandwich": "Panino Deli Sub",
   "resto.deli_sub_sandwich.restaurant": "Panino sub da 30cm con affettati, formaggio e salsa",
   "resto.deli_sub_sandwich.home": "Wrap fatto in casa con tacchino e spinaci con verdure fresche",
   "resto.deli_sub_sandwich.tip": "I panini sub sono bombe di sodio a causa degli affettati industriali, formaggio e salse. Usare tacchino fresco affettato al posto degli insaccati e rinunciare alla salsa pesante riduce il sodio del 75% ed è altrettanto soddisfacente.",
-
   "shop.budget_week": "Settimana economica (50€)",
   "shop.moderate_week": "Settimana equilibrata (80€)",
   "shop.premium_week": "Settimana premium (120€)",
-
   "shop.tip.seasonal": "Comprate frutta e verdura di stagione. Costano meno, hanno un sapore migliore e livelli nutritivi più alti perché vengono raccolte al picco di maturazione anziché spedite da lontano.",
   "shop.tip.bulk": "Fate scorta di alimenti base come riso, fiocchi d'avena, lenticchie e fagioli in quantità. Durano mesi, costano significativamente meno per porzione e sono la base di centinaia di pasti nutrienti.",
   "shop.tip.frozen": "Frutta e verdura surgelate vengono raccolte e congelate al picco nutritivo. Sono spesso più economiche di quelle fresche, durano molto di più e sono altrettanto nutrienti. Tenete una varietà nel congelatore per pasti veloci.",
   "shop.tip.store_brands": "I prodotti a marchio del supermercato contengono spesso gli stessi ingredienti delle marche famose a un costo inferiore del 20-40%. Confrontate le etichette nutrizionali per conferma. Questo è uno dei modi più semplici per ridurre la spesa alimentare.",
   "shop.tip.meal_prep": "Dedicate un'ora o due nel weekend a preparare i pasti per la settimana. Cucinare in lotti zuppe, cereali e proteine fa risparmiare tempo nei giorni lavorativi e riduce la tentazione di ordinare cibo a domicilio.",
   "shop.tip.avoid_waste": "Pianificate i pasti prima di fare la spesa e attenetevi alla lista. Usate gli avanzi in modo creativo. Congelate pane, carne e banane mature prima che vadano a male. Lo spreco alimentare è denaro sprecato.",
-
   "shop.weekly_cost": "Costo settimanale stimato",
   "shop.per_day": "Al giorno",
   "shop.shopping_list": "Lista della spesa",
   "shop.grocery_section": "Reparto",
-
   "shop.section.produce": "Frutta e verdura",
   "shop.section.meat_counter": "Banco carne",
   "shop.section.fish_counter": "Banco pesce",
@@ -422,7 +333,6 @@
   "shop.section.canned_goods": "Conserve e barattoli",
   "shop.section.frozen": "Surgelati",
   "shop.section.oils_condiments": "Oli e condimenti",
-
   "food.category.protein": "Proteine",
   "food.category.grain": "Cereali e amidi",
   "food.category.vegetable": "Verdure",
@@ -431,39 +341,32 @@
   "food.category.nut_seed": "Frutta secca e semi",
   "food.category.legume": "Legumi",
   "food.category.other": "Altro",
-
   "food.fruit_class.citrus": "Agrumi",
   "food.fruit_class.berry": "Frutti di bosco",
   "food.fruit_class.tropical": "Frutti tropicali",
   "food.fruit_class.stone": "Drupacee",
   "food.fruit_class.pome": "Pomacee",
   "food.fruit_class.melon": "Meloni",
-
   "score.excellent": "Fonte eccellente",
   "score.good": "Buona fonte",
   "score.moderate": "Fonte moderata",
   "score.low": "Fonte scarsa",
-
   "time.quick": "Veloce (sotto 15 min)",
   "time.medium": "Medio (15-30 min)",
   "time.long": "Più lungo (30+ min)",
-
   "difficulty.easy": "Facile",
   "difficulty.medium": "Moderato",
   "difficulty.advanced": "Avanzato",
-
   "meal.breakfast": "Colazione",
   "meal.lunch": "Pranzo",
   "meal.dinner": "Cena",
   "meal.snack": "Spuntino",
-
   "compare.title": "Confronta alimenti",
   "compare.subtitle": "Mettete due alimenti fianco a fianco per vedere come si confrontano i loro nutrienti. La conoscenza è il primo passo verso scelte migliori.",
   "compare.select_hint": "Cercate o selezionate un alimento da confrontare",
   "compare.per_serving": "Per porzione",
   "compare.per_100g": "Per 100g",
   "compare.winner": "Più alto in questo nutriente",
-
   "planner.title": "Pianificatore pasti",
   "planner.subtitle": "Costruite i vostri pasti giornalieri e verificate come si sommano rispetto agli obiettivi nutrizionali raccomandati per la vostra fascia d'età.",
   "planner.select_age": "Selezionate la vostra fascia d'età",
@@ -475,7 +378,6 @@
   "planner.dinner": "Cena",
   "planner.snack": "Spuntino",
   "planner.clear_all": "Cancella tutti i pasti",
-
   "quiz.title": "Quiz nutrizionale",
   "quiz.subtitle": "Mettete alla prova le vostre conoscenze sul cibo che mangiate. Nessun giudizio, solo apprendimento.",
   "quiz.start": "Inizia il quiz",
@@ -489,14 +391,12 @@
   "quiz.rating.great": "Ottime conoscenze! Solo qualche lacuna da colmare.",
   "quiz.rating.good": "Buon inizio! Conosci le basi e sei pronto per imparare di più.",
   "quiz.rating.learning": "Non preoccuparti! Tutti partono da qualche parte. Esplora il sito per scoprire di più.",
-
   "food.detail.nutrients": "Nutrienti per 100g",
   "food.detail.recipes": "Ricette con questo alimento",
   "food.detail.age_benefits": "Ideale per queste fasce d'età",
   "food.detail.replaces_supplement": "Può aiutare a sostituire questo integratore",
   "food.detail.available_at": "Trovalo al supermercato",
   "food.detail.cost_tier": "Fascia di prezzo",
-
   "about.title": "Chi è EatClever",
   "about.intro": "EatClever è una risorsa indipendente di informazioni nutrizionali. Presentiamo fatti sugli alimenti di tutti i giorni affinché possiate fare scelte informate. Nessuna dieta, nessun senso di colpa, nessuno sponsor. Solo dati.",
   "about.mission.title": "La nostra missione",
@@ -505,13 +405,11 @@
   "about.sources.text": "Tutti i dati nutrizionali provengono da database sottoposti a revisione paritaria, tra cui USDA FoodData Central, le linee guida dietetiche dell'OMS e le autorità nutrizionali nazionali. I valori rappresentano quantità tipiche e possono variare in base ai metodi di preparazione, alle condizioni di coltivazione e alle marche specifiche dei prodotti.",
   "about.contact.title": "Contatti",
   "about.contact.text": "Avete una domanda, una correzione o un suggerimento? Accogliamo volentieri il vostro feedback. Contattateci attraverso il nostro modulo di contatto e vi risponderemo.",
-
   "methodology.title": "Metodologia",
   "methodology.intro": "La trasparenza conta. Ecco come raccogliamo, calcoliamo e presentiamo le informazioni nutrizionali su EatClever.",
   "methodology.sources.title": "Fonti dei dati",
   "methodology.update.title": "Calendario degli aggiornamenti",
   "methodology.limitations.title": "Limitazioni",
-
   "footer.about": "Chi è EatClever",
   "footer.sources": "Fonti dei dati",
   "footer.legal": "Note legali",
@@ -519,12 +417,20 @@
   "footer.copyright": "EatClever. Informazioni nutrizionali per scelte consapevoli.",
   "footer.support": "Sostieni questo progetto",
   "footer.sister_sites": "Progetti correlati",
-
   "privacy.title": "Informativa sulla privacy",
   "impressum.title": "Note legali",
-
   "lang.en": "Inglese",
-
+  "lang.de": "Deutsch",
+  "lang.es": "Español",
+  "lang.fr": "Français",
+  "lang.it": "Italiano",
+  "lang.pt": "Português",
+  "lang.ro": "Română",
+  "lang.ru": "Русский",
+  "lang.zh": "中文",
+  "lang.ja": "日本語",
+  "lang.ar": "العربية",
+  "lang.hi": "हिन्दी",
   "general.back": "Indietro",
   "general.home": "Home",
   "general.learn_more": "Scopri di più",
@@ -536,7 +442,6 @@
   "general.per_serving": "per porzione",
   "general.daily_value": "% Valore giornaliero",
   "general.share": "Condividi",
-
   "general.calories": "Calorie",
   "general.protein": "Proteine",
   "general.fat": "Grassi",
@@ -570,17 +475,13 @@
   "general.budget": "Economico",
   "general.moderate": "Moderato",
   "general.premium": "Premium",
-
   "general.disclaimer": "Queste informazioni sono solo a scopo educativo e non sono intese come consulenza medica o dietetica. Consultate un professionista sanitario prima di apportare modifiche significative alla vostra dieta.",
-
   "food.cost_tier.1": "Economico",
   "food.cost_tier.2": "Fascia media",
   "food.cost_tier.3": "Premium",
-
   "food.availability.common": "Ampiamente disponibile tutto l'anno",
   "food.availability.seasonal": "Stagionale (migliore quando di stagione)",
   "food.availability.specialty": "Prodotto speciale",
-
   "food.section.fish_counter": "Banco pesce",
   "food.section.meat_counter": "Banco carne",
   "food.section.dairy": "Reparto latticini",
@@ -590,7 +491,6 @@
   "food.section.bakery": "Reparto panetteria",
   "food.section.oils_condiments": "Oli e condimenti",
   "food.section.snacks": "Reparto snack",
-
   "resto.category.fast_food": "Fast Food",
   "resto.category.pizza": "Pizza",
   "resto.category.asian": "Asiatico",
@@ -598,7 +498,6 @@
   "resto.category.italian": "Italiano",
   "resto.category.cafe": "Bar",
   "resto.category.deli": "Gastronomia",
-
   "resto.savings_label": "Risparmi cucinando a casa",
   "resto.fewer_calories": "meno calorie",
   "resto.less_fat": "meno grassi",
@@ -607,7 +506,6 @@
   "resto.home_version": "Versione casalinga",
   "resto.restaurant_version": "Versione ristorante",
   "resto.cook_time": "Tempo di cottura a casa",
-
   "compare.calories": "Calorie",
   "compare.protein": "Proteine",
   "compare.fat": "Grassi",
@@ -617,7 +515,6 @@
   "compare.minerals": "Minerali",
   "compare.swap_foods": "Inverti alimenti",
   "compare.add_to_planner": "Aggiungi al pianificatore pasti",
-
   "planner.calories_target": "Obiettivo calorico",
   "planner.protein_target": "Obiettivo proteico",
   "planner.remaining": "Rimanente",
@@ -629,7 +526,6 @@
   "planner.import": "Importa piano",
   "planner.suggested_meals": "Pasti suggeriti",
   "planner.remove_meal": "Rimuovi",
-
   "quiz.correct": "Corretto!",
   "quiz.incorrect": "Non proprio.",
   "quiz.explanation": "Spiegazione",
@@ -639,7 +535,6 @@
   "quiz.category.foods": "Curiosità alimentari",
   "quiz.category.labels": "Leggere le etichette",
   "quiz.category.myths": "Miti nutrizionali",
-
   "age.section.title": "La nutrizione attraverso la vita",
   "age.section.subtitle": "Le esigenze del corpo cambiano con ogni decennio. Ecco su cosa concentrarsi in ogni fase.",
   "age.calorie_range": "Fabbisogno calorico giornaliero raccomandato",
@@ -647,7 +542,6 @@
   "age.recommended_foods": "Alimenti più consigliati",
   "age.foods_to_limit": "Alimenti da limitare",
   "age.tips_title": "Consigli pratici",
-
   "supp.section.title": "Alimenti vs. Integratori",
   "supp.section.subtitle": "Scoprite esattamente quanto cibo vero serve per eguagliare una comune compressa di integratore.",
   "supp.common_dose": "Dose comune dell'integratore",
@@ -655,7 +549,6 @@
   "supp.per_serving": "per porzione fornisce",
   "supp.of_daily_need": "del fabbisogno giornaliero",
   "supp.verdict": "Il verdetto",
-
   "cook.section.title": "Tempo di cottura e nutrizione",
   "cook.section.subtitle": "Che abbiate 5 minuti o 50, un pasto nutriente vi aspetta. Filtrate per tempo e trovate ricette adatte al vostro programma.",
   "cook.filter.all": "Tutte le ricette",
@@ -664,14 +557,12 @@
   "cook.filter.long": "30+ min",
   "cook.filter.meal_type": "Tipo di pasto",
   "cook.filter.difficulty": "Difficoltà",
-
   "taste.section.title": "Gusto e nutrizione",
   "taste.section.subtitle": "Mangiare sano non significa rinunciare al sapore. Si tratta di scoprire nuove combinazioni che soddisfano sia il palato che il corpo.",
   "taste.flavour_pairings": "Abbinamenti di sapori che potenziano la nutrizione",
   "taste.umami": "Alimenti ricchi di umami",
   "taste.sweet_natural": "Alternative naturalmente dolci",
   "taste.herbs_spices": "Erbe e spezie con benefici",
-
   "shop.section.title": "Guida alla spesa intelligente",
   "shop.section.subtitle": "Tre piani settimanali dei pasti a tre livelli di prezzo. Ognuno è nutrizionalmente completo, con liste della spesa complete e costi stimati.",
   "shop.plan_includes": "Questo piano include",
@@ -686,7 +577,6 @@
   "shop.section_label": "Reparto",
   "shop.total": "Totale",
   "shop.tips_title": "Consigli per risparmiare",
-
   "labels.section.title": "Guida alle etichette nutrizionali",
   "labels.section.subtitle": "Capire le etichette alimentari vi aiuta a fare scelte migliori al supermercato. Ecco cosa cercare.",
   "labels.how_to_read": "Come leggere un'etichetta nutrizionale",
@@ -700,18 +590,15 @@
   "labels.trap_sugar_names": "Lo zucchero ha oltre 50 nomi: saccarosio, fruttosio, sciroppo di mais, maltosio, destrosio e molti altri.",
   "labels.trap_health_claims": "\"Naturale\", \"multicereali\" e \"leggermente dolcificato\" sono termini di marketing, non informazioni nutrizionali.",
   "labels.trap_zero": "\"0g grassi trans\" può comunque contenere fino a 0,5g per porzione. Controllate gli ingredienti per oli parzialmente idrogenati.",
-
   "vitamins.section.title": "Guida a vitamine e minerali",
   "vitamins.section.subtitle": "Cosa fa ogni nutriente, dove trovarlo naturalmente e chi ne ha più bisogno. Toccate un nutriente per vedere le fonti alimentari.",
   "vitamins.rda": "Dose giornaliera raccomandata",
   "vitamins.top_foods": "Principali fonti alimentari",
   "vitamins.deficiency_signs": "Segnali che potreste non assumerne abbastanza",
   "vitamins.excess_risk": "Rischi da eccesso",
-
   "error.page_not_found": "Pagina non trovata",
   "error.data_load_failed": "Impossibile caricare i dati. Controllate la connessione e riprovate.",
   "error.generic": "Qualcosa è andato storto. Riprovate.",
-
   "accessibility.skip_to_content": "Vai al contenuto principale",
   "accessibility.open_menu": "Apri menu di navigazione",
   "accessibility.close_menu": "Chiudi menu di navigazione",
