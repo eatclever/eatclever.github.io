@@ -12,7 +12,7 @@
         "name_key": "age.infant",
         "focus_nutrients": ["calcium", "iron", "vitamin_d", "fat"],
         "daily_calories": { "min": 700, "max": 1000 },
-        "key_foods": ["breast_milk", "iron_fortified_cereal", "banana", "sweet_potato"],
+        "key_foods": ["milk_whole", "oats", "banana", "sweet_potato"],
         "avoid": ["honey", "whole_nuts", "cow_milk_under_1", "added_salt", "added_sugar"],
         "tips_key": "age.infant.tips"
       },
