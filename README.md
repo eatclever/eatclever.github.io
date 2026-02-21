@@ -33,7 +33,7 @@ Static site: HTML + CSS + vanilla JavaScript + Chart.js. Hosted on GitHub Pages.
 
 ## Live Site
 
-[eatwise.github.io](https://eatwise.github.io)
+[eatclever.github.io](https://eatclever.github.io)
 
 ---
 
