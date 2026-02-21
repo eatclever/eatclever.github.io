@@ -378,18 +378,16 @@ function _renderCategoryCards() {
   const container = document.getElementById('category-cards');
   if (!container) return;
   const categories = Data.getCategories();
-  container.innerHTML = `<div class="cards-grid grid-3x2">
-    ${categories.map(cat => `
-      <a href="${cat.page}" class="card category-card" style="border-left:4px solid ${cat.color}">
-        <span class="card-icon">${cat.icon}</span>
-        <div class="card-content">
-          <h3 class="card-title">${I18n.t(cat.name_key)}</h3>
-          <p class="card-desc">${I18n.t(cat.desc_key)}</p>
-          <span class="card-link" style="color:${cat.color}">${I18n.t('general.learn_more')} &rarr;</span>
-        </div>
-      </a>
-    `).join('')}
-  </div>`;
+  container.innerHTML = categories.map(cat => `
+    <a href="${cat.page}" class="card category-card" style="border-left:4px solid ${cat.color}">
+      <span class="card-icon">${cat.icon}</span>
+      <div class="card-content">
+        <h3 class="card-title">${I18n.t(cat.name_key)}</h3>
+        <p class="card-desc">${I18n.t(cat.desc_key)}</p>
+        <span class="card-link" style="color:${cat.color}">${I18n.t('general.learn_more')} &rarr;</span>
+      </div>
+    </a>
+  `).join('');
 }
 
 function _renderFeaturedCards() {
@@ -404,14 +402,12 @@ function _renderFeaturedCards() {
     { title: 'Budget Eating', icon: '\u{1F4B0}', color: '#6A1B9A', link: 'shopping.html' }
   ];
 
-  container.innerHTML = `<div class="cards-grid grid-5">
-    ${featured.map(f => `
-      <a href="${f.link}" class="card featured-card" style="border-top:3px solid ${f.color}">
-        <span class="featured-icon">${f.icon}</span>
-        <h3 class="featured-title">${f.title}</h3>
-      </a>
-    `).join('')}
-  </div>`;
+  container.innerHTML = featured.map(f => `
+    <a href="${f.link}" class="card featured-card" style="border-top:3px solid ${f.color}">
+      <span class="featured-icon">${f.icon}</span>
+      <h3 class="featured-title">${f.title}</h3>
+    </a>
+  `).join('');
 }
 
 function _renderVitaminsGrid() {
@@ -420,30 +416,25 @@ function _renderVitaminsGrid() {
   const nutrients = Data.getNutrients();
   const nutrientIds = Object.keys(nutrients);
 
-  container.innerHTML = `
-    <h2 class="section-title">${I18n.t('vitamins.title')}</h2>
-    <p class="section-subtitle">${I18n.t('vitamins.subtitle')}</p>
-    <div class="cards-grid grid-3x2">
-      ${nutrientIds.map(nid => {
-        const n = nutrients[nid];
-        const topFoods = Data.getTopFoodsForNutrient(nid, 3);
-        const foodNames = topFoods.map(f => I18n.getFoodName(f));
-        return `<div class="card nutrient-guide-card">
-          <div class="nutrient-header">
-            <span class="nutrient-dot" style="background:${n.color}"></span>
-            <h3 class="card-title">${I18n.t(n.name_key)}</h3>
-            ${infoBtn(n.desc_key)}
-          </div>
-          <p class="nutrient-body-effect">${I18n.t(n.body_effect_key)}</p>
-          <div class="nutrient-sources">
-            <strong>${I18n.t('vitamins.top_foods')}:</strong> ${foodNames.length > 0 ? foodNames.join(', ') : '-'}
-          </div>
-          <div class="nutrient-rda">
-            <small>${I18n.t('vitamins.rda')}: ${n.rda.adults}${n.unit} (${I18n.t('age.adults')})</small>
-          </div>
-        </div>`;
-      }).join('')}
+  container.innerHTML = nutrientIds.map(nid => {
+    const n = nutrients[nid];
+    const topFoods = Data.getTopFoodsForNutrient(nid, 3);
+    const foodNames = topFoods.map(f => I18n.getFoodName(f));
+    return `<div class="card nutrient-guide-card">
+      <div class="nutrient-header">
+        <span class="nutrient-dot" style="background:${n.color}"></span>
+        <h3 class="card-title">${I18n.t(n.name_key)}</h3>
+        ${infoBtn(n.desc_key)}
+      </div>
+      <p class="nutrient-body-effect">${I18n.t(n.body_effect_key)}</p>
+      <div class="nutrient-sources">
+        <strong>${I18n.t('vitamins.top_foods')}:</strong> ${foodNames.length > 0 ? foodNames.join(', ') : '-'}
+      </div>
+      <div class="nutrient-rda">
+        <small>${I18n.t('vitamins.rda')}: ${n.rda.adults}${n.unit} (${I18n.t('age.adults')})</small>
+      </div>
     </div>`;
+  }).join('');
 }
 
 function _renderLabelsGuide() {
@@ -462,8 +453,6 @@ function _renderLabelsGuide() {
   ];
 
   container.innerHTML = `
-    <h2 class="section-title">${I18n.t('labels.title')}</h2>
-    <p class="section-subtitle">${I18n.t('labels.subtitle')}</p>
     <div class="summary-box">
       <h3>${I18n.t('labels.how_to_read')}</h3>
       <ol class="labels-steps">

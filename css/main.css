@@ -258,6 +258,11 @@ body {
     background: linear-gradient(135deg, var(--white) 0%, #f0fff0 100%);
 }
 
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
 .card-content {
     flex: 1;
 }
@@ -349,10 +354,43 @@ body {
     font-size: 0.8rem;
 }
 
-/* Category card (alias for pillar-card) */
+/* Category card */
 .category-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1.25rem;
+    min-height: 140px;
+}
+
+.category-card .card-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.category-card .card-title {
+    display: block;
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+}
+
+.category-card .card-desc {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    margin-bottom: 0.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.category-card .card-link {
+    display: block;
+    margin-top: auto;
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 /* ==========================================================================
@@ -2975,12 +3013,18 @@ body {
 .featured-card {
     background: var(--white);
     border: 1px solid var(--border-gray);
-    border-left: 3px solid var(--ew-green);
+    border-left: none;
     padding: 1.25rem;
     border-radius: 6px;
     cursor: pointer;
     transition: box-shadow 0.3s, transform 0.2s;
     min-height: 120px;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    min-width: 180px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
 }
 
 .featured-card:hover {
