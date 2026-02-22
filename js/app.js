@@ -1751,6 +1751,7 @@ function _updatePlannerTotals() {
    renderQuiz - Nutrition Quiz
    ========================================================================== */
 let _quizState = null;
+let _quizDifficulty = 'medium';
 
 function renderQuiz() {
   const container = document.getElementById('quiz-content');
@@ -1769,6 +1770,14 @@ function renderQuiz() {
       <div class="quiz-icon">\u{1F9E0}</div>
       <h1 class="page-title">${I18n.t('quiz.title')}</h1>
       <p class="page-subtitle">${I18n.t('quiz.subtitle')}</p>
+      <div class="quiz-difficulty">
+        <p style="font-weight:600;margin-bottom:0.5rem;">${I18n.t('quiz.difficulty') || 'Choose difficulty'}</p>
+        <div class="quiz-diff-buttons">
+          <button class="quiz-diff-btn${_quizDifficulty === 'easy' ? ' active' : ''}" data-diff="easy">\u{1F331} ${I18n.t('quiz.easy') || 'Easy'}</button>
+          <button class="quiz-diff-btn${_quizDifficulty === 'medium' ? ' active' : ''}" data-diff="medium">\u{1F33F} ${I18n.t('quiz.medium') || 'Medium'}</button>
+          <button class="quiz-diff-btn${_quizDifficulty === 'hard' ? ' active' : ''}" data-diff="hard">\u{1F332} ${I18n.t('quiz.hard') || 'Hard'}</button>
+        </div>
+      </div>
       <button class="btn btn-primary" id="quiz-start-btn" type="button">${I18n.t('quiz.start')}</button>
     </div>
     <div class="quiz-play-screen" id="quiz-play" style="display:none">
@@ -1794,6 +1803,14 @@ function renderQuiz() {
   document.getElementById('quiz-start-btn').addEventListener('click', _startQuiz);
   document.getElementById('quiz-next-btn').addEventListener('click', _nextQuestion);
   document.getElementById('quiz-again-btn').addEventListener('click', () => renderQuiz());
+
+  container.querySelectorAll('.quiz-diff-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      _quizDifficulty = btn.dataset.diff;
+      container.querySelectorAll('.quiz-diff-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
 }
 
 function _generateQuizQuestions() {
@@ -1811,7 +1828,48 @@ function _generateQuizQuestions() {
 
   function randItem(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
-  // Type 1: "Which food has more [nutrient]?"
+  // === EASY questions: basic category/comparison questions ===
+
+  // Type 1: "Which is lower in calories?" (easy - straightforward comparison)
+  for (let i = 0; i < 3; i++) {
+    const twoFoods = pick(foods, 2);
+    if (twoFoods.length < 2) continue;
+    const [a, b] = twoFoods;
+    const winner = a.calories <= b.calories ? a : b;
+    const loser = a.calories <= b.calories ? b : a;
+    questions.push({
+      diff: 'easy',
+      text: `Which is lower in calories per 100g: ${I18n.getFoodName(a)} or ${I18n.getFoodName(b)}?`,
+      options: [I18n.getFoodName(a), I18n.getFoodName(b)],
+      correct: a.calories <= b.calories ? 0 : 1,
+      explanation: `${I18n.getFoodName(winner)} has ${Math.min(a.calories, b.calories)} kcal/100g vs ${Math.max(a.calories, b.calories)} kcal/100g for ${I18n.getFoodName(loser)}.`
+    });
+  }
+
+  // "Which food has more protein?" (easy - common nutrient)
+  for (let i = 0; i < 3; i++) {
+    const nid = randItem(['protein', 'fiber', 'vitamin_c']);
+    const n = nutrients[nid];
+    if (!n) continue;
+    const twoFoods = pick(foods.filter(f => f.nutrients[nid] > 0), 2);
+    if (twoFoods.length < 2) continue;
+    const [a, b] = twoFoods;
+    const aVal = a.nutrients[nid];
+    const bVal = b.nutrients[nid];
+    const winner = aVal >= bVal ? a : b;
+    const loser = aVal >= bVal ? b : a;
+    questions.push({
+      diff: 'easy',
+      text: `Which food has more ${I18n.t(n.name_key)} per 100g: ${I18n.getFoodName(a)} or ${I18n.getFoodName(b)}?`,
+      options: [I18n.getFoodName(a), I18n.getFoodName(b)],
+      correct: aVal >= bVal ? 0 : 1,
+      explanation: `${I18n.getFoodName(winner)} has ${Math.max(aVal, bVal)}${n.unit} per 100g compared to ${Math.min(aVal, bVal)}${n.unit} for ${I18n.getFoodName(loser)}.`
+    });
+  }
+
+  // === MEDIUM questions: mix of nutrient comparisons and RDA questions ===
+
+  // Type 1: "Which food has more [nutrient]?" (medium - any nutrient)
   for (let i = 0; i < 4; i++) {
     const nid = randItem(nutrientIds);
     const n = nutrients[nid];
@@ -1823,6 +1881,7 @@ function _generateQuizQuestions() {
     const winner = aVal >= bVal ? a : b;
     const loser = aVal >= bVal ? b : a;
     questions.push({
+      diff: 'medium',
       text: `Which food has more ${I18n.t(n.name_key)} per 100g: ${I18n.getFoodName(a)} or ${I18n.getFoodName(b)}?`,
       options: [I18n.getFoodName(a), I18n.getFoodName(b)],
       correct: aVal >= bVal ? 0 : 1,
@@ -1830,23 +1889,30 @@ function _generateQuizQuestions() {
     });
   }
 
-  // Type 2: "Which is lower in calories?"
+  // "At what age do you need the most [nutrient]?" (medium)
   for (let i = 0; i < 2; i++) {
-    const twoFoods = pick(foods, 2);
-    if (twoFoods.length < 2) continue;
-    const [a, b] = twoFoods;
-    const winner = a.calories <= b.calories ? a : b;
-    const loser = a.calories <= b.calories ? b : a;
+    const nid = randItem(['calcium', 'iron', 'vitamin_d', 'protein']);
+    const n = nutrients[nid];
+    if (!n) continue;
+    const ageKeys = ['children', 'teens', 'adults', 'seniors'];
+    const rdaVals = ageKeys.map(ak => ({ age: ak, rda: n.rda[ak] || 0 }));
+    rdaVals.sort((a, b) => b.rda - a.rda);
+    const correctAge = rdaVals[0].age;
+    const correctLabel = I18n.t('age.' + correctAge);
+    const opts = ageKeys.map(ak => I18n.t('age.' + ak));
     questions.push({
-      text: `Which is lower in calories per 100g: ${I18n.getFoodName(a)} or ${I18n.getFoodName(b)}?`,
-      options: [I18n.getFoodName(a), I18n.getFoodName(b)],
-      correct: a.calories <= b.calories ? 0 : 1,
-      explanation: `${I18n.getFoodName(winner)} has ${Math.min(a.calories, b.calories)} kcal/100g vs ${Math.max(a.calories, b.calories)} kcal/100g for ${I18n.getFoodName(loser)}.`
+      diff: 'medium',
+      text: `At which age do you need the most ${I18n.t(n.name_key)}?`,
+      options: opts,
+      correct: ageKeys.indexOf(correctAge),
+      explanation: `${correctLabel} need the most ${I18n.t(n.name_key)} at ${rdaVals[0].rda}${n.unit} per day.`
     });
   }
 
-  // Type 3: "What's the recommended daily calcium for teenagers?"
-  for (let i = 0; i < 2; i++) {
+  // === HARD questions: RDA specifics, tricky comparisons, detailed nutrition ===
+
+  // "What's the recommended daily [nutrient] for [age group]?" (hard - specific numbers)
+  for (let i = 0; i < 3; i++) {
     const nid = randItem(['calcium', 'iron', 'vitamin_d', 'protein', 'vitamin_c']);
     const n = nutrients[nid];
     if (!n) continue;
@@ -1859,6 +1925,7 @@ function _generateQuizQuestions() {
     const wrong3 = Math.round(rda * 2.5);
     const opts = [rda, wrong1, wrong2, wrong3].sort(() => Math.random() - 0.5);
     questions.push({
+      diff: 'hard',
       text: `What is the recommended daily ${I18n.t(n.name_key)} for ${ageLabel}?`,
       options: opts.map(v => `${v}${n.unit}`),
       correct: opts.indexOf(rda),
@@ -1866,27 +1933,46 @@ function _generateQuizQuestions() {
     });
   }
 
-  // Type 4: "At what age do you need the most [nutrient]?"
-  for (let i = 0; i < 2; i++) {
-    const nid = randItem(['calcium', 'iron', 'vitamin_d', 'protein']);
+  // Tricky nutrient comparisons (hard - less common nutrients)
+  for (let i = 0; i < 3; i++) {
+    const nid = randItem(nutrientIds.filter(id => !['protein', 'fiber', 'vitamin_c'].includes(id)));
     const n = nutrients[nid];
     if (!n) continue;
-    const ageKeys = ['children', 'teens', 'adults', 'seniors'];
-    const rdaVals = ageKeys.map(ak => ({ age: ak, rda: n.rda[ak] || 0 }));
-    rdaVals.sort((a, b) => b.rda - a.rda);
-    const correctAge = rdaVals[0].age;
-    const correctLabel = I18n.t('age.' + correctAge);
-    const opts = ageKeys.map(ak => I18n.t('age.' + ak));
+    const twoFoods = pick(foods.filter(f => f.nutrients[nid] > 0), 2);
+    if (twoFoods.length < 2) continue;
+    const [a, b] = twoFoods;
+    const aVal = a.nutrients[nid];
+    const bVal = b.nutrients[nid];
+    const winner = aVal >= bVal ? a : b;
+    const loser = aVal >= bVal ? b : a;
     questions.push({
-      text: `At which age do you need the most ${I18n.t(n.name_key)}?`,
-      options: opts,
-      correct: ageKeys.indexOf(correctAge),
-      explanation: `${correctLabel} need the most ${I18n.t(n.name_key)} at ${rdaVals[0].rda}${n.unit} per day.`
+      diff: 'hard',
+      text: `Which food has more ${I18n.t(n.name_key)} per 100g: ${I18n.getFoodName(a)} or ${I18n.getFoodName(b)}?`,
+      options: [I18n.getFoodName(a), I18n.getFoodName(b)],
+      correct: aVal >= bVal ? 0 : 1,
+      explanation: `${I18n.getFoodName(winner)} has ${Math.max(aVal, bVal)}${n.unit} per 100g compared to ${Math.min(aVal, bVal)}${n.unit} for ${I18n.getFoodName(loser)}.`
     });
   }
 
+  // Filter by difficulty
+  let filtered;
+  if (_quizDifficulty === 'easy') {
+    filtered = questions.filter(q => q.diff === 'easy');
+  } else if (_quizDifficulty === 'hard') {
+    filtered = questions.filter(q => q.diff === 'hard');
+  } else {
+    filtered = questions; // medium = mix of all
+  }
+
+  // If not enough questions, fill from all
+  if (filtered.length < 10) {
+    const extra = questions.filter(q => !filtered.includes(q));
+    const shuffledExtra = [...extra].sort(() => Math.random() - 0.5);
+    filtered = filtered.concat(shuffledExtra);
+  }
+
   // Shuffle and take 10
-  const shuffled = questions.sort(() => Math.random() - 0.5);
+  const shuffled = [...filtered].sort(() => Math.random() - 0.5);
   return shuffled.slice(0, 10);
 }
 
