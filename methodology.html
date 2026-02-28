@@ -65,6 +65,7 @@
                     <li><a href="https://wellbeingbar.github.io" target="_blank">🧘 WellBeingBar</a></li>
                     <li><a href="https://moneyclever.github.io" target="_blank">💰 MoneyClever</a></li>
                     <li><a href="https://goodnewsdaily.github.io" target="_blank">&#x2600;&#xFE0F; GoodNewsDaily</a></li>
+                    <li><a href="https://techclever.github.io" target="_blank">&#x1F4BB; TechClever</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -105,6 +106,7 @@
         </div>
         <div class="footer-bottom">
             <p data-i18n="footer.copyright">&copy; 2026 EatClever | Nutrition Knowledge Platform</p>
+            <p class="visitor-counter" id="visitor-counter"></p>
             <p><a href="https://buymeacoffee.com/civicdata47" target="_blank" rel="noopener">&#9749; Buy me a Coffee</a></p>
         </div>
     </footer>
@@ -114,5 +116,17 @@
     <script src="js/food-selector.js"></script>
     <script src="js/app.js"></script>
     <script data-goatcounter="https://eatclever.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script>
+    (function() {
+      var el = document.getElementById('visitor-counter');
+      if (!el) return;
+      setTimeout(function() {
+        fetch('https://eatclever.goatcounter.com/counter/' + encodeURIComponent(location.pathname || '/') + '.json')
+          .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+          .then(function(data) { el.textContent = data.count + ' visitors'; })
+          .catch(function() {});
+      }, 1500);
+    })();
+    </script>
 </body>
 </html>
