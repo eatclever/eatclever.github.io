@@ -1258,6 +1258,17 @@ function renderFoodDetail() {
       <span class="calorie-unit">kcal ${I18n.t('general.per_100g')}</span>
     </div>
 
+    <div class="food-media">
+      <div class="food-media-map">
+        <div class="food-map">${_foodMapSvg(food.origin || [])}</div>
+      </div>
+      <div class="food-media-photo">
+        <div id="food-photo" class="food-photo">
+          <div class="food-photo-loading"></div>
+        </div>
+      </div>
+    </div>
+
     <div class="food-nutrients-section">
       <h2>${I18n.t('food.detail.nutrients')}</h2>
       <div class="nutrient-bars-list">
@@ -1322,6 +1333,63 @@ function renderFoodDetail() {
     `${foodName} - ${I18n.t('site.title')}`,
     window.location.href
   );
+
+  _loadFoodPhoto(food);
+}
+
+async function _loadFoodPhoto(food) {
+  const container = document.getElementById('food-photo');
+  if (!container) return;
+
+  const name = food.name.en.replace(/\s*\(.*\)/, '');
+  const titles = [name];
+  for (const title of titles) {
+    try {
+      const resp = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`);
+      if (!resp.ok) continue;
+      const data = await resp.json();
+      if (data.thumbnail && data.thumbnail.source) {
+        const src = data.thumbnail.source.replace(/\/\d+px-/, '/600px-');
+        container.innerHTML = `
+          <img src="${src}" alt="${name}"
+               onerror="this.src='${data.thumbnail.source}'; this.onerror=null;">
+          <div class="food-photo-credit">Photo: Wikimedia Commons</div>`;
+        return;
+      }
+    } catch(e) { console.warn('Photo fetch failed:', title, e); }
+  }
+  container.closest('.food-media-photo').style.display = 'none';
+}
+
+function _foodMapSvg(origins) {
+  const active = new Set(origins);
+  const isGlobal = active.has('global');
+  const isOcean = active.has('global_oceans');
+  const hi = '#2E7D32';
+  const lo = '#9e9e9e';
+  const f = (c) => (active.has(c) || isGlobal) ? hi : (isOcean ? '#1565C0' : lo);
+  const o = (c) => (active.has(c) || isGlobal) ? '0.55' : (isOcean ? '0.25' : '0.12');
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" fill="none">
+    <path d="M120,80 L160,60 L200,55 L240,70 L260,90 L250,120 L260,140 L240,160 L230,190 L220,200 L200,210 L180,230 L170,250 L160,240 L150,200 L140,180 L120,160 L100,150 L90,130 L95,100 Z" fill="${f('north_america')}" opacity="${o('north_america')}"/>
+    <path d="M170,250 L180,260 L185,275 L190,290 L185,300 L175,295 L165,270 L160,255 Z" fill="${f('north_america')}" opacity="${o('north_america')}"/>
+    <path d="M220,300 L240,290 L260,295 L280,310 L290,340 L295,370 L290,400 L280,420 L265,440 L250,450 L240,440 L235,420 L225,400 L215,370 L210,340 L215,320 Z" fill="${f('south_america')}" opacity="${o('south_america')}"/>
+    <path d="M280,40 L320,30 L350,35 L340,55 L310,65 L285,60 Z" fill="${f('north_america')}" opacity="${o('north_america') === '0.55' ? '0.35' : '0.08'}"/>
+    <path d="M440,70 L460,60 L480,65 L500,75 L510,90 L505,110 L490,120 L480,130 L470,125 L460,130 L445,120 L435,105 L430,90 Z" fill="${f('europe')}" opacity="${o('europe')}"/>
+    <path d="M420,80 L430,75 L435,85 L428,92 L420,88 Z" fill="${f('europe')}" opacity="${o('europe')}"/>
+    <path d="M470,35 L480,30 L490,40 L495,60 L488,70 L478,65 L472,50 Z" fill="${f('europe')}" opacity="${o('europe')}"/>
+    <path d="M440,160 L470,150 L500,155 L520,170 L530,200 L535,240 L530,280 L520,320 L505,350 L490,370 L475,375 L460,365 L450,340 L445,310 L440,280 L435,250 L430,220 L435,190 Z" fill="${f('africa')}" opacity="${o('africa')}"/>
+    <path d="M545,320 L550,310 L555,320 L555,345 L548,350 L543,340 Z" fill="${f('africa')}" opacity="${o('africa') === '0.55' ? '0.45' : '0.10'}"/>
+    <path d="M520,130 L545,125 L560,135 L555,155 L540,165 L525,160 L515,150 Z" fill="${f('asia')}" opacity="${o('asia') === '0.55' ? '0.40' : '0.10'}"/>
+    <path d="M510,50 L560,40 L620,35 L680,40 L730,55 L760,70 L770,95 L760,120 L740,140 L720,150 L700,155 L670,150 L640,145 L610,140 L580,130 L560,120 L540,110 L520,100 L510,80 Z" fill="${f('asia')}" opacity="${o('asia')}"/>
+    <path d="M620,160 L640,155 L660,165 L665,190 L660,220 L645,240 L630,235 L620,215 L615,190 L615,175 Z" fill="${f('asia')}" opacity="${o('asia')}"/>
+    <path d="M680,160 L700,155 L720,165 L730,185 L720,200 L705,195 L690,185 L680,175 Z" fill="${f('asia')}" opacity="${o('asia') === '0.55' ? '0.45' : '0.10'}"/>
+    <path d="M780,80 L785,70 L790,80 L788,100 L782,105 L778,95 Z" fill="${f('asia')}" opacity="${o('asia') === '0.55' ? '0.45' : '0.12'}"/>
+    <path d="M700,250 L720,245 L740,248 L760,252 L750,260 L730,258 L710,255 Z" fill="${f('oceania')}" opacity="${o('oceania') === '0.55' ? '0.40' : '0.10'}"/>
+    <path d="M765,255 L780,252 L790,258 L785,265 L770,262 Z" fill="${f('oceania')}" opacity="${o('oceania') === '0.55' ? '0.35' : '0.08'}"/>
+    <path d="M760,310 L800,295 L840,300 L860,315 L865,340 L855,365 L835,380 L810,385 L785,375 L770,355 L760,335 Z" fill="${f('oceania')}" opacity="${o('oceania')}"/>
+    <path d="M880,380 L885,370 L890,380 L888,395 L882,398 Z" fill="${f('oceania')}" opacity="${o('oceania') === '0.55' ? '0.45' : '0.10'}"/>
+    <path d="M100,470 L200,460 L350,455 L500,458 L650,455 L800,460 L900,470 L850,485 L700,490 L500,492 L300,490 L150,485 Z" fill="${lo}" opacity="0.08"/>
+  </svg>`;
 }
 
 function _catColor(catId) {
