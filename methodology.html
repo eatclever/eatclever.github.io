@@ -121,7 +121,9 @@
       var el = document.getElementById('visitor-counter');
       if (!el) return;
       setTimeout(function() {
-        fetch('https://eatclever.goatcounter.com/counter/' + encodeURIComponent(location.pathname || '/') + '.json')
+        var p = location.pathname || '/';
+        if (p === '/index.html') p = '/';
+        fetch('https://eatclever.goatcounter.com/counter/' + encodeURIComponent(p) + '.json')
           .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
           .then(function(data) { el.textContent = data.count + ' visitors'; })
           .catch(function() {});
