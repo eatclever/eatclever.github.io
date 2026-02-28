@@ -698,7 +698,7 @@ function _renderAgeNutrientChart() {
     data: { labels, datasets },
     options: {
       responsive: true,
-      maintainAspectRatio: false,
+      maintainAspectRatio: true,
       plugins: { legend: { position: 'bottom' } },
       scales: { y: { beginAtZero: true } }
     }
