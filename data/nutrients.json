@@ -84,7 +84,7 @@
     "unit": "mg",
     "rda": { "children": 1000, "teens": 1300, "adults": 1000, "seniors": 1200 },
     "desc_key": "nutrient.calcium.desc",
-    "color": "#EEEEEE",
+    "color": "#42A5F5",
     "body_effect_key": "nutrient.calcium.body_effect"
   },
   "iron": {
