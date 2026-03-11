@@ -392,10 +392,44 @@ function _setupScrollTop() {
 }
 
 
+/* --------------------------------------------------------------------------
+   What's New
+   -------------------------------------------------------------------------- */
+function _formatUpdateDate(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  return d.toLocaleDateString(I18n.getLang() || 'en', { year: 'numeric', month: 'short' });
+}
+
+function _renderWhatsNew() {
+  const wrap = document.getElementById('whats-new-wrap');
+  if (!wrap) return;
+  const updates = Data.getUpdates();
+  if (!updates.length) { wrap.innerHTML = ''; return; }
+  wrap.innerHTML = `
+    <section class="updates-section">
+      <h2 class="section-title" data-i18n="updates.title">What's New</h2>
+      <p class="section-subtitle" data-i18n="updates.subtitle">Latest additions and improvements</p>
+      <div class="updates-list">
+        ${updates.map(u => `
+          <div class="update-item">
+            <span class="update-icon">${u.icon}</span>
+            <div class="update-body">
+              <strong>${I18n.t(u.titleKey)}</strong>
+              <span class="update-date">${_formatUpdateDate(u.date)}</span>
+              <p>${I18n.t(u.descKey)}</p>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </section>
+  `;
+}
+
 /* ==========================================================================
    renderIndex - Homepage
    ========================================================================== */
 function renderIndex() {
+  _renderWhatsNew();
   _renderBodyWisdom();
   _renderCategoryCards();
   _renderFeaturedCards();

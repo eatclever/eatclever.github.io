@@ -646,5 +646,9 @@
   "privacy.rights.title": "Your Rights",
   "privacy.rights.text": "Since we do not collect personal data, there is no personal information to access, modify, or delete. You can clear your browser's localStorage at any time to reset any locally stored preferences.",
   "privacy.changes.title": "Changes to This Policy",
-  "privacy.changes.text": "We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date."
+  "privacy.changes.text": "We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date.",
+  "updates.title": "What's New",
+  "updates.subtitle": "Latest additions and improvements",
+  "updates.mar2026.title": "Site Launch",
+  "updates.mar2026.desc": "EatClever is live — explore nutrition facts, compare foods, and plan healthy meals."
 }

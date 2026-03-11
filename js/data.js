@@ -129,6 +129,17 @@ const Data = (() => {
     return count > 0 ? Math.round(total / count) : 0;
   }
 
+  // Monthly updates (auto-hides entries older than 2 months)
+  const _updates = [
+    { id: 'mar2026', date: '2026-03-01', icon: '🚀', titleKey: 'updates.mar2026.title', descKey: 'updates.mar2026.desc' }
+  ];
+
+  function getUpdates() {
+    const now = new Date();
+    const cutoff = new Date(now.getFullYear(), now.getMonth() - 2, 1);
+    return _updates.filter(u => new Date(u.date) >= cutoff);
+  }
+
   return {
     init,
     getAllFoods, getFood, getFoodsByCategory, getFoodsByTag, getFoodsByGrocerySection, getFruitsByClass,
@@ -139,6 +150,7 @@ const Data = (() => {
     getRecipes, getRecipe, getRecipesByTime, getRecipesByMeal, getRecipesForFood,
     getRestaurantGuide, getRestaurantByCategory,
     getShopping, getWeeklyPlans, getWeeklyPlan,
-    getNutrientScore, getNutrientLabel, getTopFoodsForNutrient, getOverallScore
+    getNutrientScore, getNutrientLabel, getTopFoodsForNutrient, getOverallScore,
+    getUpdates
   };
 })();
