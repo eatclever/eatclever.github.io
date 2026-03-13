@@ -9,15 +9,38 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "salmon", "amount_g": 120 },
-      { "food_id": "avocado", "amount_g": 70 },
-      { "food_id": "brown_rice", "amount_g": 100 }
+      {
+        "food_id": "salmon",
+        "amount_g": 120
+      },
+      {
+        "food_id": "avocado",
+        "amount_g": 70
+      },
+      {
+        "food_id": "brown_rice",
+        "amount_g": 100
+      }
     ],
-    "total_nutrients": { "calories": 520, "protein": 32, "fat": 24, "carbs": 48, "fiber": 7 },
-    "tags": ["high-protein", "omega-3-rich"],
+    "total_nutrients": {
+      "calories": 520,
+      "protein": 32,
+      "fat": 24,
+      "carbs": 48,
+      "fiber": 7
+    },
+    "tags": [
+      "high-protein",
+      "omega-3-rich"
+    ],
     "steps_key": "recipe.salmon_avocado_bowl.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 3
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Shoyu_and_onion_poke.jpg/400px-Shoyu_and_onion_poke.jpg"
   },
   {
     "id": "overnight_oats_berries",
@@ -29,17 +52,48 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "oats", "amount_g": 50 },
-      { "food_id": "milk_whole", "amount_g": 150 },
-      { "food_id": "blueberries", "amount_g": 75 },
-      { "food_id": "chia_seeds", "amount_g": 10 },
-      { "food_id": "honey", "amount_g": 15 }
+      {
+        "food_id": "oats",
+        "amount_g": 50
+      },
+      {
+        "food_id": "milk_whole",
+        "amount_g": 150
+      },
+      {
+        "food_id": "blueberries",
+        "amount_g": 75
+      },
+      {
+        "food_id": "chia_seeds",
+        "amount_g": 10
+      },
+      {
+        "food_id": "honey",
+        "amount_g": 15
+      }
     ],
-    "total_nutrients": { "calories": 390, "protein": 15, "fat": 10, "carbs": 62, "fiber": 9 },
-    "tags": ["high-fiber", "meal-prep", "antioxidant"],
+    "total_nutrients": {
+      "calories": 390,
+      "protein": 15,
+      "fat": 10,
+      "carbs": 62,
+      "fiber": 9
+    },
+    "tags": [
+      "high-fiber",
+      "meal-prep",
+      "antioxidant"
+    ],
     "steps_key": "recipe.overnight_oats_berries.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Dorset_Cereals_muesli.jpg/400px-Dorset_Cereals_muesli.jpg"
   },
   {
     "id": "scrambled_eggs_toast",
@@ -51,16 +105,44 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "eggs", "amount_g": 150 },
-      { "food_id": "whole_wheat_bread", "amount_g": 60 },
-      { "food_id": "spinach", "amount_g": 30 },
-      { "food_id": "cheese_cheddar", "amount_g": 20 }
+      {
+        "food_id": "eggs",
+        "amount_g": 150
+      },
+      {
+        "food_id": "whole_wheat_bread",
+        "amount_g": 60
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 30
+      },
+      {
+        "food_id": "cheese_cheddar",
+        "amount_g": 20
+      }
     ],
-    "total_nutrients": { "calories": 415, "protein": 28, "fat": 22, "carbs": 28, "fiber": 5 },
-    "tags": ["high-protein", "quick", "kid-friendly"],
+    "total_nutrients": {
+      "calories": 415,
+      "protein": 28,
+      "fat": 22,
+      "carbs": 28,
+      "fiber": 5
+    },
+    "tags": [
+      "high-protein",
+      "quick",
+      "kid-friendly"
+    ],
     "steps_key": "recipe.scrambled_eggs_toast.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Scrambed_eggs.jpg/400px-Scrambed_eggs.jpg"
   },
   {
     "id": "greek_yogurt_parfait",
@@ -72,16 +154,44 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "greek_yogurt", "amount_g": 200 },
-      { "food_id": "strawberries", "amount_g": 80 },
-      { "food_id": "almonds", "amount_g": 20 },
-      { "food_id": "honey", "amount_g": 10 }
+      {
+        "food_id": "greek_yogurt",
+        "amount_g": 200
+      },
+      {
+        "food_id": "strawberries",
+        "amount_g": 80
+      },
+      {
+        "food_id": "almonds",
+        "amount_g": 20
+      },
+      {
+        "food_id": "honey",
+        "amount_g": 10
+      }
     ],
-    "total_nutrients": { "calories": 275, "protein": 23, "fat": 11, "carbs": 24, "fiber": 4 },
-    "tags": ["probiotic", "high-protein", "kid-friendly"],
+    "total_nutrients": {
+      "calories": 275,
+      "protein": 23,
+      "fat": 11,
+      "carbs": 24,
+      "fiber": 4
+    },
+    "tags": [
+      "probiotic",
+      "high-protein",
+      "kid-friendly"
+    ],
     "steps_key": "recipe.greek_yogurt_parfait.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 2
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Parfait_samples_by_pinguino_in_Osaka%2C_Japan.jpg/400px-Parfait_samples_by_pinguino_in_Osaka%2C_Japan.jpg"
   },
   {
     "id": "avocado_toast_egg",
@@ -93,16 +203,41 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "whole_wheat_bread", "amount_g": 60 },
-      { "food_id": "avocado", "amount_g": 75 },
-      { "food_id": "eggs", "amount_g": 50 },
-      { "food_id": "tomato", "amount_g": 40 }
+      {
+        "food_id": "whole_wheat_bread",
+        "amount_g": 60
+      },
+      {
+        "food_id": "avocado",
+        "amount_g": 75
+      },
+      {
+        "food_id": "eggs",
+        "amount_g": 50
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 40
+      }
     ],
-    "total_nutrients": { "calories": 380, "protein": 15, "fat": 20, "carbs": 38, "fiber": 9 },
-    "tags": ["healthy-fat", "fiber-rich"],
+    "total_nutrients": {
+      "calories": 380,
+      "protein": 15,
+      "fat": 20,
+      "carbs": 38,
+      "fiber": 9
+    },
+    "tags": [
+      "healthy-fat",
+      "fiber-rich"
+    ],
     "steps_key": "recipe.avocado_toast_egg.steps",
-    "age_groups": ["teens", "adults"],
-    "cost_tier": 2
+    "age_groups": [
+      "teens",
+      "adults"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Avocado_toast_at_Voyager_Espresso_%2833134505776%29.jpg/400px-Avocado_toast_at_Voyager_Espresso_%2833134505776%29.jpg"
   },
   {
     "id": "banana_peanut_butter_smoothie",
@@ -114,16 +249,43 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "banana", "amount_g": 120 },
-      { "food_id": "peanut_butter", "amount_g": 30 },
-      { "food_id": "milk_whole", "amount_g": 200 },
-      { "food_id": "oats", "amount_g": 20 }
+      {
+        "food_id": "banana",
+        "amount_g": 120
+      },
+      {
+        "food_id": "peanut_butter",
+        "amount_g": 30
+      },
+      {
+        "food_id": "milk_whole",
+        "amount_g": 200
+      },
+      {
+        "food_id": "oats",
+        "amount_g": 20
+      }
     ],
-    "total_nutrients": { "calories": 440, "protein": 18, "fat": 20, "carbs": 50, "fiber": 5 },
-    "tags": ["energy-boost", "kid-friendly", "muscle-building"],
+    "total_nutrients": {
+      "calories": 440,
+      "protein": 18,
+      "fat": 20,
+      "carbs": 50,
+      "fiber": 5
+    },
+    "tags": [
+      "energy-boost",
+      "kid-friendly",
+      "muscle-building"
+    ],
     "steps_key": "recipe.banana_peanut_butter_smoothie.steps",
-    "age_groups": ["children", "teens", "adults"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Kiwi_Smoothie.jpg/400px-Kiwi_Smoothie.jpg"
   },
   {
     "id": "tuna_salad_wrap",
@@ -135,17 +297,47 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "tuna", "amount_g": 100 },
-      { "food_id": "avocado", "amount_g": 50 },
-      { "food_id": "whole_wheat_bread", "amount_g": 60 },
-      { "food_id": "tomato", "amount_g": 50 },
-      { "food_id": "spinach", "amount_g": 20 }
+      {
+        "food_id": "tuna",
+        "amount_g": 100
+      },
+      {
+        "food_id": "avocado",
+        "amount_g": 50
+      },
+      {
+        "food_id": "whole_wheat_bread",
+        "amount_g": 60
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 50
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 20
+      }
     ],
-    "total_nutrients": { "calories": 365, "protein": 32, "fat": 12, "carbs": 32, "fiber": 7 },
-    "tags": ["high-protein", "omega-3-rich", "budget-friendly"],
+    "total_nutrients": {
+      "calories": 365,
+      "protein": 32,
+      "fat": 12,
+      "carbs": 32,
+      "fiber": 7
+    },
+    "tags": [
+      "high-protein",
+      "omega-3-rich",
+      "budget-friendly"
+    ],
     "steps_key": "recipe.tuna_salad_wrap.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Tuna_fish_sandwiches_for_the_National_School_Lunch_Program_%281%29.jpg/400px-Tuna_fish_sandwiches_for_the_National_School_Lunch_Program_%281%29.jpg"
   },
   {
     "id": "apple_almond_snack",
@@ -157,14 +349,36 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "apple", "amount_g": 150 },
-      { "food_id": "almonds", "amount_g": 25 }
+      {
+        "food_id": "apple",
+        "amount_g": 150
+      },
+      {
+        "food_id": "almonds",
+        "amount_g": 25
+      }
     ],
-    "total_nutrients": { "calories": 223, "protein": 6, "fat": 13, "carbs": 24, "fiber": 7 },
-    "tags": ["portable", "kid-friendly", "fiber-rich"],
+    "total_nutrients": {
+      "calories": 223,
+      "protein": 6,
+      "fat": 13,
+      "carbs": 24,
+      "fiber": 7
+    },
+    "tags": [
+      "portable",
+      "kid-friendly",
+      "fiber-rich"
+    ],
     "steps_key": "recipe.apple_almond_snack.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pink_lady_and_cross_section.jpg/400px-Pink_lady_and_cross_section.jpg"
   },
   {
     "id": "cottage_cheese_fruit_bowl",
@@ -176,16 +390,42 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "cottage_cheese", "amount_g": 200 },
-      { "food_id": "mango", "amount_g": 80 },
-      { "food_id": "walnuts", "amount_g": 15 },
-      { "food_id": "flaxseeds", "amount_g": 10 }
+      {
+        "food_id": "cottage_cheese",
+        "amount_g": 200
+      },
+      {
+        "food_id": "mango",
+        "amount_g": 80
+      },
+      {
+        "food_id": "walnuts",
+        "amount_g": 15
+      },
+      {
+        "food_id": "flaxseeds",
+        "amount_g": 10
+      }
     ],
-    "total_nutrients": { "calories": 310, "protein": 26, "fat": 14, "carbs": 22, "fiber": 4 },
-    "tags": ["high-protein", "omega-3-rich"],
+    "total_nutrients": {
+      "calories": 310,
+      "protein": 26,
+      "fat": 14,
+      "carbs": 22,
+      "fiber": 4
+    },
+    "tags": [
+      "high-protein",
+      "omega-3-rich"
+    ],
     "steps_key": "recipe.cottage_cheese_fruit_bowl.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 2
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Cottagecheese200px.jpg/400px-Cottagecheese200px.jpg"
   },
   {
     "id": "dark_chocolate_banana_bites",
@@ -197,15 +437,39 @@
     "servings": 2,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "banana", "amount_g": 200 },
-      { "food_id": "dark_chocolate", "amount_g": 40 },
-      { "food_id": "almonds", "amount_g": 20 }
+      {
+        "food_id": "banana",
+        "amount_g": 200
+      },
+      {
+        "food_id": "dark_chocolate",
+        "amount_g": 40
+      },
+      {
+        "food_id": "almonds",
+        "amount_g": 20
+      }
     ],
-    "total_nutrients": { "calories": 510, "protein": 10, "fat": 22, "carbs": 72, "fiber": 10 },
-    "tags": ["antioxidant", "kid-friendly", "treat"],
+    "total_nutrients": {
+      "calories": 510,
+      "protein": 10,
+      "fat": 22,
+      "carbs": 72,
+      "fiber": 10
+    },
+    "tags": [
+      "antioxidant",
+      "kid-friendly",
+      "treat"
+    ],
     "steps_key": "recipe.dark_chocolate_banana_bites.steps",
-    "age_groups": ["children", "teens", "adults"],
-    "cost_tier": 2
+    "age_groups": [
+      "children",
+      "teens",
+      "adults"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Green_and_Black%27s_dark_chocolate_bar_2.jpg/400px-Green_and_Black%27s_dark_chocolate_bar_2.jpg"
   },
   {
     "id": "chicken_stir_fry",
@@ -217,18 +481,51 @@
     "servings": 2,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "chicken_breast", "amount_g": 200 },
-      { "food_id": "broccoli", "amount_g": 150 },
-      { "food_id": "bell_pepper", "amount_g": 100 },
-      { "food_id": "brown_rice", "amount_g": 200 },
-      { "food_id": "garlic", "amount_g": 10 },
-      { "food_id": "olive_oil", "amount_g": 15 }
+      {
+        "food_id": "chicken_breast",
+        "amount_g": 200
+      },
+      {
+        "food_id": "broccoli",
+        "amount_g": 150
+      },
+      {
+        "food_id": "bell_pepper",
+        "amount_g": 100
+      },
+      {
+        "food_id": "brown_rice",
+        "amount_g": 200
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      }
     ],
-    "total_nutrients": { "calories": 920, "protein": 72, "fat": 18, "carbs": 112, "fiber": 10 },
-    "tags": ["high-protein", "balanced", "meal-prep"],
+    "total_nutrients": {
+      "calories": 920,
+      "protein": 72,
+      "fat": 18,
+      "carbs": 112,
+      "fiber": 10
+    },
+    "tags": [
+      "high-protein",
+      "balanced",
+      "meal-prep"
+    ],
     "steps_key": "recipe.chicken_stir_fry.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 2
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Making_Stir-Fry_%283286445383%29.jpg/400px-Making_Stir-Fry_%283286445383%29.jpg"
   },
   {
     "id": "lentil_soup",
@@ -240,18 +537,53 @@
     "servings": 4,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "lentils", "amount_g": 300 },
-      { "food_id": "carrots", "amount_g": 100 },
-      { "food_id": "tomato", "amount_g": 200 },
-      { "food_id": "spinach", "amount_g": 60 },
-      { "food_id": "garlic", "amount_g": 10 },
-      { "food_id": "olive_oil", "amount_g": 20 }
+      {
+        "food_id": "lentils",
+        "amount_g": 300
+      },
+      {
+        "food_id": "carrots",
+        "amount_g": 100
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 200
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 60
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 20
+      }
     ],
-    "total_nutrients": { "calories": 780, "protein": 42, "fat": 22, "carbs": 110, "fiber": 34 },
-    "tags": ["high-fiber", "vegan", "budget-friendly", "iron-rich"],
+    "total_nutrients": {
+      "calories": 780,
+      "protein": 42,
+      "fat": 22,
+      "carbs": 110,
+      "fiber": 34
+    },
+    "tags": [
+      "high-fiber",
+      "vegan",
+      "budget-friendly",
+      "iron-rich"
+    ],
     "steps_key": "recipe.lentil_soup.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/EgFoodLentilSoup.jpg/400px-EgFoodLentilSoup.jpg"
   },
   {
     "id": "shrimp_garlic_pasta",
@@ -263,18 +595,51 @@
     "servings": 2,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "shrimp", "amount_g": 200 },
-      { "food_id": "whole_wheat_bread", "amount_g": 160 },
-      { "food_id": "garlic", "amount_g": 15 },
-      { "food_id": "olive_oil", "amount_g": 20 },
-      { "food_id": "tomato", "amount_g": 100 },
-      { "food_id": "spinach", "amount_g": 40 }
+      {
+        "food_id": "shrimp",
+        "amount_g": 200
+      },
+      {
+        "food_id": "whole_wheat_bread",
+        "amount_g": 160
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 15
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 20
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 100
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 40
+      }
     ],
-    "total_nutrients": { "calories": 820, "protein": 60, "fat": 24, "carbs": 92, "fiber": 14 },
-    "tags": ["high-protein", "selenium-rich", "mediterranean"],
+    "total_nutrients": {
+      "calories": 820,
+      "protein": 60,
+      "fat": 24,
+      "carbs": 92,
+      "fiber": 14
+    },
+    "tags": [
+      "high-protein",
+      "selenium-rich",
+      "mediterranean"
+    ],
     "steps_key": "recipe.shrimp_garlic_pasta.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 3
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nephrops_norvegicus.jpg/400px-Nephrops_norvegicus.jpg"
   },
   {
     "id": "quinoa_veggie_bowl",
@@ -286,18 +651,51 @@
     "servings": 2,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "quinoa", "amount_g": 180 },
-      { "food_id": "chickpeas", "amount_g": 150 },
-      { "food_id": "avocado", "amount_g": 100 },
-      { "food_id": "kale", "amount_g": 60 },
-      { "food_id": "bell_pepper", "amount_g": 80 },
-      { "food_id": "olive_oil", "amount_g": 15 }
+      {
+        "food_id": "quinoa",
+        "amount_g": 180
+      },
+      {
+        "food_id": "chickpeas",
+        "amount_g": 150
+      },
+      {
+        "food_id": "avocado",
+        "amount_g": 100
+      },
+      {
+        "food_id": "kale",
+        "amount_g": 60
+      },
+      {
+        "food_id": "bell_pepper",
+        "amount_g": 80
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      }
     ],
-    "total_nutrients": { "calories": 880, "protein": 32, "fat": 38, "carbs": 104, "fiber": 24 },
-    "tags": ["vegan", "high-fiber", "complete-protein"],
+    "total_nutrients": {
+      "calories": 880,
+      "protein": 32,
+      "fat": 38,
+      "carbs": 104,
+      "fiber": 24
+    },
+    "tags": [
+      "vegan",
+      "high-fiber",
+      "complete-protein"
+    ],
     "steps_key": "recipe.quinoa_veggie_bowl.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 2
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Reismelde.jpg/400px-Reismelde.jpg"
   },
   {
     "id": "turkey_spinach_wrap",
@@ -309,17 +707,47 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "turkey", "amount_g": 100 },
-      { "food_id": "spinach", "amount_g": 40 },
-      { "food_id": "whole_wheat_bread", "amount_g": 60 },
-      { "food_id": "cheese_cheddar", "amount_g": 20 },
-      { "food_id": "tomato", "amount_g": 50 }
+      {
+        "food_id": "turkey",
+        "amount_g": 100
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 40
+      },
+      {
+        "food_id": "whole_wheat_bread",
+        "amount_g": 60
+      },
+      {
+        "food_id": "cheese_cheddar",
+        "amount_g": 20
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 50
+      }
     ],
-    "total_nutrients": { "calories": 380, "protein": 40, "fat": 10, "carbs": 32, "fiber": 6 },
-    "tags": ["high-protein", "lean", "portable"],
+    "total_nutrients": {
+      "calories": 380,
+      "protein": 40,
+      "fat": 10,
+      "carbs": 32,
+      "fiber": 6
+    },
+    "tags": [
+      "high-protein",
+      "lean",
+      "portable"
+    ],
     "steps_key": "recipe.turkey_spinach_wrap.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 2
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Smoked_chicken_and_avocado_wrap.jpg/400px-Smoked_chicken_and_avocado_wrap.jpg"
   },
   {
     "id": "tofu_veggie_stir_fry",
@@ -331,18 +759,51 @@
     "servings": 2,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "tofu", "amount_g": 200 },
-      { "food_id": "broccoli", "amount_g": 120 },
-      { "food_id": "mushrooms", "amount_g": 100 },
-      { "food_id": "carrots", "amount_g": 80 },
-      { "food_id": "brown_rice", "amount_g": 200 },
-      { "food_id": "olive_oil", "amount_g": 15 }
+      {
+        "food_id": "tofu",
+        "amount_g": 200
+      },
+      {
+        "food_id": "broccoli",
+        "amount_g": 120
+      },
+      {
+        "food_id": "mushrooms",
+        "amount_g": 100
+      },
+      {
+        "food_id": "carrots",
+        "amount_g": 80
+      },
+      {
+        "food_id": "brown_rice",
+        "amount_g": 200
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      }
     ],
-    "total_nutrients": { "calories": 850, "protein": 46, "fat": 30, "carbs": 104, "fiber": 14 },
-    "tags": ["vegan", "plant-based", "high-calcium"],
+    "total_nutrients": {
+      "calories": 850,
+      "protein": 46,
+      "fat": 30,
+      "carbs": 104,
+      "fiber": 14
+    },
+    "tags": [
+      "vegan",
+      "plant-based",
+      "high-calcium"
+    ],
     "steps_key": "recipe.tofu_veggie_stir_fry.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG/400px-Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG"
   },
   {
     "id": "oatmeal_banana_walnut",
@@ -354,17 +815,48 @@
     "servings": 1,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "oats", "amount_g": 50 },
-      { "food_id": "milk_whole", "amount_g": 200 },
-      { "food_id": "banana", "amount_g": 100 },
-      { "food_id": "walnuts", "amount_g": 15 },
-      { "food_id": "honey", "amount_g": 10 }
+      {
+        "food_id": "oats",
+        "amount_g": 50
+      },
+      {
+        "food_id": "milk_whole",
+        "amount_g": 200
+      },
+      {
+        "food_id": "banana",
+        "amount_g": 100
+      },
+      {
+        "food_id": "walnuts",
+        "amount_g": 15
+      },
+      {
+        "food_id": "honey",
+        "amount_g": 10
+      }
     ],
-    "total_nutrients": { "calories": 465, "protein": 16, "fat": 16, "carbs": 66, "fiber": 7 },
-    "tags": ["heart-healthy", "high-fiber", "kid-friendly"],
+    "total_nutrients": {
+      "calories": 465,
+      "protein": 16,
+      "fat": 16,
+      "carbs": 66,
+      "fiber": 7
+    },
+    "tags": [
+      "heart-healthy",
+      "high-fiber",
+      "kid-friendly"
+    ],
     "steps_key": "recipe.oatmeal_banana_walnut.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Oatmeal.jpg/400px-Oatmeal.jpg"
   },
   {
     "id": "egg_veggie_muffins",
@@ -376,17 +868,49 @@
     "servings": 6,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "eggs", "amount_g": 300 },
-      { "food_id": "spinach", "amount_g": 60 },
-      { "food_id": "bell_pepper", "amount_g": 60 },
-      { "food_id": "mushrooms", "amount_g": 50 },
-      { "food_id": "cheese_cheddar", "amount_g": 40 }
+      {
+        "food_id": "eggs",
+        "amount_g": 300
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 60
+      },
+      {
+        "food_id": "bell_pepper",
+        "amount_g": 60
+      },
+      {
+        "food_id": "mushrooms",
+        "amount_g": 50
+      },
+      {
+        "food_id": "cheese_cheddar",
+        "amount_g": 40
+      }
     ],
-    "total_nutrients": { "calories": 680, "protein": 52, "fat": 44, "carbs": 14, "fiber": 4 },
-    "tags": ["meal-prep", "high-protein", "kid-friendly", "portable"],
+    "total_nutrients": {
+      "calories": 680,
+      "protein": 52,
+      "fat": 44,
+      "carbs": 14,
+      "fiber": 4
+    },
+    "tags": [
+      "meal-prep",
+      "high-protein",
+      "kid-friendly",
+      "portable"
+    ],
     "steps_key": "recipe.egg_veggie_muffins.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/02116jfMuffins_in_Philippinesfvf_02.jpg/400px-02116jfMuffins_in_Philippinesfvf_02.jpg"
   },
   {
     "id": "chickpea_salad",
@@ -398,18 +922,51 @@
     "servings": 2,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "chickpeas", "amount_g": 250 },
-      { "food_id": "tomato", "amount_g": 100 },
-      { "food_id": "bell_pepper", "amount_g": 80 },
-      { "food_id": "avocado", "amount_g": 80 },
-      { "food_id": "olive_oil", "amount_g": 15 },
-      { "food_id": "spinach", "amount_g": 40 }
+      {
+        "food_id": "chickpeas",
+        "amount_g": 250
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 100
+      },
+      {
+        "food_id": "bell_pepper",
+        "amount_g": 80
+      },
+      {
+        "food_id": "avocado",
+        "amount_g": 80
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 40
+      }
     ],
-    "total_nutrients": { "calories": 720, "protein": 30, "fat": 30, "carbs": 82, "fiber": 26 },
-    "tags": ["vegan", "high-fiber", "budget-friendly"],
+    "total_nutrients": {
+      "calories": 720,
+      "protein": 30,
+      "fat": 30,
+      "carbs": 82,
+      "fiber": 26
+    },
+    "tags": [
+      "vegan",
+      "high-fiber",
+      "budget-friendly"
+    ],
     "steps_key": "recipe.chickpea_salad.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Hummus_salad.jpg/400px-Hummus_salad.jpg"
   },
   {
     "id": "salmon_kale_sweet_potato",
@@ -421,17 +978,46 @@
     "servings": 2,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "salmon", "amount_g": 240 },
-      { "food_id": "kale", "amount_g": 120 },
-      { "food_id": "sweet_potato", "amount_g": 250 },
-      { "food_id": "olive_oil", "amount_g": 15 },
-      { "food_id": "garlic", "amount_g": 10 }
+      {
+        "food_id": "salmon",
+        "amount_g": 240
+      },
+      {
+        "food_id": "kale",
+        "amount_g": 120
+      },
+      {
+        "food_id": "sweet_potato",
+        "amount_g": 250
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      }
     ],
-    "total_nutrients": { "calories": 920, "protein": 56, "fat": 38, "carbs": 88, "fiber": 16 },
-    "tags": ["omega-3-rich", "vitamin-a-rich", "anti-inflammatory"],
+    "total_nutrients": {
+      "calories": 920,
+      "protein": 56,
+      "fat": 38,
+      "carbs": 88,
+      "fiber": 16
+    },
+    "tags": [
+      "omega-3-rich",
+      "vitamin-a-rich",
+      "anti-inflammatory"
+    ],
     "steps_key": "recipe.salmon_kale_sweet_potato.steps",
-    "age_groups": ["adults", "seniors"],
-    "cost_tier": 3
+    "age_groups": [
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sashimi_-_Maguro_Restaurant%2C_Bangna%2C_Bangkok_%2844856596864%29.jpg/400px-Sashimi_-_Maguro_Restaurant%2C_Bangna%2C_Bangkok_%2844856596864%29.jpg"
   },
   {
     "id": "homemade_turkey_burger",
@@ -443,17 +1029,47 @@
     "servings": 2,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "turkey", "amount_g": 250 },
-      { "food_id": "whole_wheat_bread", "amount_g": 100 },
-      { "food_id": "avocado", "amount_g": 60 },
-      { "food_id": "tomato", "amount_g": 60 },
-      { "food_id": "spinach", "amount_g": 20 }
+      {
+        "food_id": "turkey",
+        "amount_g": 250
+      },
+      {
+        "food_id": "whole_wheat_bread",
+        "amount_g": 100
+      },
+      {
+        "food_id": "avocado",
+        "amount_g": 60
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 60
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 20
+      }
     ],
-    "total_nutrients": { "calories": 720, "protein": 82, "fat": 16, "carbs": 62, "fiber": 12 },
-    "tags": ["high-protein", "lean", "kid-friendly"],
+    "total_nutrients": {
+      "calories": 720,
+      "protein": 82,
+      "fat": 16,
+      "carbs": 62,
+      "fiber": 12
+    },
+    "tags": [
+      "high-protein",
+      "lean",
+      "kid-friendly"
+    ],
     "steps_key": "recipe.homemade_turkey_burger.steps",
-    "age_groups": ["children", "teens", "adults"],
-    "cost_tier": 2
+    "age_groups": [
+      "children",
+      "teens",
+      "adults"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/400px-RedDot_Burger.jpg"
   },
   {
     "id": "beef_broccoli_bowl",
@@ -465,17 +1081,46 @@
     "servings": 2,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "beef_lean", "amount_g": 200 },
-      { "food_id": "broccoli", "amount_g": 200 },
-      { "food_id": "brown_rice", "amount_g": 200 },
-      { "food_id": "garlic", "amount_g": 10 },
-      { "food_id": "olive_oil", "amount_g": 15 }
+      {
+        "food_id": "beef_lean",
+        "amount_g": 200
+      },
+      {
+        "food_id": "broccoli",
+        "amount_g": 200
+      },
+      {
+        "food_id": "brown_rice",
+        "amount_g": 200
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      }
     ],
-    "total_nutrients": { "calories": 1040, "protein": 66, "fat": 38, "carbs": 112, "fiber": 10 },
-    "tags": ["iron-rich", "high-protein", "zinc-source"],
+    "total_nutrients": {
+      "calories": 1040,
+      "protein": 66,
+      "fat": 38,
+      "carbs": 112,
+      "fiber": 10
+    },
+    "tags": [
+      "iron-rich",
+      "high-protein",
+      "zinc-source"
+    ],
     "steps_key": "recipe.beef_broccoli_bowl.steps",
-    "age_groups": ["teens", "adults"],
-    "cost_tier": 2
+    "age_groups": [
+      "teens",
+      "adults"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Beef_and_broccoli_stir_fry.jpg/400px-Beef_and_broccoli_stir_fry.jpg"
   },
   {
     "id": "black_bean_sweet_potato_chili",
@@ -487,18 +1132,53 @@
     "servings": 4,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "black_beans", "amount_g": 400 },
-      { "food_id": "sweet_potato", "amount_g": 300 },
-      { "food_id": "tomato", "amount_g": 300 },
-      { "food_id": "bell_pepper", "amount_g": 100 },
-      { "food_id": "garlic", "amount_g": 10 },
-      { "food_id": "olive_oil", "amount_g": 15 }
+      {
+        "food_id": "black_beans",
+        "amount_g": 400
+      },
+      {
+        "food_id": "sweet_potato",
+        "amount_g": 300
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 300
+      },
+      {
+        "food_id": "bell_pepper",
+        "amount_g": 100
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      }
     ],
-    "total_nutrients": { "calories": 1120, "protein": 52, "fat": 16, "carbs": 196, "fiber": 52 },
-    "tags": ["vegan", "high-fiber", "budget-friendly", "meal-prep"],
+    "total_nutrients": {
+      "calories": 1120,
+      "protein": 52,
+      "fat": 16,
+      "carbs": 196,
+      "fiber": 52
+    },
+    "tags": [
+      "vegan",
+      "high-fiber",
+      "budget-friendly",
+      "meal-prep"
+    ],
     "steps_key": "recipe.black_bean_sweet_potato_chili.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bowl_of_chili.jpg/400px-Bowl_of_chili.jpg"
   },
   {
     "id": "baked_chicken_vegetables",
@@ -510,18 +1190,53 @@
     "servings": 4,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "chicken_breast", "amount_g": 400 },
-      { "food_id": "sweet_potato", "amount_g": 300 },
-      { "food_id": "broccoli", "amount_g": 200 },
-      { "food_id": "carrots", "amount_g": 150 },
-      { "food_id": "olive_oil", "amount_g": 25 },
-      { "food_id": "garlic", "amount_g": 10 }
+      {
+        "food_id": "chicken_breast",
+        "amount_g": 400
+      },
+      {
+        "food_id": "sweet_potato",
+        "amount_g": 300
+      },
+      {
+        "food_id": "broccoli",
+        "amount_g": 200
+      },
+      {
+        "food_id": "carrots",
+        "amount_g": 150
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 25
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      }
     ],
-    "total_nutrients": { "calories": 1320, "protein": 140, "fat": 30, "carbs": 120, "fiber": 20 },
-    "tags": ["high-protein", "meal-prep", "balanced", "kid-friendly"],
+    "total_nutrients": {
+      "calories": 1320,
+      "protein": 140,
+      "fat": 30,
+      "carbs": 120,
+      "fiber": 20
+    },
+    "tags": [
+      "high-protein",
+      "meal-prep",
+      "balanced",
+      "kid-friendly"
+    ],
     "steps_key": "recipe.baked_chicken_vegetables.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 2
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Max%27s_Roasted_Chicken_-_Evan_Swigart.jpg/400px-Max%27s_Roasted_Chicken_-_Evan_Swigart.jpg"
   },
   {
     "id": "sardine_toast_salad",
@@ -533,18 +1248,50 @@
     "servings": 2,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "sardines", "amount_g": 120 },
-      { "food_id": "whole_wheat_bread", "amount_g": 80 },
-      { "food_id": "avocado", "amount_g": 80 },
-      { "food_id": "tomato", "amount_g": 100 },
-      { "food_id": "kale", "amount_g": 60 },
-      { "food_id": "olive_oil", "amount_g": 10 }
+      {
+        "food_id": "sardines",
+        "amount_g": 120
+      },
+      {
+        "food_id": "whole_wheat_bread",
+        "amount_g": 80
+      },
+      {
+        "food_id": "avocado",
+        "amount_g": 80
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 100
+      },
+      {
+        "food_id": "kale",
+        "amount_g": 60
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 10
+      }
     ],
-    "total_nutrients": { "calories": 740, "protein": 42, "fat": 40, "carbs": 56, "fiber": 16 },
-    "tags": ["omega-3-rich", "calcium-rich", "b12-source"],
+    "total_nutrients": {
+      "calories": 740,
+      "protein": 42,
+      "fat": 40,
+      "carbs": 56,
+      "fiber": 16
+    },
+    "tags": [
+      "omega-3-rich",
+      "calcium-rich",
+      "b12-source"
+    ],
     "steps_key": "recipe.sardine_toast_salad.steps",
-    "age_groups": ["adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sardines_-_%E9%B0%AF%28%E3%81%84%E3%82%8F%E3%81%97%29.jpg/400px-Sardines_-_%E9%B0%AF%28%E3%81%84%E3%82%8F%E3%81%97%29.jpg"
   },
   {
     "id": "lentil_bolognese",
@@ -556,18 +1303,53 @@
     "servings": 4,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "lentils", "amount_g": 250 },
-      { "food_id": "tomato", "amount_g": 400 },
-      { "food_id": "carrots", "amount_g": 100 },
-      { "food_id": "garlic", "amount_g": 15 },
-      { "food_id": "mushrooms", "amount_g": 100 },
-      { "food_id": "olive_oil", "amount_g": 20 }
+      {
+        "food_id": "lentils",
+        "amount_g": 250
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 400
+      },
+      {
+        "food_id": "carrots",
+        "amount_g": 100
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 15
+      },
+      {
+        "food_id": "mushrooms",
+        "amount_g": 100
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 20
+      }
     ],
-    "total_nutrients": { "calories": 680, "protein": 38, "fat": 22, "carbs": 92, "fiber": 28 },
-    "tags": ["vegan", "high-fiber", "iron-rich", "budget-friendly"],
+    "total_nutrients": {
+      "calories": 680,
+      "protein": 38,
+      "fat": 22,
+      "carbs": 92,
+      "fiber": 28
+    },
+    "tags": [
+      "vegan",
+      "high-fiber",
+      "iron-rich",
+      "budget-friendly"
+    ],
     "steps_key": "recipe.lentil_bolognese.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg/400px-Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg"
   },
   {
     "id": "stuffed_bell_peppers",
@@ -579,18 +1361,51 @@
     "servings": 4,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "bell_pepper", "amount_g": 400 },
-      { "food_id": "quinoa", "amount_g": 200 },
-      { "food_id": "black_beans", "amount_g": 200 },
-      { "food_id": "tomato", "amount_g": 150 },
-      { "food_id": "cheese_cheddar", "amount_g": 60 },
-      { "food_id": "garlic", "amount_g": 10 }
+      {
+        "food_id": "bell_pepper",
+        "amount_g": 400
+      },
+      {
+        "food_id": "quinoa",
+        "amount_g": 200
+      },
+      {
+        "food_id": "black_beans",
+        "amount_g": 200
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 150
+      },
+      {
+        "food_id": "cheese_cheddar",
+        "amount_g": 60
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      }
     ],
-    "total_nutrients": { "calories": 1020, "protein": 52, "fat": 28, "carbs": 148, "fiber": 30 },
-    "tags": ["high-fiber", "colorful", "complete-protein"],
+    "total_nutrients": {
+      "calories": 1020,
+      "protein": 52,
+      "fat": 28,
+      "carbs": 148,
+      "fiber": 30
+    },
+    "tags": [
+      "high-fiber",
+      "colorful",
+      "complete-protein"
+    ],
     "steps_key": "recipe.stuffed_bell_peppers.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 2
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Quinoa_stuffed_peppers.jpg/400px-Quinoa_stuffed_peppers.jpg"
   },
   {
     "id": "slow_cooker_chicken_soup",
@@ -602,18 +1417,53 @@
     "servings": 6,
     "difficulty": "easy",
     "ingredients": [
-      { "food_id": "chicken_breast", "amount_g": 400 },
-      { "food_id": "carrots", "amount_g": 200 },
-      { "food_id": "cauliflower", "amount_g": 150 },
-      { "food_id": "spinach", "amount_g": 80 },
-      { "food_id": "garlic", "amount_g": 15 },
-      { "food_id": "olive_oil", "amount_g": 15 }
+      {
+        "food_id": "chicken_breast",
+        "amount_g": 400
+      },
+      {
+        "food_id": "carrots",
+        "amount_g": 200
+      },
+      {
+        "food_id": "cauliflower",
+        "amount_g": 150
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 80
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 15
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      }
     ],
-    "total_nutrients": { "calories": 960, "protein": 138, "fat": 24, "carbs": 46, "fiber": 14 },
-    "tags": ["immune-boosting", "comforting", "kid-friendly", "meal-prep"],
+    "total_nutrients": {
+      "calories": 960,
+      "protein": 138,
+      "fat": 24,
+      "carbs": 46,
+      "fiber": 14
+    },
+    "tags": [
+      "immune-boosting",
+      "comforting",
+      "kid-friendly",
+      "meal-prep"
+    ],
     "steps_key": "recipe.slow_cooker_chicken_soup.steps",
-    "age_groups": ["children", "teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "children",
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Chicken_Noodle_Soup.jpg/400px-Chicken_Noodle_Soup.jpg"
   },
   {
     "id": "baked_salmon_quinoa",
@@ -625,17 +1475,47 @@
     "servings": 2,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "salmon", "amount_g": 240 },
-      { "food_id": "quinoa", "amount_g": 180 },
-      { "food_id": "broccoli", "amount_g": 150 },
-      { "food_id": "olive_oil", "amount_g": 15 },
-      { "food_id": "garlic", "amount_g": 10 }
+      {
+        "food_id": "salmon",
+        "amount_g": 240
+      },
+      {
+        "food_id": "quinoa",
+        "amount_g": 180
+      },
+      {
+        "food_id": "broccoli",
+        "amount_g": 150
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 15
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      }
     ],
-    "total_nutrients": { "calories": 960, "protein": 62, "fat": 40, "carbs": 88, "fiber": 10 },
-    "tags": ["omega-3-rich", "high-protein", "anti-inflammatory"],
+    "total_nutrients": {
+      "calories": 960,
+      "protein": 62,
+      "fat": 40,
+      "carbs": 88,
+      "fiber": 10
+    },
+    "tags": [
+      "omega-3-rich",
+      "high-protein",
+      "anti-inflammatory"
+    ],
     "steps_key": "recipe.baked_salmon_quinoa.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 3
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sashimi_-_Maguro_Restaurant%2C_Bangna%2C_Bangkok_%2844856596864%29.jpg/400px-Sashimi_-_Maguro_Restaurant%2C_Bangna%2C_Bangkok_%2844856596864%29.jpg"
   },
   {
     "id": "cauliflower_chickpea_curry",
@@ -647,17 +1527,50 @@
     "servings": 4,
     "difficulty": "medium",
     "ingredients": [
-      { "food_id": "cauliflower", "amount_g": 300 },
-      { "food_id": "chickpeas", "amount_g": 300 },
-      { "food_id": "tomato", "amount_g": 200 },
-      { "food_id": "spinach", "amount_g": 80 },
-      { "food_id": "garlic", "amount_g": 10 },
-      { "food_id": "olive_oil", "amount_g": 20 }
+      {
+        "food_id": "cauliflower",
+        "amount_g": 300
+      },
+      {
+        "food_id": "chickpeas",
+        "amount_g": 300
+      },
+      {
+        "food_id": "tomato",
+        "amount_g": 200
+      },
+      {
+        "food_id": "spinach",
+        "amount_g": 80
+      },
+      {
+        "food_id": "garlic",
+        "amount_g": 10
+      },
+      {
+        "food_id": "olive_oil",
+        "amount_g": 20
+      }
     ],
-    "total_nutrients": { "calories": 840, "protein": 42, "fat": 24, "carbs": 118, "fiber": 36 },
-    "tags": ["vegan", "high-fiber", "anti-inflammatory"],
+    "total_nutrients": {
+      "calories": 840,
+      "protein": 42,
+      "fat": 24,
+      "carbs": 118,
+      "fiber": 36
+    },
+    "tags": [
+      "vegan",
+      "high-fiber",
+      "anti-inflammatory"
+    ],
     "steps_key": "recipe.cauliflower_chickpea_curry.steps",
-    "age_groups": ["teens", "adults", "seniors"],
-    "cost_tier": 1
+    "age_groups": [
+      "teens",
+      "adults",
+      "seniors"
+    ],
+    "cost_tier": 1,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_-_Lamb_Curry_Madras.jpg/400px-Taj_Mahal_-_Lamb_Curry_Madras.jpg"
   }
 ]

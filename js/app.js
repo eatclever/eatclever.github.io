@@ -218,7 +218,9 @@ function _recipeCardHtml(recipe) {
   const recipeName = I18n.t(recipe.name_key);
   const recipeDesc = I18n.t(recipe.desc_key);
   const tn = recipe.total_nutrients || {};
+  const recipeImg = recipe.image ? `<img src="${recipe.image}" alt="" class="ew-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="card recipe-card" data-recipe-id="${recipe.id}">
+    ${recipeImg}
     <div class="card-header">
       <h3 class="card-title">${recipeName}</h3>
       <div class="card-badges">
@@ -1210,6 +1212,7 @@ function renderFoodDetail() {
           <div class="food-browse-grid">
             ${foods.map((f, i) => `
               <a href="food-detail.html?id=${f.id}" class="card food-browse-card">
+                ${f.image ? `<img src="${f.image}" alt="" class="ew-card-img" loading="lazy" onerror="this.style.display='none'">` : ''}
                 <span class="food-browse-rank">#${i + 1}</span>
                 <span class="food-browse-icon">${_foodIcon(f)}</span>
                 <span class="food-browse-name">${I18n.getFoodName(f)}</span>
@@ -1238,6 +1241,7 @@ function renderFoodDetail() {
       <div class="food-browse-grid">
         ${foods.map(f => `
           <a href="food-detail.html?id=${f.id}" class="card food-browse-card">
+            ${f.image ? `<img src="${f.image}" alt="" class="ew-card-img" loading="lazy" onerror="this.style.display='none'">` : ''}
             <span class="food-browse-icon">${_foodIcon(f)}</span>
             <span class="food-browse-name">${I18n.getFoodName(f)}</span>
             <span class="food-browse-cal">${f.calories} kcal</span>
