@@ -1110,7 +1110,7 @@ function _renderShoppingPlan(planId) {
     const sectionTotal = items.reduce((sum, it) => sum + (it.est_cost_usd || 0), 0).toFixed(2);
     return `<div class="shopping-section-group">
       <h4 class="shopping-section-title">${sectionLabel} <small>(${formatPrice(parseFloat(sectionTotal))})</small></h4>
-      <table class="shopping-table">
+      <div class="table-wrap"><table class="shopping-table">
         <thead>
           <tr>
             <th>${I18n.t('shop.item')}</th>
@@ -1129,7 +1129,7 @@ function _renderShoppingPlan(planId) {
             </tr>`;
           }).join('')}
         </tbody>
-      </table>
+      </table></div>
     </div>`;
   }).join('');
 
