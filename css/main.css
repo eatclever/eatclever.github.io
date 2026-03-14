@@ -3305,6 +3305,231 @@ a.card {
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
+   NUTRIENT SEARCH PAGE
+   -------------------------------------------------------------------------- */
+.ns-search-box {
+    max-width: 500px;
+    margin: 1.5rem auto;
+}
+.ns-search-input {
+    width: 100%;
+    padding: 0.85rem 1.25rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--border-gray);
+    border-radius: 12px;
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.2s;
+    min-height: 50px;
+}
+.ns-search-input:focus {
+    border-color: var(--ew-green);
+}
+.ns-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.ns-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--border-gray);
+    border-radius: 20px;
+    background: var(--white);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: inherit;
+    transition: all 0.2s;
+    min-height: 44px;
+}
+.ns-chip:hover {
+    border-color: var(--chip-color, var(--ew-green));
+    background: #f5f7f2;
+}
+.ns-chip.active {
+    border-color: var(--chip-color, var(--ew-green));
+    background: var(--chip-color, var(--ew-green));
+    color: var(--white);
+}
+.ns-chip.active .ns-chip-dot {
+    background: var(--white) !important;
+}
+.ns-chip-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* Nutrient info card */
+.ns-info-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.ns-info-title {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+.ns-info-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.ns-info-desc {
+    font-size: 1.05rem;
+    color: var(--text-gray);
+    margin-bottom: 0.75rem;
+    font-style: italic;
+}
+.ns-info-body {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+.ns-rda-box {
+    background: var(--bg-light);
+    border-radius: 8px;
+    padding: 1rem;
+}
+.ns-rda-box h4 {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-dark);
+}
+.ns-rda-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.35rem 0;
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--border-gray);
+}
+.ns-rda-row:last-child { border-bottom: none; }
+.ns-rda-age { color: var(--text-gray); }
+.ns-rda-val { font-weight: 600; }
+
+/* Category filters */
+.ns-cat-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.ns-cat-btn {
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 16px;
+    background: var(--white);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: inherit;
+    transition: all 0.2s;
+    min-height: 38px;
+}
+.ns-cat-btn:hover { background: var(--bg-light); }
+.ns-cat-btn.active {
+    background: var(--ew-green);
+    color: var(--white);
+    border-color: var(--ew-green);
+}
+
+/* Food results list */
+.ns-food-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.ns-food-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--text-dark);
+    transition: box-shadow 0.2s, border-color 0.2s;
+}
+.ns-food-row:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-color: var(--ew-green);
+}
+.ns-food-rank {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-gray);
+    min-width: 24px;
+    text-align: center;
+}
+.ns-food-img {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.ns-food-info {
+    flex: 1;
+    min-width: 0;
+}
+.ns-food-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ns-food-meta {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.78rem;
+    color: var(--text-gray);
+    margin: 0.2rem 0 0.4rem;
+}
+.ns-food-cat {
+    background: var(--bg-light);
+    padding: 0.1rem 0.5rem;
+    border-radius: 8px;
+}
+.ns-food-value {
+    text-align: right;
+    flex-shrink: 0;
+    min-width: 70px;
+}
+.ns-food-value strong {
+    display: block;
+    font-size: 1rem;
+    color: var(--ew-green);
+}
+.ns-food-value small {
+    color: var(--text-gray);
+    font-size: 0.78rem;
+}
+.ns-food-row .nutrient-bar-track {
+    height: 6px;
+    border-radius: 3px;
+}
+.ns-no-match {
+    text-align: center;
+    color: var(--text-gray);
+    padding: 2rem;
+    font-style: italic;
+}
+
+/* --------------------------------------------------------------------------
    TABLET (max-width: 768px)
    -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
@@ -3487,6 +3712,26 @@ a.card {
     .traffic-light,
     .traffic-light-guide {
         flex-wrap: wrap;
+    }
+}
+
+    /* Nutrient search responsive */
+    .ns-food-name {
+        font-size: 0.88rem;
+    }
+    .ns-food-img {
+        width: 36px;
+        height: 36px;
+    }
+    .ns-info-card {
+        padding: 1rem;
+    }
+    .ns-chips {
+        gap: 0.4rem;
+    }
+    .ns-chip {
+        padding: 0.4rem 0.75rem;
+        font-size: 0.82rem;
     }
 }
 

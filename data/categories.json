@@ -1,5 +1,13 @@
 [
   {
+    "id": "nutrient-search",
+    "icon": "\ud83d\udd0d",
+    "color": "#B71C1C",
+    "name_key": "cat.nutrient_search",
+    "desc_key": "cat.nutrient_search.desc",
+    "page": "nutrient-search.html"
+  },
+  {
     "id": "age-nutrition",
     "icon": "\ud83e\uddd1\u200d\ud83c\udf73",
     "color": "#2E7D32",

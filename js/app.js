@@ -90,6 +90,7 @@ function detectPage() {
   if (path.includes('compare')) return 'compare';
   if (path.includes('meal-planner')) return 'meal-planner';
   if (path.includes('quiz')) return 'quiz';
+  if (path.includes('nutrient-search')) return 'nutrient-search';
   return 'index';
 }
 
@@ -106,7 +107,8 @@ function renderPage(page) {
     'food-detail': renderFoodDetail,
     'compare': renderCompare,
     'meal-planner': renderMealPlanner,
-    'quiz': renderQuiz
+    'quiz': renderQuiz,
+    'nutrient-search': renderNutrientSearch
   };
   if (renderers[page]) renderers[page]();
 }
@@ -2195,6 +2197,188 @@ function _showResults() {
       `I scored ${_quizState.score}/${_quizState.total} on the EatClever Nutrition Quiz!`,
       window.location.href
     );
+  }
+}
+
+
+/* ==========================================================================
+   renderNutrientSearch - Search nutrients and find top food sources
+   ========================================================================== */
+function renderNutrientSearch() {
+  const container = document.getElementById('nutrient-search-content');
+  if (!container) return;
+
+  const nutrients = Data.getNutrients();
+  const nutrientIds = Object.keys(nutrients);
+  const categoryLabels = {
+    protein: 'cat.protein', grains: 'cat.grains', fruit: 'cat.fruit',
+    vegetable: 'cat.vegetable', dairy: 'cat.dairy', nuts_seeds: 'cat.nuts_seeds',
+    legume: 'cat.legume', other: 'cat.other'
+  };
+
+  // Build nutrient chips
+  const chips = nutrientIds.map(id => {
+    const n = nutrients[id];
+    return `<button class="ns-chip" data-nutrient="${id}" style="--chip-color:${n.color}">
+      <span class="ns-chip-dot" style="background:${n.color}"></span>
+      ${I18n.t(n.name_key)}
+    </button>`;
+  }).join('');
+
+  container.innerHTML = `
+    ${_backLink()}
+    <h1 class="page-title">${I18n.t('ns.title')}</h1>
+    <p class="page-subtitle">${I18n.t('ns.subtitle')}</p>
+
+    <div class="ns-search-box">
+      <input type="text" class="ns-search-input" placeholder="${I18n.t('ns.placeholder')}" id="ns-input">
+    </div>
+
+    <div class="ns-chips" id="ns-chips">${chips}</div>
+
+    <div id="ns-results"></div>
+  `;
+
+  const input = document.getElementById('ns-input');
+  const chipsEl = document.getElementById('ns-chips');
+  const results = document.getElementById('ns-results');
+  let activeNutrient = null;
+  let activeCategory = 'all';
+
+  // Chip click
+  chipsEl.addEventListener('click', (e) => {
+    const chip = e.target.closest('.ns-chip');
+    if (!chip) return;
+    const nid = chip.dataset.nutrient;
+    input.value = I18n.t(nutrients[nid].name_key);
+    _selectNutrient(nid);
+  });
+
+  // Search input
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    if (!q) { results.innerHTML = ''; _clearActive(); return; }
+    // Match nutrient by name
+    const match = nutrientIds.find(id => I18n.t(nutrients[id].name_key).toLowerCase().includes(q));
+    if (match) {
+      _selectNutrient(match);
+    } else {
+      results.innerHTML = `<p class="ns-no-match">${I18n.t('general.no_results')}</p>`;
+    }
+  });
+
+  function _clearActive() {
+    activeNutrient = null;
+    chipsEl.querySelectorAll('.ns-chip').forEach(c => c.classList.remove('active'));
+  }
+
+  function _selectNutrient(nid) {
+    activeNutrient = nid;
+    activeCategory = 'all';
+    chipsEl.querySelectorAll('.ns-chip').forEach(c => {
+      c.classList.toggle('active', c.dataset.nutrient === nid);
+    });
+    _renderResults(nid);
+  }
+
+  function _renderResults(nid) {
+    const nutrient = nutrients[nid];
+    const allFoods = Data.getAllFoods();
+    const ageGroup = 'adults';
+    const rda = nutrient.rda[ageGroup] || 0;
+
+    // Sort foods by this nutrient value descending
+    const sorted = allFoods
+      .filter(f => (f.nutrients[nid] || 0) > 0)
+      .sort((a, b) => (b.nutrients[nid] || 0) - (a.nutrients[nid] || 0));
+
+    // Get unique categories from results
+    const cats = [...new Set(sorted.map(f => f.category))];
+
+    // Category filter buttons
+    const catBtns = `<button class="ns-cat-btn active" data-cat="all">${I18n.t('ns.all_foods')}</button>` +
+      cats.map(c => `<button class="ns-cat-btn" data-cat="${c}">${I18n.t(categoryLabels[c] || ('cat.' + c))}</button>`).join('');
+
+    // RDA table for all age groups
+    const rdaRows = ['children', 'teens', 'adults', 'seniors'].map(ag => {
+      const v = nutrient.rda[ag] || 0;
+      return `<div class="ns-rda-row">
+        <span class="ns-rda-age">${I18n.t('age.' + ag)}</span>
+        <span class="ns-rda-val">${v} ${nutrient.unit}/${I18n.t('ns.day')}</span>
+      </div>`;
+    }).join('');
+
+    results.innerHTML = `
+      <div class="ns-info-card" style="border-left: 4px solid ${nutrient.color}">
+        <h2 class="ns-info-title">
+          <span class="ns-info-dot" style="background:${nutrient.color}"></span>
+          ${I18n.t(nutrient.name_key)}
+        </h2>
+        <p class="ns-info-desc">${I18n.t(nutrient.desc_key)}</p>
+        <div class="ns-info-body">${I18n.t(nutrient.body_effect_key)}</div>
+        <div class="ns-rda-box">
+          <h4>${I18n.t('ns.daily_needs')}</h4>
+          ${rdaRows}
+        </div>
+      </div>
+
+      <h2 class="section-title">${I18n.t('ns.top_foods')} — ${I18n.t(nutrient.name_key)}</h2>
+      <div class="ns-cat-filters" id="ns-cat-filters">${catBtns}</div>
+      <div class="ns-food-list" id="ns-food-list"></div>
+    `;
+
+    _renderFoodList(sorted, nid, nutrient);
+
+    // Category filter clicks
+    document.getElementById('ns-cat-filters').addEventListener('click', (e) => {
+      const btn = e.target.closest('.ns-cat-btn');
+      if (!btn) return;
+      activeCategory = btn.dataset.cat;
+      document.querySelectorAll('.ns-cat-btn').forEach(b => b.classList.toggle('active', b.dataset.cat === activeCategory));
+      const filtered = activeCategory === 'all' ? sorted : sorted.filter(f => f.category === activeCategory);
+      _renderFoodList(filtered, nid, nutrient);
+    });
+  }
+
+  function _renderFoodList(foods, nid, nutrient) {
+    const listEl = document.getElementById('ns-food-list');
+    if (!foods.length) {
+      listEl.innerHTML = `<p class="ns-no-match">${I18n.t('general.no_results')}</p>`;
+      return;
+    }
+    const ageGroup = 'adults';
+    const rda = nutrient.rda[ageGroup] || 1;
+
+    listEl.innerHTML = foods.map((food, i) => {
+      const val = food.nutrients[nid] || 0;
+      const pct = Math.round((val / rda) * 100);
+      const capped = Math.min(pct, 100);
+      const color = scoreColor(pct);
+      const foodName = I18n.getFoodName(food);
+      const img = food.image
+        ? `<img src="${food.image}" alt="" class="ns-food-img" loading="lazy" onerror="this.style.display='none'">`
+        : '';
+      const catLabel = I18n.t('cat.' + food.category) || food.category;
+
+      return `<a href="food-detail.html?id=${food.id}" class="ns-food-row">
+        <span class="ns-food-rank">${i + 1}</span>
+        ${img}
+        <div class="ns-food-info">
+          <div class="ns-food-name">${food.emoji} ${foodName}</div>
+          <div class="ns-food-meta">
+            <span class="ns-food-cat">${catLabel}</span>
+            <span class="ns-food-cal">${food.calories} kcal</span>
+          </div>
+          <div class="nutrient-bar-track">
+            <div class="nutrient-bar-fill" style="width:${capped}%;background:${color}"></div>
+          </div>
+        </div>
+        <div class="ns-food-value">
+          <strong>${val}${nutrient.unit}</strong>
+          <small>${pct}% RDA</small>
+        </div>
+      </a>`;
+    }).join('');
   }
 }
 
