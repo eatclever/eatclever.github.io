@@ -53,6 +53,9 @@ const FoodSelector = (() => {
     if (isOpen) {
       _close();
     } else {
+      if (window.innerWidth <= 768 && _panel.parentElement !== document.body) {
+        document.body.appendChild(_panel);
+      }
       _panel.classList.add('open');
       _searchInput.value = '';
       _renderList();
@@ -61,7 +64,12 @@ const FoodSelector = (() => {
   }
 
   function _close() {
-    if (_panel) _panel.classList.remove('open');
+    if (!_panel) return;
+    _panel.classList.remove('open');
+    const wrap = document.querySelector('.food-selector-wrap');
+    if (wrap && _panel.parentElement === document.body) {
+      wrap.appendChild(_panel);
+    }
   }
 
   function _outsideClick(e) {

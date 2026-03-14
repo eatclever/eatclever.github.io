@@ -3516,12 +3516,14 @@ a.card {
 
     .food-selector-panel {
         position: fixed;
-        top: auto;
+        top: 50%;
         left: 1rem;
         right: 1rem;
+        transform: translateY(-50%);
         width: auto;
-        max-height: 60vh;
+        max-height: 70vh;
         border-radius: 12px;
+        z-index: 3000;
     }
 
     .compare-picker {
