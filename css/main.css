@@ -3515,8 +3515,13 @@ a.card {
     }
 
     .food-selector-panel {
-        width: calc(100vw - 2rem);
-        right: -1rem;
+        position: fixed;
+        top: auto;
+        left: 1rem;
+        right: 1rem;
+        width: auto;
+        max-height: 60vh;
+        border-radius: 12px;
     }
 
     .compare-picker {
