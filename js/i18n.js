@@ -7,18 +7,19 @@ const I18n = (() => {
   let _lang = 'en';
   let _fallback = {};
   let _manifest = [];
+  const _v = '20260315';
 
   async function init() {
     _lang = localStorage.getItem('ew-lang') || 'en';
-    const resp = await fetch('data/lang/index.json');
+    const resp = await fetch('data/lang/index.json?v=' + _v);
     _manifest = await resp.json();
 
-    const enResp = await fetch('data/lang/en.json');
+    const enResp = await fetch('data/lang/en.json?v=' + _v);
     _fallback = await enResp.json();
 
     if (_lang !== 'en') {
       try {
-        const langResp = await fetch(`data/lang/${_lang}.json`);
+        const langResp = await fetch(`data/lang/${_lang}.json?v=${_v}`);
         _strings = await langResp.json();
       } catch {
         _strings = {};
@@ -56,7 +57,7 @@ const I18n = (() => {
 
     if (lang !== 'en') {
       try {
-        const resp = await fetch(`data/lang/${lang}.json`);
+        const resp = await fetch(`data/lang/${lang}.json?v=${_v}`);
         _strings = await resp.json();
       } catch {
         _strings = {};
