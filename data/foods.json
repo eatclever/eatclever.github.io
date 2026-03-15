@@ -3232,5 +3232,72 @@
       "africa"
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2020-03-24_20_57_22_An_open_jar_of_Skippy_Creamy_Peanut_Butter_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg/400px-2020-03-24_20_57_22_An_open_jar_of_Skippy_Creamy_Peanut_Butter_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg"
+  },
+  {
+    "id": "beetroot",
+    "emoji": "🟣",
+    "name": {
+      "en": "Beetroot (raw)",
+      "de": "Rote Bete (roh)",
+      "es": "Remolacha (cruda)",
+      "fr": "Betterave (crue)",
+      "it": "Barbabietola (cruda)",
+      "pt": "Beterraba (crua)",
+      "ro": "Sfeclă roșie (crudă)",
+      "ru": "Свёкла (сырая)",
+      "zh": "甜菜根（生）",
+      "ja": "ビーツ（生）",
+      "ar": "شمندر (نيء)",
+      "hi": "चुकंदर (कच्चा)"
+    },
+    "category": "vegetable",
+    "subcategory": "root",
+    "fruit_class": null,
+    "serving_g": 100,
+    "calories": 43,
+    "nutrients": {
+      "protein": 1.6,
+      "fat": 0.2,
+      "carbs": 9.6,
+      "fiber": 2.8,
+      "vitamin_a": 2,
+      "vitamin_b12": 0,
+      "vitamin_c": 4.9,
+      "vitamin_d": 0,
+      "vitamin_e": 0.04,
+      "vitamin_k": 0.2,
+      "calcium": 16,
+      "iron": 0.8,
+      "magnesium": 23,
+      "potassium": 325,
+      "zinc": 0.35,
+      "selenium": 0.7,
+      "omega_3": 0,
+      "folate": 109
+    },
+    "food_groups": [
+      "vegetable",
+      "root-vegetable"
+    ],
+    "tags": [
+      "folate-rich",
+      "nitrate-rich",
+      "blood-pressure",
+      "endurance",
+      "detox"
+    ],
+    "cost_tier": 1,
+    "availability": "common",
+    "grocery_section": "produce",
+    "cook_times": {
+      "quick": true,
+      "medium": true,
+      "long": true
+    },
+    "origin": [
+      "europe",
+      "asia"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Beetroot_jm26647.jpg/400px-Beetroot_jm26647.jpg"
   }
 ]
