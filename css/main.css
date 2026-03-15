@@ -3713,6 +3713,57 @@ a.card {
     .traffic-light-guide {
         flex-wrap: wrap;
     }
+
+    .country-section, .food-detail-section {
+        padding: 1rem 1rem;
+    }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .indicator-meter {
+        flex-wrap: wrap;
+        gap: 0.35rem 0.5rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .ind-title {
+        min-width: 0;
+        white-space: normal;
+    }
+
+    .ind-bar-wrap {
+        flex: 1 1 100%;
+        order: 3;
+        min-width: 0;
+    }
+
+    .ind-label {
+        font-size: 0.75rem;
+        white-space: normal;
+    }
+
+    .share-bar {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .econ-chart-box, .summary-box {
+        padding: 1rem;
+    }
+
+    .back-bar {
+        padding: 0.5rem 1rem;
+    }
+
+    .meta-card {
+        padding: 1rem;
+    }
+
+    .meta-value {
+        font-size: 1.4rem;
+    }
 }
 
     /* Nutrient search responsive */
@@ -3811,6 +3862,30 @@ a.card {
     .planner-controls {
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .page-title {
+        font-size: 1.3rem;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    .econ-metric-value {
+        font-size: 1rem;
+    }
+
+    .econ-metric {
+        padding: 0.65rem;
+    }
+
+    .meta-value {
+        font-size: 1.2rem;
+    }
+
+    .meta-card {
+        padding: 0.75rem;
     }
 }
 
