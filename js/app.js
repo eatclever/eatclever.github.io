@@ -1176,6 +1176,71 @@ function _bindBudgetTabs() {
 
 
 /* ==========================================================================
+   Food Description Builder
+   ========================================================================== */
+function _buildFoodDescription(food) {
+  const name = I18n.getFoodName(food);
+  const nutrients = Data.getNutrients();
+  const t = (k, ...args) => {
+    let s = I18n.t(k);
+    args.forEach((v, i) => { s = s.replace(`{${i}}`, v); });
+    return s;
+  };
+  const b = v => '<strong>' + v + '</strong>';
+  const paras = [];
+
+  // Find top 3 nutrients by % RDA
+  const nutrientIds = Object.keys(nutrients);
+  const ranked = nutrientIds
+    .map(nid => {
+      const val = food.nutrients[nid] || 0;
+      const rda = (nutrients[nid].rda || {}).adults || 1;
+      return { id: nid, name: I18n.t(nutrients[nid].name_key), val, unit: nutrients[nid].unit, pct: Math.round((val / rda) * 100) };
+    })
+    .filter(n => n.val > 0)
+    .sort((a, b) => b.pct - a.pct);
+
+  const top3 = ranked.slice(0, 3);
+  const topNames = top3.map(n => b(n.name)).join(', ');
+
+  // Para 1: Opening — what this food is and why it matters
+  const calTier = food.calories <= 50 ? 'fd.cal.low' : food.calories <= 150 ? 'fd.cal.mid' : 'fd.cal.high';
+  paras.push(t('fd.open', b(name), b(food.calories), t(calTier)));
+
+  // Para 2: Top nutrients
+  if (top3.length >= 2) {
+    let nutrientText = t('fd.rich', b(name), topNames);
+    // Highlight the #1 nutrient
+    const star = top3[0];
+    if (star.pct >= 50) {
+      nutrientText += ' ' + t('fd.star.high', b(star.name), b(star.val + star.unit), b(star.pct + '%'));
+    } else if (star.pct >= 20) {
+      nutrientText += ' ' + t('fd.star.mid', b(star.name), b(star.val + star.unit), b(star.pct + '%'));
+    }
+    paras.push(nutrientText);
+  }
+
+  // Para 3: Health tags and benefits
+  if (food.tags && food.tags.length) {
+    const tagLabels = food.tags.slice(0, 4).map(tag => b(I18n.t('food.tag.' + tag) || tag.replace(/-/g, ' ')));
+    paras.push(t('fd.tags', b(name), tagLabels.join(', ')));
+  }
+
+  // Para 4: Practical — cost, availability, cooking
+  let practical = '';
+  if (food.cost_tier === 1) practical = t('fd.cost.cheap', b(name));
+  else if (food.cost_tier === 2) practical = t('fd.cost.mid', b(name));
+  else practical = t('fd.cost.pricey', b(name));
+  if (food.cook_times) {
+    if (food.cook_times.quick) practical += ' ' + t('fd.cook.quick');
+    else if (food.cook_times.medium) practical += ' ' + t('fd.cook.medium');
+  }
+  paras.push(practical);
+
+  return paras.map(p => `<p>${p}</p>`).join('');
+}
+
+/* ==========================================================================
    renderFoodDetail - Individual Food Page
    ========================================================================== */
 function renderFoodDetail() {
@@ -1308,6 +1373,8 @@ function renderFoodDetail() {
         </div>
       </div>
     </div>
+
+    <div class="food-description">${_buildFoodDescription(food)}</div>
 
     <div class="food-nutrients-section">
       <h2>${I18n.t('food.detail.nutrients')}</h2>

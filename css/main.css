@@ -2361,6 +2361,25 @@ a.card {
     color: var(--text-gray);
 }
 
+.food-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    padding: 1.25rem 1.5rem;
+    background: linear-gradient(135deg, #f5f7f2 0%, #eef3e8 100%);
+    border-left: 4px solid var(--ew-green);
+    border-radius: 0 10px 10px 0;
+}
+
+.food-description p {
+    margin-bottom: 0.75rem;
+}
+
+.food-description p:last-child {
+    margin-bottom: 0;
+}
+
 .food-nutrients-section,
 .food-section-info,
 .food-recipes-section,
