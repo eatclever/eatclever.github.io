@@ -7,7 +7,7 @@ const I18n = (() => {
   let _lang = 'en';
   let _fallback = {};
   let _manifest = [];
-  const _v = '20260315';
+  const _v = '20260327';
 
   async function init() {
     _lang = localStorage.getItem('ew-lang') || 'en';
